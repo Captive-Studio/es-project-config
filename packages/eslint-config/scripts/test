@@ -1,16 +1,9 @@
 #!/bin/sh
 cd $(dirname $(dirname $0))
 ROOT=`pwd`
-BIN="$ROOT/node_modules/.bin"
 echo $ROOT
-echo $BIN
 
 set -e;
-
-eslint ()
-{
-  $BIN/eslint $@;
-}
 
 test_project ()
 {
@@ -19,7 +12,7 @@ test_project ()
   cd "__tests__/$1";
 
   shift;
-  eslint . $@;
+  npm exec --no -- eslint . $@;
   cd $ROOT;
 }
 
