@@ -18,13 +18,14 @@
     "prepare": "npm-run-all -p \"prepare:*\"",
     "lint": "eslint . --cache --ext .js,.jsx,.ts,.tsx,.json",
     "mrm": "mrm --dir packages/mrm-preset",
-    "postbuild:cspell": "cspell '**' --no-summary",
     "prepare:empty": ":",
     "prepare:husky": "is-ci || husky install",
     "prepare:packages": "lerna bootstrap",
     "release": "lerna publish",
     "rescue": "git clean -fdx;yarn install",
-    "test": "lerna run test",
+    "test": "npm-run-all -p \"test:*\"",
+    "test:packages": "lerna run test",
+    "test:cspell": "cspell '**' --no-summary",
     "validate": "npm run build && npm run lint && npm test"
   },
   "commitlint": {
