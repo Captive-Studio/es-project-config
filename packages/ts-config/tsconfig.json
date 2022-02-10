@@ -27,6 +27,7 @@
     "strict": true,
     "stripInternal": true,
     "target": "ES2019",
+    "useDefineForClassFields": true,
   },
   "exclude": [
     "lib",
