@@ -42,6 +42,9 @@
     ],
     "*.ts?(x)": [
       "eslint"
+    ],
+    "*.*": [
+      "cspell"
     ]
   },
   "eslintConfig": {
