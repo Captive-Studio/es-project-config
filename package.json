@@ -76,9 +76,6 @@
       "./packages/eslint-config/rules/prettier",
       "./packages/eslint-config/json"
     ],
-    "rules": {
-      "filenames/match-exported": "off"
-    },
     "overrides": [
       {
         "files": [
