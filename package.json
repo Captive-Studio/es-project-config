@@ -2,9 +2,15 @@
   "name": "@captive/project-config-src",
   "private": true,
   "files": [],
-  "workspaces": [
-    "packages/*"
-  ],
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ],
+    "nohoist": [
+      "/@babel/eslint-parser",
+      "/eslint"
+    ]
+  },
   "scripts": {
     "build": "npm-run-all -p \"build:*\"",
     "postbuild": "npm run docs",
@@ -137,6 +143,6 @@
   },
   "engines": {
     "node": ">=14.0.0",
-    "npm": ">=7.0.0"
+    "yarn": ">=1.4.0"
   }
 }
