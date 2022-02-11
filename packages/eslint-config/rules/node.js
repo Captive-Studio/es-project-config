@@ -5,7 +5,6 @@ module.exports = {
   env: {
     node: true,
   },
-  extends: ['plugin:node/recommended'],
   rules: {
     'callback-return': off,
     'global-require': error,

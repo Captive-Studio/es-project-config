@@ -37,7 +37,6 @@ const ruleDisabled = {
   'no-use-before-define': off,
   'no-useless-constructor': off,
   'no-var': error,
-  'node/no-unsupported-features/es-syntax': ['error', { ignores: ['modules'] }],
   'prefer-const': error,
   'prefer-rest-params': error,
   'prefer-spread': error,
