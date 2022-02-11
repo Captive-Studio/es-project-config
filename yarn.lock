@@ -1851,7 +1851,7 @@
     "@types/unist" "*"
     "@types/vfile-message" "*"
 
-"@typescript-eslint/eslint-plugin@^5.0.0", "@typescript-eslint/eslint-plugin@^5.8.0":
+"@typescript-eslint/eslint-plugin@^5.0.0":
   version "5.11.0"
   resolved "https://registry.npmjs.org/@typescript-eslint/eslint-plugin/-/eslint-plugin-5.11.0.tgz"
   integrity sha512-HJh33bgzXe6jGRocOj4FmefD7hRY4itgjzOrSs3JPrTNXsX7j5+nQPciAUj/1nZtwo2kAc3C75jZO+T23gzSGw==
@@ -1866,14 +1866,7 @@
     semver "^7.3.5"
     tsutils "^3.21.0"
 
-"@typescript-eslint/experimental-utils@^5.0.0", "@typescript-eslint/experimental-utils@^5.8.0":
-  version "5.11.0"
-  resolved "https://registry.npmjs.org/@typescript-eslint/experimental-utils/-/experimental-utils-5.11.0.tgz"
-  integrity sha512-EPvC/bU2n1LKtzKWP1AjGWkp7r8tJ8giVlZHIODo6q7SAd6J+/9vjtEKHK2G/Qp+D2IGPsQge+oadDR3CZcFtQ==
-  dependencies:
-    "@typescript-eslint/utils" "5.11.0"
-
-"@typescript-eslint/parser@^5.0.0", "@typescript-eslint/parser@^5.8.0":
+"@typescript-eslint/parser@^5.0.0":
   version "5.11.0"
   resolved "https://registry.npmjs.org/@typescript-eslint/parser/-/parser-5.11.0.tgz"
   integrity sha512-x0DCjetHZYBRovJdr3U0zG9OOdNXUaFLJ82ehr1AlkArljJuwEsgnud+Q7umlGDFLFrs8tU8ybQDFocp/eX8mQ==
@@ -3428,13 +3421,6 @@ deep-is@^0.1.3, deep-is@~0.1.3:
   resolved "https://registry.npmjs.org/deep-is/-/deep-is-0.1.4.tgz"
   integrity sha512-oIPzksmTg4/MriiaYGO+okXDT7ztn/w3Eptv/+gSIdMdKsJo0u4CfYNFJPy+4SKMuCqGw2wxnA+URMg3t8a/bQ==
 
-deepmerge-ts@^2.0.1:
-  version "2.0.1"
-  resolved "https://registry.npmjs.org/deepmerge-ts/-/deepmerge-ts-2.0.1.tgz"
-  integrity sha512-7xeG0xMleW+gyrtUsdOeR6tCLwkyYDh3koIuvc8TxBcDh3WlaBQiEbFwEzk8clKomJZMhmoyxo7Y9CRrrrLVlg==
-  dependencies:
-    is-plain-object "^5.0.0"
-
 deepmerge@^4.2.2:
   version "4.2.2"
   resolved "https://registry.npmjs.org/deepmerge/-/deepmerge-4.2.2.tgz"
@@ -3842,15 +3828,6 @@ eslint-module-utils@^2.7.0, eslint-module-utils@^2.7.2:
     debug "^3.2.7"
     find-up "^2.1.0"
 
-eslint-plugin-functional@^4.0.0:
-  version "4.2.0"
-  resolved "https://registry.npmjs.org/eslint-plugin-functional/-/eslint-plugin-functional-4.2.0.tgz"
-  integrity sha512-3v1DuKQTGwJo93UQ5SKzEjvJTaMGfznzwgGjWEBhLXxJfOMhcW7O6QUO1pmb5aLou9hoh7r31lkPvWmbIbIbew==
-  dependencies:
-    "@typescript-eslint/experimental-utils" "^5.0.0"
-    deepmerge-ts "^2.0.1"
-    escape-string-regexp "^4.0.0"
-
 eslint-plugin-import@2.25.2:
   version "2.25.2"
   resolved "https://registry.npmjs.org/eslint-plugin-import/-/eslint-plugin-import-2.25.2.tgz"
@@ -3960,16 +3937,6 @@ eslint-plugin-sort-keys-fix@1.1.2:
     esutils "^2.0.2"
     natural-compare "^1.4.0"
     requireindex "~1.2.0"
-
-eslint-plugin-total-functions@^5.0.0:
-  version "5.0.1"
-  resolved "https://registry.npmjs.org/eslint-plugin-total-functions/-/eslint-plugin-total-functions-5.0.1.tgz"
-  integrity sha512-OmLzLwHFj+OY5eW2K1UGgOYqWDbZOjYF2mYL5jJEHserpXgBr4ViMg46sZX/PGBMXp5zSdWyQ6AgyhgrdUA0ig==
-  dependencies:
-    "@typescript-eslint/eslint-plugin" "^5.8.0"
-    "@typescript-eslint/experimental-utils" "^5.8.0"
-    "@typescript-eslint/parser" "^5.8.0"
-    tsutils "^3.17.1"
 
 eslint-plugin-unicorn@^37.0.0:
   version "37.0.1"
@@ -10139,7 +10106,7 @@ tslib@^2, tslib@^2.1.0:
   resolved "https://registry.npmjs.org/tslib/-/tslib-2.3.1.tgz"
   integrity sha512-77EbyPPpMz+FRFRuAFlWMtmgUWGe9UOG2Z25NqCwiIjRhOf5iKGuzSe5P2w1laq+FkRy4p+PCuVkJSGkzTEKVw==
 
-tsutils@^3.17.1, tsutils@^3.21.0:
+tsutils@^3.21.0:
   version "3.21.0"
   resolved "https://registry.npmjs.org/tsutils/-/tsutils-3.21.0.tgz"
   integrity sha512-mHKK3iUXL+3UF6xL5k0PEhKRUBKPBCv/+RkEOpjRWxxx27KKRBmmA60A9pgOUvMi8GKhRMPEmjBRPzs2W7O1OA==

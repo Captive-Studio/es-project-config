@@ -46,14 +46,12 @@
     "@typescript-eslint/eslint-plugin": "^5.0.0",
     "@typescript-eslint/parser": "^5.0.0",
     "eslint-config-prettier": "^8.0.0",
-    "eslint-plugin-functional": "^4.0.0",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-jest": "^26.0.0",
     "eslint-plugin-jsdoc": "^37.0.0",
     "eslint-plugin-json-format": "^2.0.1",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.22.0",
-    "eslint-plugin-total-functions": "^5.0.0",
     "eslint-plugin-unicorn": "^37.0.0"
   },
   "devDependencies": {
