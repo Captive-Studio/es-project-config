@@ -2,6 +2,7 @@ const { off, warn, error } = require('./_rule');
 
 const unsafeRules = {
   'unicorn/consistent-destructuring': off,
+  'unicorn/no-array-for-each': off, // This rule could change browser compatibility
   'unicorn/no-object-as-default-parameter': off,
   'unicorn/prefer-default-parameters': off,
   'unicorn/prevent-abbreviations': off, // This rule is so dangerous : it potentially break code while fixing in many cases !!
