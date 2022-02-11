@@ -28,7 +28,7 @@
     "docs": "md-magic --path '**/*.md' --ignore='node_modules'",
     "format": "eslint . --fix",
     "lint": "eslint .",
-    "test": "scripts/test"
+    "test": "stylelint __tests__"
   },
   "eslintConfig": {
     "rules": {
@@ -43,7 +43,9 @@
     "stylelint-order": "^5.0.0",
     "stylelint-scss": "^4.1.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "stylelint": "^14.5.0"
+  },
   "peerDependencies": {
     "prettier": "^2.5.1",
     "stylelint": "^14.2.0"
