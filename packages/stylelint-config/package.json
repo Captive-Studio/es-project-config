@@ -1,0 +1,54 @@
+{
+  "name": "@captive/stylelint-config",
+  "version": "1.0.0-alpha.0",
+  "description": "StyleLint configuration presets",
+  "keywords": [
+    "stylelint",
+    "config",
+    "lint"
+  ],
+  "homepage": "https://github.com/Captive-Studio/es-project-config/blob/master/packages/stylelint-config#readme",
+  "bugs": {
+    "url": "https://github.com/Captive-Studio/es-project-config.git/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Captive-Studio/es-project-config.git",
+    "directory": "packages/stylelint-config"
+  },
+  "license": "MIT",
+  "author": "Julien Polo <julien.polo@captive.fr>",
+  "main": "index.js",
+  "files": [
+    "*.js"
+  ],
+  "scripts": {
+    "build": "npm-run-all -p 'build:*'",
+    "build:empty": ":",
+    "docs": "md-magic --path '**/*.md' --ignore='node_modules'",
+    "format": "eslint . --fix",
+    "lint": "eslint .",
+    "test": "scripts/test"
+  },
+  "eslintConfig": {
+    "rules": {
+      "sort-keys-fix/sort-keys-fix": "error"
+    }
+  },
+  "dependencies": {
+    "postcss": "8",
+    "stylelint-config-prettier": "^9.0.3",
+    "stylelint-config-rational-order": "^0.1.2",
+    "stylelint-config-standard-scss": "^3.0.0",
+    "stylelint-order": "^5.0.0",
+    "stylelint-scss": "^4.1.0"
+  },
+  "devDependencies": {},
+  "peerDependencies": {
+    "prettier": "^2.5.1",
+    "stylelint": "^14.2.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

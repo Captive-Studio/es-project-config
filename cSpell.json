@@ -22,6 +22,8 @@
     "pino",
     "prebuild",
     "Stroustrup",
+    "stylelint",
+    "stylelintrc",
     "subpackage",
     "typedoc"
   ],
