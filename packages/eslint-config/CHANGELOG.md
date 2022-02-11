@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.0.0-alpha.4](https://github.com/Captive-Studio/es-project-config/compare/@captive/eslint-config@1.0.0-alpha.3...@captive/eslint-config@1.0.0-alpha.4) (2022-02-11)
+
+
+### Bug Fixes
+
+* remove eslint-plugin-promise ([c389acc](https://github.com/Captive-Studio/es-project-config/commit/c389acc4d54ea8135595617dcca2e6c12ed67491))
+* remove unused plugins ([92f1799](https://github.com/Captive-Studio/es-project-config/commit/92f1799f55c987f108fc76e177c165c35d32859f))
+
+
+
+
+
 # [1.0.0-alpha.3](https://github.com/Captive-Studio/es-project-config/compare/@captive/eslint-config@1.0.0-alpha.2...@captive/eslint-config@1.0.0-alpha.3) (2022-02-11)
 
 
