@@ -1,6 +1,6 @@
 // http://eslint.org/docs/user-guide/configuring
 module.exports = {
-  extends: [require.resolve('./es'), require.resolve('./react'), require.resolve('./json')],
+  extends: [require.resolve('./es'), require.resolve('./json')],
   overrides: [
     {
       extends: [require.resolve('./ts')],

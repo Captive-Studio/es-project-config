@@ -2,6 +2,6 @@
 
 module.exports = {
   root: true,
-  extends: [require.resolve('../../index')],
+  extends: [require.resolve('../../index'), require.resolve('../../react')],
   rules: {},
 };
