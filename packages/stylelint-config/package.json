@@ -36,7 +36,7 @@
     }
   },
   "dependencies": {
-    "postcss": "8",
+    "postcss": "^8.0.0",
     "stylelint-config-prettier": "^9.0.3",
     "stylelint-config-rational-order": "^0.1.2",
     "stylelint-config-standard-scss": "^3.0.0",
