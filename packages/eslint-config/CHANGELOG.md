@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.0.0-alpha.5](https://github.com/Captive-Studio/es-project-config/compare/@captive/eslint-config@1.0.0-alpha.4...@captive/eslint-config@1.0.0-alpha.5) (2022-02-14)
+
+
+### Bug Fixes
+
+* remove react from default index preset ([9a7d025](https://github.com/Captive-Studio/es-project-config/commit/9a7d02561a945296cbebc1912cef99257e0e11ff))
+* remove unused root parameter ([9c9b2db](https://github.com/Captive-Studio/es-project-config/commit/9c9b2db690d060c9514e5f21dfbc39eaf10e9ef8))
+
+
+
+
+
 # [1.0.0-alpha.4](https://github.com/Captive-Studio/es-project-config/compare/@captive/eslint-config@1.0.0-alpha.3...@captive/eslint-config@1.0.0-alpha.4) (2022-02-11)
 
 
