@@ -2,6 +2,5 @@
 
 module.exports = {
   root: true,
-  extends: [require.resolve('../../index'), require.resolve('../../react')],
-  rules: {},
+  extends: [require.resolve('../../index'), require.resolve('../testRules')],
 };

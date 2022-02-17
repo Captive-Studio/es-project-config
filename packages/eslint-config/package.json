@@ -29,10 +29,12 @@
     "docs": "md-magic --path '**/*.md' --ignore='node_modules'",
     "format": "eslint . --fix",
     "lint": "eslint .",
+    "prepare": "is-ci || scripts/pull",
     "test": "scripts/test"
   },
   "eslintConfig": {
     "rules": {
+      "prefer-object-spread": "off",
       "sort-keys-fix/sort-keys-fix": "error"
     }
   },
@@ -45,6 +47,7 @@
     "@babel/plugin-syntax-jsx": "^7.0.0",
     "@typescript-eslint/eslint-plugin": "^5.0.0",
     "@typescript-eslint/parser": "^5.0.0",
+    "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-prettier": "^8.0.0",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-jest": "^26.0.0",
