@@ -29,7 +29,6 @@
     "docs": "md-magic --path '**/*.md' --ignore='node_modules'",
     "format": "eslint . --fix",
     "lint": "eslint .",
-    "prepare": "is-ci || scripts/pull",
     "test": "scripts/test"
   },
   "eslintConfig": {
