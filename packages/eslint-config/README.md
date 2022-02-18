@@ -63,6 +63,56 @@ For most kind of project, just edit `eslintrc.json` and cherry pick only configu
 - `@captive/eslint-config/react`: for react capability
 - `@captive/eslint-config/ts`: for typescript files
 
+## Migration Guide
+
+### Intention
+
+This is a recommended way of migrating from another configuration / no configuration. The aim is to setup the shared configuration as soon as possible and progressively fix all errors.
+
+All modifications should be :
+
+- iterative : move safely from a step to another
+- easy to review : the smallest changes possible
+- safe : avoid touching business code if there is a chance that it could introduce regression
+
+### Content
+
+1. Add the configuration your eslint configuration file (follow Usage section)
+2. Disable temporarily each rule that returns an error
+    1. Get all the errors from eslint
+
+        ```shell
+        > yarn eslint .
+        path/to/my-project/file.js
+        1:1  error  'foo' is not defined  no-undef
+
+        # ...
+        ```
+
+    2. Set each rule to `off`
+
+        ```json
+        {
+            "rules": {
+                "no-undef": "off"    
+            }
+        }  
+        ```
+
+    3. Run again eslint and check that no errors are reported
+    4. Ship the code (Commit, Push, Merge, ...)
+3. For each error iterate as the following :
+    1. Enable the rule (remove the `off` line in the eslint configuration)
+    2. Analyze the type of error :
+        - When fixable and no breaking change could be introduced,
+        then run `eslint --fix`
+        - When the error is pretty obvious to fix manually,
+        then correct manually all files
+        - When the code is unsafe by nature or should not be changed (no tests, highly sensitive code),
+        then the developer could take responsibility to ignore the rule using `// eslint-disable-line ...` and `// eslint-disable-next-line ...`
+        - When the rule seems non relevant / impossible to fix in most cases, then post an issue on the `eslint-config` repository with your use case
+    3. Ship the code (Commit, Push, Merge, ...)
+
 ## License
 <!-- AUTO-GENERATED-CONTENT:START (PKGJSON:template=[${license}][license-url] © ${author}) -->
 [MIT][license-url] © Julien Polo <julien.polo@captive.fr>
