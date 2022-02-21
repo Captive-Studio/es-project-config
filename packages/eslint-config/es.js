@@ -16,7 +16,7 @@ module.exports = {
     ecmaFeatures: {
       jsx: true,
     },
-    ecmaVersion: 2022,
+    ecmaVersion: 2020,
     requireConfigFile: false,
     sourceType: 'module',
   },
