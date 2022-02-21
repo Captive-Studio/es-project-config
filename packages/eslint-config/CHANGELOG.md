@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.0.0-alpha.7](https://github.com/Captive-Studio/es-project-config/compare/@captive/eslint-config@1.0.0-alpha.6...@captive/eslint-config@1.0.0-alpha.7) (2022-02-21)
+
+
+### Features
+
+* bump eslint-config rules ([ed570a8](https://github.com/Captive-Studio/es-project-config/commit/ed570a83d68a7cc2d2a36381f01245dd9bebaca1))
+
+
+
+
+
 # [1.0.0-alpha.6](https://github.com/Captive-Studio/es-project-config/compare/@captive/eslint-config@1.0.0-alpha.5...@captive/eslint-config@1.0.0-alpha.6) (2022-02-17)
 
 **Note:** Version bump only for package @captive/eslint-config
