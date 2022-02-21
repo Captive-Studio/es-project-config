@@ -1,6 +1,6 @@
-const { concatESConfig, off } = require('./_rule');
+const { concatESConfig, off, error } = require('./_rule');
 
-module.exports = concatESConfig(
+const baseConfig = concatESConfig(
   // @ts-ignore
   require('eslint-config-airbnb-base/rules/best-practices'),
   // @ts-ignore
@@ -16,13 +16,30 @@ module.exports = concatESConfig(
   // @ts-ignore
   require('eslint-config-airbnb-base/rules/style'),
   // @ts-ignore
-  require('eslint-config-airbnb-base/rules/variables'),
+  require('eslint-config-airbnb-base/rules/variables')
+);
 
+module.exports = concatESConfig(
+  baseConfig,
   // overrides
   {
     rules: {
       // Often useful in jsx
       'no-nested-ternary': off,
+      // Too strict, for pure code prefer the functional plugin
+      'no-param-reassign': [error, { props: false }],
+      // Allow for-of syntax
+      // @ts-ignore
+      'no-restricted-syntax': baseConfig.rules['no-restricted-syntax'].filter(
+        // @ts-ignore
+        ({ selector }) => selector !== 'ForOfStatement'
+      ),
+      // underscore is often used (mongodb, etc)
+      'no-underscore-dangle': off,
+      // Ignore underscore case arguments
+      'no-unused-vars': [error, { argsIgnorePattern: '^_' }],
+      // Allow in some cases https://github.com/airbnb/javascript/issues/1089#issuecomment-1024351821
+      'no-use-before-define': [error, 'nofunc'],
     },
   }
 );
