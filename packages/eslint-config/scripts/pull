@@ -25,7 +25,15 @@ sync_file ()
 
 cd $ROOT;
 echo "Pull github:w5s/eslint-config"
-for file in $(find -L rules __tests__)
+files=$(find -L rules __tests__)
+files+=" es.js"
+files+=" index.js"
+files+=" jest.js"
+files+=" json.js"
+files+=" react.js"
+
+echo $files
+for file in $files
 do
   sync_file $file
 done
