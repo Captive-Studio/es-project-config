@@ -49,9 +49,6 @@
     ],
     "*.ts?(x)": [
       "eslint"
-    ],
-    "*.*": [
-      "cspell --no-must-find-files"
     ]
   },
   "eslintConfig": {
