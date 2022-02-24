@@ -32,7 +32,6 @@ files+=" jest.js"
 files+=" json.js"
 files+=" react.js"
 
-echo $files
 for file in $files
 do
   sync_file $file
