@@ -3,10 +3,10 @@
     "source.fixAll": true
   },
   "eslint.validate": [
-    "js",
-    "jsx",
-    "ts",
-    "tsx",
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
     "json"
   ]
 }
