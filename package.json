@@ -37,7 +37,7 @@
   },
   "commitlint": {
     "extends": [
-      "./packages/commitlint-config/commitlint.config"
+      "@captive/commitlint-config"
     ]
   },
   "lint-staged": {
@@ -69,10 +69,10 @@
       "sort-keys-fix"
     ],
     "extends": [
-      "./packages/eslint-config/rules/base",
+      "@captive/eslint-config/rules/base",
       "prettier",
-      "./packages/eslint-config/rules/prettier",
-      "./packages/eslint-config/json"
+      "@captive/eslint-config/rules/prettier",
+      "@captive/eslint-config/json"
     ],
     "overrides": [
       {
@@ -80,7 +80,7 @@
           "*.+(ts|tsx)"
         ],
         "extends": [
-          "./packages/eslint-config/ts"
+          "@captive/eslint-config/ts"
         ]
       },
       {
@@ -90,7 +90,7 @@
           "**/?(*.)+(spec|test).+(ts|tsx|js|jsx)"
         ],
         "extends": [
-          "./packages/eslint-config/jest"
+          "@captive/eslint-config/jest"
         ]
       }
     ],
@@ -106,10 +106,12 @@
     "**/package-lock.json",
     ".vscode/**"
   ],
-  "dependencies": {},
   "devDependencies": {
     "@babel/core": "7.16.0",
     "@babel/eslint-parser": "7.16.0",
+    "@captive/commitlint-config": "workspace:*",
+    "@captive/eslint-config": "workspace:*",
+    "@captive/ts-config": "workspace:*",
     "@commitlint/cli": "13.1.0",
     "@commitlint/config-conventional": "13.1.0",
     "@types/node": "^12.12.24",
@@ -138,5 +140,6 @@
   "engines": {
     "node": ">=14.0.0",
     "yarn": ">=1.4.0"
-  }
+  },
+  "packageManager": "yarn@3.2.0"
 }
