@@ -52,48 +52,18 @@
     ]
   },
   "eslintConfig": {
-    "env": {
-      "node": true
-    },
-    "parser": "@babel/eslint-parser",
     "parserOptions": {
-      "ecmaFeatures": {
-        "jsx": true
-      },
-      "ecmaVersion": 2020,
-      "project": "./tsconfig.json",
-      "requireConfigFile": false,
-      "sourceType": "module"
+      "project": "./tsconfig.json"
     },
     "plugins": [
       "sort-keys-fix"
     ],
     "extends": [
-      "@captive/eslint-config/rules/base",
-      "prettier",
-      "@captive/eslint-config/rules/prettier",
-      "@captive/eslint-config/json"
+      "@captive/eslint-config"
     ],
-    "overrides": [
-      {
-        "files": [
-          "*.+(ts|tsx)"
-        ],
-        "extends": [
-          "@captive/eslint-config/ts"
-        ]
-      },
-      {
-        "files": [
-          "**/__mocks__ /**/*.+(ts|tsx|js|jsx)",
-          "**/__tests__ /**/*.+(ts|tsx|js|jsx)",
-          "**/?(*.)+(spec|test).+(ts|tsx|js|jsx)"
-        ],
-        "extends": [
-          "@captive/eslint-config/jest"
-        ]
-      }
-    ],
+    "rules": {
+      "unicorn/prefer-module": "off"
+    },
     "root": true
   },
   "eslintIgnore": [
