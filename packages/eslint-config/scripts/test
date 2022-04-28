@@ -12,7 +12,7 @@ test_project ()
   cd "__tests__/$1";
 
   shift;
-  npm exec --no -- eslint . $@;
+  eslint . $@;
   cd $ROOT;
 }
 
