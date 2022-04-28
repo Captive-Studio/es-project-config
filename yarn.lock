@@ -338,7 +338,7 @@ __metadata:
   dependencies:
     "@commitlint/config-conventional": ^13.0.0
   peerDependencies:
-    "@commitlint/cli": ^8.0.0 || ^9.0.0 || ^11.0.0 || ^12.0.0 || ^13.0.0
+    "@commitlint/cli": ">=8"
   languageName: unknown
   linkType: soft
 
