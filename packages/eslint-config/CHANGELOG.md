@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.0.0](https://github.com/Captive-Studio/es-project-config/compare/@captive/eslint-config@1.0.0-alpha.8...@captive/eslint-config@1.0.0) (2022-04-28)
+
+
+### Bug Fixes
+
+* remove warning when validating some json files ([d45b2a6](https://github.com/Captive-Studio/es-project-config/commit/d45b2a63bfa6af689e94a9828cfb3049913f2e17))
+
+
+### Features
+
+* bump rules ([7feaf31](https://github.com/Captive-Studio/es-project-config/commit/7feaf31b1ed88d639338ef5b1dd0a3cecc3e2373))
+
+
+
+
+
 # [1.0.0-alpha.8](https://github.com/Captive-Studio/es-project-config/compare/@captive/eslint-config@1.0.0-alpha.7...@captive/eslint-config@1.0.0-alpha.8) (2022-02-21)
 
 
