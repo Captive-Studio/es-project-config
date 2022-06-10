@@ -20,14 +20,14 @@ UPSTREAM_URL="https://raw.githubusercontent.com/w5s/project-config/main/packages
 sync_file ()
 {
   PROJECT_NAME=$1
-  curl "$UPSTREAM_URL/$1" --silent --output "./$1"
+  curl "$UPSTREAM_URL/$1" --silent --output "./$1" --fail --silent --show-error
 }
 
 cd $ROOT;
 echo "Pull github:w5s/eslint-config"
-files=$(find -L rules __tests__)
+files=$(find -L rules __tests__ -type f ! -name "vue.js" ! -path "*/vue-project/*" ! -path "./vue-project/*")
 files+=" es.js"
-files+=" index.js"
+# files+=" index.js"
 files+=" jest.js"
 files+=" json.js"
 files+=" react.js"
