@@ -40,12 +40,16 @@
   ],
   "flagWords": [],
   "ignorePaths": [
+    "**/build/**",
+    "**/lib/**",
     "**/node_modules/**",
-    "**/gitignore-template.txt",
+    "**/package.json",
     "**/package-lock.json",
     "**/yarn.lock",
-    "**/renovate.json",
     "**/*.log",
+    "**/CHANGELOG.md",
+    "**/gitignore-template.txt",
+    "**/renovate.json",
     "packages/eslint-config/rules/**",
     "packages/mrm-preset/_tester/**",
     "packages/mrm-preset/ci/_autodevops/**"
