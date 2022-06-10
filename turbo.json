@@ -11,7 +11,9 @@
       ]
     },
     "test": {},
-    "prepare": {},
+    "prepare": {
+      "cache": false
+    },
     "lint": {},
     "format": {},
     "docs": {},
