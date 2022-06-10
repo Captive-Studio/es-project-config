@@ -30,6 +30,7 @@
     "format": "eslint . --fix",
     "lint": "eslint .",
     "prepare": "is-ci || scripts/pull",
+    "spellcheck": "cspell --no-progress '**'",
     "test": "scripts/test"
   },
   "eslintConfig": {

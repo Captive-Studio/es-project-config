@@ -12,27 +12,32 @@
     ]
   },
   "scripts": {
+    "build:packages": "turbo run build",
     "build": "npm-run-all -p \"build:*\"",
     "postbuild": "npm run docs",
-    "build:empty": ":",
-    "build:packages": "lerna run build",
-    "clean": "lerna run clean",
+    "clean": "turbo run clean",
+    "code-analysis": ":",
     "configure": "npm run mrm -- configure",
     "coverage": ":",
-    "docs": "md-magic --path './*.md' --ignore='node_modules' && lerna run docs",
-    "format": "eslint . --quiet --cache --fix --ext .js,.jsx,.ts,.tsx,.json",
-    "prepare": "npm-run-all -p \"prepare:*\"",
-    "lint": "eslint . --cache --ext .js,.jsx,.ts,.tsx,.json",
-    "mrm": "mrm --dir packages/mrm-preset",
-    "prepare:packages": "lerna run prepare",
+    "develop": ":",
+    "docs": "md-magic --path './*.md' --ignore='node_modules' && turbo run docs",
+    "format:packages": "turbo run format",
+    "format:root": "eslint . --ext=mjs,cjs,js,jsx,ts,tsx,json --ignore-pattern='packages/*/**' --fix",
+    "format": "npm-run-all -p \"format:*\"",
+    "lint:packages": "turbo run lint",
+    "lint:root": "eslint . --ext=mjs,cjs,js,jsx,ts,tsx,json --ignore-pattern='packages/*/**'",
+    "lint": "npm-run-all -p \"lint:*\"",
+    "mrm": "mrm --preset @w5s/mrm-preset",
     "prepare:empty": ":",
     "prepare:husky": "is-ci || husky install",
-    "release": "lerna publish",
+    "prepare:packages": "turbo run prepare",
+    "prepare": "npm-run-all -p \"prepare:*\"",
+    "release": "is-ci && lerna publish --yes || lerna publish",
     "rescue": "git clean -fdx;yarn install",
+    "spellcheck": "cspell --no-progress '**' --exclude='packages/*/**' && turbo run spellcheck",
+    "test:packages": "turbo run test",
     "test": "npm-run-all -p \"test:*\"",
-    "test:packages": "lerna run test",
-    "test:cspell": "cspell '**' --no-summary",
-    "validate": "npm run build && npm run lint && npm test"
+    "validate": "npm run build && npm run lint && npm test && npm run spellcheck"
   },
   "commitlint": {
     "extends": [
@@ -73,7 +78,8 @@
     "lib/",
     "**/tsconfig.json",
     "**/package-lock.json",
-    ".vscode/**"
+    ".vscode/**",
+    "public/"
   ],
   "devDependencies": {
     "@babel/core": "7.16.0",
@@ -96,11 +102,16 @@
     "mrm": "2.6.2",
     "npm-run-all": "4.1.5",
     "prettier": "2.5.1",
+    "turbo": "1.2.16",
     "typescript": "4.5.5"
   },
   "engines": {
     "node": ">=14.0.0",
+    "npm": ">=6.0.0",
     "yarn": ">=1.4.0"
+  },
+  "mrmConfig": {
+    "packageArchetype": "workspace"
   },
   "packageManager": "yarn@3.2.0"
 }

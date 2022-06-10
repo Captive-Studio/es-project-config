@@ -1,0 +1,29 @@
+{
+  "pipeline": {
+    "build": {
+      "dependsOn": [
+        "^build"
+      ],
+      "outputs": [
+        "lib/**",
+        "dist/**",
+        ".next/**"
+      ]
+    },
+    "test": {},
+    "prepare": {},
+    "lint": {},
+    "format": {},
+    "docs": {},
+    "spellcheck": {},
+    "clean": {
+      "cache": false
+    },
+    "develop": {
+      "cache": false
+    }
+  },
+  "globalDependencies": [
+    "tsconfig.settings.json"
+  ]
+}

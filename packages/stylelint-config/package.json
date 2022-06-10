@@ -28,6 +28,7 @@
     "docs": "md-magic --path '**/*.md' --ignore='node_modules'",
     "format": "eslint . --fix",
     "lint": "eslint .",
+    "spellcheck": "cspell --no-progress '**'",
     "test": "stylelint __tests__"
   },
   "eslintConfig": {
