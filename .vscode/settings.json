@@ -7,7 +7,6 @@
     "javascriptreact",
     "typescript",
     "typescriptreact",
-    "json",
-    "vue"
+    "json"
   ]
 }
