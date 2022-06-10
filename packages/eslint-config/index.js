@@ -32,6 +32,10 @@ module.exports = {
       extends: [require.resolve('./ts')],
       files: ['*.+(ts|tsx)'],
     }),
+    ...includeIf(tryResolve('vue'), {
+      extends: [require.resolve('./vue')],
+      files: ['*.vue'],
+    }),
     {
       extends: [require.resolve('./jest')],
       files: [

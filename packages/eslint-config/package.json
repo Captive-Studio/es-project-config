@@ -56,7 +56,8 @@
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-promise": "^6.0.0",
     "eslint-plugin-react": "^7.22.0",
-    "eslint-plugin-unicorn": "^37.0.0"
+    "eslint-plugin-unicorn": "^37.0.0",
+    "eslint-plugin-vue": "^9.1.0"
   },
   "devDependencies": {
     "@babel/eslint-parser": "^7.0.0",
@@ -71,7 +72,8 @@
     "eslint-config-prettier": "8.3.0",
     "eslint-index": "1.5.0",
     "prettier": "2.5.1",
-    "react": "17.0.2"
+    "react": "17.0.2",
+    "vue": "3.2.37"
   },
   "publishConfig": {
     "access": "public"
