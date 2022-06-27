@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.1.0](https://github.com/Captive-Studio/es-project-config/compare/@captive/ts-config@1.0.1...@captive/ts-config@1.1.0) (2022-06-27)
+
+
+### Features
+
+* add support node16 configuration ([b5efffe](https://github.com/Captive-Studio/es-project-config/commit/b5efffea99f5d69f60dcb90cbe0d96914a2056de))
+
+
+
+
+
 ## [1.0.1](https://github.com/Captive-Studio/es-project-config/compare/@captive/ts-config@1.0.0...@captive/ts-config@1.0.1) (2022-06-10)
 
 **Note:** Version bump only for package @captive/ts-config
