@@ -1,0 +1,35 @@
+#!/bin/sh
+
+##
+# This script synchronize rules directory with @w5s/eslint-config
+# It is an open source repository maintained by Julien Polo
+#
+#
+# Tradeoffs of this solutions :
+# Advantages
+# - Captive still have its ownership of the repository: every rule is explicit in its configuration
+# - Captive can disable the sync script if there is a problem with @w5s/eslint-config
+#
+# Drawbacks
+# - When pulling changes, semantic versioning information is lost (breaking changes, etc)
+#
+cd $(dirname $(dirname $0))
+ROOT=`pwd`
+UPSTREAM_URL="https://raw.githubusercontent.com/w5s/project-config/main/packages/ts-config"
+
+sync_file ()
+{
+  PROJECT_NAME=$1
+  curl "$UPSTREAM_URL/$1" --silent --output "./$1" --fail --silent --show-error
+}
+
+cd $ROOT;
+echo "Pull github:w5s/eslint-config"
+#files=$(find -L rules __tests__ -type f ! -name "vue.js")
+files+=" tsconfig.json"
+# files+=" index.js"
+
+for file in $files
+do
+  sync_file $file
+done
