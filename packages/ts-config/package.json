@@ -33,10 +33,10 @@
     "test": "tsc -p __tests__/tsconfig.json --noEmit --skipLibCheck"
   },
   "devDependencies": {
-    "typescript": "4.5.5"
+    "typescript": "4.7.4"
   },
   "peerDependencies": {
-    "typescript": "3.x || 4.x"
+    "typescript": ">= 4.7"
   },
   "publishConfig": {
     "access": "public"
