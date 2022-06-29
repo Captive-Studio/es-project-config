@@ -24,7 +24,7 @@ sync_file ()
 }
 
 cd $ROOT;
-echo "Pull github:w5s/eslint-config"
+echo "Pull github:w5s/ts-config"
 #files=$(find -L rules __tests__ -type f ! -name "vue.js")
 files+=" tsconfig.json"
 # files+=" index.js"
@@ -33,3 +33,6 @@ for file in $files
 do
   sync_file $file
 done
+
+# Patch tsconfig.json
+sed -I '' -e "s/W5s/Captive/g" ./tsconfig.json

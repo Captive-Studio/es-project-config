@@ -24,7 +24,7 @@
     "rules/*.js"
   ],
   "scripts": {
-    "build": "concurrently 'build:*'",
+    "build": "concurrently 'npm:build:*'",
     "build:empty": ":",
     "docs": "md-magic --path '**/*.md' --ignore='node_modules'",
     "format": "eslint . --fix",
