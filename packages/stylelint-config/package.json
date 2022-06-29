@@ -23,7 +23,7 @@
     "*.js"
   ],
   "scripts": {
-    "build": "npm-run-all -p 'build:*'",
+    "build": "concurrently 'npm:build:*'",
     "build:empty": ":",
     "docs": "md-magic --path '**/*.md' --ignore='node_modules'",
     "format": "eslint . --fix",
