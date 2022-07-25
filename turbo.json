@@ -17,6 +17,9 @@
     "lint": {},
     "format": {},
     "docs": {},
+    "pull-external": {
+      "cache": false
+    },
     "spellcheck": {},
     "clean": {
       "cache": false

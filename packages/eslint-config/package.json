@@ -29,7 +29,7 @@
     "docs": "md-magic --path '**/*.md' --ignore='node_modules'",
     "format": "eslint . --fix",
     "lint": "eslint .",
-    "prepare": "is-ci || scripts/pull",
+    "pull-external": "scripts/pull",
     "spellcheck": "cspell --no-progress '**'",
     "test": "scripts/test"
   },

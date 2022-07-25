@@ -32,6 +32,7 @@
     "prepare:empty": ":",
     "prepare:husky": "is-ci || husky install",
     "prepare:packages": "turbo run prepare",
+    "pull-external": "turbo run pull-external",
     "release": "is-ci && lerna publish --yes || lerna publish",
     "rescue": "git clean -fdx;yarn install",
     "spellcheck": "cspell --no-progress '**' --exclude='packages/*/**' && turbo run spellcheck",
