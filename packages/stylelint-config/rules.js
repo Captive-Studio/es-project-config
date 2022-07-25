@@ -1,5 +1,10 @@
 module.exports = {
-  extends: ['stylelint-config-standard-scss', 'stylelint-config-rational-order', 'stylelint-config-prettier'],
+  extends: [
+    'stylelint-config-standard-scss',
+    'stylelint-config-rational-order',
+    'stylelint-config-prettier',
+    'stylelint-config-standard-vue',
+  ],
   plugins: ['stylelint-order', 'stylelint-scss', 'stylelint-config-rational-order/plugin'],
   rules: {
     'no-descending-specificity': null, // Many false positive https://github.com/stylelint/stylelint/issues/3516
