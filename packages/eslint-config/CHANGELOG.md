@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.4](https://github.com/Captive-Studio/es-project-config/compare/@captive/eslint-config@1.2.3...@captive/eslint-config@1.2.4) (2022-08-12)
+
+
+### Bug Fixes
+
+* correct dependencies warnings ([088c146](https://github.com/Captive-Studio/es-project-config/commit/088c146b4a737bc13d0aea535d3ceafe69d45096))
+* use explicit extension for js files ([a6c76da](https://github.com/Captive-Studio/es-project-config/commit/a6c76dad2f7a4d1bd7ca842ee3adb9a120cd2726))
+
+
+
+
+
 ## [1.2.3](https://github.com/Captive-Studio/es-project-config/compare/@captive/eslint-config@1.2.2...@captive/eslint-config@1.2.3) (2022-07-25)
 
 **Note:** Version bump only for package @captive/eslint-config

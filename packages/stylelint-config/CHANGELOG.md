@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.1](https://github.com/Captive-Studio/es-project-config/compare/@captive/stylelint-config@1.1.0...@captive/stylelint-config@1.1.1) (2022-08-12)
+
+
+### Bug Fixes
+
+* correct lint errors ([25666a3](https://github.com/Captive-Studio/es-project-config/commit/25666a38426300bc66d8ee7fcebe056f4fc0c5a8))
+
+
+
+
+
 # [1.1.0](https://github.com/Captive-Studio/es-project-config/compare/@captive/stylelint-config@1.0.3...@captive/stylelint-config@1.1.0) (2022-07-25)
 
 
