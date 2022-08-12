@@ -43,6 +43,7 @@
     "__tests__"
   ],
   "dependencies": {
+    "@babel/core": "^7.0.0",
     "@babel/eslint-parser": "^7.0.0",
     "@babel/plugin-syntax-class-properties": "^7.0.0",
     "@babel/plugin-syntax-jsx": "^7.0.0",
@@ -76,21 +77,17 @@
     "react": "^18.2.0",
     "vue": "^3.2.37"
   },
+  "peerDependencies": {
+    "eslint": "8.x",
+    "prettier": "2.x",
+    "typescript": "4.x"
+  },
+  "peerDependenciesMeta": {
+    "typescript": {
+      "optional": true
+    }
+  },
   "publishConfig": {
     "access": "public"
-  },
-  "__peerDependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.10.0",
-    "eslint": "5.x || 6.x || 7.x || 8.x",
-    "eslint-plugin-functional": "^4.0.0",
-    "eslint-plugin-import": "^2.22.1",
-    "eslint-plugin-jest": "^26.0.0",
-    "eslint-plugin-jsdoc": "^37.0.0",
-    "eslint-plugin-json-format": "^2.0.1",
-    "eslint-plugin-prettier": "^4.0.0",
-    "eslint-plugin-react": "^7.22.0",
-    "eslint-plugin-total-functions": "^5.0.0",
-    "eslint-plugin-unicorn": "^37.0.0",
-    "prettier": "2.x"
   }
 }
