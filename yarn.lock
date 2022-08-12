@@ -594,6 +594,7 @@ __metadata:
     "@babel/eslint-parser": ^7.0.0
     "@babel/plugin-syntax-class-properties": ^7.0.0
     "@babel/plugin-syntax-jsx": ^7.0.0
+    "@rushstack/eslint-patch": ^1.1.4
     "@types/eslint": 7.2.6
     "@types/eslint-plugin-prettier": ^3.1.0
     "@types/prettier": 2.1.6
@@ -2597,6 +2598,13 @@ __metadata:
     node-gyp: latest
     node-gyp-build: ^4.3.0
   checksum: 890bdc69a52942791b276caa2cd65ef816576d6b5ada91aa28cf302b35d567c801dafe167f2525dcb313f5b420986ea11bd56228dd7ddde1116944d8f924a0a1
+  languageName: node
+  linkType: hard
+
+"@rushstack/eslint-patch@npm:^1.1.4":
+  version: 1.1.4
+  resolution: "@rushstack/eslint-patch@npm:1.1.4"
+  checksum: 597bc84e2f76c7f5f2bcedd4c4b1dd5d02524167a0f67ac588e8fbbd94666297aaf0e6a53ec46afb95554164fc1169ff782841003280e4bc98e80ab6559412c6
   languageName: node
   linkType: hard
 
