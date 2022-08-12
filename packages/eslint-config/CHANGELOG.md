@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.5](https://github.com/Captive-Studio/es-project-config/compare/@captive/eslint-config@1.2.4...@captive/eslint-config@1.2.5) (2022-08-12)
+
+
+### Bug Fixes
+
+* add @rushstack/eslint-patch to correct deps errors ([a8c4d5f](https://github.com/Captive-Studio/es-project-config/commit/a8c4d5fd492b2d46714158ac7086cda26ef769c0))
+* correct missing babel plugins ([e097e04](https://github.com/Captive-Studio/es-project-config/commit/e097e042c32f07e1bc4284a923416204cf29fce6))
+
+
+
+
+
 ## [1.2.4](https://github.com/Captive-Studio/es-project-config/compare/@captive/eslint-config@1.2.3...@captive/eslint-config@1.2.4) (2022-08-12)
 
 
