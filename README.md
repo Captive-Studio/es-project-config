@@ -3,6 +3,7 @@
 ## Packages
 
 <!-- AUTO-GENERATED-CONTENT:START (SUBPACKAGELIST:verbose=true) -->
+* [@captive/browserslist-config](packages/browserslist-config) - Browserslist shared configuration
 * [@captive/commitlint-config](packages/commitlint-config) - Commitlint configuration presets
 * [@captive/eslint-config](packages/eslint-config) - ESLint configuration presets
 * [@captive/stylelint-config](packages/stylelint-config) - StyleLint configuration presets

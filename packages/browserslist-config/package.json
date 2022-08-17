@@ -1,0 +1,38 @@
+{
+  "name": "@captive/browserslist-config",
+  "version": "1.0.0-alpha.0",
+  "description": "Browserslist shared configuration",
+  "keywords": [
+    "browserslist",
+    "config"
+  ],
+  "homepage": "https://github.com/Captive-Studio/es-project-config/blob/master/packages/browserslist-config#readme",
+  "bugs": {
+    "url": "https://github.com/Captive-Studio/es-project-config/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Captive-Studio/es-project-config.git",
+    "directory": "packages/browserslist-config"
+  },
+  "license": "MIT",
+  "author": "Julien Polo <julien.polo@captive.fr>",
+  "files": [
+    "index.js",
+    "default.js",
+    "development.js"
+  ],
+  "scripts": {
+    "docs": "md-magic --path '**/*.md' --ignore='node_modules'",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "browserslist": "^4.21.3"
+  },
+  "peerDependencies": {
+    "browserslist": ">= 4.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
