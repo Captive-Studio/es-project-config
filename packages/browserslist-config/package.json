@@ -1,7 +1,7 @@
 {
   "name": "@captive/browserslist-config",
   "version": "1.0.0-alpha.0",
-  "description": "Browserslist shared configuration",
+  "description": "Browserslist support shared configuration",
   "keywords": [
     "browserslist",
     "config"
@@ -23,11 +23,13 @@
     "development.js"
   ],
   "scripts": {
-    "docs": "md-magic --path '**/*.md' --ignore='node_modules'",
+    "build": "yarn docs",
+    "docs": "node scripts/build-docs.mjs && md-magic --path '**/*.md' --ignore='node_modules'",
     "test": "jest"
   },
   "devDependencies": {
-    "browserslist": "^4.21.3"
+    "browserslist": "^4.21.3",
+    "lodash-es": "^4.17.21"
   },
   "peerDependencies": {
     "browserslist": ">= 4.0"
