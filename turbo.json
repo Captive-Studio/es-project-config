@@ -1,14 +1,8 @@
 {
   "pipeline": {
     "build": {
-      "dependsOn": [
-        "^build"
-      ],
-      "outputs": [
-        "lib/**",
-        "dist/**",
-        ".next/**"
-      ]
+      "dependsOn": ["^build"],
+      "outputs": ["lib/**", "dist/**", ".next/**"]
     },
     "test": {},
     "prepare": {
@@ -28,7 +22,5 @@
       "cache": false
     }
   },
-  "globalDependencies": [
-    "tsconfig.settings.json"
-  ]
+  "globalDependencies": ["tsconfig.settings.json"]
 }

@@ -4,17 +4,11 @@
     "@captive/renovate-config:library",
     "@captive/renovate-config:teamAssignees"
   ],
-  "ignorePaths": [
-    "**/node_modules/**"
-  ],
+  "ignorePaths": ["**/node_modules/**"],
   "packageRules": [
     {
-      "packageNames": [
-        "renovate"
-      ],
-      "labels": [
-        "AUTOMERGE"
-      ],
+      "packageNames": ["renovate"],
+      "labels": ["AUTOMERGE"],
       "automerge": true
     }
   ]
