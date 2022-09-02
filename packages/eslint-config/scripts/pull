@@ -30,6 +30,7 @@ files+=" es.js"
 # files+=" index.js"
 files+=" jest.js"
 files+=" json.js"
+files+=" yml.js"
 files+=" react.js"
 files+=" ignore.js"
 
