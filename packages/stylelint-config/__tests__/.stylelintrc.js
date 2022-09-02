@@ -1,5 +1,3 @@
 module.exports = {
-  extends: [
-    require.resolve("../rules.js")
-  ]
-}
+  extends: [require.resolve('../rules.js')],
+};

@@ -742,6 +742,8 @@ __metadata:
     eslint-plugin-react: ^7.30.1
     eslint-plugin-unicorn: ^43.0.2
     eslint-plugin-vue: ^9.3.0
+    find-up: ^5.0.0
+    parse-gitignore: ^1.0.0
     prettier: ^2.7.1
     react: ^18.2.0
     vue: ^3.2.37
@@ -12715,6 +12717,13 @@ __metadata:
   bin:
     parse-github-url: ./cli.js
   checksum: a19b8bc6f8908a24cb63a10ff90cd39cec0745615a272ec686803684653be34eb3e638e31a66c8ee3a9568082ff686eaf010181688000a6274c86a23e9220f2f
+  languageName: node
+  linkType: hard
+
+"parse-gitignore@npm:^1.0.0":
+  version: 1.0.1
+  resolution: "parse-gitignore@npm:1.0.1"
+  checksum: 3ccb72ebe7dcc05c3bd43452c6afb733e3df90bc9c596fc92f16abed30fa3498ebe73045265cb1d45e0de4603f9be42a71101bd03b0db6470374340139bd307e
   languageName: node
   linkType: hard
 
