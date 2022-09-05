@@ -10,6 +10,7 @@
     "commitlint",
     "editorconfig",
     "es",
+    "esbuild",
     "eslintcache",
     "esnext",
     "flowtype",
@@ -21,12 +22,14 @@
     "macos",
     "nohoist",
     "pino",
+    "pnpm",
     "prebuild",
     "Stroustrup",
     "stylelint",
     "stylelintrc",
     "subpackage",
-    "typedoc"
+    "typedoc",
+    "venv"
   ],
   "ignoreWords": [
     "PKGJSON",
