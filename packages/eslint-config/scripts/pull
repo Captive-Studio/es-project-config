@@ -33,6 +33,7 @@ files+=" json.js"
 files+=" yml.js"
 files+=" react.js"
 files+=" ignore.js"
+files+=" ts.js"
 
 for file in $files
 do
