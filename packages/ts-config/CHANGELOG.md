@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.2.0](https://github.com/Captive-Studio/es-project-config/compare/@captive/ts-config@1.1.2...@captive/ts-config@1.2.0) (2022-09-05)
+
+
+### Features
+
+* add yml support in eslint ([683805f](https://github.com/Captive-Studio/es-project-config/commit/683805ff265c2b54a711e339375608ad3677a937))
+* change eslint-plugin-json-format to eslint-plugin-jsonc ([e1c91b6](https://github.com/Captive-Studio/es-project-config/commit/e1c91b665ba5c927c4f140033b5c59861671b0fa))
+
+
+
+
+
 ## [1.1.2](https://github.com/Captive-Studio/es-project-config/compare/@captive/ts-config@1.1.1...@captive/ts-config@1.1.2) (2022-08-12)
 
 **Note:** Version bump only for package @captive/ts-config

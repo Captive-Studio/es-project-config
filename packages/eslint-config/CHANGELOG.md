@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.3.0](https://github.com/Captive-Studio/es-project-config/compare/@captive/eslint-config@1.2.5...@captive/eslint-config@1.3.0) (2022-09-05)
+
+
+### Features
+
+* add yml support in eslint ([683805f](https://github.com/Captive-Studio/es-project-config/commit/683805ff265c2b54a711e339375608ad3677a937))
+* change eslint-plugin-json-format to eslint-plugin-jsonc ([e1c91b6](https://github.com/Captive-Studio/es-project-config/commit/e1c91b665ba5c927c4f140033b5c59861671b0fa))
+* improve eslint ts import settings ([e3b3214](https://github.com/Captive-Studio/es-project-config/commit/e3b321414c3445a36601ab0a0714e4a01e7193db))
+* validates more files with eslint ([f8d60ed](https://github.com/Captive-Studio/es-project-config/commit/f8d60ed25e150bc036850819bf92cc0719029f9f))
+
+
+
+
+
 ## [1.2.5](https://github.com/Captive-Studio/es-project-config/compare/@captive/eslint-config@1.2.4...@captive/eslint-config@1.2.5) (2022-08-12)
 
 

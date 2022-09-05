@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.2.0](https://github.com/Captive-Studio/es-project-config/compare/@captive/stylelint-config@1.1.1...@captive/stylelint-config@1.2.0) (2022-09-05)
+
+
+### Features
+
+* validates more files with eslint ([f8d60ed](https://github.com/Captive-Studio/es-project-config/commit/f8d60ed25e150bc036850819bf92cc0719029f9f))
+
+
+
+
+
 ## [1.1.1](https://github.com/Captive-Studio/es-project-config/compare/@captive/stylelint-config@1.1.0...@captive/stylelint-config@1.1.1) (2022-08-12)
 
 

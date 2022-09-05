@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.1.0](https://github.com/Captive-Studio/es-project-config/compare/@captive/commitlint-config@1.0.2...@captive/commitlint-config@1.1.0) (2022-09-05)
+
+
+### Features
+
+* add yml support in eslint ([683805f](https://github.com/Captive-Studio/es-project-config/commit/683805ff265c2b54a711e339375608ad3677a937))
+
+
+
+
+
 ## [1.0.2](https://github.com/Captive-Studio/es-project-config/compare/@captive/commitlint-config@1.0.1...@captive/commitlint-config@1.0.2) (2022-07-25)
 
 **Note:** Version bump only for package @captive/commitlint-config
