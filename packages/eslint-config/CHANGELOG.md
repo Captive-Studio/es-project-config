@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.4.0](https://github.com/Captive-Studio/es-project-config/compare/@captive/eslint-config@1.3.0...@captive/eslint-config@1.4.0) (2022-10-18)
+
+
+### Features
+
+* improve scripts sorting ([6159a62](https://github.com/Captive-Studio/es-project-config/commit/6159a6263b9c64716e40119af74900de31b019ca))
+
+
+
+
+
 # [1.3.0](https://github.com/Captive-Studio/es-project-config/compare/@captive/eslint-config@1.2.5...@captive/eslint-config@1.3.0) (2022-09-05)
 
 
