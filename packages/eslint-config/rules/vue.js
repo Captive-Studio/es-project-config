@@ -1,4 +1,8 @@
-module.exports = {
+const { error, concatESConfig } = require('./_rule.js');
+
+module.exports = concatESConfig({
   extends: ['plugin:vue/vue3-recommended'],
-  rules: {},
-};
+  rules: {
+    'vue/component-api-style': error, // ['script-setup', 'composition']
+  },
+});
