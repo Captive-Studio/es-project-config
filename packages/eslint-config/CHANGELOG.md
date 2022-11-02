@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.5.0](https://github.com/Captive-Studio/es-project-config/compare/@captive/eslint-config@1.4.0...@captive/eslint-config@1.5.0) (2022-11-02)
+
+
+### Features
+
+* enable jest/consistent-test-it rule ([525c993](https://github.com/Captive-Studio/es-project-config/commit/525c9938b699022e84a3777bc855919edfbc9a77))
+* enable vue/component-api-style rule ([fa155ee](https://github.com/Captive-Studio/es-project-config/commit/fa155ee40dad718d25c01eaf3d08a64d2f721988))
+
+
+
+
+
 # [1.4.0](https://github.com/Captive-Studio/es-project-config/compare/@captive/eslint-config@1.3.0...@captive/eslint-config@1.4.0) (2022-10-18)
 
 
