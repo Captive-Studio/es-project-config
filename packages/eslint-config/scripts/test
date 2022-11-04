@@ -18,4 +18,5 @@ test_project ()
 
 test_project es-project;
 test_project ts-project --ext .ts,.tsx;
+test_project vue-project --ext .ts,.tsx,.vue;
 test_project json --ext .js,.json;
