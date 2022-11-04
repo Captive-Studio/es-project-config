@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.6.0](https://github.com/Captive-Studio/es-project-config/compare/@captive/eslint-config@1.5.0...@captive/eslint-config@1.6.0) (2022-11-04)
+
+
+### Features
+
+* enable no-console rule with error level ([fc56cc3](https://github.com/Captive-Studio/es-project-config/commit/fc56cc36e834731c9937df0063c59c624f0b6205))
+
+
+
+
+
 # [1.5.0](https://github.com/Captive-Studio/es-project-config/compare/@captive/eslint-config@1.4.0...@captive/eslint-config@1.5.0) (2022-11-02)
 
 
