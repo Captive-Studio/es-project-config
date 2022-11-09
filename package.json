@@ -94,7 +94,7 @@
     "cspell": "6.8.2",
     "eslint": "^8.20.0",
     "eslint-plugin-sort-keys-fix": "^1.1.2",
-    "husky": "^8.0.1",
+    "husky": "8.0.2",
     "is-ci": "^3.0.1",
     "jest": "^28.1.3",
     "lerna": "^5.2.0",
