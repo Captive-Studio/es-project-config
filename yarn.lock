@@ -700,7 +700,7 @@ __metadata:
   resolution: "@captive/browserslist-config@workspace:packages/browserslist-config"
   dependencies:
     browserslist: 4.21.4
-    lodash-es: ^4.17.21
+    lodash-es: 4.17.21
   peerDependencies:
     browserslist: ">= 4.0"
   languageName: unknown
@@ -724,15 +724,15 @@ __metadata:
     "@babel/eslint-parser": ^7.0.0
     "@rushstack/eslint-patch": ^1.1.4
     "@types/eslint": 7.2.14
-    "@types/eslint-plugin-prettier": ^3.1.0
+    "@types/eslint-plugin-prettier": 3.1.0
     "@types/prettier": 2.1.6
     "@types/react": 16.14.23
     "@typescript-eslint/eslint-plugin": ^5.0.0
     "@typescript-eslint/parser": ^5.0.0
-    eslint: ^8.20.0
+    eslint: 8.20.0
     eslint-config-airbnb-base: ^15.0.0
-    eslint-config-prettier: ^8.5.0
-    eslint-index: ^1.5.0
+    eslint-config-prettier: 8.5.0
+    eslint-index: 1.5.0
     eslint-plugin-import: ^2.26.0
     eslint-plugin-jest: ^26.6.0
     eslint-plugin-jsdoc: ^39.3.3
@@ -745,9 +745,9 @@ __metadata:
     eslint-plugin-yml: ^1.1.0
     find-up: ^5.0.0
     parse-gitignore: ^1.0.0
-    prettier: ^2.7.1
+    prettier: 2.7.1
     react: 18.2.0
-    vue: ^3.2.37
+    vue: 3.2.37
   peerDependencies:
     eslint: 8.x
     prettier: 2.x
@@ -768,23 +768,23 @@ __metadata:
     "@captive/eslint-config": "workspace:*"
     "@captive/ts-config": "workspace:*"
     "@commitlint/cli": 13.1.0
-    "@types/node": ^12.12.24
-    concurrently: ^7.3.0
+    "@types/node": 12.20.45
+    concurrently: 7.3.0
     cspell: 6.14.1
-    eslint: ^8.20.0
-    eslint-plugin-sort-keys-fix: ^1.1.2
+    eslint: 8.20.0
+    eslint-plugin-sort-keys-fix: 1.1.2
     husky: 8.0.2
-    is-ci: ^3.0.1
-    jest: ^28.1.3
-    lerna: ^5.2.0
-    lint-staged: ^13.0.3
+    is-ci: 3.0.1
+    jest: 28.1.3
+    lerna: 5.2.0
+    lint-staged: 13.0.3
     markdown-magic: 2.6.1
-    markdown-magic-package-json: ^2.0.2
-    markdown-magic-subpackage-list: ^1.1.2
-    mrm: ^4.0.0
-    prettier: ^2.7.1
-    turbo: ^1.3.4
-    typescript: ^4.7.4
+    markdown-magic-package-json: 2.0.2
+    markdown-magic-subpackage-list: 1.1.2
+    mrm: 4.0.0
+    prettier: 2.7.1
+    turbo: 1.3.4
+    typescript: 4.7.4
   languageName: unknown
   linkType: soft
 
@@ -794,7 +794,7 @@ __metadata:
   dependencies:
     postcss: ^8.4.14
     postcss-html: "*"
-    stylelint: ^14.9.1
+    stylelint: 14.9.1
     stylelint-config-prettier: ^9.0.3
     stylelint-config-rational-order: ^0.1.2
     stylelint-config-standard-scss: ^5.0.0
@@ -811,7 +811,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@captive/ts-config@workspace:packages/ts-config"
   dependencies:
-    typescript: ^4.7.4
+    typescript: 4.7.4
   peerDependencies:
     typescript: ">= 4.7"
   languageName: unknown
@@ -3163,7 +3163,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/eslint-plugin-prettier@npm:^3.1.0":
+"@types/eslint-plugin-prettier@npm:3.1.0":
   version: 3.1.0
   resolution: "@types/eslint-plugin-prettier@npm:3.1.0"
   dependencies:
@@ -3305,17 +3305,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/node@npm:12.20.45":
+  version: 12.20.45
+  resolution: "@types/node@npm:12.20.45"
+  checksum: 9d52f90935af63921b2634b1b0fa4ccea53d9b9054e8becb44ff63d0aa2b1f8f9e21da1452862a4db3854e4535ea31c80f010089f785862b52bc39e85e896815
+  languageName: node
+  linkType: hard
+
 "@types/node@npm:^10.0.3":
   version: 10.17.60
   resolution: "@types/node@npm:10.17.60"
   checksum: 2cdb3a77d071ba8513e5e8306fa64bf50e3c3302390feeaeff1fd325dd25c8441369715dfc8e3701011a72fed5958c7dfa94eb9239a81b3c286caa4d97db6eef
-  languageName: node
-  linkType: hard
-
-"@types/node@npm:^12.12.24":
-  version: 12.20.45
-  resolution: "@types/node@npm:12.20.45"
-  checksum: 9d52f90935af63921b2634b1b0fa4ccea53d9b9054e8becb44ff63d0aa2b1f8f9e21da1452862a4db3854e4535ea31c80f010089f785862b52bc39e85e896815
   languageName: node
   linkType: hard
 
@@ -5465,7 +5465,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"concurrently@npm:^7.3.0":
+"concurrently@npm:7.3.0":
   version: 7.3.0
   resolution: "concurrently@npm:7.3.0"
   dependencies:
@@ -6696,7 +6696,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-prettier@npm:^8.5.0":
+"eslint-config-prettier@npm:8.5.0":
   version: 8.5.0
   resolution: "eslint-config-prettier@npm:8.5.0"
   peerDependencies:
@@ -6717,7 +6717,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-index@npm:^1.5.0":
+"eslint-index@npm:1.5.0":
   version: 1.5.0
   resolution: "eslint-index@npm:1.5.0"
   dependencies:
@@ -6860,7 +6860,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-sort-keys-fix@npm:^1.1.2":
+"eslint-plugin-sort-keys-fix@npm:1.1.2":
   version: 1.1.2
   resolution: "eslint-plugin-sort-keys-fix@npm:1.1.2"
   dependencies:
@@ -6996,6 +6996,51 @@ __metadata:
   languageName: node
   linkType: hard
 
+"eslint@npm:8.20.0":
+  version: 8.20.0
+  resolution: "eslint@npm:8.20.0"
+  dependencies:
+    "@eslint/eslintrc": ^1.3.0
+    "@humanwhocodes/config-array": ^0.9.2
+    ajv: ^6.10.0
+    chalk: ^4.0.0
+    cross-spawn: ^7.0.2
+    debug: ^4.3.2
+    doctrine: ^3.0.0
+    escape-string-regexp: ^4.0.0
+    eslint-scope: ^7.1.1
+    eslint-utils: ^3.0.0
+    eslint-visitor-keys: ^3.3.0
+    espree: ^9.3.2
+    esquery: ^1.4.0
+    esutils: ^2.0.2
+    fast-deep-equal: ^3.1.3
+    file-entry-cache: ^6.0.1
+    functional-red-black-tree: ^1.0.1
+    glob-parent: ^6.0.1
+    globals: ^13.15.0
+    ignore: ^5.2.0
+    import-fresh: ^3.0.0
+    imurmurhash: ^0.1.4
+    is-glob: ^4.0.0
+    js-yaml: ^4.1.0
+    json-stable-stringify-without-jsonify: ^1.0.1
+    levn: ^0.4.1
+    lodash.merge: ^4.6.2
+    minimatch: ^3.1.2
+    natural-compare: ^1.4.0
+    optionator: ^0.9.1
+    regexpp: ^3.2.0
+    strip-ansi: ^6.0.1
+    strip-json-comments: ^3.1.0
+    text-table: ^0.2.0
+    v8-compile-cache: ^2.0.3
+  bin:
+    eslint: bin/eslint.js
+  checksum: a31adf390d71d916925586bc8467b48f620e93dd0416bc1e897d99265af88b48d4eba3985b5ff4653ae5cc46311a360d373574002277e159bb38a4363abf9228
+  languageName: node
+  linkType: hard
+
 "eslint@npm:^4.2.0":
   version: 4.19.1
   resolution: "eslint@npm:4.19.1"
@@ -7041,51 +7086,6 @@ __metadata:
   bin:
     eslint: ./bin/eslint.js
   checksum: f0c617ecc255bcf5bda30c248e9fe54a113d7396292a5bd5ab1e81e53ee87331646ed1991d5589efa5878f0d534ab04ba267a25c7f86c49f72bd1256ef6ad09d
-  languageName: node
-  linkType: hard
-
-"eslint@npm:^8.20.0":
-  version: 8.20.0
-  resolution: "eslint@npm:8.20.0"
-  dependencies:
-    "@eslint/eslintrc": ^1.3.0
-    "@humanwhocodes/config-array": ^0.9.2
-    ajv: ^6.10.0
-    chalk: ^4.0.0
-    cross-spawn: ^7.0.2
-    debug: ^4.3.2
-    doctrine: ^3.0.0
-    escape-string-regexp: ^4.0.0
-    eslint-scope: ^7.1.1
-    eslint-utils: ^3.0.0
-    eslint-visitor-keys: ^3.3.0
-    espree: ^9.3.2
-    esquery: ^1.4.0
-    esutils: ^2.0.2
-    fast-deep-equal: ^3.1.3
-    file-entry-cache: ^6.0.1
-    functional-red-black-tree: ^1.0.1
-    glob-parent: ^6.0.1
-    globals: ^13.15.0
-    ignore: ^5.2.0
-    import-fresh: ^3.0.0
-    imurmurhash: ^0.1.4
-    is-glob: ^4.0.0
-    js-yaml: ^4.1.0
-    json-stable-stringify-without-jsonify: ^1.0.1
-    levn: ^0.4.1
-    lodash.merge: ^4.6.2
-    minimatch: ^3.1.2
-    natural-compare: ^1.4.0
-    optionator: ^0.9.1
-    regexpp: ^3.2.0
-    strip-ansi: ^6.0.1
-    strip-json-comments: ^3.1.0
-    text-table: ^0.2.0
-    v8-compile-cache: ^2.0.3
-  bin:
-    eslint: bin/eslint.js
-  checksum: a31adf390d71d916925586bc8467b48f620e93dd0416bc1e897d99265af88b48d4eba3985b5ff4653ae5cc46311a360d373574002277e159bb38a4363abf9228
   languageName: node
   linkType: hard
 
@@ -9053,6 +9053,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"is-ci@npm:3.0.1":
+  version: 3.0.1
+  resolution: "is-ci@npm:3.0.1"
+  dependencies:
+    ci-info: ^3.2.0
+  bin:
+    is-ci: bin.js
+  checksum: 192c66dc7826d58f803ecae624860dccf1899fc1f3ac5505284c0a5cf5f889046ffeb958fa651e5725d5705c5bcb14f055b79150ea5fcad7456a9569de60260e
+  languageName: node
+  linkType: hard
+
 "is-ci@npm:^1.0.10":
   version: 1.2.1
   resolution: "is-ci@npm:1.2.1"
@@ -9072,17 +9083,6 @@ __metadata:
   bin:
     is-ci: bin.js
   checksum: 77b869057510f3efa439bbb36e9be429d53b3f51abd4776eeea79ab3b221337fe1753d1e50058a9e2c650d38246108beffb15ccfd443929d77748d8c0cc90144
-  languageName: node
-  linkType: hard
-
-"is-ci@npm:^3.0.1":
-  version: 3.0.1
-  resolution: "is-ci@npm:3.0.1"
-  dependencies:
-    ci-info: ^3.2.0
-  bin:
-    is-ci: bin.js
-  checksum: 192c66dc7826d58f803ecae624860dccf1899fc1f3ac5505284c0a5cf5f889046ffeb958fa651e5725d5705c5bcb14f055b79150ea5fcad7456a9569de60260e
   languageName: node
   linkType: hard
 
@@ -10095,7 +10095,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jest@npm:^28.1.3":
+"jest@npm:28.1.3":
   version: 28.1.3
   resolution: "jest@npm:28.1.3"
   dependencies:
@@ -10439,7 +10439,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lerna@npm:^5.2.0":
+"lerna@npm:5.2.0":
   version: 5.2.0
   resolution: "lerna@npm:5.2.0"
   dependencies:
@@ -10557,7 +10557,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lint-staged@npm:^13.0.3":
+"lint-staged@npm:13.0.3":
   version: 13.0.3
   resolution: "lint-staged@npm:13.0.3"
   dependencies:
@@ -10670,7 +10670,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lodash-es@npm:^4.17.21":
+"lodash-es@npm:4.17.21":
   version: 4.17.21
   resolution: "lodash-es@npm:4.17.21"
   checksum: 05cbffad6e2adbb331a4e16fbd826e7faee403a1a04873b82b42c0f22090f280839f85b95393f487c1303c8a3d2a010048bf06151a6cbe03eee4d388fb0a12d2
@@ -10995,7 +10995,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"markdown-magic-package-json@npm:^2.0.2":
+"markdown-magic-package-json@npm:2.0.2":
   version: 2.0.2
   resolution: "markdown-magic-package-json@npm:2.0.2"
   dependencies:
@@ -11004,7 +11004,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"markdown-magic-subpackage-list@npm:^1.1.2":
+"markdown-magic-subpackage-list@npm:1.1.2":
   version: 1.1.2
   resolution: "markdown-magic-subpackage-list@npm:1.1.2"
   peerDependencies:
@@ -11690,7 +11690,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"mrm@npm:^4.0.0":
+"mrm@npm:4.0.0":
   version: 4.0.0
   resolution: "mrm@npm:4.0.0"
   dependencies:
@@ -13300,7 +13300,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier@npm:^2.7.1":
+"prettier@npm:2.7.1":
   version: 2.7.1
   resolution: "prettier@npm:2.7.1"
   bin:
@@ -15329,7 +15329,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"stylelint@npm:^14.9.1":
+"stylelint@npm:14.9.1":
   version: 14.9.1
   resolution: "stylelint@npm:14.9.1"
   dependencies:
@@ -16015,7 +16015,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"turbo@npm:^1.3.4":
+"turbo@npm:1.3.4":
   version: 1.3.4
   resolution: "turbo@npm:1.3.4"
   dependencies:
@@ -16151,6 +16151,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"typescript@npm:4.7.4":
+  version: 4.7.4
+  resolution: "typescript@npm:4.7.4"
+  bin:
+    tsc: bin/tsc
+    tsserver: bin/tsserver
+  checksum: 5750181b1cd7e6482c4195825547e70f944114fb47e58e4aa7553e62f11b3f3173766aef9c281783edfd881f7b8299cf35e3ca8caebe73d8464528c907a164df
+  languageName: node
+  linkType: hard
+
 "typescript@npm:^4.4.3":
   version: 4.5.5
   resolution: "typescript@npm:4.5.5"
@@ -16161,13 +16171,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:^4.7.4":
+"typescript@patch:typescript@4.7.4#~builtin<compat/typescript>":
   version: 4.7.4
-  resolution: "typescript@npm:4.7.4"
+  resolution: "typescript@patch:typescript@npm%3A4.7.4#~builtin<compat/typescript>::version=4.7.4&hash=701156"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 5750181b1cd7e6482c4195825547e70f944114fb47e58e4aa7553e62f11b3f3173766aef9c281783edfd881f7b8299cf35e3ca8caebe73d8464528c907a164df
+  checksum: 9096d8f6c16cb80ef3bf96fcbbd055bf1c4a43bd14f3b7be45a9fbe7ada46ec977f604d5feed3263b4f2aa7d4c7477ce5f9cd87de0d6feedec69a983f3a4f93e
   languageName: node
   linkType: hard
 
@@ -16178,16 +16188,6 @@ __metadata:
     tsc: bin/tsc
     tsserver: bin/tsserver
   checksum: 858c61fa63f7274ca4aaaffeced854d550bf416cff6e558c4884041b3311fb662f476f167cf5c9f8680c607239797e26a2ee0bcc6467fbc05bfcb218e1c6c671
-  languageName: node
-  linkType: hard
-
-"typescript@patch:typescript@^4.7.4#~builtin<compat/typescript>":
-  version: 4.7.4
-  resolution: "typescript@patch:typescript@npm%3A4.7.4#~builtin<compat/typescript>::version=4.7.4&hash=701156"
-  bin:
-    tsc: bin/tsc
-    tsserver: bin/tsserver
-  checksum: 9096d8f6c16cb80ef3bf96fcbbd055bf1c4a43bd14f3b7be45a9fbe7ada46ec977f604d5feed3263b4f2aa7d4c7477ce5f9cd87de0d6feedec69a983f3a4f93e
   languageName: node
   linkType: hard
 
@@ -16751,7 +16751,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vue@npm:^3.2.37":
+"vue@npm:3.2.37":
   version: 3.2.37
   resolution: "vue@npm:3.2.37"
   dependencies:
