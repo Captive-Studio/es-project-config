@@ -867,7 +867,7 @@ __metadata:
     "@types/eslint": 8.4.10
     "@types/eslint-plugin-prettier": 3.1.0
     "@types/prettier": 2.1.6
-    "@types/react": 16.14.34
+    "@types/react": 18.0.25
     "@typescript-eslint/eslint-plugin": ^5.0.0
     "@typescript-eslint/parser": ^5.0.0
     eslint: 8.27.0
@@ -3593,14 +3593,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:16.14.34":
-  version: 16.14.34
-  resolution: "@types/react@npm:16.14.34"
+"@types/react@npm:18.0.25":
+  version: 18.0.25
+  resolution: "@types/react@npm:18.0.25"
   dependencies:
     "@types/prop-types": "*"
     "@types/scheduler": "*"
     csstype: ^3.0.2
-  checksum: a1a105c131bd7fd5cae693c641b3a05eb03c079875fe8e780e616afc54d86e3fa1e8c6433e7a30d2a7f8a1a7681cf1a4f652e9eb48b6abe1f80f7cafe858ebf2
+  checksum: 231d658c45abdef044a716b4502774f1585d8336d73b2f5bd68f181acbfc874b7a457686ecd29b415b43ed0922c309bab7e2cf96832d188a3f4f1b02f2af760a
   languageName: node
   linkType: hard
 
