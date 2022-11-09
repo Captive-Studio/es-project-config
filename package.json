@@ -91,7 +91,7 @@
     "@commitlint/cli": "13.1.0",
     "@types/node": "^12.12.24",
     "concurrently": "^7.3.0",
-    "cspell": "^6.8.1",
+    "cspell": "6.8.2",
     "eslint": "^8.20.0",
     "eslint-plugin-sort-keys-fix": "^1.1.2",
     "husky": "^8.0.1",
