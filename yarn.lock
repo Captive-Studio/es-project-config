@@ -792,7 +792,7 @@ __metadata:
     markdown-magic: 2.6.1
     markdown-magic-package-json: 2.0.2
     markdown-magic-subpackage-list: 1.1.2
-    mrm: 4.0.0
+    mrm: 4.1.13
     prettier: 2.7.1
     turbo: 1.3.4
     typescript: 4.8.4
@@ -11730,9 +11730,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"mrm-core@npm:^7.0.0":
-  version: 7.0.0
-  resolution: "mrm-core@npm:7.0.0"
+"mrm-core@npm:^7.1.13":
+  version: 7.1.13
+  resolution: "mrm-core@npm:7.1.13"
   dependencies:
     babel-code-frame: ^6.26.0
     comment-json: ^2.2.0
@@ -11754,13 +11754,13 @@ __metadata:
     validate-npm-package-name: ^3.0.0
     webpack-merge: ^4.2.2
     yaml: ^2.0.0-1
-  checksum: 3556c7210fdeda6566cab17bf509b65bbceb5fbf2a8797032a291c8b0c3de410836ec29ae0517dab9cbebaf7bfbf2ba22297a756717fcbdeb7b54683e8fcd658
+  checksum: def9a8b73dbd1b389177c39ca82203333de9dc58aa58aa3032164d9ad2303f17b749d4d5e829fb65ccf01c4a8b5557bac105817c6d7e1db2b24b98491dadb38f
   languageName: node
   linkType: hard
 
-"mrm@npm:4.0.0":
-  version: 4.0.0
-  resolution: "mrm@npm:4.0.0"
+"mrm@npm:4.1.13":
+  version: 4.1.13
+  resolution: "mrm@npm:4.1.13"
   dependencies:
     git-username: ^1.0.0
     glob: ^7.1.6
@@ -11773,7 +11773,7 @@ __metadata:
     longest: ^2.0.1
     middleearth-names: ^1.1.0
     minimist: ^1.2.0
-    mrm-core: ^7.0.0
+    mrm-core: ^7.1.13
     semver-utils: ^1.1.4
     update-notifier: ^4.1.0
     user-home: ^2.0.0
@@ -11781,7 +11781,7 @@ __metadata:
     which: ^2.0.2
   bin:
     mrm: bin/mrm.js
-  checksum: 576b6017323e1681d977b2123f6a46dc7f70fbc9df45669c043bd6c50f53a2b939a7e5ffecdcce580505b781b88a97780cabff3712a5ca7192e29d53b1171596
+  checksum: 61d28e78697adc92bcb5a554ed01700c20d138dbcd975e6fcc446253e3759a2572b15cb7d71cdbdaf0b7125588ac862dd31792666dd39da234b28c17401fa988
   languageName: node
   linkType: hard
 
