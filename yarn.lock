@@ -723,7 +723,7 @@ __metadata:
     "@babel/core": ^7.0.0
     "@babel/eslint-parser": ^7.0.0
     "@rushstack/eslint-patch": ^1.1.4
-    "@types/eslint": 7.2.6
+    "@types/eslint": 7.2.14
     "@types/eslint-plugin-prettier": ^3.1.0
     "@types/prettier": 2.1.6
     "@types/react": ^16.9.34
@@ -3182,13 +3182,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/eslint@npm:7.2.6":
-  version: 7.2.6
-  resolution: "@types/eslint@npm:7.2.6"
+"@types/eslint@npm:7.2.14":
+  version: 7.2.14
+  resolution: "@types/eslint@npm:7.2.14"
   dependencies:
     "@types/estree": "*"
     "@types/json-schema": "*"
-  checksum: bb53f0fe7a34d1a5182fdb5ddcd1293b7d2923af20a4c0f8a35cc8bca5e52b40ac79b015abb2c9ab024d11715349bdfea484ef6dc244d3d9bf4dfa58e24944fb
+  checksum: 83c166031d396eefe74acc52ae635dad2702dc62dcc33c764bbffb471b5d6b079a69f5319426056bb24e88d2e12619b0f6f3137658ad18704111a91e3890dd51
   languageName: node
   linkType: hard
 
