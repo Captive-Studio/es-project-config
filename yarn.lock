@@ -863,7 +863,7 @@ __metadata:
   dependencies:
     "@babel/core": ^7.0.0
     "@babel/eslint-parser": ^7.0.0
-    "@captive/prettier-config": "*"
+    "@captive/prettier-config": ^1.1.0
     "@rushstack/eslint-patch": ^1.1.4
     "@types/eslint": 8.4.10
     "@types/eslint-plugin-prettier": 3.1.0
@@ -900,7 +900,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@captive/prettier-config@*, @captive/prettier-config@workspace:packages/prettier-config":
+"@captive/prettier-config@^1.1.0, @captive/prettier-config@workspace:packages/prettier-config":
   version: 0.0.0-use.local
   resolution: "@captive/prettier-config@workspace:packages/prettier-config"
   dependencies:
@@ -948,7 +948,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@captive/stylelint-config@workspace:packages/stylelint-config"
   dependencies:
-    "@captive/prettier-config": "*"
+    "@captive/prettier-config": ^1.1.0
     postcss: ^8.4.14
     postcss-html: "*"
     stylelint: 14.15.0
