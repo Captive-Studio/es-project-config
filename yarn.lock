@@ -948,6 +948,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@captive/stylelint-config@workspace:packages/stylelint-config"
   dependencies:
+    "@captive/prettier-config": "*"
     postcss: ^8.4.14
     postcss-html: "*"
     stylelint: 14.15.0
