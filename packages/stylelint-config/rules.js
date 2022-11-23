@@ -43,6 +43,12 @@ module.exports = {
   rules: {
     'no-descending-specificity': null, // Many false positive https://github.com/stylelint/stylelint/issues/3516
     'prettier/prettier': [true, getPrettierConfigDefault()],
-    'selector-class-pattern': null, // TODO: enforce BEM naming convention
+    'selector-class-pattern': [
+      '^[a-z]([\\da-z-]+)?(__([\\da-z]+-?)+)?(--([\\da-z]+-?)+){0,2}$',
+      {
+        message: 'Expected class selector to be kebab-case or BEM',
+        resolveNestedSelectors: true,
+      },
+    ],
   },
 };
