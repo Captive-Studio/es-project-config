@@ -1,6 +1,6 @@
 {
   "name": "@captive/commitlint-config",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Commitlint configuration presets",
   "keywords": [
     "commitlint",
