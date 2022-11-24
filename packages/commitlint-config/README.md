@@ -21,21 +21,21 @@ npm install --save-dev @captive/commitlint-config @commitlint/cli
 
 In the `package.json` of your project
 
+<!-- AUTO-GENERATED-CONTENT:START (PKGJSON:template=```json\n{\n  "commitlint": {\n    "extends": ["${name}"]\n  }\n}\n```) -->
 ```json
 {
-    "commitlint": {
-        "extends": ["@captive/commitlint-config"],
-        "rules": {}
-    }
+  "commitlint": {
+    "extends": ["@captive/commitlint-config"]
+  }
 }
 ```
+<!-- AUTO-GENERATED-CONTENT:END -->
 
-In the `.husky/pre-commit` of your project
+Ensure the `commitlint` is setup on husky commit message hook (default `.husky/commit-msg`)
 
-```shell
-#!/bin/sh
-. "$(dirname "$0")/_/husky.sh"
-
+```console
+commitlint --edit $1
+# -OR-
 npm exec --no -- commitlint --edit $1
 ```
 

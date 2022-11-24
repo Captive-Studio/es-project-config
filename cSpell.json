@@ -16,6 +16,8 @@
     "flowtype",
     "githooks",
     "gitlab",
+    "gitmoji",
+    "gitmojis",
     "healthcheck",
     "interop",
     "LOGFOLDER",

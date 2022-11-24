@@ -1,42 +1,78 @@
 {
   "name": "@captive/commitlint-config",
-  "version": "1.1.1",
+  "version": "1.0.0-alpha.16",
   "description": "Commitlint configuration presets",
   "keywords": [
     "commitlint",
     "git",
     "lint"
   ],
-  "homepage": "https://github.com/Captive-Studio/es-project-config/blob/master/packages/commitlint-config#readme",
+  "homepage": "https://github.com/Captive-Studio/es-project-config/blob/main/packages/commitlint-config#readme",
   "bugs": {
     "url": "https://github.com/Captive-Studio/es-project-config/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Captive-Studio/es-project-config.git",
+    "url": "git@github.com:Captive-Studio/es-project-config.git",
     "directory": "packages/commitlint-config"
   },
   "license": "MIT",
   "author": "Julien Polo <julien.polo@captive.fr>",
-  "main": "commitlint.config.js",
+  "type": "commonjs",
+  "exports": {
+    ".": "./index.js",
+    "./lib/*": "./lib/*"
+  },
+  "typings": "./index.d.ts",
   "files": [
-    "commitlint.config.js"
+    "lib/**/!(*.spec).d.ts",
+    "lib/**/!(*.spec).d.ts.map",
+    "lib/**/!(*.spec).js.map",
+    "lib/**/!(*.spec).js",
+    "src/**/!(*.spec).ts",
+    "index.js",
+    "index.d.ts"
   ],
   "scripts": {
-    "build": "concurrently 'npm:build:*'",
-    "build:empty": ":",
+    "build": "concurrently \"npm:build:*\" \":\"",
+    "build:src": "tsc",
+    "clean": "concurrently \"npm:clean:*\" \":\"",
     "docs": "md-magic --path '**/*.md' --ignore='node_modules'",
-    "format": "eslint . --fix --ext=mjs,cjs,js,jsx,ts,tsx,json,yaml,yml",
-    "lint": "eslint . --ext=mjs,cjs,js,jsx,ts,tsx,json,yaml,yml",
+    "format": "concurrently \"npm:format:*\" \":\"",
+    "format:src": "eslint . --fix --ext=mjs,cjs,js,jsx,ts,tsx,json,jsonc,json5,yml,yaml",
+    "lint": "concurrently \"npm:lint:*\" \":\"",
+    "lint:src": "eslint . --ext=mjs,cjs,js,jsx,ts,tsx,json,jsonc,json5,yml,yaml",
+    "prepare": "concurrently \"npm:prepare:*\" \":\"",
     "spellcheck": "cspell --no-progress '**'",
-    "test": "exit 0",
-    "test:git-log": "cd ../..;npm exec commitlint --from HEAD~3 --to HEAD --verbose"
+    "test": "concurrently \"npm:test:*\" ",
+    "test:src": "jest"
+  },
+  "jest": {
+    "moduleNameMapper": {
+      "^(\\.{1,2}/.*)\\.js$": "$1"
+    },
+    "preset": "es-jest",
+    "testPathIgnorePatterns": [
+      "/node_modules/",
+      "/lib/",
+      "/build/",
+      "/.cache/",
+      "/docs/",
+      "/public/"
+    ]
   },
   "dependencies": {
-    "@commitlint/config-conventional": "^17.0.0"
+    "@w5s/commitlint-config": "^1.0.1"
+  },
+  "devDependencies": {
+    "@commitlint/lint": "17.2.0",
+    "@jest/globals": "29.3.1"
   },
   "peerDependencies": {
-    "@commitlint/cli": ">=8"
+    "@commitlint/cli": "^16.0.0 || ^17.0.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
   },
   "publishConfig": {
     "access": "public"
