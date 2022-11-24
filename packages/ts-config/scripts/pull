@@ -25,7 +25,7 @@ sync_file ()
 
 cd $ROOT;
 echo "Pull github:w5s/ts-config"
-#files=$(find -L rules __tests__ -type f ! -name "vue.js")
+#files=$(find -L rules _tests -type f ! -name "vue.js")
 files+=" tsconfig.json"
 # files+=" index.js"
 
