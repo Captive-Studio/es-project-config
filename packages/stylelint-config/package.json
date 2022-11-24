@@ -29,7 +29,7 @@
     "format": "eslint . --fix",
     "lint": "eslint .",
     "spellcheck": "cspell --no-progress '**'",
-    "test": "stylelint __tests__"
+    "test": "stylelint _tests"
   },
   "eslintConfig": {
     "rules": {
