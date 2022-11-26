@@ -65,7 +65,7 @@
     "@w5s/commitlint-config": "^1.0.1"
   },
   "devDependencies": {
-    "@commitlint/lint": "17.2.0",
+    "@commitlint/lint": "17.3.0",
     "@jest/globals": "29.3.1"
   },
   "peerDependencies": {
