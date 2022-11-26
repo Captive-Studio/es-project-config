@@ -851,7 +851,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@captive/commitlint-config@workspace:packages/commitlint-config"
   dependencies:
-    "@commitlint/lint": 17.2.0
+    "@commitlint/lint": 17.3.0
     "@jest/globals": 29.3.1
     "@w5s/commitlint-config": ^1.0.1
   peerDependencies:
@@ -1049,19 +1049,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commitlint/lint@npm:17.2.0":
-  version: 17.2.0
-  resolution: "@commitlint/lint@npm:17.2.0"
-  dependencies:
-    "@commitlint/is-ignored": ^17.2.0
-    "@commitlint/parse": ^17.2.0
-    "@commitlint/rules": ^17.2.0
-    "@commitlint/types": ^17.0.0
-  checksum: e35f30b89e6126b6491b062c003b26afe129c9243e1866a569676ae0e3b04a6bce11ee348df82332a984dc38aabbeb139df0fb94a7d421f981ef352fe0c5420c
-  languageName: node
-  linkType: hard
-
-"@commitlint/lint@npm:^17.3.0":
+"@commitlint/lint@npm:17.3.0, @commitlint/lint@npm:^17.3.0":
   version: 17.3.0
   resolution: "@commitlint/lint@npm:17.3.0"
   dependencies:
@@ -1140,7 +1128,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commitlint/rules@npm:^17.2.0, @commitlint/rules@npm:^17.3.0":
+"@commitlint/rules@npm:^17.3.0":
   version: 17.3.0
   resolution: "@commitlint/rules@npm:17.3.0"
   dependencies:
