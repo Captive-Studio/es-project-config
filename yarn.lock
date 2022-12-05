@@ -943,7 +943,6 @@ __metadata:
     vue: 3.2.45
   peerDependencies:
     eslint: 8.x
-    prettier: 2.x
     typescript: 4.x
   peerDependenciesMeta:
     typescript:
@@ -958,7 +957,7 @@ __metadata:
     "@w5s/prettier-config": ^1.0.1
     prettier: 2.8.0
   peerDependencies:
-    prettier: ">= 2.0"
+    prettier: 2.x
   peerDependenciesMeta:
     prettier:
       optional: true
@@ -1012,7 +1011,6 @@ __metadata:
     stylelint-prettier: ^2.0.0
     stylelint-scss: ^4.3.0
   peerDependencies:
-    prettier: 2.x
     stylelint: ^14.2.0
   languageName: unknown
   linkType: soft
