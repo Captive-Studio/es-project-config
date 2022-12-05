@@ -1012,7 +1012,7 @@ __metadata:
     stylelint-prettier: ^2.0.0
     stylelint-scss: ^4.3.0
   peerDependencies:
-    prettier: ^2.5.1
+    prettier: 2.x
     stylelint: ^14.2.0
   languageName: unknown
   linkType: soft
