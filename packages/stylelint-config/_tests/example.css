@@ -32,6 +32,10 @@
   text-decoration: none;
 }
 
+.list-item__link__label {
+  font-weight: bold;
+}
+
 .list-item__link:hover {
   color: --color-primary;
 }

@@ -32,6 +32,15 @@ const getPrettierConfigDefault = () => {
   const packageScope = getPackageScope();
   return getPrettierConfig(`${packageScope}/prettier-config`) || defaultConfig;
 };
+
+const bemSelector = (/** @type {'any'|'kebabCase'|'pascalCase'} */ selector = 'any') => {
+  const kebabCase = '[\\da-z-]+';
+  const pascalCase = '[\\da-z]+';
+  const any = '[\\da-zA-Z-]+';
+  const word = { any, kebabCase, pascalCase }[selector] ?? any;
+  return `^[a-z](${word})?(__(${word}-?)+)*(--(${word}-?)+){0,2}$`;
+};
+
 module.exports = {
   extends: [
     'stylelint-config-standard-scss',
@@ -44,7 +53,7 @@ module.exports = {
     'no-descending-specificity': null, // Many false positive https://github.com/stylelint/stylelint/issues/3516
     'prettier/prettier': [true, getPrettierConfigDefault()],
     'selector-class-pattern': [
-      '^[a-z]([\\da-z-]+)?(__([\\da-z]+-?)+)?(--([\\da-z]+-?)+){0,2}$',
+      bemSelector('any'),
       {
         message: 'Expected class selector to be kebab-case or BEM',
         resolveNestedSelectors: true,
