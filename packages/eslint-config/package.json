@@ -24,14 +24,18 @@
     "rules/*.js"
   ],
   "scripts": {
-    "build": "concurrently 'npm:build:*'",
-    "build:empty": ":",
+    "build": "concurrently \"npm:build:*\" \":\"",
+    "clean": "concurrently \"npm:clean:*\" \":\"",
     "docs": "md-magic --path '**/*.md' --ignore='node_modules'",
-    "format": "eslint . --fix",
-    "lint": "eslint .",
-    "pull-external": "scripts/pull",
+    "format": "concurrently \"npm:format:*\" \":\"",
+    "format:src": "eslint . --fix --ext=mjs,cjs,js,jsx,ts,tsx,json,jsonc,json5,yml,yaml",
+    "lint": "concurrently \"npm:lint:*\" \":\"",
+    "lint:src": "eslint . --ext=mjs,cjs,js,jsx,ts,tsx,json,jsonc,json5,yml,yaml",
+    "prepare": "concurrently \"npm:prepare:*\" \":\"",
     "spellcheck": "cspell --no-progress '**'",
-    "test": "scripts/test"
+    "test": "concurrently \"npm:test:*\" ",
+    "test:src": "scripts/test",
+    "test_:rule-coverage": "eslint-find-rules --unused"
   },
   "eslintConfig": {
     "rules": {
@@ -49,12 +53,12 @@
     ]
   },
   "dependencies": {
-    "@babel/core": "^7.0.0",
-    "@babel/eslint-parser": "^7.0.0",
+    "@babel/core": "^7.19.1",
+    "@babel/eslint-parser": "^7.19.1",
     "@captive/prettier-config": "^1.1.2",
     "@rushstack/eslint-patch": "^1.1.4",
     "@typescript-eslint/eslint-plugin": "^5.0.0",
-    "@typescript-eslint/parser": "^5.0.0",
+    "@typescript-eslint/parser": "^5.45.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-import": "^2.26.0",
@@ -77,7 +81,7 @@
     "@types/react": "18.0.26",
     "eslint": "8.29.0",
     "eslint-config-prettier": "8.5.0",
-    "eslint-index": "1.5.0",
+    "eslint-find-rules": "4.1.0",
     "prettier": "2.8.0",
     "react": "18.2.0",
     "vue": "3.2.45"
