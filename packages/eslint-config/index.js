@@ -28,6 +28,7 @@ module.exports = {
     require.resolve('./json'),
     require.resolve('./yml'),
     require.resolve('./jest'),
+    ...includeIf(tryResolve('cypress'), require.resolve('./cypress')),
     ...includeIf(tryResolve('react'), require.resolve('./react')),
     ...includeIf(tryResolve('vue'), require.resolve('./vue')),
   ],
