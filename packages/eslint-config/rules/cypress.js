@@ -14,6 +14,10 @@ module.exports = concatESConfig(
   {
     rules: {
       'jest/expect-expect': off,
+      // Cypress uses a promise like API but in a specific way
+      'promise/always-return': off,
+      'promise/catch-or-return': off,
+      'promise/prefer-await-to-then': off,
     },
   }
 );
