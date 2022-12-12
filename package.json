@@ -38,7 +38,8 @@
     "spellcheck": "cspell --no-progress '**' --exclude='packages/*/**' && turbo run spellcheck",
     "test": "concurrently \"npm:test:*\"",
     "test:packages": "turbo run test",
-    "validate": "npm run build && npm run lint && npm test && npm run spellcheck"
+    "validate": "npm run build && npm run lint && npm test && npm run spellcheck",
+    "version": "yarn install && git stage yarn.lock"
   },
   "commitlint": {
     "extends": [
