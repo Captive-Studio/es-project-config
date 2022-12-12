@@ -24,32 +24,17 @@ module.exports = {
   extends: [
     require.resolve('./ignore'),
     require.resolve('./es'),
+    ...includeIf(tryResolve('typescript'), require.resolve('./ts')),
     require.resolve('./json'),
     require.resolve('./yml'),
+    require.resolve('./jest'),
     ...includeIf(tryResolve('react'), require.resolve('./react')),
   ],
   overrides: [
-    ...includeIf(tryResolve('typescript'), {
-      extends: [require.resolve('./ts')],
-      files: ['*.+(ts|tsx)'],
-    }),
     ...includeIf(tryResolve('vue'), {
       extends: [require.resolve('./vue')],
       files: ['*.vue'],
     }),
-    {
-      extends: [require.resolve('./jest')],
-      files: [
-        '**/__mocks__/**/*.+(ts|tsx|js|jsx)',
-        '**/__tests__/**/*.+(ts|tsx|js|jsx)',
-        '**/?(*.)+(spec|test).+(ts|tsx|js|jsx)',
-      ],
-      settings: {
-        jest: {
-          version: 'latest',
-        },
-      },
-    },
   ],
   root: true,
 };
