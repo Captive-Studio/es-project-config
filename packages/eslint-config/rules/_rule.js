@@ -12,6 +12,8 @@ const off = 'off';
  *  env?: Record<string, boolean>,
  *  extends?: string[]|string,
  *  plugins?: string[]|string,
+ *  parser?: string,
+ *  parserOptions?: Record<string, unknown>,
  *  rules?: Record<string, unknown>,
  *  settings?: Record<string, unknown>,
  * }} ESLintConfigInit
@@ -21,6 +23,8 @@ const off = 'off';
  *  env: Record<string, boolean>,
  *  extends: string[],
  *  plugins: string[],
+ *  parser?: string,
+ *  parserOptions?: Record<string, unknown>,
  *  rules: Record<string, unknown>,
  *  settings: Record<string, unknown>,
  * }} ESLintConfig

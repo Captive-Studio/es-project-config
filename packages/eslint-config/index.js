@@ -29,12 +29,7 @@ module.exports = {
     require.resolve('./yml'),
     require.resolve('./jest'),
     ...includeIf(tryResolve('react'), require.resolve('./react')),
-  ],
-  overrides: [
-    ...includeIf(tryResolve('vue'), {
-      extends: [require.resolve('./vue')],
-      files: ['*.vue'],
-    }),
+    ...includeIf(tryResolve('vue'), require.resolve('./vue')),
   ],
   root: true,
 };

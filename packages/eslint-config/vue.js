@@ -1,13 +1,9 @@
 // http://eslint.org/docs/user-guide/configuring
 module.exports = {
-  extends: [require.resolve('./rules/vue'), 'prettier'],
-  parser: 'vue-eslint-parser',
-  parserOptions: {
-    parser: {
-      js: '@babel/eslint-parser',
-      ts: '@typescript-eslint/parser',
+  overrides: [
+    {
+      extends: [require.resolve('./rules/vue')],
+      files: ['*.vue'],
     },
-    project: './tsconfig.json',
-  },
-  settings: {},
+  ],
 };
