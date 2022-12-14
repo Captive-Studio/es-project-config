@@ -1,6 +1,6 @@
 {
   "name": "@captive/eslint-config",
-  "version": "1.7.8",
+  "version": "1.7.9",
   "description": "ESLint configuration presets",
   "keywords": [
     "eslint",
