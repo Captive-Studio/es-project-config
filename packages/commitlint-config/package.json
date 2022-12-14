@@ -62,7 +62,7 @@
     ]
   },
   "dependencies": {
-    "@w5s/commitlint-config": "^1.0.1"
+    "@w5s/commitlint-config": "^1.0.3"
   },
   "devDependencies": {
     "@commitlint/lint": "17.3.0",
