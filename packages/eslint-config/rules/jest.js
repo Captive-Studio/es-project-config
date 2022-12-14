@@ -3,9 +3,12 @@ const { off, error, concatESConfig } = require('./_rule.js');
 module.exports = concatESConfig(
   {
     env: {
-      jest: true,
+      'jest/globals': true,
     },
     extends: ['plugin:jest/recommended'],
+    globals: {
+      context: true,
+    },
     plugins: ['jest'],
     rules: {
       'jest/consistent-test-it': error,
@@ -14,6 +17,18 @@ module.exports = concatESConfig(
       'jest/prefer-spy-on': error,
       'jest/prefer-to-contain': error,
       'jest/valid-title': [error, { ignoreTypeOfDescribeName: true }],
+    },
+    settings: {
+      jest: {
+        // Compatibility with mocha, cypress, etc.
+        globalAliases: {
+          describe: ['context'],
+          fdescribe: ['fcontext'],
+          xdescribe: ['xcontext'],
+        },
+
+        version: 'latest',
+      },
     },
   },
   /**
@@ -31,6 +46,7 @@ module.exports = concatESConfig(
    */
   {
     rules: {
+      '@typescript-eslint/naming-convention': off,
       '@typescript-eslint/no-non-null-assertion': off,
       '@typescript-eslint/no-unsafe-assignment': off,
       '@typescript-eslint/no-unsafe-call': off,
