@@ -13,30 +13,39 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Captive-Studio/es-project-config.git",
+    "url": "git@github.com:Captive-Studio/es-project-config.git",
     "directory": "packages/ts-config"
   },
   "license": "MIT",
   "author": "Julien Polo <julien.polo@captive.fr>",
+  "type": "commonjs",
   "main": "./tsconfig.json",
   "files": [
     "tsconfig.json"
   ],
   "scripts": {
-    "build": "concurrently 'npm:build:*'",
+    "build": "concurrently \"npm:build:*\" \":\"",
     "build:empty": ":",
+    "clean": "concurrently \"npm:clean:*\" \":\"",
     "docs": "md-magic --path '**/*.md' --ignore='node_modules'",
-    "format": "eslint . --fix --ext=mjs,cjs,js,jsx,ts,tsx,json,yaml,yml",
-    "lint": "eslint . --ext=mjs,cjs,js,jsx,ts,tsx,json,yaml,yml",
+    "format": "concurrently \"npm:format:*\" \":\"",
+    "format:src": "eslint . --fix --ext=mjs,cjs,js,jsx,ts,tsx,json,jsonc,json5,yml,yaml",
+    "lint": "concurrently \"npm:lint:*\" \":\"",
+    "lint:src": "eslint . --ext=mjs,cjs,js,jsx,ts,tsx,json,jsonc,json5,yml,yaml",
+    "prepare": "concurrently \"npm:prepare:*\" \":\"",
     "pull-external": "scripts/pull",
     "spellcheck": "cspell --no-progress '**'",
-    "test": "tsc -p _tests/tsconfig.json --noEmit --skipLibCheck"
+    "test": "concurrently \"npm:test:*\" ",
+    "test:tsc": "tsc -p _tests/tsconfig.json --noEmit --skipLibCheck"
   },
   "devDependencies": {
     "typescript": "4.9.4"
   },
   "peerDependencies": {
     "typescript": ">= 4.7"
+  },
+  "engines": {
+    "node": ">=16.0.0"
   },
   "publishConfig": {
     "access": "public"
