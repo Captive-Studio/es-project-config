@@ -1,6 +1,13 @@
 {
   "name": "@captive/project-config-src",
+  "version": "1.0.0-alpha.0",
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Captive-Studio/es-project-config.git"
+  },
+  "license": "UNLICENSED",
+  "type": "module",
   "files": [],
   "workspaces": {
     "packages": [
@@ -12,33 +19,30 @@
     ]
   },
   "scripts": {
-    "build": "concurrently \"npm:build:*\"",
-    "build:packages": "turbo run build",
+    "build": "turbo run build",
     "clean": "turbo run clean",
     "code-analysis": ":",
     "configure": "npm run mrm -- configure",
     "coverage": ":",
     "develop": ":",
     "docs": "md-magic --path './*.md' --ignore='node_modules' && turbo run docs",
-    "format": "concurrently \"npm:format:*\"",
-    "format:packages": "turbo run format",
-    "format:root": "eslint . --ext=mjs,cjs,js,jsx,ts,tsx,json --ignore-pattern='packages/*/**' --fix",
-    "lint": "concurrently \"npm:lint:*\"",
-    "lint:packages": "turbo run lint",
-    "lint:root": "eslint . --ext=mjs,cjs,js,jsx,ts,tsx,json --ignore-pattern='packages/*/**'",
+    "format": "turbo run format",
+    "format:root": "eslint . --ext=mjs,cjs,js,jsx,ts,tsx,json,jsonc,json5,yml,yaml --ignore-pattern='packages/*/**' --fix",
+    "lint": "turbo run lint",
+    "lint:root": "eslint . --ext=mjs,cjs,js,jsx,ts,tsx,json,jsonc,json5,yml,yaml --ignore-pattern='packages/*/**'",
     "mrm": "mrm --preset @w5s/mrm-preset",
     "postbuild": "npm run docs",
-    "prepare": "concurrently \"npm:prepare:*\"",
+    "prepare": "concurrently \"npm:prepare:*\" \":\"",
     "prepare:empty": ":",
     "prepare:husky": "is-ci || husky install",
     "prepare:packages": "turbo run prepare",
     "pull-external": "turbo run pull-external",
     "release": "is-ci && lerna publish --yes || lerna publish",
     "rescue": "git clean -fdx;yarn install",
-    "spellcheck": "cspell --no-progress '**' --exclude='packages/*/**' && turbo run spellcheck",
-    "test": "concurrently \"npm:test:*\"",
-    "test:packages": "turbo run test",
-    "validate": "npm run build && npm run lint && npm test && npm run spellcheck",
+    "spellcheck": "turbo run spellcheck",
+    "spellcheck:root": "cspell --no-progress '**' --exclude='packages/*/**'",
+    "test": "turbo run test",
+    "validate": "turbo run build lint test",
     "version": "yarn install && git stage yarn.lock"
   },
   "commitlint": {
@@ -47,13 +51,13 @@
     ]
   },
   "lint-staged": {
-    "*.json": [
-      "eslint"
-    ],
     "*.js?(x)": [
       "eslint"
     ],
     "*.ts?(x)": [
+      "eslint"
+    ],
+    "*.{json,jsonc,json5}": [
       "eslint"
     ]
   },
@@ -81,7 +85,7 @@
     "**/tsconfig.json",
     "**/package-lock.json",
     ".vscode/**",
-    "public/"
+    "./public/"
   ],
   "devDependencies": {
     "@babel/core": "7.20.5",
@@ -90,6 +94,7 @@
     "@captive/eslint-config": "workspace:*",
     "@captive/ts-config": "workspace:*",
     "@commitlint/cli": "17.3.0",
+    "@jest/globals": "latest",
     "@types/node": "12.20.45",
     "concurrently": "7.6.0",
     "cspell": "6.17.0",
@@ -111,7 +116,7 @@
   },
   "packageManager": "yarn@3.3.0",
   "engines": {
-    "node": ">=14.0.0",
+    "node": ">=16.0.0",
     "npm": ">=6.0.0",
     "yarn": ">=1.4.0"
   }

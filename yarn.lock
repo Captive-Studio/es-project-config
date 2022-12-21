@@ -962,6 +962,7 @@ __metadata:
     "@captive/eslint-config": "workspace:*"
     "@captive/ts-config": "workspace:*"
     "@commitlint/cli": 17.3.0
+    "@jest/globals": latest
     "@types/node": 12.20.45
     concurrently: 7.6.0
     cspell: 6.17.0
@@ -1808,7 +1809,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@jest/globals@npm:29.3.1, @jest/globals@npm:^29.3.1":
+"@jest/globals@npm:29.3.1, @jest/globals@npm:^29.3.1, @jest/globals@npm:latest":
   version: 29.3.1
   resolution: "@jest/globals@npm:29.3.1"
   dependencies:
