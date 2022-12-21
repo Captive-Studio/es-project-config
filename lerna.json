@@ -10,5 +10,6 @@
       "message": "🔖 Publish"
     }
   },
-  "version": "independent"
+  "version": "independent",
+  "$schema": "https://json.schemastore.org/lerna.json"
 }
