@@ -13,11 +13,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Captive-Studio/es-project-config.git",
+    "url": "git@github.com:Captive-Studio/es-project-config.git",
     "directory": "packages/eslint-config"
   },
   "license": "MIT",
   "author": "Julien Polo <julien.polo@captive.fr>",
+  "type": "commonjs",
   "main": "index.js",
   "files": [
     "*.js",
@@ -97,6 +98,9 @@
     "typescript": {
       "optional": true
     }
+  },
+  "engines": {
+    "node": ">=16.0.0"
   },
   "publishConfig": {
     "access": "public"
