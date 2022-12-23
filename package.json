@@ -88,7 +88,7 @@
     "./public/"
   ],
   "devDependencies": {
-    "@babel/core": "7.20.5",
+    "@babel/core": "7.20.7",
     "@babel/eslint-parser": "7.19.1",
     "@captive/commitlint-config": "workspace:*",
     "@captive/eslint-config": "workspace:*",
