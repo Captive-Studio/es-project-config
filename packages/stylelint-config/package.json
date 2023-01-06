@@ -60,6 +60,11 @@
   "peerDependencies": {
     "stylelint": "^14.2.0"
   },
+  "peerDependenciesMeta": {
+    "stylelint": {
+      "optional": true
+    }
+  },
   "engines": {
     "node": ">=16.0.0"
   },
