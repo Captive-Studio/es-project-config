@@ -25,7 +25,7 @@ sync_file ()
 
 cd $ROOT;
 echo "Pull github:w5s/eslint-config"
-files=$(find -L rules _tests -type f ! -name "vue.js" ! -path "*/vue-project/*" ! -path "./vue-project/*")
+files=$(find -L rules _tests -type f ! -name "cypress.js" ! -name "vue.js" ! -path "*/vue-project/*" ! -path "./vue-project/*")
 files+=" es.js"
 # files+=" index.js"
 files+=" jest.js"
