@@ -441,7 +441,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@captive/commitlint-config@workspace:packages/commitlint-config"
   dependencies:
-    "@commitlint/lint": 17.3.0
+    "@commitlint/lint": 17.4.0
     "@jest/globals": 29.3.1
     "@w5s/commitlint-config": ^1.0.3
   peerDependencies:
@@ -521,7 +521,7 @@ __metadata:
     "@captive/commitlint-config": "workspace:*"
     "@captive/eslint-config": "workspace:*"
     "@captive/ts-config": "workspace:*"
-    "@commitlint/cli": 17.3.0
+    "@commitlint/cli": 17.4.0
     "@jest/globals": latest
     "@types/node": 12.20.45
     concurrently: 7.6.0
@@ -580,15 +580,15 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@commitlint/cli@npm:17.3.0":
-  version: 17.3.0
-  resolution: "@commitlint/cli@npm:17.3.0"
+"@commitlint/cli@npm:17.4.0":
+  version: 17.4.0
+  resolution: "@commitlint/cli@npm:17.4.0"
   dependencies:
-    "@commitlint/format": ^17.0.0
-    "@commitlint/lint": ^17.3.0
-    "@commitlint/load": ^17.3.0
-    "@commitlint/read": ^17.2.0
-    "@commitlint/types": ^17.0.0
+    "@commitlint/format": ^17.4.0
+    "@commitlint/lint": ^17.4.0
+    "@commitlint/load": ^17.4.0
+    "@commitlint/read": ^17.4.0
+    "@commitlint/types": ^17.4.0
     execa: ^5.0.0
     lodash.isfunction: ^3.0.9
     resolve-from: 5.0.0
@@ -596,7 +596,7 @@ __metadata:
     yargs: ^17.0.0
   bin:
     commitlint: cli.js
-  checksum: 9f544ea528198bbb8ee00c54dc68a4933c680bd6e995817b7acabe3352835ee77b7c86f522a0bb749684422d469365fdc86c134012c9b1c0af42a2e1ed3b342c
+  checksum: ca4eea3264f2c1481378e1c9a70c6d0f499b7a0e49e22668bb0b61f808cc0277bae15555bb73fa9f9600618da453c94e6feb29020af6488ff2571e474f999b72
   languageName: node
   linkType: hard
 
@@ -631,7 +631,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commitlint/format@npm:^17.0.0":
+"@commitlint/format@npm:^17.4.0":
   version: 17.4.0
   resolution: "@commitlint/format@npm:17.4.0"
   dependencies:
@@ -641,7 +641,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commitlint/is-ignored@npm:^17.2.0, @commitlint/is-ignored@npm:^17.4.0":
+"@commitlint/is-ignored@npm:^17.4.0":
   version: 17.4.0
   resolution: "@commitlint/is-ignored@npm:17.4.0"
   dependencies:
@@ -651,19 +651,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commitlint/lint@npm:17.3.0":
-  version: 17.3.0
-  resolution: "@commitlint/lint@npm:17.3.0"
-  dependencies:
-    "@commitlint/is-ignored": ^17.2.0
-    "@commitlint/parse": ^17.2.0
-    "@commitlint/rules": ^17.3.0
-    "@commitlint/types": ^17.0.0
-  checksum: 71a7b2cbb0eaeebcf50d66260112abe30c1118a55c7c4c89f72c40bdc52149455023877a9906d272d53f6c9673713dbd3baac14a7bcf6c81e618db3fc8d83e05
-  languageName: node
-  linkType: hard
-
-"@commitlint/lint@npm:^17.3.0":
+"@commitlint/lint@npm:17.4.0, @commitlint/lint@npm:^17.4.0":
   version: 17.4.0
   resolution: "@commitlint/lint@npm:17.4.0"
   dependencies:
@@ -675,7 +663,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commitlint/load@npm:^17.3.0":
+"@commitlint/load@npm:^17.4.0":
   version: 17.4.0
   resolution: "@commitlint/load@npm:17.4.0"
   dependencies:
@@ -703,7 +691,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commitlint/parse@npm:^17.2.0, @commitlint/parse@npm:^17.4.0":
+"@commitlint/parse@npm:^17.4.0":
   version: 17.4.0
   resolution: "@commitlint/parse@npm:17.4.0"
   dependencies:
@@ -714,7 +702,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commitlint/read@npm:^17.2.0":
+"@commitlint/read@npm:^17.4.0":
   version: 17.4.0
   resolution: "@commitlint/read@npm:17.4.0"
   dependencies:
@@ -741,7 +729,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commitlint/rules@npm:^17.3.0, @commitlint/rules@npm:^17.4.0":
+"@commitlint/rules@npm:^17.4.0":
   version: 17.4.0
   resolution: "@commitlint/rules@npm:17.4.0"
   dependencies:
