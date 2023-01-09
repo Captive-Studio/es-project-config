@@ -1,6 +1,6 @@
 {
   "name": "@captive/eslint-config",
-  "version": "1.7.10",
+  "version": "1.7.11",
   "description": "ESLint configuration presets",
   "keywords": [
     "eslint",
@@ -56,7 +56,7 @@
     ]
   },
   "dependencies": {
-    "@captive/prettier-config": "^1.1.4",
+    "@captive/prettier-config": "^1.1.5",
     "@rushstack/eslint-patch": "^1.1.4",
     "@typescript-eslint/eslint-plugin": "^5.0.0",
     "@typescript-eslint/parser": "^5.45.0",
