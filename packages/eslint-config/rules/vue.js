@@ -7,7 +7,9 @@ module.exports = concatESConfig({
     extraFileExtensions: ['.vue'],
     parser: {
       js: '@babel/eslint-parser',
+      jsx: '@babel/eslint-parser',
       ts: '@typescript-eslint/parser',
+      tsx: '@typescript-eslint/parser',
     },
     project: './tsconfig.json',
   },
