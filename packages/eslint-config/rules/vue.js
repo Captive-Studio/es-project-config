@@ -4,6 +4,7 @@ module.exports = concatESConfig({
   extends: ['plugin:vue/vue3-recommended', 'prettier'],
   parser: 'vue-eslint-parser',
   parserOptions: {
+    extraFileExtensions: ['.vue'],
     parser: {
       js: '@babel/eslint-parser',
       ts: '@typescript-eslint/parser',
