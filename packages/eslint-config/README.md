@@ -34,9 +34,13 @@ For most kind of project, just edit `eslintrc.json` and add default configuratio
 **Features :**
 
 - `ES` and `TS` validation
+- `JSON`
+- `YAML`
 - `Prettier` formatting
 - `JSX` and `React` syntax validation
 - `Jest` tests
+- `VueJS`
+- `Cypress`
 
 ### Custom project
 
