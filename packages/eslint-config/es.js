@@ -8,16 +8,4 @@ module.exports = {
     require.resolve('./rules/unicorn'),
     require.resolve('./rules/prettier'),
   ],
-  parser: '@babel/eslint-parser',
-  parserOptions: {
-    babelOptions: {
-      plugins: [],
-    },
-    ecmaFeatures: {
-      jsx: true,
-    },
-    ecmaVersion: 2020,
-    requireConfigFile: false,
-    sourceType: 'module',
-  },
 };

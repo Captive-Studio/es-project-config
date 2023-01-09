@@ -1,4 +1,5 @@
 const { error, concatESConfig } = require('./_rule.js');
+const { parser } = require('./base.js');
 
 module.exports = concatESConfig({
   extends: ['plugin:vue/vue3-recommended', 'prettier'],
@@ -6,8 +7,8 @@ module.exports = concatESConfig({
   parserOptions: {
     extraFileExtensions: ['.vue'],
     parser: {
-      js: '@babel/eslint-parser',
-      jsx: '@babel/eslint-parser',
+      js: parser,
+      jsx: parser,
       ts: '@typescript-eslint/parser',
       tsx: '@typescript-eslint/parser',
     },

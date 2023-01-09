@@ -14,7 +14,6 @@
       "packages/*"
     ],
     "nohoist": [
-      "/@babel/eslint-parser",
       "/eslint"
     ]
   },
@@ -88,8 +87,6 @@
     "./public/"
   ],
   "devDependencies": {
-    "@babel/core": "7.20.12",
-    "@babel/eslint-parser": "7.19.1",
     "@captive/commitlint-config": "workspace:*",
     "@captive/eslint-config": "workspace:*",
     "@captive/ts-config": "workspace:*",
