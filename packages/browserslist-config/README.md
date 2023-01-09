@@ -36,24 +36,24 @@ In the `package.json` for your project
 ## Supported Browsers
 <!-- AUTO-GENERATED-CONTENT:START (FILE:src=./BROWSER_LIST.md) -->
 <!-- The below content is automatically added from ./BROWSER_LIST.md -->
-_Generated Automatically at Fri, 18 Nov 2022 17:14:01 GMT_
+_Generated Automatically at Mon, 09 Jan 2023 15:33:35 GMT_
 
 ### Desktop
 
 - Android (4.4.3-4.4.4)
-- Chrome (107, 106, 105, 104, 103)
-- Edge (107, 106, 105)
-- Firefox (106, 105)
-- Opera (91, 90)
-- Safari (16.0, 15.6, 15.5, 14.1, 13.1)
-- Samsung (18.0)
+- Chrome (108, 107, 106, 103)
+- Edge (108, 107)
+- Firefox (108, 107)
+- Opera (92)
+- Safari (16.1, 15.6, 14.1)
+- Samsung (19.0, 18.0)
 
 ### Mobile
 
-- Chrome for Android (107)
-- Firefox for Android (106)
+- Chrome for Android (108)
+- Firefox for Android (107)
 - UC Browser (13.4)
-- Safari for iOS (16.1, 16.0, 15.6, 15.5, 15.4, 15.2-15.3, 15.0-15.1, 14.5-14.8, 14.0-14.4, 12.2-12.5)
+- Safari for iOS (16.2, 16.1, 16.0, 15.6, 15.5, 15.4, 15.2-15.3, 14.5-14.8, 14.0-14.4, 12.2-12.5)
 
 [View more in browserlist.dev (usages, coverage)](https://browserslist.dev/?q=PjAuMiUsbm90IGRlYWQsbm90IG9wX21pbmkgYWxs)
 <!-- AUTO-GENERATED-CONTENT:END -->
