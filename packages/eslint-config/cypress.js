@@ -1,12 +1,8 @@
 module.exports = {
   overrides: [
     {
-      env: {
-        'cypress/globals': true,
-      },
-      extends: [require.resolve('./rules/cypress.js')],
+      extends: [require.resolve('./lib/cypress.js')],
       files: ['**/cypress/**', '**/*.cy.*'],
-      plugins: ['cypress'],
     },
   ],
 };

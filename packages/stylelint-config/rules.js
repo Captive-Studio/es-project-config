@@ -1,6 +1,6 @@
 const getPackageScope = () => {
   try {
-    // eslint-disable-next-line global-require, import/no-dynamic-require
+    // eslint-disable-next-line global-require
     const { name } = require('./package.json');
     const prefixMatch = (name || '').match(/(@\w+)\//);
     const packageScope = prefixMatch ? prefixMatch[1] : undefined;

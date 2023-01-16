@@ -1,7 +1,7 @@
-const { error, concatESConfig } = require('./_rule.js');
-const { parser } = require('./base.js');
+import type eslint from 'eslint';
+import { parser } from './es.js';
 
-module.exports = concatESConfig({
+const config: eslint.Linter.Config = {
   extends: ['plugin:vue/vue3-recommended', 'prettier'],
   parser: 'vue-eslint-parser',
   parserOptions: {
@@ -15,6 +15,8 @@ module.exports = concatESConfig({
     project: './tsconfig.json',
   },
   rules: {
-    'vue/component-api-style': [error, ['script-setup']], // Use script-setup as default syntax, can be overriden in project if needed
+    'vue/component-api-style': ['error', ['script-setup']], // Use script-setup as default syntax, can be overriden in project if needed
   },
-});
+};
+
+export = config;
