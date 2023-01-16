@@ -4,4 +4,3 @@ declare const config: {
     plugins: import("@commitlint/types").Plugin[];
 };
 export default config;
-//# sourceMappingURL=index.d.ts.map

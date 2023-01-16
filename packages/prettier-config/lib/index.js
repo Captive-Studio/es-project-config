@@ -8,4 +8,3 @@ const prettierConfig = {
     ...index_js_1.default,
 };
 exports.default = prettierConfig;
-//# sourceMappingURL=index.js.map

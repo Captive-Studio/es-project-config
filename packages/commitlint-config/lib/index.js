@@ -17,4 +17,3 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var commitlint_config_1 = __importDefault(require("@w5s/commitlint-config"));
 var config = __assign({}, commitlint_config_1.default);
 exports.default = config;
-//# sourceMappingURL=index.js.map
