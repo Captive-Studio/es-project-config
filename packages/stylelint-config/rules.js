@@ -42,13 +42,8 @@ const bemSelector = (/** @type {'any'|'kebabCase'|'pascalCase'} */ selector = 'a
 };
 
 module.exports = {
-  extends: [
-    'stylelint-config-standard-scss',
-    'stylelint-config-rational-order',
-    'stylelint-config-prettier',
-    'stylelint-config-standard-vue',
-  ],
-  plugins: ['stylelint-order', 'stylelint-prettier', 'stylelint-scss', 'stylelint-config-rational-order/plugin'],
+  extends: ['stylelint-config-standard-scss', 'stylelint-config-prettier', 'stylelint-config-standard-vue'],
+  plugins: ['stylelint-order', 'stylelint-prettier', 'stylelint-scss'],
   rules: {
     'no-descending-specificity': null, // Many false positive https://github.com/stylelint/stylelint/issues/3516
     'prettier/prettier': [true, getPrettierConfigDefault()],
