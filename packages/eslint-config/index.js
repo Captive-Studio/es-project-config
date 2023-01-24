@@ -14,23 +14,23 @@ function tryResolve(name) {
 /**
  * @template T
  * @param {boolean} condition
- * @param {T} value
+ * @param {() => T} getValue
  */
-function includeIf(condition, value) {
-  return condition ? [value] : [];
+function includeIf(condition, getValue) {
+  return condition ? [getValue()] : [];
 }
 
 module.exports = {
   extends: [
-    require.resolve('./ignore'),
-    require.resolve('./es'),
-    ...includeIf(tryResolve('typescript'), require.resolve('./ts')),
-    require.resolve('./json'),
-    require.resolve('./yml'),
-    require.resolve('./jest'),
-    ...includeIf(tryResolve('cypress'), require.resolve('./cypress')),
-    ...includeIf(tryResolve('react'), require.resolve('./react')),
-    ...includeIf(tryResolve('vue'), require.resolve('./vue')),
+    require.resolve('./ignore.js'),
+    require.resolve('./es.js'),
+    ...includeIf(tryResolve('typescript'), () => require.resolve('./ts.js')),
+    require.resolve('./json.js'),
+    require.resolve('./yml.js'),
+    require.resolve('./jest.js'),
+    ...includeIf(tryResolve('cypress'), () => require.resolve('./cypress.js')),
+    ...includeIf(tryResolve('react'), () => require.resolve('./react.js')),
+    ...includeIf(tryResolve('vue'), () => require.resolve('./vue.js')),
   ],
   root: true,
 };
