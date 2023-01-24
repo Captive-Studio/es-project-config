@@ -448,6 +448,7 @@ __metadata:
     "@types/jest": 29.2.6
     "@types/prettier": 2.7.2
     "@types/react": 18.0.27
+    "@w5s/dev": ^1.0.0-alpha.3
     "@w5s/eslint-config": ^1.0.0-alpha.47
     eslint: 8.32.0
     eslint-config-prettier: 8.6.0
@@ -3093,7 +3094,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/eslint@npm:*, @types/eslint@npm:8.4.10":
+"@types/eslint@npm:*, @types/eslint@npm:8.4.10, @types/eslint@npm:^8.4.10":
   version: 8.4.10
   resolution: "@types/eslint@npm:8.4.10"
   dependencies:
@@ -3616,6 +3617,15 @@ __metadata:
   version: 1.0.0-alpha.2
   resolution: "@w5s/dev@npm:1.0.0-alpha.2"
   checksum: 4093aca922bc1e7b09d41e7991b6cbb3d835a3e07a4c0663faaea44afafa20d6144e38953b41013f9a26393ad8e53e5b2d3b29a567e2c32c373475dae6c08a04
+  languageName: node
+  linkType: hard
+
+"@w5s/dev@npm:^1.0.0-alpha.3":
+  version: 1.0.0-alpha.3
+  resolution: "@w5s/dev@npm:1.0.0-alpha.3"
+  dependencies:
+    "@types/eslint": ^8.4.10
+  checksum: cb1b04ad1e1b5badcc92ff3df2076ebb132059b51d4eba3adef570d5b14f7574f3b9a7e6ba77742ef7ad662a93577188c025f8bc3062ca7e4c10210f2b697b9d
   languageName: node
   linkType: hard
 
