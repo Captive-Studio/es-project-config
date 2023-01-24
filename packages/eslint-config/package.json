@@ -1,6 +1,6 @@
 {
   "name": "@captive/eslint-config",
-  "version": "1.7.11",
+  "version": "1.7.12",
   "description": "ESLint configuration presets",
   "keywords": [
     "eslint",
@@ -56,7 +56,7 @@
     ]
   },
   "dependencies": {
-    "@captive/prettier-config": "^1.1.5",
+    "@captive/prettier-config": "^1.1.6",
     "@w5s/eslint-config": "^1.0.0-alpha.47",
     "eslint-plugin-cypress": "^2.12.1",
     "eslint-plugin-vue": "^9.9.0"
