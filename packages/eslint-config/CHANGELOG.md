@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>1.7.15 (2023-01-30)</small>
+
+- 🐛 Rollback and remove vue/block-lang ([2bcd009](https://github.com/Captive-Studio/es-project-config/commit/2bcd009))
+
 ## <small>1.7.14 (2023-01-30)</small>
 
 - 🐛 Add missing built file ([9712c3e](https://github.com/Captive-Studio/es-project-config/commit/9712c3e))
