@@ -493,6 +493,7 @@ __metadata:
     "@commitlint/cli": 17.4.2
     "@jest/globals": latest
     "@types/node": 12.20.45
+    "@w5s/conventional-changelog": 1.0.0-alpha.1
     concurrently: 7.6.0
     cspell: 6.19.2
     es-jest: 2.1.0
@@ -3594,6 +3595,17 @@ __metadata:
     "@commitlint/cli":
       optional: true
   checksum: 9827ac721b45ee5e0e6b86910294c1acb7efa6c7336ecccbd0bb0c1b8cd2ef3a1a73503fdca53a9615352b7b8660ec4653b1208d8924e0c5c8d346ff1ab6d4e1
+  languageName: node
+  linkType: hard
+
+"@w5s/conventional-changelog@npm:1.0.0-alpha.1":
+  version: 1.0.0-alpha.1
+  resolution: "@w5s/conventional-changelog@npm:1.0.0-alpha.1"
+  dependencies:
+    "@commitlint/types": ^17.0.0
+    emoji-regex: ^10.2.1
+    gitmojis: ^3.13.4
+  checksum: 34e0e0c4332d6b1642628911358e473cdb7d8b396fbb26041c123d435f20980591b9b2db97629d45eda95f2c655dce22ca08cab164234d7231ba6fb4453a0981
   languageName: node
   linkType: hard
 

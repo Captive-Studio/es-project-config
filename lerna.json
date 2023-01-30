@@ -11,5 +11,6 @@
     }
   },
   "version": "independent",
-  "$schema": "https://json.schemastore.org/lerna.json"
+  "$schema": "https://json.schemastore.org/lerna.json",
+  "changelogPreset": "@w5s/conventional-changelog"
 }
