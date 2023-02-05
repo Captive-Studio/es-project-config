@@ -39,7 +39,7 @@
     "test:src": "jest"
   },
   "devDependencies": {
-    "browserslist": "4.21.4",
+    "browserslist": "4.21.5",
     "lodash-es": "4.17.21"
   },
   "peerDependencies": {
