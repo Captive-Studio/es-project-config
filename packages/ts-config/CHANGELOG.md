@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>1.3.6 (2023-02-06)</small>
+
+- ⬆️ Upgrade dependency typescript to v4.9.5 ([e972e50](https://github.com/Captive-Studio/es-project-config/commit/e972e50))
+
 ## [1.3.5](https://github.com/Captive-Studio/es-project-config/compare/@captive/ts-config@1.3.4...@captive/ts-config@1.3.5) (2023-01-24)
 
 **Note:** Version bump only for package @captive/ts-config

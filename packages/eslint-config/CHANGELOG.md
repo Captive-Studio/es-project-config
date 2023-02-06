@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>1.7.16 (2023-02-06)</small>
+
+- ♻️ Drop support for react ([6ef4612](https://github.com/Captive-Studio/es-project-config/commit/6ef4612))
+- ⬆️ Upgrade dependency @types/eslint to v8.21.0 ([0e75ae9](https://github.com/Captive-Studio/es-project-config/commit/0e75ae9))
+- ⬆️ Upgrade dependency eslint to v8.33.0 ([b02a90e](https://github.com/Captive-Studio/es-project-config/commit/b02a90e))
+- ⬆️ Upgrade dependency vue to v3.2.47 ([adcfed4](https://github.com/Captive-Studio/es-project-config/commit/adcfed4))
+- 🐛 Enable vue parsing ([e55ab30](https://github.com/Captive-Studio/es-project-config/commit/e55ab30))
+- 🐛 Fix dependency errors ([77bb44d](https://github.com/Captive-Studio/es-project-config/commit/77bb44d))
+
 ## <small>1.7.15 (2023-01-30)</small>
 
 - 🐛 Rollback and remove vue/block-lang ([2bcd009](https://github.com/Captive-Studio/es-project-config/commit/2bcd009))

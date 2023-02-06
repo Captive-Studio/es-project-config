@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>1.0.4 (2023-02-06)</small>
+
+- ⬆️ Upgrade dependency browserslist to v4.21.5 ([f9f53df](https://github.com/Captive-Studio/es-project-config/commit/f9f53df))
+
 ## [1.0.3](https://github.com/Captive-Studio/es-project-config/compare/@captive/browserslist-config@1.0.2...@captive/browserslist-config@1.0.3) (2023-01-24)
 
 **Note:** Version bump only for package @captive/browserslist-config
