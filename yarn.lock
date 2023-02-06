@@ -494,7 +494,7 @@ __metadata:
     "@commitlint/cli": 17.4.2
     "@jest/globals": latest
     "@types/node": 12.20.45
-    "@w5s/conventional-changelog": 1.0.0-alpha.1
+    "@w5s/conventional-changelog": 1.0.0-alpha.2
     concurrently: 7.6.0
     cspell: 6.22.0
     es-jest: 2.1.0
@@ -3597,7 +3597,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@w5s/conventional-changelog@npm:1.0.0-alpha.1, @w5s/conventional-changelog@npm:^1.0.0-alpha.1":
+"@w5s/conventional-changelog@npm:1.0.0-alpha.2":
+  version: 1.0.0-alpha.2
+  resolution: "@w5s/conventional-changelog@npm:1.0.0-alpha.2"
+  dependencies:
+    "@commitlint/types": ^17.0.0
+    emoji-regex: ^10.2.1
+    gitmojis: ^3.13.4
+  checksum: 73c109c5a99e902e5cb0de327ef7bb899cf9657262675ce425bbe673f67bb390f9c2a26a8a8e772eeffb195c62a379b72afb0eac9eb34620104c9b91fa26f2c7
+  languageName: node
+  linkType: hard
+
+"@w5s/conventional-changelog@npm:^1.0.0-alpha.1":
   version: 1.0.0-alpha.1
   resolution: "@w5s/conventional-changelog@npm:1.0.0-alpha.1"
   dependencies:
