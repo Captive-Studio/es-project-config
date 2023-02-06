@@ -29,7 +29,6 @@ module.exports = {
     require.resolve('./yml.js'),
     require.resolve('./jest.js'),
     ...includeIf(tryResolve('cypress'), () => require.resolve('./cypress.js')),
-    ...includeIf(tryResolve('react'), () => require.resolve('./react.js')),
     ...includeIf(tryResolve('vue'), () => require.resolve('./vue.js')),
   ],
   root: true,
