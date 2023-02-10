@@ -4,9 +4,7 @@
   "compilerOptions": {
     "declarationMap": false,
     "jsx": "react",
-    "outDir": "lib",
     "resolveJsonModule": true,
     "sourceMap": false
-  },
-  "include": ["src"]
+  }
 }

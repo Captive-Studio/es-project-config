@@ -25,8 +25,9 @@
   ],
   "scripts": {
     "build": "concurrently \"npm:build:*\" \":\"",
-    "build:tsc": "tsc",
+    "build:tsc": "tsc -b tsconfig.build.json",
     "clean": "concurrently \"npm:clean:*\" \":\"",
+    "clean:tsc": "rm -rf lib",
     "docs": "md-magic --path '**/*.md' --ignore='node_modules'",
     "format": "concurrently \"npm:format:*\" \":\"",
     "format:src": "eslint . --fix --ext=mjs,cjs,js,jsx,ts,tsx,json,jsonc,json5,yml,yaml",
