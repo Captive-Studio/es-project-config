@@ -1,23 +1,30 @@
-const getPackageScope = () => {
+/* eslint-disable @typescript-eslint/naming-convention */
+/* eslint-disable @typescript-eslint/no-unsafe-assignment */
+/* eslint-disable global-require */
+/* eslint-disable import/no-dynamic-require */
+/* eslint-disable @typescript-eslint/no-var-requires */
+/* eslint-disable @typescript-eslint/no-require-imports */
+
+import type * as prettier from 'prettier';
+
+const getPackageScope = (): string | undefined => {
   try {
-    // eslint-disable-next-line global-require
-    const { name } = require('./package.json');
-    const prefixMatch = (name || '').match(/(@\w+)\//);
-    const packageScope = prefixMatch ? prefixMatch[1] : undefined;
+    const { name } = require('../package.json') as { name?: string };
+    const prefixMatch = (name ?? '').match(/(@\w+)\//);
+    const packageScope = prefixMatch == null ? undefined : prefixMatch[1];
     return packageScope;
-  } catch (error_) {
+  } catch (error_: unknown) {
     // eslint-disable-next-line no-console
     console.warn(error_);
 
     return undefined;
   }
 };
-const getPrettierConfig = (/** @type {string} */ moduleName) => {
+
+const getPrettierConfig = (moduleName: string): prettier.Config | undefined => {
   try {
-    /** @type {import('prettier').Config} */
-    // eslint-disable-next-line global-require, import/no-dynamic-require
     const moduleConfig = require(moduleName);
-    return moduleConfig;
+    return moduleConfig as prettier.Config | undefined;
   } catch {
     return undefined;
   }
@@ -25,12 +32,11 @@ const getPrettierConfig = (/** @type {string} */ moduleName) => {
 
 // Try require '@my-organization/prettier-config'
 const getPrettierConfigDefault = () => {
-  /** @type {import('prettier').Config} */
-  const defaultConfig = {
+  const defaultConfig: prettier.Config = {
     trailingComma: 'es5',
   };
   const packageScope = getPackageScope();
-  return getPrettierConfig(`${packageScope}/prettier-config`) || defaultConfig;
+  return (packageScope == null ? undefined : getPrettierConfig(`${packageScope}/prettier-config`)) ?? defaultConfig;
 };
 
 const bemSelector = (/** @type {'any'|'kebabCase'|'pascalCase'} */ selector = 'any') => {
@@ -41,7 +47,7 @@ const bemSelector = (/** @type {'any'|'kebabCase'|'pascalCase'} */ selector = 'a
   return `^[a-z](${word})?(__(${word}-?)+)*(--(${word}-?)+){0,2}$`;
 };
 
-module.exports = {
+const stylelintConfig = {
   extends: ['stylelint-config-standard-scss', 'stylelint-config-prettier', 'stylelint-config-standard-vue'],
   plugins: ['stylelint-order', 'stylelint-prettier', 'stylelint-scss'],
   rules: {
@@ -56,3 +62,5 @@ module.exports = {
     ],
   },
 };
+
+export = stylelintConfig;
