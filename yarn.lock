@@ -495,6 +495,7 @@ __metadata:
     "@jest/globals": latest
     "@types/node": 12.20.45
     "@w5s/conventional-changelog": 1.0.0-alpha.2
+    "@w5s/cspell-config": 1.0.0-alpha.9
     concurrently: 7.6.0
     cspell: 6.22.0
     es-jest: 2.1.0
@@ -737,7 +738,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@cspell/cspell-bundled-dicts@npm:6.22.0":
+"@cspell/cspell-bundled-dicts@npm:6.22.0, @cspell/cspell-bundled-dicts@npm:^6.0.0":
   version: 6.22.0
   resolution: "@cspell/cspell-bundled-dicts@npm:6.22.0"
   dependencies:
@@ -3684,6 +3685,20 @@ __metadata:
     emoji-regex: ^10.2.1
     gitmojis: ^3.13.4
   checksum: 34e0e0c4332d6b1642628911358e473cdb7d8b396fbb26041c123d435f20980591b9b2db97629d45eda95f2c655dce22ca08cab164234d7231ba6fb4453a0981
+  languageName: node
+  linkType: hard
+
+"@w5s/cspell-config@npm:1.0.0-alpha.9":
+  version: 1.0.0-alpha.9
+  resolution: "@w5s/cspell-config@npm:1.0.0-alpha.9"
+  dependencies:
+    "@cspell/cspell-bundled-dicts": ^6.0.0
+  peerDependencies:
+    cspell: ^6.0.0
+  peerDependenciesMeta:
+    cspell:
+      optional: true
+  checksum: 88669e3e30789fc4d97b516d641a9bb5fa9fc86b3f430b54ba7bd8c31ec2e05abcaa9ad5dcde0a61e97a8ba80465edd49e96a68d95016fe0c26a776eb5d07fba
   languageName: node
   linkType: hard
 

@@ -10,7 +10,7 @@ const config: eslint.Linter.Config = ESLintConfig.concat(
     plugins: ['cypress'],
   },
   /**
-   * Disable some unuseful Jest rules
+   * Disable some useless Jest rules
    */
   {
     rules: {
