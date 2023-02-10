@@ -29,7 +29,7 @@
     "format:root": "eslint . --ext=mjs,cjs,js,jsx,ts,tsx,json,jsonc,json5,yml,yaml --ignore-pattern='packages/*/**' --fix",
     "lint": "turbo run lint",
     "lint:root": "eslint . --ext=mjs,cjs,js,jsx,ts,tsx,json,jsonc,json5,yml,yaml --ignore-pattern='packages/*/**'",
-    "mrm": "mrm --preset @w5s/mrm-preset",
+    "mrm": "npm exec --package=mrm@4 --package=@w5s/mrm-preset -- mrm --preset @w5s/mrm-preset",
     "postbuild": "npm run docs",
     "prepare": "concurrently \"npm:prepare:*\" \":\"",
     "prepare:empty": ":",
@@ -110,7 +110,6 @@
     "markdown-magic": "2.6.1",
     "markdown-magic-package-json": "2.0.2",
     "markdown-magic-subpackage-list": "1.1.2",
-    "mrm": "4.1.13",
     "prettier": "2.8.3",
     "turbo": "1.7.3",
     "typescript": "4.9.5"
