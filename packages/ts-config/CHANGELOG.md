@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>1.3.7 (2023-02-10)</small>
+
+- ✏️ Fix cspell errors ([c9975ec](https://github.com/Captive-Studio/es-project-config/commit/c9975ec))
+
 ## <small>1.3.6 (2023-02-06)</small>
 
 - ⬆️ Upgrade dependency typescript to v4.9.5 ([e972e50](https://github.com/Captive-Studio/es-project-config/commit/e972e50))

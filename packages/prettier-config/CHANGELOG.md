@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>1.1.7 (2023-02-10)</small>
+
+- ✏️ Fix cspell errors ([c9975ec](https://github.com/Captive-Studio/es-project-config/commit/c9975ec))
+- 👷 Rename build:src and clean:src ([57c24d7](https://github.com/Captive-Studio/es-project-config/commit/57c24d7))
+- 🔨 Update typescript build scripts ([4e16703](https://github.com/Captive-Studio/es-project-config/commit/4e16703))
+
 ## [1.1.6](https://github.com/Captive-Studio/es-project-config/compare/@captive/prettier-config@1.1.5...@captive/prettier-config@1.1.6) (2023-01-24)
 
 **Note:** Version bump only for package @captive/prettier-config

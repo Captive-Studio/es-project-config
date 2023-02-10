@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>1.7.17 (2023-02-10)</small>
+
+- ♻️ Update built files ([3304f61](https://github.com/Captive-Studio/es-project-config/commit/3304f61))
+- ✏️ Fix cspell errors ([c9975ec](https://github.com/Captive-Studio/es-project-config/commit/c9975ec))
+- 👷 Rename build:src and clean:src ([57c24d7](https://github.com/Captive-Studio/es-project-config/commit/57c24d7))
+- 🔨 Update typescript build scripts ([4e16703](https://github.com/Captive-Studio/es-project-config/commit/4e16703))
+
 ## <small>1.7.16 (2023-02-06)</small>
 
 - ♻️ Drop support for react ([6ef4612](https://github.com/Captive-Studio/es-project-config/commit/6ef4612))

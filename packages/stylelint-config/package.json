@@ -1,6 +1,6 @@
 {
   "name": "@captive/stylelint-config",
-  "version": "1.3.9",
+  "version": "1.3.10",
   "description": "StyleLint configuration presets",
   "keywords": [
     "stylelint",
@@ -45,7 +45,7 @@
     }
   },
   "dependencies": {
-    "@captive/prettier-config": "^1.1.6",
+    "@captive/prettier-config": "^1.1.7",
     "postcss": "^8.4.14",
     "postcss-html": "*",
     "stylelint-config-prettier": "^9.0.3",

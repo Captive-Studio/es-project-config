@@ -3,6 +3,11 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>1.0.5 (2023-02-10)</small>
+
+- ✏️ Fix cspell errors ([c9975ec](https://github.com/Captive-Studio/es-project-config/commit/c9975ec))
+- 📝 Update browserslist documentation ([26f9764](https://github.com/Captive-Studio/es-project-config/commit/26f9764))
+
 ## <small>1.0.4 (2023-02-06)</small>
 
 - ⬆️ Upgrade dependency browserslist to v4.21.5 ([f9f53df](https://github.com/Captive-Studio/es-project-config/commit/f9f53df))

@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>1.1.9 (2023-02-10)</small>
+
+- ✏️ Fix cspell errors ([c9975ec](https://github.com/Captive-Studio/es-project-config/commit/c9975ec))
+- ⬆️ Upgrade jest monorepo to v29.4.2 ([1831e44](https://github.com/Captive-Studio/es-project-config/commit/1831e44))
+- 👷 Rename build:src and clean:src ([57c24d7](https://github.com/Captive-Studio/es-project-config/commit/57c24d7))
+- 🔨 Update typescript build scripts ([4e16703](https://github.com/Captive-Studio/es-project-config/commit/4e16703))
+
 ## [1.1.8](https://github.com/Captive-Studio/es-project-config/compare/@captive/commitlint-config@1.1.7...@captive/commitlint-config@1.1.8) (2023-01-30)
 
 **Note:** Version bump only for package @captive/commitlint-config
