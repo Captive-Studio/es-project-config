@@ -36,7 +36,7 @@ In the `package.json` for your project
 ## Supported Browsers
 <!-- AUTO-GENERATED-CONTENT:START (FILE:src=./BROWSER_LIST.md) -->
 <!-- The below content is automatically added from ./BROWSER_LIST.md -->
-_Generated Automatically at Fri, 20 Jan 2023 17:20:18 GMT_
+_Generated Automatically at Fri, 10 Feb 2023 17:41:55 GMT_
 
 ### Desktop
 
@@ -51,7 +51,7 @@ _Generated Automatically at Fri, 20 Jan 2023 17:20:18 GMT_
 ### Mobile
 
 - Chrome for Android (109)
-- Firefox for Android (107)
+- Firefox for Android (109)
 - UC Browser (13.4)
 - Safari for iOS (16.2, 16.1, 16.0, 15.6, 15.5, 15.4, 15.2-15.3, 14.5-14.8, 14.0-14.4, 12.2-12.5)
 
