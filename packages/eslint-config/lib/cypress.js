@@ -8,7 +8,7 @@ const config = dev_1.ESLintConfig.concat({
     plugins: ['cypress'],
 }, 
 /**
- * Disable some unuseful Jest rules
+ * Disable some useless Jest rules
  */
 {
     rules: {

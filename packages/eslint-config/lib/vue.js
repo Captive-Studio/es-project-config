@@ -14,7 +14,7 @@ const config = {
         project: './tsconfig.json',
     },
     rules: {
-        'vue/component-api-style': ['error', ['script-setup']], // Use script-setup as default syntax, can be overriden in project if needed
+        'vue/component-api-style': ['error', ['script-setup']], // Use script-setup as default syntax, can be overridden in project if needed
     },
 };
 module.exports = config;
