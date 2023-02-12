@@ -455,7 +455,7 @@ __metadata:
     eslint-find-rules: 4.1.0
     eslint-plugin-cypress: ^2.12.1
     eslint-plugin-vue: ^9.9.0
-    prettier: 2.8.3
+    prettier: 2.8.4
     react: 18.2.0
     vue: 3.2.47
   peerDependencies:
@@ -475,7 +475,7 @@ __metadata:
   resolution: "@captive/prettier-config@workspace:packages/prettier-config"
   dependencies:
     "@w5s/prettier-config": ^1.0.1
-    prettier: 2.8.3
+    prettier: 2.8.4
   peerDependencies:
     prettier: 2.x
   peerDependenciesMeta:
@@ -509,7 +509,7 @@ __metadata:
     markdown-magic: 2.6.1
     markdown-magic-package-json: 2.0.2
     markdown-magic-subpackage-list: 1.1.2
-    prettier: 2.8.3
+    prettier: 2.8.4
     turbo: 1.7.3
     typescript: 4.9.5
   languageName: unknown
@@ -10566,12 +10566,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier@npm:2.8.3":
-  version: 2.8.3
-  resolution: "prettier@npm:2.8.3"
+"prettier@npm:2.8.4":
+  version: 2.8.4
+  resolution: "prettier@npm:2.8.4"
   bin:
     prettier: bin-prettier.js
-  checksum: 92f2ceb522d454370e02082aa74ad27388672f7cee8975028b59517c069fe643bdc73e322675c8faf2ff173d7a626d1a6389f26b474000308e793aa25fff46e5
+  checksum: c173064bf3df57b6d93d19aa98753b9b9dd7657212e33b41ada8e2e9f9884066bb9ca0b4005b89b3ab137efffdf8fbe0b462785aba20364798ff4303aadda57e
   languageName: node
   linkType: hard
 
