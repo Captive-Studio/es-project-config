@@ -56,10 +56,10 @@
     "stylelint-scss": "^4.3.0"
   },
   "devDependencies": {
-    "stylelint": "14.16.1"
+    "stylelint": "15.1.0"
   },
   "peerDependencies": {
-    "stylelint": "^14.2.0"
+    "stylelint": "^14.2.0 || ^15.0.0"
   },
   "peerDependenciesMeta": {
     "stylelint": {
