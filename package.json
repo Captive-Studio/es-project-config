@@ -98,7 +98,7 @@
     "@w5s/conventional-changelog": "1.0.0-alpha.3",
     "@w5s/cspell-config": "1.0.0-alpha.9",
     "concurrently": "7.6.0",
-    "cspell": "6.22.0",
+    "cspell": "6.26.3",
     "es-jest": "2.1.0",
     "eslint": "8.34.0",
     "eslint-plugin-sort-keys-fix": "1.1.2",
