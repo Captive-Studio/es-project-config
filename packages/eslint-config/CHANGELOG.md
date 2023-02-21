@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>1.7.18 (2023-02-21)</small>
+
+- ⬆️ Upgrade dependency @types/eslint to v8.21.1 ([014e15e](https://github.com/Captive-Studio/es-project-config/commit/014e15e))
+- ⬆️ Upgrade dependency @types/react to v18.0.28 ([ba7b9e6](https://github.com/Captive-Studio/es-project-config/commit/ba7b9e6))
+- ⬆️ Upgrade dependency @w5s/eslint-config to v1.0.0-alpha.52 ([c233cae](https://github.com/Captive-Studio/es-project-config/commit/c233cae))
+- ⬆️ Upgrade dependency eslint to v8.34.0 ([c6ae3cd](https://github.com/Captive-Studio/es-project-config/commit/c6ae3cd))
+- ⬆️ Upgrade dependency prettier to v2.8.4 ([3e1b367](https://github.com/Captive-Studio/es-project-config/commit/3e1b367))
+
 ## <small>1.7.17 (2023-02-10)</small>
 
 - ♻️ Update built files ([3304f61](https://github.com/Captive-Studio/es-project-config/commit/3304f61))

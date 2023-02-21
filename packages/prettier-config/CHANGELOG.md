@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>1.1.8 (2023-02-21)</small>
+
+- ⬆️ Upgrade dependency prettier to v2.8.4 ([3e1b367](https://github.com/Captive-Studio/es-project-config/commit/3e1b367))
+
 ## <small>1.1.7 (2023-02-10)</small>
 
 - ✏️ Fix cspell errors ([c9975ec](https://github.com/Captive-Studio/es-project-config/commit/c9975ec))

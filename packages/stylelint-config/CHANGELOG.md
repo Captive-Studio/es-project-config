@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>1.3.11 (2023-02-21)</small>
+
+- ⬆️ Upgrade dependency stylelint to v15 ([9fc4182](https://github.com/Captive-Studio/es-project-config/commit/9fc4182))
+- ⬆️ Upgrade dependency stylelint to v15.2.0 ([626a761](https://github.com/Captive-Studio/es-project-config/commit/626a761))
+- ⬆️ Upgrade dependency stylelint-config-standard-scss to v7 ([d3c127d](https://github.com/Captive-Studio/es-project-config/commit/d3c127d))
+
 ## <small>1.3.10 (2023-02-10)</small>
 
 - ✏️ Fix cspell errors ([c9975ec](https://github.com/Captive-Studio/es-project-config/commit/c9975ec))

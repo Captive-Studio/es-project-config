@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>1.1.10 (2023-02-21)</small>
+
+- ⬆️ Upgrade commitlint monorepo to v17.4.3 ([fab7b78](https://github.com/Captive-Studio/es-project-config/commit/fab7b78))
+- ⬆️ Upgrade commitlint monorepo to v17.4.4 ([776090f](https://github.com/Captive-Studio/es-project-config/commit/776090f))
+- ⬆️ Upgrade jest monorepo to v29.4.3 ([283c980](https://github.com/Captive-Studio/es-project-config/commit/283c980))
+
 ## <small>1.1.9 (2023-02-10)</small>
 
 - ✏️ Fix cspell errors ([c9975ec](https://github.com/Captive-Studio/es-project-config/commit/c9975ec))
