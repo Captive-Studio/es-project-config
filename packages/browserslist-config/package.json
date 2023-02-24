@@ -44,6 +44,20 @@
     "test": "concurrently \"npm:test:*\" ",
     "test:src": "jest"
   },
+  "jest": {
+    "moduleNameMapper": {
+      "^(\\.{1,2}/.*)\\.js$": "$1"
+    },
+    "preset": "es-jest",
+    "testPathIgnorePatterns": [
+      "/node_modules/",
+      "/lib/",
+      "/build/",
+      "/.cache/",
+      "/docs/",
+      "/public/"
+    ]
+  },
   "devDependencies": {
     "@jest/globals": "29.4.3",
     "browserslist": "4.21.5",
