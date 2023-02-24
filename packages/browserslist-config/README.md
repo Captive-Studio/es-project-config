@@ -36,7 +36,7 @@ In the `package.json` for your project
 ## Supported Browsers
 <!-- AUTO-GENERATED-CONTENT:START (FILE:src=./BROWSER_LIST.md) -->
 <!-- The below content is automatically added from ./BROWSER_LIST.md -->
-_Generated Automatically at Tue, 21 Feb 2023 09:23:53 GMT_
+_Generated Automatically at Fri, 24 Feb 2023 08:36:13 GMT_
 
 ### Desktop
 
@@ -55,7 +55,7 @@ _Generated Automatically at Tue, 21 Feb 2023 09:23:53 GMT_
 - UC Browser (13.4)
 - Safari for iOS (16.3, 16.2, 16.1, 16.0, 15.6, 15.5, 15.4, 15.2-15.3, 14.5-14.8, 14.0-14.4, 12.2-12.5)
 
-[View more in https://browserlist.dev (usages, coverage)](https://browserslist.dev/?q=PjAuMiUsbm90IGRlYWQsbm90IG9wX21pbmkgYWxs)
+[View more in browserslist.dev (usages, coverage)](https://browserslist.dev/?q=PjAuMiUsbm90IGRlYWQsbm90IG9wX21pbmkgYWxs)
 <!-- AUTO-GENERATED-CONTENT:END -->
 
 ## License
