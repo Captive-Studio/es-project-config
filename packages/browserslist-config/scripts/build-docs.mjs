@@ -99,7 +99,7 @@ async function buildPageContent() {
     };
   }
 
-  const browsersListConfig = await Package.readBrowsersListConfig('default.js');
+  const browsersListConfig = await Package.readBrowsersListConfig('lib/default.js');
   const url = BrowserListDev.getURL(browsersListConfig);
   const supportedBrowsers = browserslist(browsersListConfig);
   const grouped = groupsByDeviceType(supportedBrowsers);
@@ -120,7 +120,7 @@ async function buildPageContent() {
     ${entries(grouped)
       .map(([deviceType, data]) => buildSection(deviceType, data))
       .join('')}
-    [View more in https://browserlist.dev (usages, coverage)](${url})
+    [View more in browserslist.dev (usages, coverage)](${url})
   `
       .split('\n')
       .map((_) => _.trimStart())
@@ -130,7 +130,16 @@ async function buildPageContent() {
 
 async function main() {
   const file = 'BROWSER_LIST.md';
-  const [markdownContentNew, markdownContent] = await Promise.all([buildPageContent(), readFile(file, 'utf8')]);
+  const [markdownContentNew, markdownContent] = await Promise.all([
+    buildPageContent(),
+    (async () => {
+      try {
+        return await readFile(file, 'utf8');
+      } catch {
+        return '';
+      }
+    })(),
+  ]);
   const getBody = (content) => content.split('\n').slice(1).join('\n');
   const hasChanged = getBody(markdownContentNew) !== getBody(markdownContent);
   if (hasChanged) {
