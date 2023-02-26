@@ -95,7 +95,7 @@
     "@commitlint/cli": "17.4.4",
     "@jest/globals": "latest",
     "@types/node": "12.20.45",
-    "@w5s/conventional-changelog": "1.0.0-alpha.3",
+    "@w5s/conventional-changelog": "1.0.0-alpha.4",
     "@w5s/cspell-config": "1.0.0-alpha.9",
     "concurrently": "7.6.0",
     "cspell": "6.26.3",
