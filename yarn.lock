@@ -497,7 +497,7 @@ __metadata:
     "@jest/globals": latest
     "@types/node": 12.20.45
     "@w5s/conventional-changelog": 1.0.0-alpha.4
-    "@w5s/cspell-config": 1.0.0-alpha.9
+    "@w5s/cspell-config": 1.0.0-alpha.10
     concurrently: 7.6.0
     cspell: 6.26.3
     es-jest: 2.1.0
@@ -2945,9 +2945,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@w5s/cspell-config@npm:1.0.0-alpha.9":
-  version: 1.0.0-alpha.9
-  resolution: "@w5s/cspell-config@npm:1.0.0-alpha.9"
+"@w5s/cspell-config@npm:1.0.0-alpha.10":
+  version: 1.0.0-alpha.10
+  resolution: "@w5s/cspell-config@npm:1.0.0-alpha.10"
   dependencies:
     "@cspell/cspell-bundled-dicts": ^6.0.0
   peerDependencies:
@@ -2955,7 +2955,7 @@ __metadata:
   peerDependenciesMeta:
     cspell:
       optional: true
-  checksum: 88669e3e30789fc4d97b516d641a9bb5fa9fc86b3f430b54ba7bd8c31ec2e05abcaa9ad5dcde0a61e97a8ba80465edd49e96a68d95016fe0c26a776eb5d07fba
+  checksum: 940611fb47cb0c00a1ea7b22093656f8bb45146c2538981661a3af7bd6e48e4146f4f750d57f073e7867eaba0dc470a60da1f6c86bf806f71414c9ae7d92d76a
   languageName: node
   linkType: hard
 
