@@ -1,0 +1,89 @@
+{
+  "name": "@captive/cspell-config",
+  "version": "1.0.0",
+  "description": "CSpell configuration presets",
+  "keywords": [
+    "cspell"
+  ],
+  "homepage": "https://github.com/Captive-Studio/es-project-config/blob/main/packages/cspell-config#readme",
+  "bugs": {
+    "url": "https://github.com/Captive-Studio/es-project-config/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Captive-Studio/es-project-config.git",
+    "directory": "packages/cspell-config"
+  },
+  "license": "MIT",
+  "author": "Julien Polo <julien.polo@captive.fr>",
+  "type": "commonjs",
+  "exports": {
+    ".": "./cspell-ext.json",
+    "./cspell-ext.json": "./cspell-ext.json",
+    "./lib/*": "./lib/*",
+    "./dict/*": "./dict/*"
+  },
+  "typings": "./index.d.ts",
+  "files": [
+    "cspell-ext.json",
+    "dict/**/*",
+    "lib/**/!(*.spec).d.ts",
+    "lib/**/!(*.spec).d.ts.map",
+    "lib/**/!(*.spec).js.map",
+    "lib/**/!(*.spec).js",
+    "src/**/!(*.spec).ts"
+  ],
+  "scripts": {
+    "__build:dict": "cd dict;cspell-tools-cli compile filetypes.txt",
+    "build": "concurrently \"npm:build:*\" \":\"",
+    "build:tsc": "tsc -b tsconfig.build.json",
+    "clean": "concurrently \"npm:clean:*\" \":\"",
+    "clean:tsc": "rm -rf lib",
+    "docs": "node ../../markdown.mjs",
+    "format": "concurrently \"npm:format:*\" \":\"",
+    "format:src": "eslint . --fix --ext=mjs,cjs,js,jsx,ts,tsx,json,jsonc,json5,yml,yaml",
+    "lint": "concurrently \"npm:lint:*\" \":\"",
+    "lint:src": "eslint . --ext=mjs,cjs,js,jsx,ts,tsx,json,jsonc,json5,yml,yaml",
+    "prepare": "concurrently \"npm:prepare:*\" \":\"",
+    "prepublishOnly": "npm run clean;npm run build",
+    "spellcheck": "cspell --no-progress '**'",
+    "test": "concurrently \"npm:test:*\" ",
+    "test:src": "exit 0"
+  },
+  "jest": {
+    "moduleNameMapper": {
+      "^(\\.{1,2}/.*)\\.js$": "$1"
+    },
+    "preset": "es-jest",
+    "testPathIgnorePatterns": [
+      "/node_modules/",
+      "/lib/",
+      "/build/",
+      "/.cache/",
+      "/docs/",
+      "/public/"
+    ]
+  },
+  "dependencies": {
+    "@w5s/cspell-config": "1.0.0-alpha.11"
+  },
+  "devDependencies": {
+    "@cspell/cspell-tools": "6.27.0",
+    "@cspell/cspell-types": "6.27.0",
+    "@jest/globals": "29.4.3"
+  },
+  "peerDependencies": {
+    "cspell": "^6.0.0"
+  },
+  "peerDependenciesMeta": {
+    "cspell": {
+      "optional": true
+    }
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

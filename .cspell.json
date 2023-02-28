@@ -5,5 +5,5 @@
   "ignoreWords": [],
   "flagWords": [],
   "ignorePaths": ["**/package.json", "packages/mrm-preset/_tester/**"],
-  "import": ["@w5s/cspell-config"]
+  "import": ["@captive/cspell-config"]
 }

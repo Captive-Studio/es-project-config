@@ -440,6 +440,22 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@captive/cspell-config@workspace:*, @captive/cspell-config@workspace:packages/cspell-config":
+  version: 0.0.0-use.local
+  resolution: "@captive/cspell-config@workspace:packages/cspell-config"
+  dependencies:
+    "@cspell/cspell-tools": 6.27.0
+    "@cspell/cspell-types": 6.27.0
+    "@jest/globals": 29.4.3
+    "@w5s/cspell-config": 1.0.0-alpha.11
+  peerDependencies:
+    cspell: ^6.0.0
+  peerDependenciesMeta:
+    cspell:
+      optional: true
+  languageName: unknown
+  linkType: soft
+
 "@captive/eslint-config@workspace:*, @captive/eslint-config@workspace:packages/eslint-config":
   version: 0.0.0-use.local
   resolution: "@captive/eslint-config@workspace:packages/eslint-config"
@@ -491,12 +507,12 @@ __metadata:
   resolution: "@captive/project-config-src@workspace:."
   dependencies:
     "@captive/commitlint-config": "workspace:*"
+    "@captive/cspell-config": "workspace:*"
     "@captive/eslint-config": "workspace:*"
     "@captive/ts-config": "workspace:*"
     "@jest/globals": latest
     "@types/node": 12.20.45
     "@w5s/conventional-changelog": 1.0.0-alpha.4
-    "@w5s/cspell-config": 1.0.0-alpha.10
     concurrently: 7.6.0
     cspell: 6.27.0
     es-jest: 2.1.0
@@ -739,7 +755,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@cspell/cspell-pipe@npm:6.27.0":
+"@cspell/cspell-pipe@npm:6.27.0, @cspell/cspell-pipe@npm:^6.27.0":
   version: 6.27.0
   resolution: "@cspell/cspell-pipe@npm:6.27.0"
   checksum: 3b38047021db18ae16bf57da640e667ec79b8dc89ab0dfbcd540d68c90bdc0e8dbb860fcf0f995039dabc2d2b6b8390f3a171243bbed32af4ea0ff75fa114c4c
@@ -753,7 +769,24 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@cspell/cspell-types@npm:6.27.0":
+"@cspell/cspell-tools@npm:6.27.0":
+  version: 6.27.0
+  resolution: "@cspell/cspell-tools@npm:6.27.0"
+  dependencies:
+    "@cspell/cspell-pipe": 6.27.0
+    commander: ^10.0.0
+    cosmiconfig: 8.0.0
+    cspell-trie-lib: 6.27.0
+    gensequence: ^4.0.3
+    glob: ^8.1.0
+    hunspell-reader: 6.27.0
+  bin:
+    cspell-tools-cli: bin.js
+  checksum: 3a92139b6000488206b899329dae20ffc00674f980ad5c2b392d773edd713f6c3cea637b235fd3c1fc23bd8ae88e6b61eed1dd362dc06068ccce5f0ec0634e8c
+  languageName: node
+  linkType: hard
+
+"@cspell/cspell-types@npm:6.27.0, @cspell/cspell-types@npm:^6.27.0":
   version: 6.27.0
   resolution: "@cspell/cspell-types@npm:6.27.0"
   checksum: 735d41410d966d0eb690c33eae0d0df1d87d054640cf279cdcd0aa9a774e0ea097b08b70794e9ebbb83ef5ecd7cbf2fb4902a6be41f810861bb982a0eac02267
@@ -2857,9 +2890,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@w5s/cspell-config@npm:1.0.0-alpha.10":
-  version: 1.0.0-alpha.10
-  resolution: "@w5s/cspell-config@npm:1.0.0-alpha.10"
+"@w5s/cspell-config@npm:1.0.0-alpha.11":
+  version: 1.0.0-alpha.11
+  resolution: "@w5s/cspell-config@npm:1.0.0-alpha.11"
   dependencies:
     "@cspell/cspell-bundled-dicts": ^6.0.0
   peerDependencies:
@@ -2867,7 +2900,7 @@ __metadata:
   peerDependenciesMeta:
     cspell:
       optional: true
-  checksum: 940611fb47cb0c00a1ea7b22093656f8bb45146c2538981661a3af7bd6e48e4146f4f750d57f073e7867eaba0dc470a60da1f6c86bf806f71414c9ae7d92d76a
+  checksum: 13b605efc42c7f8960d9ce662f148cb92b82d8d4acb3e364ede4d528445c5d13584a48675494542500a96a03c69ffc74e491200d709505310e03e83dc3f66c7b
   languageName: node
   linkType: hard
 
@@ -6100,7 +6133,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"glob@npm:^8.0.1":
+"glob@npm:^8.0.1, glob@npm:^8.1.0":
   version: 8.1.0
   resolution: "glob@npm:8.1.0"
   dependencies:
@@ -6465,6 +6498,21 @@ __metadata:
   languageName: node
   linkType: hard
 
+"hunspell-reader@npm:6.27.0":
+  version: 6.27.0
+  resolution: "hunspell-reader@npm:6.27.0"
+  dependencies:
+    "@cspell/cspell-pipe": ^6.27.0
+    "@cspell/cspell-types": ^6.27.0
+    commander: ^10.0.0
+    gensequence: ^4.0.3
+    iconv-lite: ^0.6.3
+  bin:
+    hunspell-reader: bin.js
+  checksum: 9466a0f59df6574b82cee95e86940167773188af4463767d7808e2e0e1bfa05336169427babf9accb3a702274375d765579050d090fecc332a81151b0a708b0e
+  languageName: node
+  linkType: hard
+
 "iconv-lite@npm:^0.4.24":
   version: 0.4.24
   resolution: "iconv-lite@npm:0.4.24"
@@ -6474,7 +6522,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"iconv-lite@npm:^0.6.2":
+"iconv-lite@npm:^0.6.2, iconv-lite@npm:^0.6.3":
   version: 0.6.3
   resolution: "iconv-lite@npm:0.6.3"
   dependencies:
