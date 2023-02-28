@@ -13,8 +13,5 @@
     "yaml"
   ],
   "stylelint.enable": true,
-  "stylelint.validate": [
-    "css",
-    "scss"
-  ]
+  "stylelint.validate": ["css", "scss"]
 }
