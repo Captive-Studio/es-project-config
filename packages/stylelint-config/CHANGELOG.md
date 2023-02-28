@@ -3,6 +3,11 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>1.3.12 (2023-02-28)</small>
+
+- 👷 Do not build spec files ([aa02d3c](https://github.com/Captive-Studio/es-project-config/commit/aa02d3c))
+- 📝 Fix doc generator ([4c2d547](https://github.com/Captive-Studio/es-project-config/commit/4c2d547))
+
 ## <small>1.3.11 (2023-02-21)</small>
 
 - ⬆️ Upgrade dependency stylelint to v15 ([9fc4182](https://github.com/Captive-Studio/es-project-config/commit/9fc4182))

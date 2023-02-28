@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>1.7.19 (2023-02-28)</small>
+
+- ⬆️ Upgrade dependency @w5s/eslint-config to v1.0.0-alpha.53 ([91e9211](https://github.com/Captive-Studio/es-project-config/commit/91e9211))
+- ⬆️ Upgrade dependency eslint to v8.35.0 ([d744ec2](https://github.com/Captive-Studio/es-project-config/commit/d744ec2))
+- 👷 Do not build spec files ([aa02d3c](https://github.com/Captive-Studio/es-project-config/commit/aa02d3c))
+- 📝 Fix doc generator ([4c2d547](https://github.com/Captive-Studio/es-project-config/commit/4c2d547))
+
 ## <small>1.7.18 (2023-02-21)</small>
 
 - ⬆️ Upgrade dependency @types/eslint to v8.21.1 ([014e15e](https://github.com/Captive-Studio/es-project-config/commit/014e15e))

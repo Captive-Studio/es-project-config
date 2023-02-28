@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>1.0.7 (2023-02-28)</small>
+
+- ♻️ Migrate to Typescript ([140402e](https://github.com/Captive-Studio/es-project-config/commit/140402e))
+- ✅ Fix tests ([9cb3774](https://github.com/Captive-Studio/es-project-config/commit/9cb3774))
+- 👷 Do not build spec files ([aa02d3c](https://github.com/Captive-Studio/es-project-config/commit/aa02d3c))
+- 📝 Fix doc generator ([4c2d547](https://github.com/Captive-Studio/es-project-config/commit/4c2d547))
+- 📝 Update browserslist support ([222c962](https://github.com/Captive-Studio/es-project-config/commit/222c962))
+
 ## <small>1.0.6 (2023-02-21)</small>
 
 - 📝 Update browser support documentation ([68e9170](https://github.com/Captive-Studio/es-project-config/commit/68e9170))
