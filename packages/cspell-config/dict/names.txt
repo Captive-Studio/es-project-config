@@ -2,3 +2,4 @@ cobertura
 rubocop
 scalingo
 sidekiq
+dind
