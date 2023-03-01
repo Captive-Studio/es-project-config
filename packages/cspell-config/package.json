@@ -65,7 +65,8 @@
     ]
   },
   "dependencies": {
-    "@w5s/cspell-config": "1.0.0-alpha.11"
+    "@cspell/dict-fr-fr": "^2.2.0",
+    "@w5s/cspell-config": "^1.0.0-alpha.12"
   },
   "devDependencies": {
     "@cspell/cspell-tools": "6.27.0",

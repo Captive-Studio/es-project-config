@@ -25,8 +25,12 @@ const settings: AdvancedCSpellSettings = {
     },
   ],
   dictionaries: [...toArray(defaultSettings.dictionaries), 'captive-filetypes', 'captive-names'],
-  ignoreWords: [],
-  import: [...toArray(defaultSettings.import), '@w5s/cspell-config/cspell-ext.json'],
+  ignoreWords: [...toArray(defaultSettings.ignoreWords)],
+  import: [
+    ...toArray(defaultSettings.import),
+    '@cspell/dict-fr-fr/cspell-ext.json',
+    '@w5s/cspell-config/cspell-ext.json',
+  ],
   ignorePaths: [...toArray(defaultSettings.ignorePaths)],
   languageSettings: [...toArray(defaultSettings.languageSettings)],
 };
