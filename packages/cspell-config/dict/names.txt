@@ -1,2 +1,4 @@
+cobertura
 rubocop
+scalingo
 sidekiq
