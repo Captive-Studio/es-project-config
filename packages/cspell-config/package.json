@@ -69,8 +69,8 @@
     "@w5s/cspell-config": "^1.0.0-alpha.12"
   },
   "devDependencies": {
-    "@cspell/cspell-tools": "6.27.0",
-    "@cspell/cspell-types": "6.27.0",
+    "@cspell/cspell-tools": "6.28.0",
+    "@cspell/cspell-types": "6.28.0",
     "@jest/globals": "29.4.3"
   },
   "peerDependencies": {
