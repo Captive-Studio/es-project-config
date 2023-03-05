@@ -513,7 +513,7 @@ __metadata:
     "@captive/ts-config": "workspace:*"
     "@jest/globals": latest
     "@types/node": 12.20.45
-    "@w5s/conventional-changelog": 1.0.0-alpha.4
+    "@w5s/conventional-changelog": 1.0.0-alpha.6
     concurrently: 7.6.0
     cspell: 6.27.0
     es-jest: 2.1.0
@@ -2895,18 +2895,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@w5s/conventional-changelog@npm:1.0.0-alpha.4":
-  version: 1.0.0-alpha.4
-  resolution: "@w5s/conventional-changelog@npm:1.0.0-alpha.4"
-  dependencies:
-    "@commitlint/types": ^17.0.0
-    emoji-regex: ^10.2.1
-    gitmojis: ^3.13.4
-  checksum: d11fb12d97972136a106e8a7c4d1f3c978e643309e46f7fdc05863d999e1faa035a361d3c6dfb8a05547abd3a320723ac3fde689b6d45dbdb7810aa561a33606
-  languageName: node
-  linkType: hard
-
-"@w5s/conventional-changelog@npm:^1.0.0-alpha.6":
+"@w5s/conventional-changelog@npm:1.0.0-alpha.6, @w5s/conventional-changelog@npm:^1.0.0-alpha.6":
   version: 1.0.0-alpha.6
   resolution: "@w5s/conventional-changelog@npm:1.0.0-alpha.6"
   dependencies:
