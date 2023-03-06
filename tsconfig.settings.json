@@ -2,6 +2,8 @@
   "$schema": "https://json.schemastore.org/tsconfig",
   "extends": "@captive/ts-config",
   "compilerOptions": {
-    "preserveValueImports": false
+    "declarationMap": false,
+    "preserveValueImports": false,
+    "sourceMap": false
   }
 }
