@@ -35,7 +35,7 @@
     "prepublishOnly": "npm run clean; npm run build",
     "pull-external": "scripts/pull",
     "spellcheck": "cspell --no-progress '**'",
-    "test": "concurrently \"npm:test:*\" ",
+    "test": "concurrently \"npm:test:*\" \":\"",
     "test:tsc": "tsc -p _tests/tsconfig.json --noEmit --skipLibCheck"
   },
   "devDependencies": {

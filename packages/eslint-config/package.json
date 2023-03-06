@@ -45,15 +45,9 @@
     "prepare": "concurrently \"npm:prepare:*\" \":\"",
     "prepublishOnly": "npm run clean;npm run build",
     "spellcheck": "cspell --no-progress '**'",
-    "test": "concurrently \"npm:test:*\" ",
-    "test:src": "scripts/test",
+    "test": "concurrently \"npm:test:*\" \":\"",
+    "test:script": "scripts/test",
     "test_:rule-coverage": "eslint-find-rules --unused"
-  },
-  "jest": {
-    "testPathIgnorePatterns": [
-      "node_modules",
-      "_tests"
-    ]
   },
   "dependencies": {
     "@captive/prettier-config": "^1.1.9",
@@ -73,6 +67,8 @@
     "eslint-find-rules": "4.1.0",
     "prettier": "2.8.4",
     "react": "18.2.0",
+    "vite": "latest",
+    "vitest": "latest",
     "vue": "3.2.47"
   },
   "peerDependencies": {

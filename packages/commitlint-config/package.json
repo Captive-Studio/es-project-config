@@ -46,29 +46,16 @@
     "prepare": "concurrently \"npm:prepare:*\" \":\"",
     "prepublishOnly": "npm run clean; npm run build",
     "spellcheck": "cspell --no-progress '**'",
-    "test": "concurrently \"npm:test:*\" ",
-    "test:src": "jest"
-  },
-  "jest": {
-    "moduleNameMapper": {
-      "^(\\.{1,2}/.*)\\.js$": "$1"
-    },
-    "preset": "es-jest",
-    "testPathIgnorePatterns": [
-      "/node_modules/",
-      "/lib/",
-      "/build/",
-      "/.cache/",
-      "/docs/",
-      "/public/"
-    ]
+    "test": "concurrently \"npm:test:*\" \":\"",
+    "test:src": "vitest run"
   },
   "dependencies": {
     "@w5s/commitlint-config": "^1.0.3"
   },
   "devDependencies": {
     "@commitlint/lint": "17.4.4",
-    "@jest/globals": "29.4.3"
+    "vite": "latest",
+    "vitest": "latest"
   },
   "peerDependencies": {
     "@commitlint/cli": "^16.0.0 || ^17.0.0"

@@ -47,22 +47,8 @@
     "prepare": "concurrently \"npm:prepare:*\" \":\"",
     "prepublishOnly": "npm run clean;npm run build",
     "spellcheck": "cspell --no-progress '**'",
-    "test": "concurrently \"npm:test:*\" ",
-    "test:src": "exit 0"
-  },
-  "jest": {
-    "moduleNameMapper": {
-      "^(\\.{1,2}/.*)\\.js$": "$1"
-    },
-    "preset": "es-jest",
-    "testPathIgnorePatterns": [
-      "/node_modules/",
-      "/lib/",
-      "/build/",
-      "/.cache/",
-      "/docs/",
-      "/public/"
-    ]
+    "test": "concurrently \"npm:test:*\" \":\"",
+    "test:src": "vitest run"
   },
   "dependencies": {
     "@cspell/dict-fr-fr": "^2.2.0",
@@ -71,7 +57,8 @@
   "devDependencies": {
     "@cspell/cspell-tools": "6.28.0",
     "@cspell/cspell-types": "6.28.0",
-    "@jest/globals": "29.4.3"
+    "vite": "latest",
+    "vitest": "latest"
   },
   "peerDependencies": {
     "cspell": "^6.0.0"

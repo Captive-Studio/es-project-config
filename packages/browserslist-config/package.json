@@ -41,27 +41,14 @@
     "prepare": "concurrently \"npm:prepare:*\" \":\"",
     "prepublishOnly": "npm run clean; npm run build",
     "spellcheck": "cspell --no-progress '**'",
-    "test": "concurrently \"npm:test:*\" ",
-    "test:src": "jest"
-  },
-  "jest": {
-    "moduleNameMapper": {
-      "^(\\.{1,2}/.*)\\.js$": "$1"
-    },
-    "preset": "es-jest",
-    "testPathIgnorePatterns": [
-      "/node_modules/",
-      "/lib/",
-      "/build/",
-      "/.cache/",
-      "/docs/",
-      "/public/"
-    ]
+    "test": "concurrently \"npm:test:*\" \":\"",
+    "test:src": "vitest run"
   },
   "devDependencies": {
-    "@jest/globals": "29.4.3",
     "browserslist": "4.21.5",
-    "lodash-es": "4.17.21"
+    "lodash-es": "4.17.21",
+    "vite": "latest",
+    "vitest": "latest"
   },
   "peerDependencies": {
     "browserslist": ">= 4.0"

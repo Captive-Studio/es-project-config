@@ -47,14 +47,16 @@
     "prepare": "concurrently \"npm:prepare:*\" \":\"",
     "prepublishOnly": "npm run clean; npm run build",
     "spellcheck": "cspell --no-progress '**'",
-    "test": "concurrently \"npm:test:*\" ",
-    "test:src": "exit 0"
+    "test": "concurrently \"npm:test:*\" \":\"",
+    "test:src": "vitest run"
   },
   "dependencies": {
     "@w5s/prettier-config": "^1.0.1"
   },
   "devDependencies": {
-    "prettier": "2.8.4"
+    "prettier": "2.8.4",
+    "vite": "latest",
+    "vitest": "latest"
   },
   "peerDependencies": {
     "prettier": "2.x"
