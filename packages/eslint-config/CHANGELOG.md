@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>1.7.20 (2023-03-07)</small>
+
+- ⬆️ Upgrade dependency @w5s/eslint-config to v1.0.0-alpha.54 ([a741ec3](https://github.com/Captive-Studio/es-project-config/commit/a741ec3))
+- ⬆️ Upgrade dependency @w5s/eslint-config to v1.0.0-alpha.55 ([6c0c790](https://github.com/Captive-Studio/es-project-config/commit/6c0c790))
+- 👷 Migrate to vitest ([318793f](https://github.com/Captive-Studio/es-project-config/commit/318793f))
+- 👷 Update configuration ([1afda6e](https://github.com/Captive-Studio/es-project-config/commit/1afda6e))
+
 ## <small>1.7.19 (2023-02-28)</small>
 
 - ⬆️ Upgrade dependency @w5s/eslint-config to v1.0.0-alpha.53 ([91e9211](https://github.com/Captive-Studio/es-project-config/commit/91e9211))

@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>1.3.13 (2023-03-07)</small>
+
+- ⬆️ Upgrade dependency stylelint-prettier to v3 ([bb6014b](https://github.com/Captive-Studio/es-project-config/commit/bb6014b))
+- 🐛 Fix rule deprecation warnings ([3df0aac](https://github.com/Captive-Studio/es-project-config/commit/3df0aac))
+- 👷 Migrate to vitest ([318793f](https://github.com/Captive-Studio/es-project-config/commit/318793f))
+
 ## <small>1.3.12 (2023-02-28)</small>
 
 - 👷 Do not build spec files ([aa02d3c](https://github.com/Captive-Studio/es-project-config/commit/aa02d3c))

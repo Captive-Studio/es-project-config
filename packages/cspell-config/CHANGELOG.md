@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>1.0.4 (2023-03-07)</small>
+
+- ⬆️ Upgrade CSpell group to v6.28.0 ([a3cc651](https://github.com/Captive-Studio/es-project-config/commit/a3cc651))
+- 👷 Migrate to vitest ([318793f](https://github.com/Captive-Studio/es-project-config/commit/318793f))
+- 👷 Update configuration ([1afda6e](https://github.com/Captive-Studio/es-project-config/commit/1afda6e))
+- 🗃️ Add word to dictionary ([33c3ec6](https://github.com/Captive-Studio/es-project-config/commit/33c3ec6))
+
 ## <small>1.0.3 (2023-03-01)</small>
 
 - ✨ Add dind words ([a0bd717](https://github.com/Captive-Studio/es-project-config/commit/a0bd717))

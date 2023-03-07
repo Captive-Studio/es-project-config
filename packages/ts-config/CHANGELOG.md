@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>1.3.10 (2023-03-07)</small>
+
+- 👷 Migrate to vitest ([318793f](https://github.com/Captive-Studio/es-project-config/commit/318793f))
+
 ## <small>1.3.9 (2023-02-28)</small>
 
 - 📝 Fix doc generator ([4c2d547](https://github.com/Captive-Studio/es-project-config/commit/4c2d547))

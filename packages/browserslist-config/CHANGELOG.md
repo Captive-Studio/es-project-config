@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>1.0.8 (2023-03-07)</small>
+
+- 👷 Add auto commit after building browserlist ([7d9cb37](https://github.com/Captive-Studio/es-project-config/commit/7d9cb37))
+- 👷 Migrate to vitest ([318793f](https://github.com/Captive-Studio/es-project-config/commit/318793f))
+- 👷 Update configuration ([1afda6e](https://github.com/Captive-Studio/es-project-config/commit/1afda6e))
+- 📝 Update browserslist support ([3c4cad7](https://github.com/Captive-Studio/es-project-config/commit/3c4cad7))
+
 ## <small>1.0.7 (2023-02-28)</small>
 
 - ♻️ Migrate to Typescript ([140402e](https://github.com/Captive-Studio/es-project-config/commit/140402e))
