@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>1.3.14 (2023-03-07)</small>
+
+- 🔧 Fix pack configuration ([f40fba2](https://github.com/Captive-Studio/es-project-config/commit/f40fba2))
+
 ## <small>1.3.13 (2023-03-07)</small>
 
 - ⬆️ Upgrade dependency stylelint-prettier to v3 ([bb6014b](https://github.com/Captive-Studio/es-project-config/commit/bb6014b))
