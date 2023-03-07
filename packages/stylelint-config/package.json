@@ -21,6 +21,14 @@
   "type": "commonjs",
   "main": "index.js",
   "files": [
+    "lib/**/!(*.spec).d.ts",
+    "lib/**/!(*.spec).js.map",
+    "lib/**/!(*.spec).js",
+    "src/**/!(*.spec).ts",
+    "!example/**/*",
+    "!*.cjs",
+    "index.js",
+    "index.d.ts",
     "*.js"
   ],
   "scripts": {
