@@ -82,7 +82,7 @@
     "@captive/eslint-config": "workspace:*",
     "@captive/ts-config": "workspace:*",
     "@types/node": "12.20.45",
-    "@w5s/conventional-changelog": "1.0.0-alpha.6",
+    "@w5s/conventional-changelog": "1.0.0",
     "concurrently": "7.6.0",
     "cspell": "6.28.0",
     "eslint": "8.35.0",
