@@ -3,6 +3,11 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>1.0.9 (2023-03-09)</small>
+
+- 💚 Fix script ([703391c](https://github.com/Captive-Studio/es-project-config/commit/703391c))
+- 🔨 Fix browserlist commit script ([557a4a1](https://github.com/Captive-Studio/es-project-config/commit/557a4a1))
+
 ## <small>1.0.8 (2023-03-07)</small>
 
 - 👷 Add auto commit after building browserlist ([7d9cb37](https://github.com/Captive-Studio/es-project-config/commit/7d9cb37))

@@ -3,6 +3,11 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>1.7.21 (2023-03-09)</small>
+
+- ⬆️ Upgrade dependency eslint-config-prettier to v8.7.0 ([fc22366](https://github.com/Captive-Studio/es-project-config/commit/fc22366))
+- 💚 Fix broken lock file ([bd43ecc](https://github.com/Captive-Studio/es-project-config/commit/bd43ecc))
+
 ## <small>1.7.20 (2023-03-07)</small>
 
 - ⬆️ Upgrade dependency @w5s/eslint-config to v1.0.0-alpha.54 ([a741ec3](https://github.com/Captive-Studio/es-project-config/commit/a741ec3))
