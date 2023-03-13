@@ -198,6 +198,7 @@ __metadata:
     vite: latest
     vitest: latest
   peerDependencies:
+    prettier: 2.x
     stylelint: ^14.2.0 || ^15.0.0
   peerDependenciesMeta:
     stylelint:
