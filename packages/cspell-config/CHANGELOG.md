@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>1.0.5 (2023-03-14)</small>
+
+- 📝 Fix cspell configuration ([97e33a9](https://github.com/Captive-Studio/es-project-config/commit/97e33a9))
+
 ## <small>1.0.4 (2023-03-07)</small>
 
 - ⬆️ Upgrade CSpell group to v6.28.0 ([a3cc651](https://github.com/Captive-Studio/es-project-config/commit/a3cc651))
