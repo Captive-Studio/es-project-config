@@ -9,20 +9,34 @@
 > Commitlint configuration presets
 <!-- AUTO-GENERATED-CONTENT:END -->
 
+## Features
+
+- ✅ Validates standard git message title
+
+    ```shell
+    <gitmoji>[optional scope:] <description>
+
+    [optional body]
+
+    [optional footer(s)]
+
+    ```
+
+- 😀 Gitmoji support
+
 ## Installation
 
-<!-- AUTO-GENERATED-CONTENT:START (PKG_JSON:template=```console\nnpm install --save-dev ${name} @commitlint/cli\n```) -->
+<!-- AUTO-GENERATED-CONTENT:START (PKG_JSON:template=```console\nnpm install --save-dev ${name}\n```) -->
 ```console
-npm install --save-dev @captive/commitlint-config @commitlint/cli
+npm install --save-dev @captive/commitlint-config
 ```
 <!-- AUTO-GENERATED-CONTENT:END -->
 
 ## Usage
 
-In the `package.json` of your project
-
 <!-- AUTO-GENERATED-CONTENT:START (PKG_JSON:template=```json\n{\n  "commitlint": {\n    "extends": ["${name}"]\n  }\n}\n```) -->
 ```json
+// package.json
 {
   "commitlint": {
     "extends": ["@captive/commitlint-config"]
@@ -33,10 +47,10 @@ In the `package.json` of your project
 
 Ensure the `commitlint` is setup on husky commit message hook (default `.husky/commit-msg`)
 
-```console
-commitlint --edit $1
-# -OR-
-npm exec --no -- commitlint --edit $1
+```shell
+# <git_hooks_directory>/commit-msg
+
+npm exec -- commitlint --edit $1
 ```
 
 ## License
