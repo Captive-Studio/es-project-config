@@ -3,6 +3,11 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>1.7.24 (2023-03-15)</small>
+
+- 🐛 Fix vue + prettier config ([6a11b22](https://github.com/Captive-Studio/es-project-config/commit/6a11b22))
+- 🐛 Remove multi-parser support for vue ESLint ([2ffcbd7](https://github.com/Captive-Studio/es-project-config/commit/2ffcbd7))
+
 ## <small>1.7.23 (2023-03-14)</small>
 
 - ⬆️ Upgrade dependency @w5s/eslint-config to v1.0.1 ([b77c4bb](https://github.com/Captive-Studio/es-project-config/commit/b77c4bb))
