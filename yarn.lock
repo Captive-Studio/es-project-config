@@ -124,6 +124,7 @@ __metadata:
     eslint-find-rules: 4.1.0
     eslint-plugin-cypress: ^2.12.1
     eslint-plugin-vue: ^9.9.0
+    find-up: ^5.0.0
     prettier: 2.8.4
     react: 18.2.0
     vite: latest

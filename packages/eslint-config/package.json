@@ -54,7 +54,8 @@
     "@w5s/dev": "^1.0.0-alpha.3",
     "@w5s/eslint-config": "1.0.1",
     "eslint-plugin-cypress": "^2.12.1",
-    "eslint-plugin-vue": "^9.9.0"
+    "eslint-plugin-vue": "^9.9.0",
+    "find-up": "^5.0.0"
   },
   "devDependencies": {
     "@types/eslint": "8.21.1",
