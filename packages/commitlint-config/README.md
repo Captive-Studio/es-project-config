@@ -34,9 +34,9 @@ npm install --save-dev @captive/commitlint-config
 
 ## Usage
 
+`/package.json`
 <!-- AUTO-GENERATED-CONTENT:START (PKG_JSON:template=```json\n{\n  "commitlint": {\n    "extends": ["${name}"]\n  }\n}\n```) -->
 ```json
-// package.json
 {
   "commitlint": {
     "extends": ["@captive/commitlint-config"]
