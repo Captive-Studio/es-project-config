@@ -38,6 +38,34 @@ module.exports = {
 ```
 <!-- AUTO-GENERATED-CONTENT:END -->
 
+## Rules
+<!-- AUTO-GENERATED-CONTENT:START (FILE:src=./node_modules/.docs/RULES.md) -->
+<!-- The below content is automatically added from ./node_modules/.docs/RULES.md -->
+<details>
+<summary><code>@captive/prettier-config</code></summary>
+
+```json
+{
+  "default": {
+    "singleQuote": true,
+    "trailingComma": "es5",
+    "overrides": [
+      {
+        "files": [
+          "*.css",
+          "*.scss"
+        ],
+        "options": {
+          "trailingComma": "none"
+        }
+      }
+    ]
+  }
+}
+```
+</details>
+<!-- AUTO-GENERATED-CONTENT:END -->
+
 ## Requirements
 <!-- AUTO-GENERATED-CONTENT:START (PKG_JSON:template=Prettier: ${peerDependencies.prettier}&unknownTxt= ) -->
 Prettier: 2.x
