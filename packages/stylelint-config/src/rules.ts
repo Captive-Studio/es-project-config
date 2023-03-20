@@ -6,6 +6,7 @@
 /* eslint-disable @typescript-eslint/no-require-imports */
 
 import type * as prettier from 'prettier';
+import type { Config } from 'stylelint';
 
 const getPackageScope = (): string | undefined => {
   try {
@@ -47,7 +48,7 @@ const bemSelector = (/** @type {'any'|'kebabCase'|'pascalCase'} */ selector = 'a
   return `^[a-z](${word})?(__(${word}-?)+)*(--(${word}-?)+){0,2}$`;
 };
 
-const stylelintConfig = {
+const stylelintConfig: Config = {
   extends: ['stylelint-config-standard', 'stylelint-config-standard-scss', 'stylelint-config-standard-vue'],
   plugins: ['stylelint-order', 'stylelint-prettier', 'stylelint-scss'],
   rules: {
