@@ -167,7 +167,7 @@ __metadata:
     "@captive/eslint-config": "workspace:*"
     "@captive/ts-config": "workspace:*"
     "@types/node": 12.20.45
-    "@w5s/conventional-changelog": 1.0.0
+    "@w5s/conventional-changelog": 1.0.1
     concurrently: 7.6.0
     cspell: 6.28.0
     eslint: 8.36.0
@@ -2115,7 +2115,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@w5s/conventional-changelog@npm:1.0.0, @w5s/conventional-changelog@npm:^1.0.0":
+"@w5s/conventional-changelog@npm:1.0.1":
+  version: 1.0.1
+  resolution: "@w5s/conventional-changelog@npm:1.0.1"
+  dependencies:
+    "@commitlint/types": ^17.0.0
+    emoji-regex: ^10.2.1
+    gitmojis: ^3.13.4
+  checksum: ee3b552ab50fee2e9828bf19abf62438ee5a70d2257e9e400ffd2378c51b88164a1e4d752f7b52e2775542c53267320af790fcd7abf301b4def85f0d63fc16d3
+  languageName: node
+  linkType: hard
+
+"@w5s/conventional-changelog@npm:^1.0.0":
   version: 1.0.0
   resolution: "@w5s/conventional-changelog@npm:1.0.0"
   dependencies:
