@@ -51,6 +51,7 @@ const bemSelector = (/** @type {'any'|'kebabCase'|'pascalCase'} */ selector = 'a
 const stylelintConfig: Config = {
   extends: ['stylelint-config-standard', 'stylelint-config-standard-scss', 'stylelint-config-standard-vue'],
   plugins: ['stylelint-order', 'stylelint-prettier', 'stylelint-scss'],
+  reportNeedlessDisables: true,
   rules: {
     'no-descending-specificity': null, // Many false positive https://github.com/stylelint/stylelint/issues/3516
     'prettier/prettier': [true, getPrettierConfigDefault()],
