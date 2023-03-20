@@ -3,6 +3,11 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>1.7.25 (2023-03-20)</small>
+
+- ⬆️ Upgrade @w5s/eslint-config v1.0.3 ([a199505](https://github.com/Captive-Studio/es-project-config/commit/a199505))
+- ⬆️ Upgrade dependency @types/eslint to v8.21.2 ([85eee09](https://github.com/Captive-Studio/es-project-config/commit/85eee09))
+
 ## <small>1.7.24 (2023-03-15)</small>
 
 - 🐛 Fix vue + prettier config ([6a11b22](https://github.com/Captive-Studio/es-project-config/commit/6a11b22))

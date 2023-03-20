@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>1.1.14 (2023-03-20)</small>
+
+- 📝 Improve commitlint doc ([25b8f7f](https://github.com/Captive-Studio/es-project-config/commit/25b8f7f))
+
 ## <small>1.1.13 (2023-03-14)</small>
 
 - 📝 Improve commitlint documentation ([a86bfb6](https://github.com/Captive-Studio/es-project-config/commit/a86bfb6))

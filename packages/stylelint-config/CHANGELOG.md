@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>1.3.16 (2023-03-20)</small>
+
+- ⬆️ Upgrade dependency stylelint to v15.3.0 ([dd795fc](https://github.com/Captive-Studio/es-project-config/commit/dd795fc))
+
 ## <small>1.3.15 (2023-03-13)</small>
 
 - ➕ Add missing peer deps prettier ([7bb8381](https://github.com/Captive-Studio/es-project-config/commit/7bb8381))

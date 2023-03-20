@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>1.1.11 (2023-03-20)</small>
+
+- 📝 Add documentation for prettier ([cc27d0a](https://github.com/Captive-Studio/es-project-config/commit/cc27d0a))
+
 ## <small>1.1.10 (2023-03-07)</small>
 
 - 👷 Migrate to vitest ([318793f](https://github.com/Captive-Studio/es-project-config/commit/318793f))
