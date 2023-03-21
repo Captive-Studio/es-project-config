@@ -44,7 +44,7 @@
     "typescript": "5.0.2"
   },
   "peerDependencies": {
-    "typescript": ">= 5.0"
+    "typescript": ">=5.x"
   },
   "peerDependenciesMeta": {
     "typescript": {
