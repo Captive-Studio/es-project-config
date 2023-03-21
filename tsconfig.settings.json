@@ -3,7 +3,9 @@
   "extends": "@captive/ts-config",
   "compilerOptions": {
     "declarationMap": false,
-    "preserveValueImports": false,
-    "sourceMap": false
+    "esModuleInterop": true,
+    "module": "CommonJS",
+    "sourceMap": false,
+    "verbatimModuleSyntax": false
   }
 }
