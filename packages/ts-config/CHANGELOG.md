@@ -3,6 +3,11 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>1.3.11 (2023-03-21)</small>
+
+- ✨ Support typescript v5 ([a77dc81](https://github.com/Captive-Studio/es-project-config/commit/a77dc81))
+- ⬆️ Upgrade dependency typescript to v5 ([9e318fd](https://github.com/Captive-Studio/es-project-config/commit/9e318fd))
+
 ## <small>1.3.10 (2023-03-07)</small>
 
 - 👷 Migrate to vitest ([318793f](https://github.com/Captive-Studio/es-project-config/commit/318793f))

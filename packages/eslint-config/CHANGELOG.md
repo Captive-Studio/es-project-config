@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>1.7.26 (2023-03-21)</small>
+
+- ⬆️ Upgrade dependency typescript to v5 ([9e318fd](https://github.com/Captive-Studio/es-project-config/commit/9e318fd))
+
 ## <small>1.7.25 (2023-03-20)</small>
 
 - ⬆️ Upgrade @w5s/eslint-config v1.0.3 ([a199505](https://github.com/Captive-Studio/es-project-config/commit/a199505))

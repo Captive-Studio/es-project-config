@@ -3,6 +3,11 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>1.3.17 (2023-03-21)</small>
+
+- ♻️ Improve typescript typing ([cc4c7ff](https://github.com/Captive-Studio/es-project-config/commit/cc4c7ff))
+- ✨ Enable reportNeedlessDisables ([3bea2a9](https://github.com/Captive-Studio/es-project-config/commit/3bea2a9))
+
 ## <small>1.3.16 (2023-03-20)</small>
 
 - ⬆️ Upgrade dependency stylelint to v15.3.0 ([dd795fc](https://github.com/Captive-Studio/es-project-config/commit/dd795fc))
