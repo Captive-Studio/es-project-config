@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>1.3.12 (2023-03-21)</small>
+
+- 🐛 Fix peer deps ([3f4cd41](https://github.com/Captive-Studio/es-project-config/commit/3f4cd41))
+
 ## <small>1.3.11 (2023-03-21)</small>
 
 - ✨ Support typescript v5 ([a77dc81](https://github.com/Captive-Studio/es-project-config/commit/a77dc81))
