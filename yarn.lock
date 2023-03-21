@@ -213,7 +213,7 @@ __metadata:
   dependencies:
     typescript: 5.0.2
   peerDependencies:
-    typescript: ">= 4.7"
+    typescript: ">= 5.0"
   peerDependenciesMeta:
     typescript:
       optional: true
