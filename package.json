@@ -84,7 +84,7 @@
     "@types/node": "12.20.45",
     "@w5s/conventional-changelog": "1.0.4",
     "concurrently": "7.6.0",
-    "cspell": "6.30.2",
+    "cspell": "6.31.1",
     "eslint": "8.36.0",
     "eslint-plugin-sort-keys-fix": "1.1.2",
     "lerna": "6.5.1",
