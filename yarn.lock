@@ -118,7 +118,7 @@ __metadata:
     "@types/prettier": 2.7.2
     "@types/react": 18.0.29
     "@w5s/dev": ^1.0.0-alpha.3
-    "@w5s/eslint-config": 1.0.3
+    "@w5s/eslint-config": 1.0.4
     eslint: 8.36.0
     eslint-config-prettier: 8.8.0
     eslint-find-rules: 4.1.0
@@ -2304,7 +2304,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@w5s/dev@npm:^1.0.0-alpha.3, @w5s/dev@npm:^1.0.1":
+"@w5s/dev@npm:^1.0.0-alpha.3, @w5s/dev@npm:^1.0.2":
   version: 1.0.2
   resolution: "@w5s/dev@npm:1.0.2"
   dependencies:
@@ -2313,15 +2313,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@w5s/eslint-config@npm:1.0.3":
-  version: 1.0.3
-  resolution: "@w5s/eslint-config@npm:1.0.3"
+"@w5s/eslint-config@npm:1.0.4":
+  version: 1.0.4
+  resolution: "@w5s/eslint-config@npm:1.0.4"
   dependencies:
     "@rushstack/eslint-patch": ^1.1.0
     "@typescript-eslint/eslint-plugin": ^5.0.0
     "@typescript-eslint/parser": ^5.0.0
-    "@w5s/dev": ^1.0.1
-    "@w5s/prettier-config": ^1.0.15
+    "@w5s/dev": ^1.0.2
+    "@w5s/prettier-config": ^1.0.16
     eslint-config-airbnb-base: ^15.0.0
     eslint-config-prettier: ^8.0.0
     eslint-plugin-import: ^2.25.0
@@ -2343,11 +2343,11 @@ __metadata:
       optional: true
     typescript:
       optional: true
-  checksum: 688b0eeee9d67ce7d0a31c700d28c9b623a082302290f4d3c9d753040186bf0fa97fbcceb2c943d345fdd49ddaa1e891deb818f326c57fcc47bc65f48257dfe2
+  checksum: b631d508229965ed953a39d1770b64eb01e8487446ccddca9f9d82ddf5a535990873717629213e3c1df38d8d436d42d2242f06a5ef0407c65ac4734af6f09141
   languageName: node
   linkType: hard
 
-"@w5s/prettier-config@npm:^1.0.1, @w5s/prettier-config@npm:^1.0.15":
+"@w5s/prettier-config@npm:^1.0.1, @w5s/prettier-config@npm:^1.0.16":
   version: 1.0.16
   resolution: "@w5s/prettier-config@npm:1.0.16"
   peerDependencies:
