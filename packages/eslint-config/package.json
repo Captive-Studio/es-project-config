@@ -58,7 +58,7 @@
     "find-up": "^5.0.0"
   },
   "devDependencies": {
-    "@types/eslint": "8.21.3",
+    "@types/eslint": "8.37.0",
     "@types/prettier": "2.7.2",
     "@types/react": "18.0.31",
     "eslint": "8.37.0",
