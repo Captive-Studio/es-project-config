@@ -79,7 +79,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@captive/commitlint-config@workspace:packages/commitlint-config"
   dependencies:
-    "@commitlint/lint": 17.6.0
+    "@commitlint/lint": 17.6.1
     "@w5s/commitlint-config": ^1.0.3
     vite: latest
     vitest: latest
@@ -244,15 +244,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commitlint/lint@npm:17.6.0":
-  version: 17.6.0
-  resolution: "@commitlint/lint@npm:17.6.0"
+"@commitlint/lint@npm:17.6.1":
+  version: 17.6.1
+  resolution: "@commitlint/lint@npm:17.6.1"
   dependencies:
     "@commitlint/is-ignored": ^17.4.4
     "@commitlint/parse": ^17.4.4
-    "@commitlint/rules": ^17.6.0
+    "@commitlint/rules": ^17.6.1
     "@commitlint/types": ^17.4.4
-  checksum: 0e2901662867ab70c1017e2e501d3a255641972cddbc62f20b53e23de479492b33b60ad5bb74a57372292184ff7acb9e220297871b47b2910ddd2b22c3864a5e
+  checksum: 990f6940fe277f252087e1d11d1042cfc034fa66b6355d451a0d7d8a24a0f0c381fd88f03556edb9a187c19e6d2a22a575b10c8d6db2f8342578c06396f10285
   languageName: node
   linkType: hard
 
@@ -274,7 +274,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commitlint/rules@npm:^17.6.0":
+"@commitlint/rules@npm:^17.6.1":
   version: 17.6.1
   resolution: "@commitlint/rules@npm:17.6.1"
   dependencies:
