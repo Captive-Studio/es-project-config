@@ -60,7 +60,7 @@
   "devDependencies": {
     "@types/eslint": "8.37.0",
     "@types/prettier": "2.7.2",
-    "@types/react": "18.0.35",
+    "@types/react": "18.0.37",
     "eslint": "8.38.0",
     "eslint-config-prettier": "8.8.0",
     "eslint-find-rules": "4.1.0",
