@@ -80,7 +80,7 @@ __metadata:
   resolution: "@captive/commitlint-config@workspace:packages/commitlint-config"
   dependencies:
     "@commitlint/lint": 17.6.1
-    "@w5s/commitlint-config": ^1.0.3
+    "@w5s/commitlint-config": ^1.0.20
     vite: latest
     vitest: latest
   peerDependencies:
@@ -2278,22 +2278,22 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@w5s/commitlint-config@npm:^1.0.3":
-  version: 1.0.18
-  resolution: "@w5s/commitlint-config@npm:1.0.18"
+"@w5s/commitlint-config@npm:^1.0.20":
+  version: 1.0.20
+  resolution: "@w5s/commitlint-config@npm:1.0.20"
   dependencies:
     "@commitlint/types": ^17.0.0
-    "@w5s/conventional-changelog": ^1.0.4
+    "@w5s/conventional-changelog": ^1.0.6
   peerDependencies:
     "@commitlint/cli": ^16.0.0 || ^17.0.0
   peerDependenciesMeta:
     "@commitlint/cli":
       optional: true
-  checksum: 617ccf0203aabe393730cb295fe02b129a1f47e0cc5543158cf86cd791f5fd77a26693d0082bcccd8010cb284f7eacd31da32945a1efc7a417d7cc41f27d8473
+  checksum: 429ef57ae16fdf6f530ae40bed8d198a0c3cc03c072fff05358c3958b93a47a7f787de5a360497f896d5808a635683207d624d02813a8a597f143816341ca33d
   languageName: node
   linkType: hard
 
-"@w5s/conventional-changelog@npm:1.0.4, @w5s/conventional-changelog@npm:^1.0.4":
+"@w5s/conventional-changelog@npm:1.0.4":
   version: 1.0.4
   resolution: "@w5s/conventional-changelog@npm:1.0.4"
   dependencies:
@@ -2301,6 +2301,17 @@ __metadata:
     emoji-regex: ^10.2.1
     gitmojis: ^3.13.4
   checksum: 2bd86f88f2bb918e6b277f4e71945dc7579a56100e1a17780dbd20e29b221a6be2f40f4635143950179798cab33af8c29f89b57aad92c4d66e497b6afcb6356e
+  languageName: node
+  linkType: hard
+
+"@w5s/conventional-changelog@npm:^1.0.6":
+  version: 1.0.6
+  resolution: "@w5s/conventional-changelog@npm:1.0.6"
+  dependencies:
+    "@commitlint/types": ^17.0.0
+    emoji-regex: ^10.2.1
+    gitmojis: ^3.13.4
+  checksum: 08e0e0c126781f0b8d83c5f31275b5969317ef1a25a60ff1f093f7404cbbcbb98363f5caff83ceaf91189495b0553466db287928951cca8ca3ff3b3adda2da04
   languageName: node
   linkType: hard
 
