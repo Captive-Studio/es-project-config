@@ -113,7 +113,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@captive/eslint-config@workspace:packages/eslint-config"
   dependencies:
-    "@captive/prettier-config": ^1.1.11
+    "@captive/prettier-config": ^1.1.12
     "@types/eslint": 8.37.0
     "@types/prettier": 2.7.2
     "@types/react": 18.0.37
@@ -142,7 +142,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@captive/prettier-config@^1.1.11, @captive/prettier-config@workspace:packages/prettier-config":
+"@captive/prettier-config@^1.1.12, @captive/prettier-config@workspace:packages/prettier-config":
   version: 0.0.0-use.local
   resolution: "@captive/prettier-config@workspace:packages/prettier-config"
   dependencies:
@@ -167,7 +167,7 @@ __metadata:
     "@captive/eslint-config": "workspace:*"
     "@captive/ts-config": "workspace:*"
     "@types/node": 12.20.45
-    "@w5s/conventional-changelog": 1.0.6
+    "@w5s/conventional-changelog": 1.0.7
     concurrently: 8.0.1
     cspell: 6.31.1
     eslint: 8.38.0
@@ -186,7 +186,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@captive/stylelint-config@workspace:packages/stylelint-config"
   dependencies:
-    "@captive/prettier-config": ^1.1.11
+    "@captive/prettier-config": ^1.1.12
     postcss: ^8.4.14
     postcss-html: "*"
     stylelint: 15.5.0
@@ -2293,7 +2293,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@w5s/conventional-changelog@npm:1.0.6, @w5s/conventional-changelog@npm:^1.0.6":
+"@w5s/conventional-changelog@npm:1.0.7":
+  version: 1.0.7
+  resolution: "@w5s/conventional-changelog@npm:1.0.7"
+  dependencies:
+    "@commitlint/types": ^17.0.0
+    emoji-regex: ^10.2.1
+    gitmojis: ^3.13.4
+  checksum: a1e27bda639ea59ea0ad1d1a6a82dd8c262e9dfd76bf1efe997559358ca515b45b520acd0d7a6f77df66052880d84bf2063105236f473a7cf74f17b36b5fcfe6
+  languageName: node
+  linkType: hard
+
+"@w5s/conventional-changelog@npm:^1.0.6":
   version: 1.0.6
   resolution: "@w5s/conventional-changelog@npm:1.0.6"
   dependencies:
