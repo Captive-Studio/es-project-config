@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.10](https://github.com/Captive-Studio/es-project-config/compare/@captive/browserslist-config@1.0.9...@captive/browserslist-config@1.0.10) (2023-04-19)
+
+### 📝 Documentation
+
+- Update browserslist support ([35c0cad](https://github.com/Captive-Studio/es-project-config/commit/35c0cad))
+
 ## <small>1.0.9 (2023-03-09)</small>
 
 - 💚 Fix script ([703391c](https://github.com/Captive-Studio/es-project-config/commit/703391c))

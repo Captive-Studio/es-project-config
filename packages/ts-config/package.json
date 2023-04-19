@@ -1,6 +1,6 @@
 {
   "name": "@captive/ts-config",
-  "version": "1.3.12",
+  "version": "1.3.13",
   "description": "Typescript compiler configuration presets",
   "keywords": [
     "typescript",

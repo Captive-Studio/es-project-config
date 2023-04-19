@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.15](https://github.com/Captive-Studio/es-project-config/compare/@captive/commitlint-config@1.1.14...@captive/commitlint-config@1.1.15) (2023-04-19)
+
+### ✨ Features
+
+- Increase header limit length ([9192b79](https://github.com/Captive-Studio/es-project-config/commit/9192b79))
+
+### 🎫 Chores
+
+- Upgrade dependency @commitlint/lint to v17.6.0 ([c719640](https://github.com/Captive-Studio/es-project-config/commit/c719640)) \* Upgrade dependency @commitlint/lint to v17.6.1 ([28befba](https://github.com/Captive-Studio/es-project-config/commit/28befba))
+
 ## <small>1.1.14 (2023-03-20)</small>
 
 - 📝 Improve commitlint doc ([25b8f7f](https://github.com/Captive-Studio/es-project-config/commit/25b8f7f))

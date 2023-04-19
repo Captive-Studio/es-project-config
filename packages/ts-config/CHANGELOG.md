@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.3.13](https://github.com/Captive-Studio/es-project-config/compare/@captive/ts-config@1.3.12...@captive/ts-config@1.3.13) (2023-04-19)
+
+### 🎫 Chores
+
+- Upgrade dependency typescript to v5.0.3 ([bee6a91](https://github.com/Captive-Studio/es-project-config/commit/bee6a91)) \* Upgrade dependency typescript to v5.0.4 ([867ab2d](https://github.com/Captive-Studio/es-project-config/commit/867ab2d))
+
 ## <small>1.3.12 (2023-03-21)</small>
 
 - 🐛 Fix peer deps ([3f4cd41](https://github.com/Captive-Studio/es-project-config/commit/3f4cd41))

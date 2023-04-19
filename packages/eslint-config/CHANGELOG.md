@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.7.27](https://github.com/Captive-Studio/es-project-config/compare/@captive/eslint-config@1.7.26...@captive/eslint-config@1.7.27) (2023-04-19)
+
+### 🎫 Chores
+
+- Upgrade dependency @types/eslint to v8.21.3 ([f5bf3f4](https://github.com/Captive-Studio/es-project-config/commit/f5bf3f4)) _ Upgrade dependency @types/eslint to v8.37.0 ([9bb7b22](https://github.com/Captive-Studio/es-project-config/commit/9bb7b22)) _ Upgrade dependency @types/react to v18.0.29 ([7110f3d](https://github.com/Captive-Studio/es-project-config/commit/7110f3d)) _ Upgrade dependency @types/react to v18.0.30 ([748b924](https://github.com/Captive-Studio/es-project-config/commit/748b924)) _ Upgrade dependency @types/react to v18.0.31 ([1c7bbd9](https://github.com/Captive-Studio/es-project-config/commit/1c7bbd9)) _ Upgrade dependency @types/react to v18.0.32 ([1e2b88d](https://github.com/Captive-Studio/es-project-config/commit/1e2b88d)) _ Upgrade dependency @types/react to v18.0.33 ([62b0b72](https://github.com/Captive-Studio/es-project-config/commit/62b0b72)) _ Upgrade dependency @types/react to v18.0.34 ([bd18add](https://github.com/Captive-Studio/es-project-config/commit/bd18add)) _ Upgrade dependency @types/react to v18.0.35 ([c9e9045](https://github.com/Captive-Studio/es-project-config/commit/c9e9045)) _ Upgrade dependency @types/react to v18.0.37 ([b8de9ad](https://github.com/Captive-Studio/es-project-config/commit/b8de9ad)) _ Upgrade dependency @w5s/eslint-config to v1.0.4 ([b69d509](https://github.com/Captive-Studio/es-project-config/commit/b69d509)) _ Upgrade dependency eslint to v8.37.0 ([7b98b49](https://github.com/Captive-Studio/es-project-config/commit/7b98b49)) _ Upgrade dependency eslint to v8.38.0 ([1f581de](https://github.com/Captive-Studio/es-project-config/commit/1f581de)) _ Upgrade dependency eslint-config-prettier to v8.8.0 ([c7a6cc4](https://github.com/Captive-Studio/es-project-config/commit/c7a6cc4)) _ Upgrade dependency prettier to v2.8.6 ([59bb0f2](https://github.com/Captive-Studio/es-project-config/commit/59bb0f2)) \* Upgrade dependency prettier to v2.8.7 ([b1e806f](https://github.com/Captive-Studio/es-project-config/commit/b1e806f))
+
 ## <small>1.7.26 (2023-03-21)</small>
 
 - ⬆️ Upgrade dependency typescript to v5 ([9e318fd](https://github.com/Captive-Studio/es-project-config/commit/9e318fd))

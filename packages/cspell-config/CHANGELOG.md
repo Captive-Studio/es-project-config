@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.7](https://github.com/Captive-Studio/es-project-config/compare/@captive/cspell-config@1.0.6...@captive/cspell-config@1.0.7) (2023-04-19)
+
+### 🎫 Chores
+
+- Upgrade CSpell group to v6.31.1 ([d644cb7](https://github.com/Captive-Studio/es-project-config/commit/d644cb7))
+
 ## <small>1.0.6 (2023-03-20)</small>
 
 - ⬆️ Upgrade CSpell group to v6.30.2 ([e1a07ce](https://github.com/Captive-Studio/es-project-config/commit/e1a07ce))

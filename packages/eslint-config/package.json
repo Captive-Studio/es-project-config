@@ -1,6 +1,6 @@
 {
   "name": "@captive/eslint-config",
-  "version": "1.7.26",
+  "version": "1.7.27",
   "description": "ESLint configuration presets",
   "keywords": [
     "eslint",
@@ -50,7 +50,7 @@
     "test_:rule-coverage": "eslint-find-rules --unused"
   },
   "dependencies": {
-    "@captive/prettier-config": "^1.1.11",
+    "@captive/prettier-config": "^1.1.12",
     "@w5s/dev": "^1.0.0-alpha.3",
     "@w5s/eslint-config": "1.0.4",
     "eslint-plugin-cypress": "^2.12.1",

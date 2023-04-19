@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.3.18](https://github.com/Captive-Studio/es-project-config/compare/@captive/stylelint-config@1.3.17...@captive/stylelint-config@1.3.18) (2023-04-19)
+
+### 🎫 Chores
+
+- Upgrade dependency stylelint to v15.4.0 ([e8e2a95](https://github.com/Captive-Studio/es-project-config/commit/e8e2a95)) _ Upgrade dependency stylelint to v15.5.0 ([9f5a262](https://github.com/Captive-Studio/es-project-config/commit/9f5a262)) _ Upgrade dependency stylelint-config-standard to v31 ([4560909](https://github.com/Captive-Studio/es-project-config/commit/4560909)) \* Upgrade dependency stylelint-config-standard to v32 ([8f82dd2](https://github.com/Captive-Studio/es-project-config/commit/8f82dd2))
+
 ## <small>1.3.17 (2023-03-21)</small>
 
 - ♻️ Improve typescript typing ([cc4c7ff](https://github.com/Captive-Studio/es-project-config/commit/cc4c7ff))
