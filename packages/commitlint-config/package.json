@@ -53,7 +53,7 @@
     "@w5s/commitlint-config": "^1.0.20"
   },
   "devDependencies": {
-    "@commitlint/lint": "17.6.1",
+    "@commitlint/lint": "17.6.3",
     "vite": "latest",
     "vitest": "latest"
   },
