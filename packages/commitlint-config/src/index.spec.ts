@@ -219,10 +219,9 @@ describe('Commitlint Config', () => {
     });
   });
   describe('type-valid-gitmoji', () => {
-    it('should return error if type is not an unicode', async () => {
-      const result = await lint(`${'🥶'} (${anyValidScope}): ${anyValidSubject}`);
-
-      expect(result).toEqual(
+    it.each([
+      [
+        '🥶',
         expect.objectContaining({
           valid: false,
           errors: expect.arrayContaining([
@@ -231,8 +230,10 @@ describe('Commitlint Config', () => {
             }),
           ]),
           warnings: [],
-        })
-      );
+        }),
+      ],
+    ])('should return error if type is not an unicode', async (validGitmoji, expected) => {
+      await expect(lint(`${validGitmoji} (${anyValidScope}): ${anyValidSubject}`)).resolves.toEqual(expected);
     });
   });
 });
