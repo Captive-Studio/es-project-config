@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.13](https://github.com/Captive-Studio/es-project-config/compare/@captive/prettier-config@1.1.12...@captive/prettier-config@1.1.13) (2023-05-09)
+
+### 🎫 Chores
+
+- Upgrade dependency prettier to v2.8.8 ([e911b49](https://github.com/Captive-Studio/es-project-config/commit/e911b49))
+
 ## [1.1.12](https://github.com/Captive-Studio/es-project-config/compare/@captive/prettier-config@1.1.11...@captive/prettier-config@1.1.12) (2023-04-19)
 
 ### 🎫 Chores

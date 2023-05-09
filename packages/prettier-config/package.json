@@ -1,6 +1,6 @@
 {
   "name": "@captive/prettier-config",
-  "version": "1.1.12",
+  "version": "1.1.13",
   "description": "Prettier shared configuration",
   "keywords": [
     "typescript",

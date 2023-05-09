@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.7.28](https://github.com/Captive-Studio/es-project-config/compare/@captive/eslint-config@1.7.27...@captive/eslint-config@1.7.28) (2023-05-09)
+
+### 🎫 Chores
+
+- Upgrade @w5s/eslint-config v1.0.7 ([f8ab041](https://github.com/Captive-Studio/es-project-config/commit/f8ab041)) _ Upgrade dependency @types/react to v18.0.38 ([803745d](https://github.com/Captive-Studio/es-project-config/commit/803745d)) _ Upgrade dependency @types/react to v18.2.0 ([30c937d](https://github.com/Captive-Studio/es-project-config/commit/30c937d)) _ Upgrade dependency @types/react to v18.2.1 ([2e3815e](https://github.com/Captive-Studio/es-project-config/commit/2e3815e)) _ Upgrade dependency @types/react to v18.2.2 ([c2b7907](https://github.com/Captive-Studio/es-project-config/commit/c2b7907)) _ Upgrade dependency @types/react to v18.2.5 ([6fe561f](https://github.com/Captive-Studio/es-project-config/commit/6fe561f)) _ Upgrade dependency @types/react to v18.2.6 ([d139b34](https://github.com/Captive-Studio/es-project-config/commit/d139b34)) _ Upgrade dependency @w5s/eslint-config to v1.0.5 ([f9b7892](https://github.com/Captive-Studio/es-project-config/commit/f9b7892)) _ Upgrade dependency eslint to v8.39.0 ([2648327](https://github.com/Captive-Studio/es-project-config/commit/2648327)) _ Upgrade dependency eslint to v8.40.0 ([b2f5c59](https://github.com/Captive-Studio/es-project-config/commit/b2f5c59)) _ Upgrade dependency prettier to v2.8.8 ([e911b49](https://github.com/Captive-Studio/es-project-config/commit/e911b49))
+
 ## [1.7.27](https://github.com/Captive-Studio/es-project-config/compare/@captive/eslint-config@1.7.26...@captive/eslint-config@1.7.27) (2023-04-19)
 
 ### 🎫 Chores

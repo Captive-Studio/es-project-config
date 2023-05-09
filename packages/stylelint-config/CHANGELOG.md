@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.3.19](https://github.com/Captive-Studio/es-project-config/compare/@captive/stylelint-config@1.3.18...@captive/stylelint-config@1.3.19) (2023-05-09)
+
+### 🎫 Chores
+
+- Upgrade dependency stylelint to v15.6.0 ([06e9cdf](https://github.com/Captive-Studio/es-project-config/commit/06e9cdf)) _ Upgrade dependency stylelint to v15.6.1 ([2d66d51](https://github.com/Captive-Studio/es-project-config/commit/2d66d51)) _ Upgrade dependency stylelint-config-standard to v33 ([62ce32d](https://github.com/Captive-Studio/es-project-config/commit/62ce32d)) _ Upgrade dependency stylelint-config-standard-scss to v8 ([539d5a3](https://github.com/Captive-Studio/es-project-config/commit/539d5a3)) _ Upgrade dependency stylelint-config-standard-scss to v9 ([40533bd](https://github.com/Captive-Studio/es-project-config/commit/40533bd)) \* Upgrade dependency stylelint-scss to v5 ([ea9aeb8](https://github.com/Captive-Studio/es-project-config/commit/ea9aeb8))
+
 ## [1.3.18](https://github.com/Captive-Studio/es-project-config/compare/@captive/stylelint-config@1.3.17...@captive/stylelint-config@1.3.18) (2023-04-19)
 
 ### 🎫 Chores

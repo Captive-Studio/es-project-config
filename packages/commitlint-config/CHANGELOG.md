@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.16](https://github.com/Captive-Studio/es-project-config/compare/@captive/commitlint-config@1.1.15...@captive/commitlint-config@1.1.16) (2023-05-09)
+
+### ♻ Code Refactoring
+
+- Refactor tests ([72b2ef9](https://github.com/Captive-Studio/es-project-config/commit/72b2ef9))
+
+### 🎫 Chores
+
+- Upgrade dependency @commitlint/lint to v17.6.3 ([b74a0f3](https://github.com/Captive-Studio/es-project-config/commit/b74a0f3))
+
+### 💄 Styles
+
+- Fix type error ([b559610](https://github.com/Captive-Studio/es-project-config/commit/b559610))
+
 ## [1.1.15](https://github.com/Captive-Studio/es-project-config/compare/@captive/commitlint-config@1.1.14...@captive/commitlint-config@1.1.15) (2023-04-19)
 
 ### ✨ Features
