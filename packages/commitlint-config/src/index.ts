@@ -3,7 +3,7 @@
 import defaultConfig from '@w5s/commitlint-config';
 import { RuleConfigSeverity } from '@commitlint/types';
 
-const config = {
+const config: typeof defaultConfig = {
   ...defaultConfig,
   rules: {
     ...defaultConfig.rules,
