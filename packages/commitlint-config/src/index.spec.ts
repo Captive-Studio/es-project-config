@@ -53,6 +53,20 @@ describe('Commitlint Config', () => {
         })
       );
     });
+
+    it.each([
+      // This is a curated list of passing messages
+      `${'✨'} ${anyValidSubject}`,
+      `⚡️ Do something`, // This emoji is not always recognized as such
+    ])('should validates some specific examples', async (validExample) => {
+      await expect(lint(validExample)).resolves.toEqual(
+        expect.objectContaining({
+          valid: true,
+          errors: [],
+          warnings: [],
+        })
+      );
+    });
   });
 
   describe('body-leading-blank', () => {
