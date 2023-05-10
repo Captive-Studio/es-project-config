@@ -127,7 +127,7 @@ __metadata:
     "@types/prettier": 2.7.2
     "@types/react": 18.2.6
     "@w5s/dev": ^1.0.4
-    "@w5s/eslint-config": 1.0.8
+    "@w5s/eslint-config": 1.0.9
     eslint: 8.40.0
     eslint-config-prettier: 8.8.0
     eslint-find-rules: 4.1.0
@@ -2326,9 +2326,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@w5s/eslint-config@npm:1.0.8":
-  version: 1.0.8
-  resolution: "@w5s/eslint-config@npm:1.0.8"
+"@w5s/eslint-config@npm:1.0.9":
+  version: 1.0.9
+  resolution: "@w5s/eslint-config@npm:1.0.9"
   dependencies:
     "@rushstack/eslint-patch": ^1.1.0
     "@typescript-eslint/eslint-plugin": ^5.0.0
@@ -2356,7 +2356,7 @@ __metadata:
       optional: true
     typescript:
       optional: true
-  checksum: 93485d09791b3fb15487183c091368151fbfab27aa43e42fac511378aca88b2abb5508172fa91072e51604ff81c4327edfe61bd881508885598870d4538281be
+  checksum: 527edd499578f2e6bc11987fd5af2081f3eb32b90cfeeb310c20ab04cdc78048cfdfd3589814438245bbd9f7991aca7f608cad4d464fda11dec3230ee1668825
   languageName: node
   linkType: hard
 
