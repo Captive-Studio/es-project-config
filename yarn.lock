@@ -126,7 +126,7 @@ __metadata:
     "@types/eslint": 8.37.0
     "@types/prettier": 2.7.2
     "@types/react": 18.2.6
-    "@w5s/dev": ^1.0.0-alpha.3
+    "@w5s/dev": ^1.0.4
     "@w5s/eslint-config": 1.0.8
     eslint: 8.40.0
     eslint-config-prettier: 8.8.0
@@ -2314,15 +2314,6 @@ __metadata:
     cspell:
       optional: true
   checksum: 50336f27fc826669ea2025369a110bebc817702e27ad9c4bc0303389c8157d6c653d60993cd520a7e33fdbc04e444f9bb944521cc3eef2ca10c075849aad61f7
-  languageName: node
-  linkType: hard
-
-"@w5s/dev@npm:^1.0.0-alpha.3":
-  version: 1.0.3
-  resolution: "@w5s/dev@npm:1.0.3"
-  dependencies:
-    "@types/eslint": ^8.4.10
-  checksum: 8e4185ce580fefb1981361c4da040f9cc5b14b9359e973ba304ba702703fbb6a0feecd7306733f97bfd99c1558e15932554f586d343b3cc5cb4b9aa83608b7d0
   languageName: node
   linkType: hard
 
