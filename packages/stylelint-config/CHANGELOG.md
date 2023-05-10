@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.3.20](https://github.com/Captive-Studio/es-project-config/compare/@captive/stylelint-config@1.3.19...@captive/stylelint-config@1.3.20) (2023-05-10)
+
+### ✨ Features
+
+- Ignore common folder ([d58bd10](https://github.com/Captive-Studio/es-project-config/commit/d58bd10))
+
 ## [1.3.19](https://github.com/Captive-Studio/es-project-config/compare/@captive/stylelint-config@1.3.18...@captive/stylelint-config@1.3.19) (2023-05-09)
 
 ### 🎫 Chores
