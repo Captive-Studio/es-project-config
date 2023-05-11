@@ -1,4 +1,5 @@
 {
+  "$schema": "https://json.schemastore.org/lerna.json",
   "npmClient": "yarn",
   "useWorkspaces": true,
   "command": {
@@ -11,6 +12,5 @@
     }
   },
   "version": "independent",
-  "$schema": "https://json.schemastore.org/lerna.json",
-  "changelogPreset": "@w5s/conventional-changelog"
+  "changelogPreset": "@captive/conventional-changelog"
 }

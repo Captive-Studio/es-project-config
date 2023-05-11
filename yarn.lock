@@ -100,7 +100,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@captive/conventional-changelog@workspace:packages/conventional-changelog":
+"@captive/conventional-changelog@workspace:*, @captive/conventional-changelog@workspace:packages/conventional-changelog":
   version: 0.0.0-use.local
   resolution: "@captive/conventional-changelog@workspace:packages/conventional-changelog"
   dependencies:
@@ -182,11 +182,11 @@ __metadata:
   resolution: "@captive/project-config-src@workspace:."
   dependencies:
     "@captive/commitlint-config": "workspace:*"
+    "@captive/conventional-changelog": "workspace:*"
     "@captive/cspell-config": "workspace:*"
     "@captive/eslint-config": "workspace:*"
     "@captive/ts-config": "workspace:*"
     "@types/node": 12.20.55
-    "@w5s/conventional-changelog": 1.0.12
     concurrently: 8.0.1
     cspell: 6.31.1
     eslint: 8.40.0
