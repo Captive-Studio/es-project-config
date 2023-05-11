@@ -100,6 +100,16 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@captive/conventional-changelog@workspace:packages/conventional-changelog":
+  version: 0.0.0-use.local
+  resolution: "@captive/conventional-changelog@workspace:packages/conventional-changelog"
+  dependencies:
+    "@w5s/conventional-changelog": 1.0.12
+    vite: latest
+    vitest: latest
+  languageName: unknown
+  linkType: soft
+
 "@captive/cspell-config@workspace:*, @captive/cspell-config@workspace:packages/cspell-config":
   version: 0.0.0-use.local
   resolution: "@captive/cspell-config@workspace:packages/cspell-config"

@@ -1,0 +1,66 @@
+{
+  "name": "@captive/conventional-changelog",
+  "version": "1.0.0",
+  "description": "Conventional changelog plugin for Captive projects",
+  "keywords": [
+    "commitlint",
+    "git",
+    "lint",
+    "gitmoji"
+  ],
+  "homepage": "https://github.com/Captive-Studio/es-project-config/blob/main/packages/conventional-changelog#readme",
+  "bugs": {
+    "url": "https://github.com/Captive-Studio/es-project-config/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Captive-Studio/es-project-config.git",
+    "directory": "packages/conventional-changelog"
+  },
+  "license": "MIT",
+  "author": "Julien Polo <julien.polo@captive.fr>",
+  "type": "commonjs",
+  "exports": {
+    ".": "./index.js",
+    "./lib/*": "./lib/*"
+  },
+  "typings": "./index.d.ts",
+  "files": [
+    "lib/**/!(*.spec).d.ts",
+    "lib/**/!(*.spec).d.ts.map",
+    "lib/**/!(*.spec).js.map",
+    "lib/**/!(*.spec).js",
+    "src/**/!(*.spec).ts",
+    "index.js",
+    "index.d.ts"
+  ],
+  "scripts": {
+    "build": "concurrently \"npm:build:*\" \":\"",
+    "build:tsc": "tsc -b tsconfig.build.json",
+    "clean": "concurrently \"npm:clean:*\" \":\"",
+    "clean:tsc": "rm -rf lib",
+    "docs": "node ../../markdown.mjs",
+    "format": "concurrently \"npm:format:*\" \":\"",
+    "format:src": "eslint . --fix --ext=mjs,cjs,js,jsx,ts,tsx,json,jsonc,json5,yml,yaml",
+    "lint": "concurrently \"npm:lint:*\" \":\"",
+    "lint:src": "eslint . --ext=mjs,cjs,js,jsx,ts,tsx,json,jsonc,json5,yml,yaml",
+    "prepare": "concurrently \"npm:prepare:*\" \":\"",
+    "prepublishOnly": "npm run clean; npm run build",
+    "spellcheck": "cspell --no-progress '**'",
+    "test": "concurrently \"npm:test:*\" \":\"",
+    "test:src": "vitest run"
+  },
+  "dependencies": {
+    "@w5s/conventional-changelog": "1.0.12"
+  },
+  "devDependencies": {
+    "vite": "latest",
+    "vitest": "latest"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
