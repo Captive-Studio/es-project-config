@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.7.31](https://github.com/Captive-Studio/es-project-config/compare/@captive/eslint-config@1.7.30...@captive/eslint-config@1.7.31) (2023-05-11)
+
+**Note:** Version bump only for package @captive/eslint-config
+
 ## [1.7.30](https://github.com/Captive-Studio/es-project-config/compare/@captive/eslint-config@1.7.29...@captive/eslint-config@1.7.30) (2023-05-10)
 
 **Note:** Version bump only for package @captive/eslint-config

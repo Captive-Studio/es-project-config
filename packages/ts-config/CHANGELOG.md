@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.4.0](https://github.com/Captive-Studio/es-project-config/compare/@captive/ts-config@1.3.13...@captive/ts-config@1.4.0) (2023-05-11)
+
+### ✨ Features
+
+- Pull changes from upstream ([db90ede](https://github.com/Captive-Studio/es-project-config/commit/db90ede))
+
 ## [1.3.13](https://github.com/Captive-Studio/es-project-config/compare/@captive/ts-config@1.3.12...@captive/ts-config@1.3.13) (2023-04-19)
 
 ### 🎫 Chores
