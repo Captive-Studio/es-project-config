@@ -48,12 +48,15 @@ indent_style = space
 [*.{md,mdwn,mdown,markdown,mdx,apib}]
 indent_size = 4
 indent_style = space
-insert_final_newline = true
-trim_trailing_whitespace = false
 
 [*.{py,robot}]
 indent_size = 4
 indent_style = space
 
-[Makefile]
+[{Makefile,**.mk}]
 indent_style = tab
+
+# No trim, no final newline
+[*.{md,mdwn,mdown,markdown,csv,tsv,txt}]
+trim_trailing_whitespace = false
+insert_final_newline = false
