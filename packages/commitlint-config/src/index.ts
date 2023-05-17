@@ -8,6 +8,7 @@ const config: typeof defaultConfig = {
   rules: {
     ...defaultConfig.rules,
     'header-max-length': [RuleConfigSeverity.Error, 'always', 100],
+    'body-max-line-length': [RuleConfigSeverity.Disabled, 'always', Number.POSITIVE_INFINITY],
   },
 };
 

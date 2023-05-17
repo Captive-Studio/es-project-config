@@ -12,6 +12,7 @@ const config = {
     rules: {
         ...commitlint_config_1.default.rules,
         'header-max-length': [types_1.RuleConfigSeverity.Error, 'always', 100],
+        'body-max-line-length': [types_1.RuleConfigSeverity.Disabled, 'always', Number.POSITIVE_INFINITY],
     },
 };
 exports.default = config;
