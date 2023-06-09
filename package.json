@@ -83,7 +83,7 @@
     "@captive/eslint-config": "workspace:*",
     "@captive/ts-config": "workspace:*",
     "@types/node": "12.20.55",
-    "concurrently": "8.1.0",
+    "concurrently": "8.2.0",
     "cspell": "6.31.1",
     "eslint": "8.42.0",
     "eslint-plugin-sort-keys-fix": "1.1.2",
