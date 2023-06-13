@@ -133,7 +133,7 @@ __metadata:
   resolution: "@captive/eslint-config@workspace:packages/eslint-config"
   dependencies:
     "@captive/prettier-config": ^1.1.13
-    "@types/eslint": 8.40.1
+    "@types/eslint": 8.40.2
     "@types/prettier": 2.7.3
     "@types/react": 18.2.12
     "@w5s/dev": ^1.0.5
@@ -1837,7 +1837,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/eslint@npm:8.40.1, @types/eslint@npm:^8.4.10":
+"@types/eslint@npm:8.40.2":
+  version: 8.40.2
+  resolution: "@types/eslint@npm:8.40.2"
+  dependencies:
+    "@types/estree": "*"
+    "@types/json-schema": "*"
+  checksum: a4780e45e677e3af21c44a900846996cb6d9ae8f71d51940942a047163ae93a05444392c005f491ed46aa169f3b25f8be125ab42c5d8bdb571154bf62a7c828a
+  languageName: node
+  linkType: hard
+
+"@types/eslint@npm:^8.4.10":
   version: 8.40.1
   resolution: "@types/eslint@npm:8.40.1"
   dependencies:
