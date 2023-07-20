@@ -2,7 +2,7 @@
 module.exports = {
   overrides: [
     {
-      extends: [require.resolve('./lib/vue.js'), require.resolve('./lib/prettier.js')],
+      extends: [require.resolve('./dist/vue.js'), require.resolve('./dist/prettier.js')],
       files: ['*.vue'],
     },
   ],

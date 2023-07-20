@@ -4,5 +4,5 @@
   "name": "Captive default settings",
   "id": "captive-default-json",
   "readonly": true,
-  "import": ["./lib/index.js"]
+  "import": ["./dist/index.js"]
 }

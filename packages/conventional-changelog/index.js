@@ -1,2 +1,2 @@
-/** @type {import('./lib/index.js').default} */
-module.exports = require('./lib/index.js').default;
+/** @type {import('./dist/index.js').default} */
+module.exports = require('./dist/index.js').default;

@@ -1,5 +1,5 @@
 import type { AdvancedCSpellSettings } from '@cspell/cspell-types';
-import cSpellSettings from '@w5s/cspell-config/lib/index.js';
+import cSpellSettings from '@w5s/cspell-config/dist/index.js';
 
 const toArray = <T>(value: T | T[] | undefined) => (Array.isArray(value) ? value : value == null ? [] : [value]);
 const defaultSettings = cSpellSettings;

@@ -1,7 +1,7 @@
 module.exports = {
   overrides: [
     {
-      extends: [require.resolve('./lib/cypress.js')],
+      extends: [require.resolve('./dist/cypress.js')],
       files: ['**/cypress/**', '**/*.cy.*'],
     },
   ],

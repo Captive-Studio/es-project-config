@@ -1,6 +1,6 @@
 import commitlint from '@commitlint/lint';
 import { describe, it, expect } from 'vitest';
-import { gitmojiPlugin } from '@w5s/commitlint-config/lib/plugin.js';
+import { gitmojiPlugin } from '@w5s/commitlint-config/dist/plugin.js';
 import config from './index.js';
 
 const lint = async (input: string) =>

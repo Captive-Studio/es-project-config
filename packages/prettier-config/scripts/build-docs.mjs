@@ -8,7 +8,7 @@ const Config = {
    */
   preview: [
     // [file path, optional display name]
-    ['lib/index.js', ''],
+    ['dist/index.js', ''],
   ],
 };
 
