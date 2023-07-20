@@ -50,15 +50,15 @@
     "test:src": "vitest run"
   },
   "dependencies": {
-    "@w5s/prettier-config": "^1.0.1"
+    "@w5s/prettier-config": "^1.1.1"
   },
   "devDependencies": {
-    "prettier": "2.8.8",
+    "prettier": "3.0.0",
     "vite": "latest",
     "vitest": "latest"
   },
   "peerDependencies": {
-    "prettier": "2.x"
+    "prettier": "2.x || 3.x"
   },
   "peerDependenciesMeta": {
     "prettier": {

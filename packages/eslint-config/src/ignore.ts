@@ -1,5 +1,5 @@
 import type eslint from 'eslint';
-import parentConfig from '@w5s/eslint-config/lib/ignore.js';
+import parentConfig from '@w5s/eslint-config/dist/ignore.js';
 import { ESLintConfig } from '@w5s/dev';
 
 const config: eslint.Linter.Config = ESLintConfig.concat({

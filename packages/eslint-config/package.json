@@ -51,18 +51,17 @@
   "dependencies": {
     "@captive/prettier-config": "^1.1.13",
     "@w5s/dev": "^1.0.5",
-    "@w5s/eslint-config": "1.0.11",
+    "@w5s/eslint-config": "1.1.2",
     "eslint-plugin-cypress": "^2.12.1",
     "eslint-plugin-vue": "^9.9.0",
     "find-up": "^5.0.0"
   },
   "devDependencies": {
-    "@types/prettier": "2.7.3",
     "@types/react": "18.2.15",
     "eslint": "8.44.0",
     "eslint-config-prettier": "8.8.0",
     "eslint-find-rules": "4.1.0",
-    "prettier": "2.8.8",
+    "prettier": "3.0.0",
     "react": "18.2.0",
     "vite": "latest",
     "vitest": "latest",
@@ -70,7 +69,7 @@
   },
   "peerDependencies": {
     "eslint": "8.x",
-    "prettier": "2.x",
+    "prettier": "3.x",
     "typescript": "4.x || 5.x"
   },
   "peerDependenciesMeta": {

@@ -68,7 +68,7 @@ module.exports = {
 
 ## Requirements
 <!-- AUTO-GENERATED-CONTENT:START (PKG_JSON:template=Prettier: ${peerDependencies.prettier}&unknownTxt= ) -->
-Prettier: 2.x
+Prettier: 2.x || 3.x
 <!-- AUTO-GENERATED-CONTENT:END -->
 
 ## License
