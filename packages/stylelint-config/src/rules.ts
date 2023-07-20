@@ -49,7 +49,12 @@ const bemSelector = (/** @type {'any'|'kebabCase'|'pascalCase'} */ selector = 'a
 };
 
 const stylelintConfig: Config = {
-  extends: ['stylelint-config-standard', 'stylelint-config-standard-scss', 'stylelint-config-standard-vue'],
+  extends: [
+    'stylelint-config-standard',
+    'stylelint-config-standard-scss',
+    'stylelint-config-standard-vue',
+    'stylelint-config-prettier-scss',
+  ],
   ignoreFiles: ['**/dist/**', '**/node_modules/**', '**/lib/**', 'ios/**', 'android/**'],
   plugins: ['stylelint-order', 'stylelint-prettier', 'stylelint-scss'],
   reportNeedlessDisables: true,
