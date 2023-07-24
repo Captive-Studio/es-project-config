@@ -1,3 +1,3 @@
 module.exports = {
-  extends: [require.resolve('../dist/rules.js')],
+  extends: [require.resolve('../dist/index.js')],
 };
