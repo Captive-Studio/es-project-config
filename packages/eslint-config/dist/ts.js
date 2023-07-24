@@ -8,9 +8,9 @@ const config = {
     overrides: [
         {
             ...dev_1.ESLintConfig.concat({
-                extends: [require.resolve('./rules/vue.js')],
+                extends: [require.resolve('./rules/typescript.js')],
             }, prettier_js_1.default),
-            files: ['*.vue'],
+            files: [`*.+(${dev_1.EXTENSIONS_WITHOUT_DOT.filter((_) => _.includes('ts')).join('|')})`],
         },
     ],
 };

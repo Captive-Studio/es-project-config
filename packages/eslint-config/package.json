@@ -19,17 +19,14 @@
   "license": "MIT",
   "author": "Julien Polo <julien.polo@captive.fr>",
   "type": "commonjs",
-  "main": "index.js",
+  "main": "dist/index.js",
   "files": [
     "dist/",
     "src/",
     "index.js",
     "index.d.ts",
     "!**/*.spec.*",
-    "!**/__tests__/**",
-    "!example/**/*",
-    "!*.cjs",
-    "*.js"
+    "!**/__tests__/**"
   ],
   "scripts": {
     "build": "concurrently \"npm:build:*\" \":\"",

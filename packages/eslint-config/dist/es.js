@@ -2,14 +2,9 @@
 var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
-const es_js_1 = __importDefault(require("@w5s/eslint-config/dist/es.js"));
 const dev_1 = require("@w5s/dev");
+const prettier_js_1 = __importDefault(require("./rules/prettier.js"));
 const config = dev_1.ESLintConfig.concat({
-    ...es_js_1.default,
-    parserOptions: {
-        ...es_js_1.default.parserOptions,
-        // Add '.vue' to extra file extensions
-        extraFileExtensions: [...(es_js_1.default.parserOptions?.['extraFileExtensions'] ?? []), '.vue'],
-    },
-});
+    extends: [require.resolve('./rules/es.js')],
+}, prettier_js_1.default);
 module.exports = config;

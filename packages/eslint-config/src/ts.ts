@@ -1,5 +1,5 @@
 import type eslint from 'eslint';
-import { ESLintConfig } from '@w5s/dev';
+import { EXTENSIONS_WITHOUT_DOT, ESLintConfig } from '@w5s/dev';
 import prettierConfig from './rules/prettier.js';
 
 const config: eslint.Linter.Config = {
@@ -7,12 +7,13 @@ const config: eslint.Linter.Config = {
     {
       ...ESLintConfig.concat(
         {
-          extends: [require.resolve('./rules/vue.js')],
+          extends: [require.resolve('./rules/typescript.js')],
         },
         prettierConfig
       ),
-      files: ['*.vue'],
+      files: [`*.+(${EXTENSIONS_WITHOUT_DOT.filter((_) => _.includes('ts')).join('|')})`],
     },
   ],
 };
+
 export = config;

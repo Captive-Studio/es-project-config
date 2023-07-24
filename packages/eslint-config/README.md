@@ -50,8 +50,8 @@ For most kind of project, just edit `eslintrc.json` and cherry pick only configu
 {
   "root": true,
   "extends": [
-    "@captive/eslint-config/react",
-    "@captive/eslint-config/ts",
+    "@captive/eslint-config/dist/react",
+    "@captive/eslint-config/dist/ts",
     // include more configurations here
   ]
   //...
@@ -60,12 +60,11 @@ For most kind of project, just edit `eslintrc.json` and cherry pick only configu
 
 **Available configurations :**
 
-- `@captive/eslint-config/es`: for ECMA Script (ES) files
-- `@captive/eslint-config/functional`: for pure functional programming
-- `@captive/eslint-config/jest`: for jest environment tests
-- `@captive/eslint-config/json`: for jest environment tests
-- `@captive/eslint-config/react`: for react capability
-- `@captive/eslint-config/ts`: for typescript files
+- `@captive/eslint-config/dist/es`: for ECMA Script (ES) files
+- `@captive/eslint-config/dist/jest`: for jest environment tests
+- `@captive/eslint-config/dist/json`: for jest environment tests
+- `@captive/eslint-config/dist/react`: for react capability
+- `@captive/eslint-config/dist/ts`: for typescript files
 
 ## Migration Guide
 
