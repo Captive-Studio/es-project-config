@@ -55,7 +55,16 @@ const stylelintConfig: Config = {
     'stylelint-config-standard-vue',
     'stylelint-config-prettier-scss',
   ],
-  ignoreFiles: ['**/dist/**', '**/node_modules/**', '**/lib/**', 'ios/**', 'android/**'],
+  ignoreFiles: [
+    '**/dist/**',
+    '**/node_modules/**',
+    '**/lib/**',
+    'ios/**',
+    'android/**',
+    '**/*.min.css',
+    '**/vendor/**',
+    '**/vendors/**',
+  ],
   plugins: ['stylelint-order', 'stylelint-prettier', 'stylelint-scss'],
   reportNeedlessDisables: true,
   rules: {
