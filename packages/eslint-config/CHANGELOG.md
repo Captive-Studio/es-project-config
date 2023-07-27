@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.9.0](https://github.com/Captive-Studio/es-project-config/compare/@captive/eslint-config@1.8.1...@captive/eslint-config@1.9.0) (2023-07-27)
+
+
+### ✨ Features
+
+* Implement root configurations in Typescript ([24bd48c](https://github.com/Captive-Studio/es-project-config/commit/24bd48c)) 
+
+
 ## [1.8.1](https://github.com/Captive-Studio/es-project-config/compare/@captive/eslint-config@1.8.0...@captive/eslint-config@1.8.1) (2023-07-20)
 
 **Note:** Version bump only for package @captive/eslint-config
