@@ -144,7 +144,7 @@ __metadata:
     "@w5s/dev": ^1.0.5
     "@w5s/eslint-config": 1.1.2
     eslint: 8.45.0
-    eslint-config-prettier: 8.8.0
+    eslint-config-prettier: 8.9.0
     eslint-find-rules: 4.1.0
     eslint-plugin-cypress: ^2.12.1
     eslint-plugin-vue: ^9.9.0
@@ -4214,7 +4214,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-prettier@npm:8.8.0, eslint-config-prettier@npm:^8.0.0":
+"eslint-config-prettier@npm:8.9.0":
+  version: 8.9.0
+  resolution: "eslint-config-prettier@npm:8.9.0"
+  peerDependencies:
+    eslint: ">=7.0.0"
+  bin:
+    eslint-config-prettier: bin/cli.js
+  checksum: a675d0dabd76b700ef2d062b5ec6a634e105a8e8c070f95281fd2ccb614527fac60b4c758132058c50f0521fd19313f1f5be45ce9ebf081f2e5f77ae6eb7d8db
+  languageName: node
+  linkType: hard
+
+"eslint-config-prettier@npm:^8.0.0":
   version: 8.8.0
   resolution: "eslint-config-prettier@npm:8.8.0"
   peerDependencies:
