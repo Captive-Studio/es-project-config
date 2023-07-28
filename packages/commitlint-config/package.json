@@ -20,14 +20,14 @@
   "author": "Julien Polo <julien.polo@captive.fr>",
   "type": "commonjs",
   "exports": {
-    ".": "./index.js",
+    ".": "./index.cjs",
     "./dist/*": "./dist/*"
   },
   "typings": "./index.d.ts",
   "files": [
     "dist/",
     "src/",
-    "index.js",
+    "index.*",
     "index.d.ts",
     "!**/*.spec.*",
     "!**/__tests__/**"

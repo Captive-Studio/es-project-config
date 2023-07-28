@@ -23,7 +23,7 @@
   "files": [
     "dist/",
     "src/",
-    "index.js",
+    "index.*",
     "index.d.ts",
     "!**/*.spec.*",
     "!**/__tests__/**"
@@ -42,7 +42,7 @@
     "prepublishOnly": "npm run clean; npm run build",
     "spellcheck": "cspell --no-progress '**'",
     "test": "concurrently \"npm:test:*\" \":\"",
-    "test:style": "npm run build && stylelint _tests"
+    "test:style": "npm run build && stylelint _tests --config _tests/.stylelintrc.cjs"
   },
   "eslintConfig": {
     "rules": {

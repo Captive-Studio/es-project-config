@@ -1,5 +1,6 @@
 {
   "rules": {
+    "unicorn/prefer-module": "off",
     "prefer-object-spread": "off",
     "sort-keys-fix/sort-keys-fix": "error",
     "@typescript-eslint/naming-convention": "off",
