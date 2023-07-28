@@ -14,7 +14,8 @@
       "packages/*"
     ],
     "nohoist": [
-      "/eslint"
+      "/eslint",
+      "/eslint-plugin-prettier"
     ]
   },
   "scripts": {
