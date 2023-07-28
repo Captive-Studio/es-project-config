@@ -20,9 +20,13 @@
   "author": "Julien Polo <julien.polo@gmail.com>",
   "type": "commonjs",
   "exports": {
-    ".": "./index.cjs",
+    ".": {
+      "types": "./index.d.ts",
+      "require": "./index.cjs"
+    },
     "./dist/*": "./dist/*"
   },
+  "main": "./index.cjs",
   "typings": "./index.d.ts",
   "files": [
     "dist/",
