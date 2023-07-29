@@ -9362,9 +9362,9 @@ __metadata:
   linkType: hard
 
 "signal-exit@npm:^4.0.1":
-  version: 4.0.2
-  resolution: "signal-exit@npm:4.0.2"
-  checksum: 41f5928431cc6e91087bf0343db786a6313dd7c6fd7e551dbc141c95bb5fb26663444fd9df8ea47c5d7fc202f60aa7468c3162a9365cbb0615fc5e1b1328fe31
+  version: 4.0.3
+  resolution: "signal-exit@npm:4.0.3"
+  checksum: b1c69a0889b2417095d7dbea09c2c99d8e45891d71964602d0b234055d66eef11e3f3680ef36b1e864f9cc4c06e86a17821ee65a9463d0950bfe3e756a18ea62
   languageName: node
   linkType: hard
 
