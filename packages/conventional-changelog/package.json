@@ -50,7 +50,7 @@
     "test:src": "vitest run"
   },
   "dependencies": {
-    "@w5s/conventional-changelog": "1.1.1"
+    "@w5s/conventional-changelog": "1.1.3"
   },
   "devDependencies": {
     "vite": "latest",
