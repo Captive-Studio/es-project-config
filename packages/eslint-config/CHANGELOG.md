@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.10.0](https://github.com/Captive-Studio/es-project-config/compare/@captive/eslint-config@1.9.1...@captive/eslint-config@1.10.0) (2023-08-01)
+
+
+### ✨ Features
+
+- Upgrade @w5s/eslint-config and @w5s/dev ([5a21b56](https://github.com/Captive-Studio/es-project-config/commit/5a21b56))
+
+**Note:** Version bump only for package @captive/eslint-config
+
+
+
+
+
 ## [1.9.1](https://github.com/Captive-Studio/es-project-config/compare/@captive/eslint-config@1.9.0...@captive/eslint-config@1.9.1) (2023-07-28)
 
 **Note:** Version bump only for package @captive/eslint-config
