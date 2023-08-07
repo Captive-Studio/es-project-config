@@ -42,7 +42,8 @@
     "prepublishOnly": "npm run clean;npm run build",
     "spellcheck": "cspell --no-progress '**'",
     "test": "concurrently \"npm:test:*\" \":\"",
-    "test:script": "scripts/test",
+    "test:e2e": "scripts/test",
+    "test:src": "vitest run",
     "test_:rule-coverage": "eslint-find-rules --unused"
   },
   "dependencies": {
