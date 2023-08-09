@@ -55,7 +55,7 @@
     "find-up": "^5.0.0"
   },
   "devDependencies": {
-    "@types/react": "18.2.19",
+    "@types/react": "18.2.20",
     "eslint": "8.46.0",
     "eslint-find-rules": "4.1.0",
     "prettier": "3.0.1",
