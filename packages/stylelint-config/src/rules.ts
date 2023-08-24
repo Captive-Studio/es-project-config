@@ -22,6 +22,7 @@ const stylelintConfig: Config = {
     '**/dist/**',
     '**/node_modules/**',
     '**/lib/**',
+    '**/coverage/**',
     'ios/**',
     'android/**',
     '**/*.min.css',
