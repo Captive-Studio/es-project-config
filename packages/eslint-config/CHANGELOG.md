@@ -3,16 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.10.3](https://github.com/Captive-Studio/es-project-config/compare/@captive/eslint-config@1.10.2...@captive/eslint-config@1.10.3) (2023-08-28)
+
+**Note:** Version bump only for package @captive/eslint-config
+
 ## [1.10.2](https://github.com/Captive-Studio/es-project-config/compare/@captive/eslint-config@1.10.1...@captive/eslint-config@1.10.2) (2023-08-09)
 
 **Note:** Version bump only for package @captive/eslint-config
 
-
-
-
-
 ## [1.10.1](https://github.com/Captive-Studio/es-project-config/compare/@captive/eslint-config@1.10.0...@captive/eslint-config@1.10.1) (2023-08-01)
-
 
 ### 🐛 Bug Fixes
 
@@ -20,12 +19,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 **Note:** Version bump only for package @captive/eslint-config
 
-
-
-
-
 # [1.10.0](https://github.com/Captive-Studio/es-project-config/compare/@captive/eslint-config@1.9.1...@captive/eslint-config@1.10.0) (2023-08-01)
-
 
 ### ✨ Features
 
@@ -33,33 +27,19 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 **Note:** Version bump only for package @captive/eslint-config
 
-
-
-
-
 ## [1.9.1](https://github.com/Captive-Studio/es-project-config/compare/@captive/eslint-config@1.9.0...@captive/eslint-config@1.9.1) (2023-07-28)
 
 **Note:** Version bump only for package @captive/eslint-config
 
-
-
-
-
 # [1.9.0](https://github.com/Captive-Studio/es-project-config/compare/@captive/eslint-config@1.8.1...@captive/eslint-config@1.9.0) (2023-07-27)
-
 
 ### ✨ Features
 
-* Implement root configurations in Typescript ([24bd48c](https://github.com/Captive-Studio/es-project-config/commit/24bd48c)) 
-
+- Implement root configurations in Typescript ([24bd48c](https://github.com/Captive-Studio/es-project-config/commit/24bd48c))
 
 ## [1.8.1](https://github.com/Captive-Studio/es-project-config/compare/@captive/eslint-config@1.8.0...@captive/eslint-config@1.8.1) (2023-07-20)
 
 **Note:** Version bump only for package @captive/eslint-config
-
-
-
-
 
 # [1.8.0](https://github.com/Captive-Studio/es-project-config/compare/@captive/eslint-config@1.7.34...@captive/eslint-config@1.8.0) (2023-06-14)
 

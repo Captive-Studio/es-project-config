@@ -1,6 +1,6 @@
 {
   "name": "@captive/browserslist-config",
-  "version": "1.0.18",
+  "version": "1.0.19",
   "description": "Browserslist support shared configuration",
   "keywords": [
     "browserslist",

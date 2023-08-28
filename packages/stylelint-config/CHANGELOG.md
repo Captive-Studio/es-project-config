@@ -3,45 +3,35 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-## [1.4.2](https://github.com/Captive-Studio/es-project-config/compare/@captive/stylelint-config@1.4.1...@captive/stylelint-config@1.4.2) (2023-08-09)
+## [1.4.3](https://github.com/Captive-Studio/es-project-config/compare/@captive/stylelint-config@1.4.2...@captive/stylelint-config@1.4.3) (2023-08-28)
+
+### 🐛 Bug Fixes
+
+- Ignore coverage folders ([3c7d652](https://github.com/Captive-Studio/es-project-config/commit/3c7d652))
 
 **Note:** Version bump only for package @captive/stylelint-config
 
+## [1.4.2](https://github.com/Captive-Studio/es-project-config/compare/@captive/stylelint-config@1.4.1...@captive/stylelint-config@1.4.2) (2023-08-09)
 
-
-
+**Note:** Version bump only for package @captive/stylelint-config
 
 ## [1.4.1](https://github.com/Captive-Studio/es-project-config/compare/@captive/stylelint-config@1.4.0...@captive/stylelint-config@1.4.1) (2023-07-28)
 
 **Note:** Version bump only for package @captive/stylelint-config
 
-
-
-
-
 # [1.4.0](https://github.com/Captive-Studio/es-project-config/compare/@captive/stylelint-config@1.3.25...@captive/stylelint-config@1.4.0) (2023-07-27)
-
 
 ### ✨ Features
 
-* Ignore vendors and minified files ([b857205](https://github.com/Captive-Studio/es-project-config/commit/b857205)) 
-
+- Ignore vendors and minified files ([b857205](https://github.com/Captive-Studio/es-project-config/commit/b857205))
 
 ## [1.3.25](https://github.com/Captive-Studio/es-project-config/compare/@captive/stylelint-config@1.3.24...@captive/stylelint-config@1.3.25) (2023-07-20)
 
 **Note:** Version bump only for package @captive/stylelint-config
 
-
-
-
-
 ## [1.3.24](https://github.com/Captive-Studio/es-project-config/compare/@captive/stylelint-config@1.3.23...@captive/stylelint-config@1.3.24) (2023-07-20)
 
 **Note:** Version bump only for package @captive/stylelint-config
-
-
-
-
 
 ## [1.3.23](https://github.com/Captive-Studio/es-project-config/compare/@captive/stylelint-config@1.3.22...@captive/stylelint-config@1.3.23) (2023-06-14)
 

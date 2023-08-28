@@ -3,13 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-## [1.4.2](https://github.com/Captive-Studio/es-project-config/compare/@captive/ts-config@1.4.1...@captive/ts-config@1.4.2) (2023-07-20)
+## [1.4.3](https://github.com/Captive-Studio/es-project-config/compare/@captive/ts-config@1.4.2...@captive/ts-config@1.4.3) (2023-08-28)
 
 **Note:** Version bump only for package @captive/ts-config
 
+## [1.4.2](https://github.com/Captive-Studio/es-project-config/compare/@captive/ts-config@1.4.1...@captive/ts-config@1.4.2) (2023-07-20)
 
-
-
+**Note:** Version bump only for package @captive/ts-config
 
 ## [1.4.1](https://github.com/Captive-Studio/es-project-config/compare/@captive/ts-config@1.4.0...@captive/ts-config@1.4.1) (2023-06-05)
 
