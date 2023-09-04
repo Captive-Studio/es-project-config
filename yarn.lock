@@ -143,7 +143,7 @@ __metadata:
     "@captive/prettier-config": ^1.1.17
     "@types/react": 18.2.21
     "@w5s/dev": ^1.3.0
-    "@w5s/eslint-config": 1.4.1
+    "@w5s/eslint-config": 1.4.2
     eslint: 8.48.0
     eslint-find-rules: 4.1.0
     eslint-plugin-cypress: ^2.12.1
@@ -2279,9 +2279,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@w5s/eslint-config@npm:1.4.1":
-  version: 1.4.1
-  resolution: "@w5s/eslint-config@npm:1.4.1"
+"@w5s/eslint-config@npm:1.4.2":
+  version: 1.4.2
+  resolution: "@w5s/eslint-config@npm:1.4.2"
   dependencies:
     "@rushstack/eslint-patch": ^1.1.0
     "@typescript-eslint/eslint-plugin": ^6.0.0
@@ -2309,7 +2309,7 @@ __metadata:
       optional: true
     typescript:
       optional: true
-  checksum: f68a311d12b0414739395b22246f88ac361d3e6cbdc9aeac179be2806d7048f73cf6079bf0230b862853c213eb67c68ffc9b3fb5cc75687f944e3220550c6e51
+  checksum: 0b1b9e6516fa3fe4e3308af60cb553cf624a7b314e6a156eff9b7bcc01fbe17ced2da01e257867d115db4ba97f6c2c6faecf1d65e0c1a7cb5f1bc4c0f18c6604
   languageName: node
   linkType: hard
 
