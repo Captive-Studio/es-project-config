@@ -5,10 +5,11 @@ import browserslist from 'browserslist';
 // eslint-disable-next-line import/no-extraneous-dependencies
 import { groupBy, entries } from 'lodash-es';
 
+const scriptDirectory = path.dirname(fileURLToPath(import.meta.url));
+const rootDirectory = path.dirname(scriptDirectory);
+
 const Package = {
   async readBrowsersListConfig(fileName) {
-    const scriptDirectory = path.dirname(fileURLToPath(import.meta.url));
-    const rootDirectory = path.dirname(scriptDirectory);
     const configModule = await import(path.join(rootDirectory, fileName));
     return configModule.default;
   },
@@ -129,7 +130,7 @@ async function buildPageContent() {
 }
 
 async function main() {
-  const file = 'BROWSER_LIST.md';
+  const file = path.join(rootDirectory, 'BROWSER_LIST.md');
   const [markdownContentNew, markdownContent] = await Promise.all([
     buildPageContent(),
     (async () => {
