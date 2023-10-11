@@ -112,7 +112,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@captive/conventional-changelog@workspace:packages/conventional-changelog"
   dependencies:
-    "@w5s/conventional-changelog": 1.2.3
+    "@w5s/conventional-changelog": 1.2.4
     vite: latest
     vitest: latest
   languageName: unknown
@@ -2351,14 +2351,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@w5s/conventional-changelog@npm:1.2.3":
-  version: 1.2.3
-  resolution: "@w5s/conventional-changelog@npm:1.2.3"
+"@w5s/conventional-changelog@npm:1.2.4":
+  version: 1.2.4
+  resolution: "@w5s/conventional-changelog@npm:1.2.4"
   dependencies:
     "@commitlint/types": ^17.0.0
     emoji-regex: ^10.2.1
     gitmojis: ^3.13.4
-  checksum: a5409389a17e54275665e0775c39777cd770744e81a95a4e38449ab751d218c0b46702b6f103c47f88d79750f082a3c1c7be4612b1d34b1dcc815595e67b7d5d
+  checksum: 2b01c7efa7e99a80be07da8563e7c448c49d02b169f74a78628772d401dd95b3d4d4dd3998c12f8b87aa91c5ce1ab28ff0cf8cd20480eebe68428752505731f9
   languageName: node
   linkType: hard
 
