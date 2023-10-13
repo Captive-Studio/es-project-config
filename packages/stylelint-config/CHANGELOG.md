@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.4.5](https://github.com/Captive-Studio/es-project-config/compare/@captive/stylelint-config@1.4.4...@captive/stylelint-config@1.4.5) (2023-10-13)
+
+### 🐛 Bug Fixes
+
+- Disable color-function-notation for older sass and sassc compiler ([5e91935](https://github.com/Captive-Studio/es-project-config/commit/5e91935))
+
+**Note:** Version bump only for package @captive/stylelint-config
+
 ## [1.4.4](https://github.com/Captive-Studio/es-project-config/compare/@captive/stylelint-config@1.4.3...@captive/stylelint-config@1.4.4) (2023-10-10)
 
 **Note:** Version bump only for package @captive/stylelint-config

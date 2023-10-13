@@ -1,6 +1,6 @@
 {
   "name": "@captive/stylelint-config",
-  "version": "1.4.4",
+  "version": "1.4.5",
   "description": "StyleLint configuration presets",
   "keywords": [
     "stylelint",
