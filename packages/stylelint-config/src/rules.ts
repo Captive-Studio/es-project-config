@@ -32,7 +32,9 @@ const stylelintConfig: Config = {
   plugins: ['stylelint-order', 'stylelint-prettier', 'stylelint-scss'],
   reportNeedlessDisables: true,
   rules: {
-    'no-descending-specificity': null, // Many false positive https://github.com/stylelint/stylelint/issues/3516
+    'color-function-notation': null, // TODO: remove this when sassc and sass-rails are not used on projects
+    'no-descending-specificity': null,
+    // Many false positive https://github.com/stylelint/stylelint/issues/3516
     'prettier/prettier': [true, prettierConfig],
     'selector-class-pattern': [
       bemSelector('any'),
