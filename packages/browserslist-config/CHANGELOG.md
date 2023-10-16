@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0](https://github.com/Captive-Studio/es-project-config/compare/@captive/browserslist-config@1.0.20...@captive/browserslist-config@2.0.0) (2023-10-16)
+
+### 🎫 Chores
+
+- Drop NodeJS 16 support ([fdb2672](https://github.com/Captive-Studio/es-project-config/commit/fdb2672))
+
+### 💥 BREAKING CHANGES
+
+- nodejs project with version 16 or lower may not work
+
 ## [1.0.20](https://github.com/Captive-Studio/es-project-config/compare/@captive/browserslist-config@1.0.19...@captive/browserslist-config@1.0.20) (2023-10-10)
 
 **Note:** Version bump only for package @captive/browserslist-config
