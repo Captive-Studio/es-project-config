@@ -11,6 +11,12 @@ const bemSelector = (/** @type {'any'|'kebabCase'|'pascalCase'} */ selector = 'a
   return `^[a-z](${word})?(__(${word}-?)+)*(--(${word}-?)+){0,2}$`;
 };
 
+// TODO: remove this when sassc and sass-rails are not used on projects
+const sasscRailsCompatibility = {
+  'alpha-value-notation': null,
+  'color-function-notation': null,
+};
+
 const stylelintConfig: Config = {
   extends: [
     'stylelint-config-standard',
@@ -32,7 +38,7 @@ const stylelintConfig: Config = {
   plugins: ['stylelint-order', 'stylelint-prettier', 'stylelint-scss'],
   reportNeedlessDisables: true,
   rules: {
-    'color-function-notation': null, // TODO: remove this when sassc and sass-rails are not used on projects
+    ...sasscRailsCompatibility,
     'no-descending-specificity': null,
     // Many false positive https://github.com/stylelint/stylelint/issues/3516
     'prettier/prettier': [true, prettierConfig],
