@@ -18,7 +18,10 @@
       "dependsOn": ["//#format:root"]
     },
     "//#format:root": {},
-    "docs": {},
+    "docs": {
+      "dependsOn": ["//#docs:root"],
+      "cache": false
+    },
     "spellcheck": {
       "dependsOn": ["//#spellcheck:root"]
     },
@@ -35,7 +38,8 @@
     },
     "pull-external": {
       "cache": false
-    }
+    },
+    "//#docs:root": {}
   },
   "globalDependencies": ["tsconfig.settings.json"]
 }
