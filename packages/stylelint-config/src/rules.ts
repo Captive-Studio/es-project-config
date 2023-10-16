@@ -3,12 +3,14 @@
 import type { Config } from 'stylelint';
 import prettierConfig from '@captive/prettier-config';
 
-const bemSelector = (/** @type {'any'|'kebabCase'|'pascalCase'} */ selector = 'any') => {
+const bemSelector = (selectors: Array<'any' | 'kebabCase' | 'pascalCase'>) => {
   const kebabCase = '[\\da-z-]+';
-  const pascalCase = '[\\da-z]+';
-  const any = '[\\da-zA-Z-]+';
-  const word = { any, kebabCase, pascalCase }[selector] ?? any;
-  return `^[a-z](${word})?(__(${word}-?)+)*(--(${word}-?)+){0,2}$`;
+  const pascalCase = '[a-zA-Z][\\da-zA-Z]+';
+  const any = '[a-zA-Z][\\da-zA-Z-]+';
+  const map = { any, kebabCase, pascalCase } as const;
+
+  const word = selectors.map((selector) => map[selector]).join('|');
+  return `^(${word})?(__(${word}-?)+)*(--(${word}-?)+){0,2}$`;
 };
 
 // TODO: remove this when sassc and sass-rails are not used on projects
@@ -43,7 +45,7 @@ const stylelintConfig: Config = {
     // Many false positive https://github.com/stylelint/stylelint/issues/3516
     'prettier/prettier': [true, prettierConfig],
     'selector-class-pattern': [
-      bemSelector('any'),
+      bemSelector(['kebabCase', 'pascalCase']),
       {
         message: 'Expected class selector to be kebab-case or BEM',
         resolveNestedSelectors: true,

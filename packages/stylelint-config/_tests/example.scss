@@ -46,3 +46,9 @@
     }
   }
 }
+
+.ComponentTest {
+  &__Sub {
+    color: $color-text-dark;
+  }
+}
