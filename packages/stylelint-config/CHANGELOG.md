@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.0.1](https://github.com/Captive-Studio/es-project-config/compare/@captive/stylelint-config@2.0.0...@captive/stylelint-config@2.0.1) (2023-10-16)
+
+### 🐛 Bug Fixes
+
+- Fix id-selector-pattern wrong validation ([7e39a25](https://github.com/Captive-Studio/es-project-config/commit/7e39a25))
+- Fix selector case wrong validation ([bfe8fee](https://github.com/Captive-Studio/es-project-config/commit/bfe8fee))
+
+**Note:** Version bump only for package @captive/stylelint-config
+
 # [2.0.0](https://github.com/Captive-Studio/es-project-config/compare/@captive/stylelint-config@1.4.5...@captive/stylelint-config@2.0.0) (2023-10-16)
 
 ### 🎫 Chores
