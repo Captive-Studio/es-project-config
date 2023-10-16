@@ -51,6 +51,13 @@ const stylelintConfig: Config = {
         resolveNestedSelectors: true,
       },
     ],
+    'selector-id-pattern': [
+      bemSelector(['kebabCase', 'pascalCase']),
+      {
+        message: 'Expected id selector to be kebab-case or BEM',
+        resolveNestedSelectors: true,
+      },
+    ],
   },
 };
 
