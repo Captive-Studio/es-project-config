@@ -20,6 +20,7 @@ npm install --save-dev @captive/plop-config
 ## Usage
 
 ```ts
+// plopfile.mjs
 import plopPlugin from '@captive/plop-config';
 
 export default function plopGenerator(/** @type {import('plop').NodePlopAPI} */ plop) {
