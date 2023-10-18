@@ -1,0 +1,70 @@
+{
+  "name": "@captive/plop-config",
+  "version": "1.0.0-alpha.0",
+  "description": "Plop generators",
+  "keywords": [
+    "plop",
+    "plopjs",
+    "vue"
+  ],
+  "homepage": "https://github.com/Captive-Studio/es-project-config/blob/master/packages/plop-config#readme",
+  "bugs": {
+    "url": "https://github.com/Captive-Studio/es-project-config.git/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Captive-Studio/es-project-config.git",
+    "directory": "packages/plop-config"
+  },
+  "license": "MIT",
+  "author": "Julien Polo <julien.polo@captive.fr>",
+  "type": "module",
+  "exports": {
+    ".": "./dist/index.js",
+    "./dist/*": "./dist/*"
+  },
+  "typings": "./dist/index.d.ts",
+  "files": [
+    "dist/",
+    "src/",
+    "index.*",
+    "index.d.ts",
+    "!**/*.spec.*",
+    "!**/__tests__/**"
+  ],
+  "scripts": {
+    "build": "concurrently \"npm:build:*\" \":\"",
+    "build:tsc": "tsc -b tsconfig.build.json",
+    "clean": "concurrently \"npm:clean:*\" \":\"",
+    "clean:tsc": "rm -rf dist",
+    "docs": "node ../../markdown.mjs",
+    "format": "concurrently \"npm:format:*\" \":\"",
+    "format:src": "eslint . --fix --ext=mjs,cjs,js,jsx,ts,tsx,json,jsonc,json5,yml,yaml",
+    "lint": "concurrently \"npm:lint:*\" \":\"",
+    "lint:src": "eslint . --ext=mjs,cjs,js,jsx,ts,tsx,json,jsonc,json5,yml,yaml",
+    "prepare": "concurrently \"npm:prepare:*\" \":\"",
+    "prepublishOnly": "npm run clean; npm run build",
+    "spellcheck": "cspell --no-progress '**'",
+    "test": "concurrently \"npm:test:*\" \":\"",
+    "test:src": "vitest run"
+  },
+  "devDependencies": {
+    "plop": "4.0.0",
+    "vite": "latest",
+    "vitest": "latest"
+  },
+  "peerDependencies": {
+    "plop": "4.x"
+  },
+  "peerDependenciesMeta": {
+    "plop": {
+      "optional": true
+    }
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
