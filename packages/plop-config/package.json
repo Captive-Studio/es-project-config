@@ -30,7 +30,8 @@
     "index.*",
     "index.d.ts",
     "!**/*.spec.*",
-    "!**/__tests__/**"
+    "!**/__tests__/**",
+    "**/*.template.*"
   ],
   "scripts": {
     "build": "concurrently \"npm:build:*\" \":\"",
