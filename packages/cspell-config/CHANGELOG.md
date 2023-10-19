@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.1.0](https://github.com/Captive-Studio/es-project-config/compare/@captive/cspell-config@2.0.0...@captive/cspell-config@2.1.0) (2023-10-19)
+
+### ✨ Features
+
+- Add plop and plopfile ([c11c54e](https://github.com/Captive-Studio/es-project-config/commit/c11c54e))
+
+**Note:** Version bump only for package @captive/cspell-config
+
 # [2.0.0](https://github.com/Captive-Studio/es-project-config/compare/@captive/cspell-config@1.0.12...@captive/cspell-config@2.0.0) (2023-10-16)
 
 ### 🎫 Chores
