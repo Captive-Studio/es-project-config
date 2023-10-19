@@ -1,9 +1,14 @@
-// import * as Variables from './variables.js';
+import * as Variables from './variables.js';
 
 export const template = `
 <script lang="ts" setup>
-import { defineProps, withDefaults } from 'vue';
-import { IonIcon } from '@ionic/vue';
+import { defineOptions, defineProps, withDefaults } from 'vue';
+
+const componentName = '{{ ${Variables.componentName} }}';
+
+defineOptions({
+  name: componentName,
+});
 
 withDefaults(
   defineProps<{
@@ -16,9 +21,13 @@ withDefaults(
 </script>
 
 <template>
-  <ion-icon
-    :class="dark ? 'Example--dark' : 'Example--light'"
-    class="ExampleButton"
-  />
+  <div
+    :class="[
+      componentName,
+      dark ? \`\${componentName}--dark\` : \`\${componentName}--light\`,
+    ]"
+  >
+    <slot></slot>
+  </div>
 </template>
 `.slice(1);

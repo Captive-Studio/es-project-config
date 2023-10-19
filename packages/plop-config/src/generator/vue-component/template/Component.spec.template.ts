@@ -5,7 +5,7 @@ import { describe, it, expect } from 'vitest';
 import { mount } from '@vue/test-utils';
 import Component from './{{ ${Variables.componentName} }}.vue';
 
-describe((Component.name, () => {
+describe(Component.name, () => {
   it('has a name', () => {
     expect(Component.name).toEqual('{{ ${Variables.componentName} }}');
   });
