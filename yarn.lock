@@ -166,7 +166,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@captive/plop-config@workspace:packages/plop-config":
+"@captive/plop-config@workspace:*, @captive/plop-config@workspace:packages/plop-config":
   version: 0.0.0-use.local
   resolution: "@captive/plop-config@workspace:packages/plop-config"
   dependencies:
@@ -5290,6 +5290,14 @@ __metadata:
   checksum: 1875311c42fcfe9c707b2712c32664a245629b42bb0a5a84439762dd0fd637fc54d078155ea83c2af9e0323c9ac13687e03cfba79b03af9f40c89b4960099374
   languageName: node
   linkType: hard
+
+"example@workspace:packages/example":
+  version: 0.0.0-use.local
+  resolution: "example@workspace:packages/example"
+  dependencies:
+    "@captive/plop-config": "workspace:*"
+  languageName: unknown
+  linkType: soft
 
 "execa@npm:5.0.0":
   version: 5.0.0

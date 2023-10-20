@@ -1,0 +1,10 @@
+{
+  "name": "example",
+  "private": true,
+  "scripts": {
+    "new": "npx plop"
+  },
+  "devDependencies": {
+    "@captive/plop-config": "workspace:*"
+  }
+}
