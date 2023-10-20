@@ -5,6 +5,9 @@
     "new": "npx plop"
   },
   "devDependencies": {
-    "@captive/plop-config": "workspace:*"
+    "@captive/plop-config": "workspace:*",
+    "plop": "4.0.0",
+    "vite": "*",
+    "vitest": "*"
   }
 }

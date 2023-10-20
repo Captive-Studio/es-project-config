@@ -4,6 +4,7 @@ import * as StyleSheet from './template/Component.scss.template.js';
 import * as Component from './template/Component.vue.template.js';
 import * as Test from './template/Component.spec.template.js';
 import * as Index from './template/index.template.js';
+import { composeValidators, requireNotEmpty, requirePascalCase } from '../../validator/index.js';
 
 export interface VueComponentGeneratorOptions {
   componentPath: string;
@@ -16,7 +17,7 @@ export const vueComponentGenerator = (option: VueComponentGeneratorOptions) => (
       {
         name: Variables.componentName,
         type: 'input',
-        // validate: (input) =>
+        validate: composeValidators(requireNotEmpty(), requirePascalCase()),
       },
     ],
     actions: [
