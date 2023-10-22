@@ -185,7 +185,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@captive/prettier-config@workspace:packages/prettier-config"
   dependencies:
-    "@w5s/prettier-config": ^1.1.1
+    "@w5s/prettier-config": ^2.0.0
     prettier: 3.0.3
     vite: latest
     vitest: latest
@@ -2617,18 +2617,6 @@ __metadata:
     typescript:
       optional: true
   checksum: 130772cb724c6f9a4febb73be74ab67666028994f02e5da0e16a31b90ceaf75be4af0b8ecedb52e54e3186e8339234f002c3af6e240f80c7dfaf836b36dc9927
-  languageName: node
-  linkType: hard
-
-"@w5s/prettier-config@npm:^1.1.1":
-  version: 1.1.7
-  resolution: "@w5s/prettier-config@npm:1.1.7"
-  peerDependencies:
-    prettier: 2.x || 3.x
-  peerDependenciesMeta:
-    prettier:
-      optional: true
-  checksum: 5e035c4dcb1097ea757f8c4f5e57cb586cccc7d7735d12f91571b87c85512b09ebf9dc0c1bab906907c6207be426f11c211912275fcee26a90ed86ca0b9a1e3d
   languageName: node
   linkType: hard
 
