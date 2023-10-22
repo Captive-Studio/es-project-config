@@ -5390,8 +5390,8 @@ __metadata:
   dependencies:
     "@captive/plop-config": "workspace:*"
     plop: 4.0.0
-    vite: "*"
-    vitest: "*"
+    vite: 4.5.0
+    vitest: 0.34.6
   languageName: unknown
   linkType: soft
 
@@ -12152,7 +12152,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite@npm:*, vite@npm:latest":
+"vite@npm:4.5.0, vite@npm:latest":
   version: 4.5.0
   resolution: "vite@npm:4.5.0"
   dependencies:
@@ -12232,7 +12232,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vitest@npm:*, vitest@npm:latest":
+"vitest@npm:0.34.6, vitest@npm:latest":
   version: 0.34.6
   resolution: "vitest@npm:0.34.6"
   dependencies:
