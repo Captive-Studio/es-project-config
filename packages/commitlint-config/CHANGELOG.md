@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.1.0](https://github.com/Captive-Studio/es-project-config/compare/@captive/commitlint-config@2.0.0...@captive/commitlint-config@2.1.0) (2023-10-23)
+
+### ✨ Features
+
+- Désactive la règle footer-max-line-length ([6dd8d82](https://github.com/Captive-Studio/es-project-config/commit/6dd8d82))
+
+**Note:** Version bump only for package @captive/commitlint-config
+
 # [2.0.0](https://github.com/Captive-Studio/es-project-config/compare/@captive/commitlint-config@1.1.22...@captive/commitlint-config@2.0.0) (2023-10-16)
 
 ### 🎫 Chores
