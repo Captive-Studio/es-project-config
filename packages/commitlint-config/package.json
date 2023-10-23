@@ -49,7 +49,7 @@
     "test:src": "vitest run"
   },
   "dependencies": {
-    "@w5s/commitlint-config": "^1.0.24"
+    "@w5s/commitlint-config": "^2.0.0"
   },
   "devDependencies": {
     "@commitlint/lint": "18.0.0",
