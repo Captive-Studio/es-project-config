@@ -9,6 +9,7 @@ const config: typeof defaultConfig = {
     ...defaultConfig.rules,
     'header-max-length': [RuleConfigSeverity.Error, 'always', 100],
     'body-max-line-length': [RuleConfigSeverity.Disabled, 'always', Number.POSITIVE_INFINITY],
+    'footer-max-line-length': [RuleConfigSeverity.Disabled, 'always', Number.POSITIVE_INFINITY],
   },
 };
 
