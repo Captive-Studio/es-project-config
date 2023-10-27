@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.0.4](https://github.com/Captive-Studio/es-project-config/compare/@captive/eslint-config@2.0.3...@captive/eslint-config@2.0.4) (2023-10-27)
+
+### 🐛 Bug Fixes
+
+- Disable vue/no-deprecated-slot-attribute ([50fefdf](https://github.com/Captive-Studio/es-project-config/commit/50fefdf))
+
+**Note:** Version bump only for package @captive/eslint-config
+
 ## [2.0.3](https://github.com/Captive-Studio/es-project-config/compare/@captive/eslint-config@2.0.2...@captive/eslint-config@2.0.3) (2023-10-23)
 
 **Note:** Version bump only for package @captive/eslint-config

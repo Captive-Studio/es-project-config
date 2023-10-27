@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.2.0](https://github.com/Captive-Studio/es-project-config/compare/@captive/cspell-config@2.1.1...@captive/cspell-config@2.2.0) (2023-10-27)
+
+### ✨ Features
+
+- Add names ([20db608](https://github.com/Captive-Studio/es-project-config/commit/20db608))
+- Add ruby dictionary by default ([396c971](https://github.com/Captive-Studio/es-project-config/commit/396c971))
+- Bump dictionary versions ([0ca5402](https://github.com/Captive-Studio/es-project-config/commit/0ca5402))
+- Ignore binary folder ([014dd20](https://github.com/Captive-Studio/es-project-config/commit/014dd20))
+- Ignore Gemfile ([775bedf](https://github.com/Captive-Studio/es-project-config/commit/775bedf))
+- Ignore gemspec files ([f35e01e](https://github.com/Captive-Studio/es-project-config/commit/f35e01e))
+
+**Note:** Version bump only for package @captive/cspell-config
+
 ## [2.1.1](https://github.com/Captive-Studio/es-project-config/compare/@captive/cspell-config@2.1.0...@captive/cspell-config@2.1.1) (2023-10-23)
 
 **Note:** Version bump only for package @captive/cspell-config
