@@ -1,6 +1,8 @@
 cobertura
+dind
+Hanser
+Hotwire
+preprod
 rubocop
 scalingo
 sidekiq
-dind
-preprod
