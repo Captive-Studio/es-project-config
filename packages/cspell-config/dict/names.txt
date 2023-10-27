@@ -4,5 +4,3 @@ scalingo
 sidekiq
 dind
 preprod
-plop
-plopfile
