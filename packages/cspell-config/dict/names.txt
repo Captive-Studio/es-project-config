@@ -4,5 +4,7 @@ Hanser
 Hotwire
 preprod
 rubocop
+railtie
 scalingo
+shoulda
 sidekiq

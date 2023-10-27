@@ -23,6 +23,12 @@ const settings: AdvancedCSpellSettings = {
       path: '../dict/names.txt',
       description: 'Known names',
     },
+    {
+      addWords: false,
+      name: 'captive-ruby',
+      path: '../dict/ruby.txt',
+      description: 'Additional ruby words',
+    },
   ],
   dictionaries: [...toArray(defaultSettings.dictionaries), 'captive-filetypes', 'captive-names'],
   ignoreWords: [...toArray(defaultSettings.ignoreWords)],
@@ -33,7 +39,18 @@ const settings: AdvancedCSpellSettings = {
     '@w5s/cspell-config/cspell-ext.json',
   ],
   ignorePaths: [...toArray(defaultSettings.ignorePaths), '**/Gemfile', '**/*.gemspec', '**/bin/**'],
-  languageSettings: [...toArray(defaultSettings.languageSettings)],
+  languageSettings: [
+    ...toArray(defaultSettings.languageSettings),
+    {
+      languageId: 'ruby',
+      locale: '*',
+      includeRegExpList: [],
+      ignoreRegExpList: [],
+      patterns: [],
+      dictionaries: ['captive-ruby'],
+      dictionaryDefinitions: [],
+    },
+  ],
 };
 
 export = settings;

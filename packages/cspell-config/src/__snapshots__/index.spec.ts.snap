@@ -31,6 +31,12 @@ exports[`index > should match snapshot 1`] = `
         "name": "captive-names",
         "path": "../dict/names.txt",
       },
+      {
+        "addWords": false,
+        "description": "Additional ruby words",
+        "name": "captive-ruby",
+        "path": "../dict/ruby.txt",
+      },
     ],
     "enableFiletypes": [
       "svelte",
@@ -214,6 +220,17 @@ exports[`index > should match snapshot 1`] = `
         "languageId": "typescript,javascript,typescriptreact,javascriptreact",
         "locale": "*",
       },
+      {
+        "dictionaries": [
+          "captive-ruby",
+        ],
+        "dictionaryDefinitions": [],
+        "ignoreRegExpList": [],
+        "includeRegExpList": [],
+        "languageId": "ruby",
+        "locale": "*",
+        "patterns": [],
+      },
     ],
     "maxNumberOfProblems": 10000,
     "name": "Captive default settings .js",
@@ -274,6 +291,12 @@ exports[`index > should match snapshot 1`] = `
       "description": "Known names",
       "name": "captive-names",
       "path": "../dict/names.txt",
+    },
+    {
+      "addWords": false,
+      "description": "Additional ruby words",
+      "name": "captive-ruby",
+      "path": "../dict/ruby.txt",
     },
   ],
   "enableFiletypes": [
@@ -457,6 +480,17 @@ exports[`index > should match snapshot 1`] = `
       ],
       "languageId": "typescript,javascript,typescriptreact,javascriptreact",
       "locale": "*",
+    },
+    {
+      "dictionaries": [
+        "captive-ruby",
+      ],
+      "dictionaryDefinitions": [],
+      "ignoreRegExpList": [],
+      "includeRegExpList": [],
+      "languageId": "ruby",
+      "locale": "*",
+      "patterns": [],
     },
   ],
   "maxNumberOfProblems": 10000,
