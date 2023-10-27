@@ -1,5 +1,7 @@
 cobertura
 dind
+Clément
+Prod'Homme
 Hanser
 Hotwire
 preprod
