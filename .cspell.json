@@ -4,6 +4,10 @@
   "words": [],
   "ignoreWords": [],
   "flagWords": [],
-  "ignorePaths": ["**/package.json", "packages/mrm-preset/_tester/**"],
+  "ignorePaths": [
+    "**/package.json",
+    "packages/mrm-preset/_tester/**",
+    "packages/cspell-config/dict/**"
+  ],
   "import": ["@captive/cspell-config"]
 }
