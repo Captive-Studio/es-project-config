@@ -29,6 +29,7 @@ const settings: AdvancedCSpellSettings = {
   import: [
     ...toArray(defaultSettings.import),
     '@cspell/dict-fr-fr/cspell-ext.json',
+    '@cspell/dict-ruby/cspell-ext.json',
     '@w5s/cspell-config/cspell-ext.json',
   ],
   ignorePaths: [...toArray(defaultSettings.ignorePaths), '**/Gemfile', '**/*.gemspec', '**/bin/**'],
