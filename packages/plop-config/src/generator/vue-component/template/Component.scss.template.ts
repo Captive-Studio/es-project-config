@@ -1,4 +1,4 @@
-// Composant
+// Component Stylesheet
 // BEM Convention
 
 import * as Variables from './variables.js';

@@ -1,11 +1,10 @@
 {
   "version": "0.2",
   "language": "en",
-  "words": [],
+  "words": ["sassc"],
   "ignoreWords": [],
   "flagWords": [],
   "ignorePaths": [
-    "**/package.json",
     "packages/mrm-preset/_tester/**",
     "packages/cspell-config/dict/**"
   ],
