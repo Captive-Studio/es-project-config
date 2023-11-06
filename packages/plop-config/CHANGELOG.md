@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.0.0-alpha.6](https://github.com/Captive-Studio/es-project-config/compare/@captive/plop-config@1.0.0-alpha.5...@captive/plop-config@1.0.0-alpha.6) (2023-11-06)
+
+### 🐛 Bug Fixes
+
+- Fix missing scss import ([e95bc77](https://github.com/Captive-Studio/es-project-config/commit/e95bc77))
+- Remove some noise ([4312a39](https://github.com/Captive-Studio/es-project-config/commit/4312a39))
+
+**Note:** Version bump only for package @captive/plop-config
+
 # [1.0.0-alpha.5](https://github.com/Captive-Studio/es-project-config/compare/@captive/plop-config@1.0.0-alpha.4...@captive/plop-config@1.0.0-alpha.5) (2023-10-23)
 
 ### ✨ Features
