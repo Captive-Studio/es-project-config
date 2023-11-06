@@ -3,6 +3,7 @@ import * as Variables from './variables.js';
 export const template = `
 <script lang="ts" setup>
 import { defineOptions, defineProps, withDefaults } from 'vue';
+import './{{ ${Variables.componentName} }}.scss';
 
 const componentName = '{{ ${Variables.componentName} }}';
 
