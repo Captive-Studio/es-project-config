@@ -5,16 +5,10 @@ import * as Variables from './variables.js';
 
 export const template = `
 .{{ ${Variables.componentName} }} {
-  background-color: red;
+  // Modifier
+  // &--disabled {}
 
-  // Sub component
-  &__Content {
-    background-color: white;
-  }
-
-  // Component state
-  &--disabled {
-    opacity: 0.5;
-  }
+  // Element
+  // &__Content {}
 }
 `.slice(1);
