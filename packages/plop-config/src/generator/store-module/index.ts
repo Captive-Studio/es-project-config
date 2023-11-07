@@ -15,36 +15,30 @@ export const storeModuleGenerator = (options: StoreModuleGeneratorOptions) => ({
   generator: {
     prompts: [
       {
-        name: Variables.storePath,
-        type: 'input',
-        default: options.storePath,
-        message: 'Store directory :',
-      },
-      {
         name: Variables.storeName,
         type: 'input',
         message: 'Store name (ex: myService) :',
         validate: composeValidators(requireNotEmpty(), requireCamelCase()),
       },
     ],
-    actions: [
+    actions: () => [
       {
-        path: `{{ ${Variables.storePath} }}/{{ ${Variables.storeName} }}/store.ts`,
+        path: `${options.storePath}/{{ ${Variables.storeName} }}/store.ts`,
         template: Store.template,
         type: 'add',
       },
       {
-        path: `{{ ${Variables.storePath} }}/{{ ${Variables.storeName} }}/store.spec.ts`,
+        path: `${options.storePath}/{{ ${Variables.storeName} }}/store.spec.ts`,
         template: Test.template,
         type: 'add',
       },
       {
-        path: `{{ ${Variables.storePath} }}/{{ ${Variables.storeName} }}/data.ts`,
+        path: `${options.storePath}/{{ ${Variables.storeName} }}/data.ts`,
         template: Data.template,
         type: 'add',
       },
       {
-        path: `{{ ${Variables.storePath} }}/{{ ${Variables.storeName} }}/index.ts`,
+        path: `${options.storePath}/{{ ${Variables.storeName} }}/index.ts`,
         template: Index.template,
         type: 'add',
       },
