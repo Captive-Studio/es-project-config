@@ -1,5 +1,6 @@
 import type { NodePlopAPI } from 'plop';
 import { vueComponentGenerator } from './generator/vue-component/index.js';
+import { storeModuleGenerator } from './generator/store-module/index.js';
 
 export interface PlopPluginOptions {
   /**
@@ -10,6 +11,10 @@ export interface PlopPluginOptions {
      * Components (vue, react, etc)
      */
     component?: string;
+    /**
+     * Store modules (pinia, redux, etc)
+     */
+    store?: string;
   };
   vue?: boolean;
 }
@@ -17,7 +22,7 @@ export interface PlopPluginOptions {
 export function plopPlugin(options: PlopPluginOptions) {
   return (plop: NodePlopAPI) => {
     const { vue = true, path = {} } = options;
-    const { component = 'src/components' } = path;
+    const { component = 'src/components', store = 'src/store' } = path;
 
     plop.setWelcomeMessage(`[Captive] What do you want to generate?`);
 
@@ -25,6 +30,9 @@ export function plopPlugin(options: PlopPluginOptions) {
       const generators = [
         vueComponentGenerator({
           componentPath: component,
+        }),
+        storeModuleGenerator({
+          storePath: store,
         }),
       ];
       generators.forEach((generator) => {
