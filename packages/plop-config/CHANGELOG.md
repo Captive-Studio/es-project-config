@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.0.0-alpha.7](https://github.com/Captive-Studio/es-project-config/compare/@captive/plop-config@1.0.0-alpha.6...@captive/plop-config@1.0.0-alpha.7) (2023-11-07)
+
+### ✨ Features
+
+- Add store-module generator ([66e783e](https://github.com/Captive-Studio/es-project-config/commit/66e783e))
+
+### 🐛 Bug Fixes
+
+- Fix pinia initialization ([8ca27d8](https://github.com/Captive-Studio/es-project-config/commit/8ca27d8))
+
+**Note:** Version bump only for package @captive/plop-config
+
 # [1.0.0-alpha.6](https://github.com/Captive-Studio/es-project-config/compare/@captive/plop-config@1.0.0-alpha.5...@captive/plop-config@1.0.0-alpha.6) (2023-11-06)
 
 ### 🐛 Bug Fixes
