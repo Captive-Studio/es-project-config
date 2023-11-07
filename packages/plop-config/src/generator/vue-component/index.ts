@@ -15,12 +15,6 @@ export const vueComponentGenerator = (options: VueComponentGeneratorOptions) => 
   generator: {
     prompts: [
       {
-        name: Variables.componentPath,
-        type: 'input',
-        default: options.componentPath,
-        message: 'Component directory :',
-      },
-      {
         name: Variables.componentName,
         type: 'input',
         message: 'Component name (ex: HelpButton) :',
@@ -29,22 +23,22 @@ export const vueComponentGenerator = (options: VueComponentGeneratorOptions) => 
     ],
     actions: [
       {
-        path: `{{ ${Variables.componentPath} }}/{{ ${Variables.componentName} }}/{{ ${Variables.componentName} }}.scss`,
+        path: `${options.componentPath}/{{ ${Variables.componentName} }}/{{ ${Variables.componentName} }}.scss`,
         template: StyleSheet.template,
         type: 'add',
       },
       {
-        path: `{{ ${Variables.componentPath} }}/{{ ${Variables.componentName} }}/{{ ${Variables.componentName} }}.vue`,
+        path: `${options.componentPath}/{{ ${Variables.componentName} }}/{{ ${Variables.componentName} }}.vue`,
         template: Component.template,
         type: 'add',
       },
       {
-        path: `{{ ${Variables.componentPath} }}/{{ ${Variables.componentName} }}/{{ ${Variables.componentName} }}.spec.ts`,
+        path: `${options.componentPath}/{{ ${Variables.componentName} }}/{{ ${Variables.componentName} }}.spec.ts`,
         template: Test.template,
         type: 'add',
       },
       {
-        path: `{{ ${Variables.componentPath} }}/{{ ${Variables.componentName} }}/index.ts`,
+        path: `${options.componentPath}/{{ ${Variables.componentName} }}/index.ts`,
         template: Index.template,
         type: 'add',
       },
