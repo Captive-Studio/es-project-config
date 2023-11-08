@@ -56,13 +56,13 @@
     "@w5s/cspell-config": "^2.2.2"
   },
   "devDependencies": {
-    "@cspell/cspell-tools": "7.3.9",
-    "@cspell/cspell-types": "7.3.9",
+    "@cspell/cspell-tools": "8.0.0",
+    "@cspell/cspell-types": "8.0.0",
     "vite": "latest",
     "vitest": "latest"
   },
   "peerDependencies": {
-    "cspell": "^6.0.0 || ^7.0.0"
+    "cspell": "^6.0.0 || ^7.0.0 || ^8.0.0"
   },
   "peerDependenciesMeta": {
     "cspell": {
