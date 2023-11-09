@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.2.3](https://github.com/Captive-Studio/es-project-config/compare/@captive/cspell-config@2.2.2...@captive/cspell-config@2.2.3) (2023-11-09)
+
+**Note:** Version bump only for package @captive/cspell-config
+
 ## [2.2.2](https://github.com/Captive-Studio/es-project-config/compare/@captive/cspell-config@2.2.1...@captive/cspell-config@2.2.2) (2023-10-27)
 
 ### 🐛 Bug Fixes
