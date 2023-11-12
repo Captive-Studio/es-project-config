@@ -124,6 +124,7 @@ __metadata:
   dependencies:
     "@cspell/cspell-tools": "npm:8.0.0"
     "@cspell/cspell-types": "npm:8.0.0"
+    "@cspell/dict-bash": "npm:^4.1.2"
     "@cspell/dict-fr-fr": "npm:^2.2.0"
     "@w5s/cspell-config": "npm:^2.2.2"
     vite: "npm:latest"
