@@ -34,6 +34,7 @@ const settings: AdvancedCSpellSettings = {
   ignoreWords: [...toArray(defaultSettings.ignoreWords)],
   import: [
     ...toArray(defaultSettings.import),
+    '@cspell/dict-bash/cspell-ext.json',
     '@cspell/dict-fr-fr/cspell-ext.json',
     '@cspell/dict-ruby/cspell-ext.json',
     '@w5s/cspell-config/cspell-ext.json',
