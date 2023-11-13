@@ -1,6 +1,6 @@
 {
   "name": "@captive/cspell-config",
-  "version": "2.2.3",
+  "version": "2.3.0",
   "description": "CSpell configuration presets",
   "keywords": [
     "cspell"
