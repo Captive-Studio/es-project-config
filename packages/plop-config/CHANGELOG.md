@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.0.0-alpha.9](https://github.com/Captive-Studio/es-project-config/compare/@captive/plop-config@1.0.0-alpha.8...@captive/plop-config@1.0.0-alpha.9) (2023-11-14)
+
+### 🐛 Bug Fixes
+
+- Use shallowMount by default for tests ([fc50807](https://github.com/Captive-Studio/es-project-config/commit/fc50807))
+
+**Note:** Version bump only for package @captive/plop-config
+
 # [1.0.0-alpha.8](https://github.com/Captive-Studio/es-project-config/compare/@captive/plop-config@1.0.0-alpha.7...@captive/plop-config@1.0.0-alpha.8) (2023-11-09)
 
 ### 🐛 Bug Fixes
