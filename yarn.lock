@@ -96,7 +96,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@captive/commitlint-config@workspace:packages/commitlint-config"
   dependencies:
-    "@commitlint/lint": "npm:18.4.0"
+    "@commitlint/lint": "npm:18.4.2"
     "@w5s/commitlint-config": "npm:^2.0.0"
     vite: "npm:latest"
     vitest: "npm:latest"
@@ -275,25 +275,25 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commitlint/is-ignored@npm:^18.4.0":
-  version: 18.4.0
-  resolution: "@commitlint/is-ignored@npm:18.4.0"
+"@commitlint/is-ignored@npm:^18.4.2":
+  version: 18.4.2
+  resolution: "@commitlint/is-ignored@npm:18.4.2"
   dependencies:
     "@commitlint/types": "npm:^18.4.0"
     semver: "npm:7.5.4"
-  checksum: 2194e2dacbe8097b049c2d4251de4db6d09067daad5a6e7dc66d9d6afb92ef495f888055fd3eb05fd736ee5c85575092ca4b880563abde9f76c85cf37fc6e680
+  checksum: 2baaf822e0c9f521ae8bc0fa5aa2d25643e5a84509d704d332f02c6ec6c7f52107bdae7d32d022884e9f21878667b5e5134efa215322fdd5f0e7de84d670a81a
   languageName: node
   linkType: hard
 
-"@commitlint/lint@npm:18.4.0":
-  version: 18.4.0
-  resolution: "@commitlint/lint@npm:18.4.0"
+"@commitlint/lint@npm:18.4.2":
+  version: 18.4.2
+  resolution: "@commitlint/lint@npm:18.4.2"
   dependencies:
-    "@commitlint/is-ignored": "npm:^18.4.0"
+    "@commitlint/is-ignored": "npm:^18.4.2"
     "@commitlint/parse": "npm:^18.4.0"
     "@commitlint/rules": "npm:^18.4.0"
     "@commitlint/types": "npm:^18.4.0"
-  checksum: b7e2240f597f3c32f6b9bce0108cdf85db1ad1cf4f148ef4d1e6aa7d1c666c3d570ab05956c916115000b82c9e78580cae7c4ee738ea5eb31e966b51e91e4998
+  checksum: 85e062c6e44052a3585b3c38066082be1f79205a7435b5135af7a54e0d0cb2b9a0d20c1aa19807d4369f32e808769a294cbb31309e4e8f65fcce9f636d8e8367
   languageName: node
   linkType: hard
 
