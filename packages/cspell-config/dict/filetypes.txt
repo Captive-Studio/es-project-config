@@ -1,2 +1,3 @@
-gemfile
-rakefile
+Gemfile
+Rakefile
+Podfile
