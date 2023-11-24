@@ -45,7 +45,16 @@ const settings: AdvancedCSpellSettings = {
     '@cspell/dict-ruby/cspell-ext.json',
     '@w5s/cspell-config/cspell-ext.json',
   ],
-  ignorePaths: [...toArray(defaultSettings.ignorePaths), '**/Gemfile', '**/*.gemspec', '**/bin/**'],
+  ignorePaths: [
+    ...toArray(defaultSettings.ignorePaths),
+    '**/Gemfile',
+    '**/*.gemspec',
+    '**/bin/**',
+    '**/*.svg',
+    '**/*.mp4',
+    '**/*.webp',
+    '**/*.webm',
+  ],
   languageSettings: [
     ...toArray(defaultSettings.languageSettings),
     {
