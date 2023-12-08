@@ -13,3 +13,18 @@
 * [@captive/stylelint-config](packages/stylelint-config) - StyleLint configuration presets
 * [@captive/ts-config](packages/ts-config) - Typescript compiler configuration presets
 <!-- AUTO-GENERATED-CONTENT:END -->
+
+About Captive
+-------------
+
+![captive](https://raw.githubusercontent.com/Captive-Studio/assets/main/logo_captive_blue_avec_fond.webp)
+
+es-project-config is maintained and funded by Captive.
+The names and logos for captive are trademarks of captive-studio.
+
+We love open source software!
+See [our other projects][community] or
+[hire us][hire] to design, develop, and grow your product.
+
+[community]: https://github.com/Captive-Studio
+[hire]: https://www.captive.fr/contact?utm_source=github
