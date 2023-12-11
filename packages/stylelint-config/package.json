@@ -62,13 +62,13 @@
     "stylelint-scss": "^5.0.0"
   },
   "devDependencies": {
-    "stylelint": "15.11.0",
+    "stylelint": "16.0.2",
     "vite": "latest",
     "vitest": "latest"
   },
   "peerDependencies": {
     "prettier": "3.x",
-    "stylelint": "^14.2.0 || ^15.0.0"
+    "stylelint": "^14.2.0 || ^15.0.0 || ^16.0.0"
   },
   "peerDependenciesMeta": {
     "stylelint": {
