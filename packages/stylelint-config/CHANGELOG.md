@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.0.0](https://github.com/Captive-Studio/es-project-config/compare/@captive/stylelint-config@2.0.4...@captive/stylelint-config@3.0.0) (2023-12-12)
+
+### 🎫 Chores
+
+- Upgrade stylelint v16 ([5515742](https://github.com/Captive-Studio/es-project-config/commit/5515742))
+
+### 💥 BREAKING CHANGES
+
+- Drop support for stylelint <= 15
+
 ## [2.0.4](https://github.com/Captive-Studio/es-project-config/compare/@captive/stylelint-config@2.0.3...@captive/stylelint-config@2.0.4) (2023-11-13)
 
 **Note:** Version bump only for package @captive/stylelint-config
