@@ -142,7 +142,7 @@ __metadata:
   resolution: "@captive/eslint-config@workspace:packages/eslint-config"
   dependencies:
     "@captive/prettier-config": "npm:^2.0.3"
-    "@types/react": "npm:18.2.44"
+    "@types/react": "npm:18.2.45"
     "@w5s/dev": "npm:^2.0.0"
     "@w5s/eslint-config": "npm:2.0.5"
     eslint: "npm:8.55.0"
@@ -2293,14 +2293,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:18.2.44":
-  version: 18.2.44
-  resolution: "@types/react@npm:18.2.44"
+"@types/react@npm:18.2.45":
+  version: 18.2.45
+  resolution: "@types/react@npm:18.2.45"
   dependencies:
     "@types/prop-types": "npm:*"
     "@types/scheduler": "npm:*"
     csstype: "npm:^3.0.2"
-  checksum: c998ca607db3789e3de6afacb0e260c303d86dd9bea897b922629a78b6fec5386d96369df7fe82ee94bc2d4bab81e21d1594e775cbce580180be19dbe0af24f0
+  checksum: bd27fd8a959fa776965997af89cb04e43e7868416850fdff421b5539f389efa35acae3d55915c9f32d7b00fb388550302bf8a7f06010abf9ad431e5bf58cb774
   languageName: node
   linkType: hard
 
