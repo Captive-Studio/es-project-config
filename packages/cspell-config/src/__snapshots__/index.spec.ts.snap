@@ -226,8 +226,8 @@ exports[`index > should match snapshot 1`] = `
       },
       {
         "ignoreRegExpList": [
-          "\\\\/\\\\* eslint-disable.+",
-          "\\\\/\\\\/ eslint-disable.+",
+          "\\/\\* eslint-disable.+",
+          "\\/\\/ eslint-disable.+",
         ],
         "languageId": "typescript,javascript,typescriptreact,javascriptreact",
         "locale": "*",
@@ -280,7 +280,7 @@ exports[`index > should match snapshot 1`] = `
         "pattern": /\\(\\?<=\\\\\\]\\\\\\(\\)\\[\\^\\)\\\\s\\]\\+/g,
       },
       {
-        "description": "Markdown Anchors: \`<a id=\\"my_link\\"></a>\`, matches \`my_link\`",
+        "description": "Markdown Anchors: \`<a id="my_link"></a>\`, matches \`my_link\`",
         "name": "MARKDOWN-anchor",
         "pattern": /\\(\\?<=<a\\\\s\\+id="\\)\\[\\^"\\\\s\\]\\+/g,
       },
@@ -511,8 +511,8 @@ exports[`index > should match snapshot 1`] = `
     },
     {
       "ignoreRegExpList": [
-        "\\\\/\\\\* eslint-disable.+",
-        "\\\\/\\\\/ eslint-disable.+",
+        "\\/\\* eslint-disable.+",
+        "\\/\\/ eslint-disable.+",
       ],
       "languageId": "typescript,javascript,typescriptreact,javascriptreact",
       "locale": "*",
@@ -565,7 +565,7 @@ exports[`index > should match snapshot 1`] = `
       "pattern": /\\(\\?<=\\\\\\]\\\\\\(\\)\\[\\^\\)\\\\s\\]\\+/g,
     },
     {
-      "description": "Markdown Anchors: \`<a id=\\"my_link\\"></a>\`, matches \`my_link\`",
+      "description": "Markdown Anchors: \`<a id="my_link"></a>\`, matches \`my_link\`",
       "name": "MARKDOWN-anchor",
       "pattern": /\\(\\?<=<a\\\\s\\+id="\\)\\[\\^"\\\\s\\]\\+/g,
     },
