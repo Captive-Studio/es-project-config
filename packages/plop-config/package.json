@@ -50,7 +50,7 @@
     "test:src": "vitest run"
   },
   "devDependencies": {
-    "plop": "4.0.0",
+    "plop": "4.0.1",
     "vite": "latest",
     "vitest": "latest"
   },
