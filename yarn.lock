@@ -9210,8 +9210,8 @@ __metadata:
   linkType: hard
 
 "ora@npm:^8.0.0":
-  version: 8.0.0
-  resolution: "ora@npm:8.0.0"
+  version: 8.0.1
+  resolution: "ora@npm:8.0.1"
   dependencies:
     chalk: "npm:^5.3.0"
     cli-cursor: "npm:^4.0.0"
@@ -9219,10 +9219,10 @@ __metadata:
     is-interactive: "npm:^2.0.0"
     is-unicode-supported: "npm:^2.0.0"
     log-symbols: "npm:^6.0.0"
-    stdin-discarder: "npm:^0.2.0"
+    stdin-discarder: "npm:^0.2.1"
     string-width: "npm:^7.0.0"
     strip-ansi: "npm:^7.1.0"
-  checksum: 3baf264842100d3f8a88e317d0ac95a67b7dbf519d3d0c0430f651a01e97d0bf10a77bacf55135c6b2048f7beb2ca122ef91545483cff66bcda330305132d2ab
+  checksum: 3d37bb3f53e965e5176004af319f82feef7323ee0b2428db5ee6f689b9b9ba939d7b1e81691d4614333c4fb9e294790eb049db9c1e990b14b9bbe150c6f09993
   languageName: node
   linkType: hard
 
@@ -10877,10 +10877,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"stdin-discarder@npm:^0.2.0":
-  version: 0.2.0
-  resolution: "stdin-discarder@npm:0.2.0"
-  checksum: 51de9aac71f61aa2e20fc5ed7112e9c698adc8b2b804e8fa83785995ba86f7a58a86a5c6c321244b8b11296a1ab439980632fa0101eefcb18dd70797e6b1a5d1
+"stdin-discarder@npm:^0.2.1":
+  version: 0.2.1
+  resolution: "stdin-discarder@npm:0.2.1"
+  checksum: e2401a8c7e2170c4b1900b50d36c842d27801bd27f85773f577b9ea5be13487d2089ce7b7ddadd4d60d050c73a1769d426acd71e66e0bad538783a5a04b5cd61
   languageName: node
   linkType: hard
 
