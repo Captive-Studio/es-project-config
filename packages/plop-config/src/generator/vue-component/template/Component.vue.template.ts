@@ -3,7 +3,7 @@ import * as Variables from './variables.js';
 export const template = `
 <script lang="ts" setup>
 import { defineOptions } from 'vue';
-import './{{ ${Variables.componentName} }}.scss';
+import './{{ ${Variables.componentName} }}.{{ styleSheet }}';
 
 // Name and options
 const componentName = '{{ ${Variables.componentName} }}';

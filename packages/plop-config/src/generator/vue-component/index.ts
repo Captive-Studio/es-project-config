@@ -1,12 +1,13 @@
 import type { PlopGeneratorConfig } from 'plop';
 import * as Variables from './template/variables.js';
-import * as StyleSheet from './template/Component.scss.template.js';
+import * as StyleSheet from './template/Component.style.template.js';
 import * as Component from './template/Component.vue.template.js';
 import * as Test from './template/Component.spec.template.js';
 import * as Index from './template/index.template.js';
 import { composeValidators, requireNotEmpty, requirePascalCase } from '../../validator/index.js';
 
 export interface VueComponentGeneratorOptions {
+  styleSheet: 'css' | 'scss';
   componentPath: string;
 }
 
@@ -21,14 +22,17 @@ export const vueComponentGenerator = (options: VueComponentGeneratorOptions) => 
         validate: composeValidators(requireNotEmpty(), requirePascalCase()),
       },
     ],
-    actions: [
+    actions: () => [
       {
-        path: `${options.componentPath}/{{ ${Variables.componentName} }}/{{ ${Variables.componentName} }}.scss`,
+        path: `${options.componentPath}/{{ ${Variables.componentName} }}/{{ ${Variables.componentName} }}.${options.styleSheet}`,
         template: StyleSheet.template,
         type: 'add',
       },
       {
         path: `${options.componentPath}/{{ ${Variables.componentName} }}/{{ ${Variables.componentName} }}.vue`,
+        data: {
+          ...options,
+        },
         template: Component.template,
         type: 'add',
       },
