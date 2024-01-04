@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.0.0-alpha.12](https://github.com/Captive-Studio/es-project-config/compare/@captive/plop-config@1.0.0-alpha.11...@captive/plop-config@1.0.0-alpha.12) (2024-01-04)
+
+### ✨ Features
+
+- Add support for css files and scss files ([2b1724d](https://github.com/Captive-Studio/es-project-config/commit/2b1724d))
+
+### 🐛 Bug Fixes
+
+- Fix camecase helper ([b28716d](https://github.com/Captive-Studio/es-project-config/commit/b28716d))
+
+**Note:** Version bump only for package @captive/plop-config
+
 # [1.0.0-alpha.11](https://github.com/Captive-Studio/es-project-config/compare/@captive/plop-config@1.0.0-alpha.10...@captive/plop-config@1.0.0-alpha.11) (2023-12-19)
 
 **Note:** Version bump only for package @captive/plop-config
