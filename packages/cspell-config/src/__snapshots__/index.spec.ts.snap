@@ -65,10 +65,7 @@ exports[`index > should match snapshot 1`] = `
       "**/Gemfile",
       "**/*.gemspec",
       "**/bin/**",
-      "**/*.svg",
       "**/*.mp4",
-      "**/*.webp",
-      "**/*.webm",
     ],
     "ignoreWords": [],
     "import": [
@@ -350,10 +347,7 @@ exports[`index > should match snapshot 1`] = `
     "**/Gemfile",
     "**/*.gemspec",
     "**/bin/**",
-    "**/*.svg",
     "**/*.mp4",
-    "**/*.webp",
-    "**/*.webm",
   ],
   "ignoreWords": [],
   "import": [
