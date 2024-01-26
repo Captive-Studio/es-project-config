@@ -48,7 +48,7 @@
     "test:src": "vitest run"
   },
   "devDependencies": {
-    "browserslist": "4.22.2",
+    "browserslist": "4.22.3",
     "lodash-es": "4.17.21",
     "vite": "latest",
     "vitest": "latest"
