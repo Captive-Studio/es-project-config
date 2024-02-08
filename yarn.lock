@@ -5419,7 +5419,7 @@ __metadata:
     "@captive/plop-config": "workspace:*"
     pinia: "npm:2.1.7"
     plop: "npm:4.0.1"
-    vite: "npm:5.0.12"
+    vite: "npm:5.1.0"
     vitest: "npm:1.2.2"
   languageName: unknown
   linkType: soft
@@ -10022,6 +10022,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"postcss@npm:^8.4.35":
+  version: 8.4.35
+  resolution: "postcss@npm:8.4.35"
+  dependencies:
+    nanoid: "npm:^3.3.7"
+    picocolors: "npm:^1.0.0"
+    source-map-js: "npm:^1.0.2"
+  checksum: 10/93a7ce50cd6188f5f486a9ca98950ad27c19dfed996c45c414fa242944497e4d084a8760d3537f078630226f2bd3c6ab84b813b488740f4432e7c7039cd73a20
+  languageName: node
+  linkType: hard
+
 "prelude-ls@npm:^1.2.1":
   version: 1.2.1
   resolution: "prelude-ls@npm:1.2.1"
@@ -12333,13 +12344,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite@npm:5.0.12":
-  version: 5.0.12
-  resolution: "vite@npm:5.0.12"
+"vite@npm:5.1.0":
+  version: 5.1.0
+  resolution: "vite@npm:5.1.0"
   dependencies:
     esbuild: "npm:^0.19.3"
     fsevents: "npm:~2.3.3"
-    postcss: "npm:^8.4.32"
+    postcss: "npm:^8.4.35"
     rollup: "npm:^4.2.0"
   peerDependencies:
     "@types/node": ^18.0.0 || >=20.0.0
@@ -12369,7 +12380,7 @@ __metadata:
       optional: true
   bin:
     vite: bin/vite.js
-  checksum: 10/ed0bb26a0d0c8e1dae0b70af9e36adffd7e15d80297443fe4da762596dc81570bad7f0291f590a57c1553f5e435338d8c7ffc483bd9431a95c09d9ac90665fad
+  checksum: 10/14d136f2e71d657cb55bec2a9330951e27e572ed79c4e79e3edc24decfa87f95664b8206614bfcf6a61db933667e554a8eed389291ad8af49de0784548a83a4c
   languageName: node
   linkType: hard
 
