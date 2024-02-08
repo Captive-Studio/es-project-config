@@ -5,6 +5,6 @@
     "declarationMap": false,
     "jsx": "react",
     "resolveJsonModule": true,
-    "sourceMap": false,
-  },
+    "sourceMap": false
+  }
 }
