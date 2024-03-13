@@ -49,6 +49,9 @@
     "test": "concurrently \"npm:test:*\" \":\"",
     "test:src": "vitest run"
   },
+  "dependencies": {
+    "@sindresorhus/slugify": "2.2.1"
+  },
   "devDependencies": {
     "plop": "4.0.1",
     "vite": "latest",
