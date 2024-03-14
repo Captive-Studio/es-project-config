@@ -29,11 +29,16 @@ export const techDiveInGenerator = (options: TechDiveInGeneratorOptions) => ({
       const issueURL = answers?.[Variables.issueURL] as string | undefined;
       const issueId = issueURL == null ? undefined : extractIssueId(issueURL);
       const title = (answers?.[Variables.title] ?? '') as string;
+
+      const data = {
+        [Variables.issueId]: issueId,
+      };
       return [
         {
           path: `${options.techDiveInPath}/${issueId == null ? '' : `${issueId}-`}${slugify(title)}/index.md`,
           template: Index.template,
           type: 'add',
+          data,
         },
       ];
     },

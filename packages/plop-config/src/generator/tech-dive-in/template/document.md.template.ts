@@ -4,9 +4,8 @@ export const template = `
 # {{ ${Variables.title} }}
 
 {{#if ${Variables.issueURL}}}
-> [Related Issue]({{ ${Variables.issueURL} }})
+> [{{#if ${Variables.issueId}}}{{ ${Variables.issueId} }}{{else}}Related Issue{{/if}}]({{ ${Variables.issueURL} }})
 {{/if}}
-
 
 ## Prérequis
 
