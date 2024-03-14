@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.0.0-alpha.13](https://github.com/Captive-Studio/es-project-config/compare/@captive/plop-config@1.0.0-alpha.12...@captive/plop-config@1.0.0-alpha.13) (2024-03-14)
+
+### ✨ Features
+
+- Add tech dive in generator ([6de42fd](https://github.com/Captive-Studio/es-project-config/commit/6de42fd))
+- Add tech dive in template ([6c3f77f](https://github.com/Captive-Studio/es-project-config/commit/6c3f77f))
+
+**Note:** Version bump only for package @captive/plop-config
+
 # [1.0.0-alpha.12](https://github.com/Captive-Studio/es-project-config/compare/@captive/plop-config@1.0.0-alpha.11...@captive/plop-config@1.0.0-alpha.12) (2024-01-04)
 
 ### ✨ Features
