@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.0.0-alpha.15](https://github.com/Captive-Studio/es-project-config/compare/@captive/plop-config@1.0.0-alpha.14...@captive/plop-config@1.0.0-alpha.15) (2024-03-18)
+
+### 🐛 Bug Fixes
+
+- Remove async function ([71fbb4a](https://github.com/Captive-Studio/es-project-config/commit/71fbb4a))
+
+**Note:** Version bump only for package @captive/plop-config
+
 # [1.0.0-alpha.14](https://github.com/Captive-Studio/es-project-config/compare/@captive/plop-config@1.0.0-alpha.13...@captive/plop-config@1.0.0-alpha.14) (2024-03-14)
 
 **Note:** Version bump only for package @captive/plop-config
