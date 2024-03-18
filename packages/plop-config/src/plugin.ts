@@ -29,7 +29,7 @@ export interface PlopPluginOptions {
 }
 
 export function plopPlugin(options: PlopPluginOptions) {
-  return async (plop: NodePlopAPI) => {
+  return (plop: NodePlopAPI) => {
     const { vue = true, path = {}, styleSheet = 'css' } = options;
     const { component = 'src/components', docs = 'docs', store = 'src/store' } = path;
 
