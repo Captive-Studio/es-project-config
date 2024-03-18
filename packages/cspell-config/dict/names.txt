@@ -4,6 +4,7 @@ dangerjs
 dind
 Hanser
 Hotwire
+Jira
 postgres
 postgresql
 preprod

@@ -1,7 +1,7 @@
 {
   "version": "0.2",
-  "language": "en",
-  "words": ["sassc"],
+  "language": "en,fr",
+  "words": ["firefox", "jira", "sassc", "sindresorhus"],
   "ignoreWords": [],
   "flagWords": [],
   "ignorePaths": [
