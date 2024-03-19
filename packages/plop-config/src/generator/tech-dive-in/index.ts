@@ -35,7 +35,7 @@ export const techDiveInGenerator = (options: TechDiveInGeneratorOptions) => ({
       };
       return [
         {
-          path: `${options.techDiveInPath}/${issueId == null ? '' : `${issueId}-`}${slugify(title)}/index.md`,
+          path: `${options.techDiveInPath}/${issueId == null ? '' : `${issueId}-`}${slugify(title)}/README.md`,
           template: Index.template,
           type: 'add',
           data,
