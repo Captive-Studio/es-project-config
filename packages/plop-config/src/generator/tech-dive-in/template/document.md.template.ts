@@ -16,7 +16,6 @@ export const template = `
 
 ${comment('1️⃣ ACTUEL : Est-ce que j’ai déjà du code ou une PR qui ressemble à cette feature ?')}
 
-
 ${comment('2️⃣ API : Modification ou création d’un Point d’API ?')}
 ${comment('    👉 URL :')}
 
@@ -49,8 +48,6 @@ ${comment('   👉 Nouvel outil / library / gem / npm ?')}
 ${comment('   👉 Impact sur la maintenance, performance, build ?')}
 
 ${comment('6️⃣ INCONNUES : quelles sont les choses que je ne sais pas, ne comprends pas ou ne sais pas faire ?')}
-
-
 
 ## Frontend
 `.slice(1);
