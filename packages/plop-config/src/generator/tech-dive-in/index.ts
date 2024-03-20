@@ -2,7 +2,7 @@ import type { PlopGeneratorConfig } from 'plop';
 import slugify from '@sindresorhus/slugify';
 import * as Variables from './template/variables.js';
 import * as Index from './template/document.md.template.js';
-import { composeValidators, requireNotEmpty } from '../../validator/index.js';
+import { composeValidators, requireNotEmpty, requireURL } from '../../validator/index.js';
 import { extractIssueId } from './extractIssueId.js';
 
 export interface TechDiveInGeneratorOptions {
@@ -17,6 +17,7 @@ export const techDiveInGenerator = (options: TechDiveInGeneratorOptions) => ({
         name: Variables.issueURL,
         type: 'input',
         message: 'Issue URL :',
+        validate: composeValidators(requireURL()),
       },
       {
         name: Variables.title,
