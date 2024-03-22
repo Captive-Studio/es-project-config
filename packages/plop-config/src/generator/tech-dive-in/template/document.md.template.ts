@@ -36,7 +36,7 @@ ${comment(`   👉 Ajout colonne ?
 ${comment(`   👉 Modification/Suppression colonne ?
         ✓ Impact sur mes données existantes ?
         ✓ Impact sur le code ?
-        ✓ Reversibilité ?
+        ✓ Réversibilité ?
 `)}
 
 ${comment('4️⃣ CAS LIMITES : quels sont les cas limites ou pièges à éviter ?')}
