@@ -2,6 +2,7 @@ import type { NodePlopAPI } from 'plop';
 import { vueComponentGenerator } from './generator/vue-component/index.js';
 import { storeModuleGenerator } from './generator/store-module/index.js';
 import { techDiveInGenerator } from './generator/tech-dive-in/index.js';
+import { reactComponentGenerator } from './generator/react-component/index.js';
 
 export interface PlopPluginOptions {
   /**
@@ -25,32 +26,46 @@ export interface PlopPluginOptions {
      */
     docs?: string;
   };
+  /**
+   * Enable VueJS generators
+   */
   vue?: boolean;
+  /**
+   * Enable React generators
+   */
+  react?: boolean;
 }
 
 export function plopPlugin(options: PlopPluginOptions) {
-  return (plop: NodePlopAPI) => {
-    const { vue = true, path = {}, styleSheet = 'css' } = options;
+  return async (plop: NodePlopAPI) => {
+    const { vue = true, react = false, path = {}, styleSheet = 'css' } = options;
     const { component = 'src/components', docs = 'docs', store = 'src/store' } = path;
 
     plop.setWelcomeMessage(`[Captive] What do you want to generate?`);
 
+    [
+      techDiveInGenerator({
+        techDiveInPath: `${docs}/tech-dive-in`,
+      }),
+    ].forEach((generator) => plop.setGenerator(generator.name, generator.generator));
     if (vue) {
-      const generators = [
+      [
         vueComponentGenerator({
           styleSheet,
           componentPath: component,
         }),
-        techDiveInGenerator({
-          techDiveInPath: `${docs}/tech-dive-in`,
-        }),
         storeModuleGenerator({
           storePath: store,
         }),
-      ];
-      generators.forEach((generator) => {
-        plop.setGenerator(generator.name, generator.generator);
-      });
+      ].forEach((generator) => plop.setGenerator(generator.name, generator.generator));
+    }
+    if (react) {
+      [
+        reactComponentGenerator({
+          styleSheet,
+          componentPath: component,
+        }),
+      ].forEach((generator) => plop.setGenerator(generator.name, generator.generator));
     }
   };
 }
