@@ -1,0 +1,45 @@
+import type { PlopGeneratorConfig } from 'plop';
+import * as Variables from './template/variables.js';
+import * as Component from './template/Component.tsx.template.js';
+import * as Test from './template/Component.spec.template.js';
+import * as Index from './template/index.template.js';
+import { composeValidators, requireNotEmpty, requirePascalCase } from '../../validator/index.js';
+
+export interface ReactComponentGeneratorOptions {
+  styleSheet: 'css' | 'scss';
+  componentPath: string;
+}
+
+export const reactComponentGenerator = (options: ReactComponentGeneratorOptions) => ({
+  name: 'react-component',
+  generator: {
+    prompts: [
+      {
+        name: Variables.componentName,
+        type: 'input',
+        message: 'Component name (ex: HelpButton) :',
+        validate: composeValidators(requireNotEmpty(), requirePascalCase()),
+      },
+    ],
+    actions: () => [
+      {
+        path: `${options.componentPath}/{{ ${Variables.componentName} }}/{{ ${Variables.componentName} }}.tsx`,
+        data: {
+          ...options,
+        },
+        template: Component.template,
+        type: 'add',
+      },
+      {
+        path: `${options.componentPath}/{{ ${Variables.componentName} }}/{{ ${Variables.componentName} }}.spec.ts`,
+        template: Test.template,
+        type: 'add',
+      },
+      {
+        path: `${options.componentPath}/{{ ${Variables.componentName} }}/index.ts`,
+        template: Index.template,
+        type: 'add',
+      },
+    ],
+  } satisfies Partial<PlopGeneratorConfig>,
+});
