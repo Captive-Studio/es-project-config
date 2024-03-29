@@ -4,7 +4,7 @@ import * as StyleSheet from './template/Component.style.template.js';
 import * as Component from './template/Component.vue.template.js';
 import * as Test from './template/Component.spec.template.js';
 import * as Index from './template/index.template.js';
-import { composeValidators, requireNotEmpty, requirePascalCase } from '../../validator/index.js';
+import { componentNamePrompt } from '../../prompt/index.js';
 
 export interface VueComponentGeneratorOptions {
   styleSheet: 'css' | 'scss';
@@ -17,9 +17,7 @@ export const vueComponentGenerator = (options: VueComponentGeneratorOptions) => 
     prompts: [
       {
         name: Variables.componentName,
-        type: 'input',
-        message: 'Component name (ex: HelpButton) :',
-        validate: composeValidators(requireNotEmpty(), requirePascalCase()),
+        ...componentNamePrompt,
       },
     ],
     actions: () => [
