@@ -19,12 +19,30 @@ npm install --save-dev @captive/plop-config
 
 ## Usage
 
+### Zero configuration
+
+This configuration will detect generators from dependencies.
+
 ```ts
 // plopfile.mjs
-import plopPlugin from '@captive/plop-config';
+import plopPluginAuto from '@captive/plop-config';
 
-export default function plopGenerator(/** @type {import('plop').NodePlopAPI} */ plop) {
-  plopPlugin(plop);
+export default async function plopConfig(/** @type {import('plop').NodePlopAPI} */ plop) {
+  await plopPluginAuto(plop);
+}
+```
+
+### Manual configuration
+
+```ts
+// plopfile.mjs
+import { plopPlugin } from '@captive/plop-config';
+
+export default async function plopConfig(/** @type {import('plop').NodePlopAPI} */ plop) {
+  await plopPlugin({
+    // react: true | false,
+    // vue: true | false,
+  })(plop);
 }
 ```
 
