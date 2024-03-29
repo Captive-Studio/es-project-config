@@ -5,7 +5,10 @@
     "new": "npx plop"
   },
   "dependencies": {
-    "pinia": "2.1.7"
+    "clsx": "2.1.0",
+    "pinia": "2.1.7",
+    "react": "18.2.0",
+    "vue": "3.4.21"
   },
   "devDependencies": {
     "@captive/plop-config": "workspace:*",
