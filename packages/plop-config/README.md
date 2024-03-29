@@ -30,7 +30,17 @@ export default function plopGenerator(/** @type {import('plop').NodePlopAPI} */ 
 
 **Features :**
 
+UI Components :
+
 - `Vue` component generator
+
+Application Store :
+
+- `Pinia` store module generator
+
+Documentation
+
+- `Tech Dive In` document generator
 
 ## License
 <!-- AUTO-GENERATED-CONTENT:START (PKG_JSON:template=[${license}][license-url] © ${author}) -->
