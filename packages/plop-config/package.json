@@ -49,10 +49,16 @@
     "test": "concurrently \"npm:test:*\" \":\"",
     "test:src": "vitest run"
   },
+  "eslintConfig": {
+    "parserOptions": {
+      "project": "./tsconfig.json"
+    }
+  },
   "dependencies": {
     "@sindresorhus/slugify": "2.2.1"
   },
   "devDependencies": {
+    "@types/node": "20.11.30",
     "plop": "4.0.1",
     "vite": "latest",
     "vitest": "latest"

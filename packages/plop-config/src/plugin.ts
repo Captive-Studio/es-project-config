@@ -1,8 +1,10 @@
 import type { NodePlopAPI } from 'plop';
+import Path from 'node:path';
 import { vueComponentGenerator } from './generator/vue-component/index.js';
 import { piniaModuleGenerator } from './generator/pinia-module/index.js';
 import { techDiveInGenerator } from './generator/tech-dive-in/index.js';
 import { reactComponentGenerator } from './generator/react-component/index.js';
+import { readPackageJSON } from './readPackageJSON.js';
 
 export interface PlopPluginOptions {
   /**
@@ -13,6 +15,10 @@ export interface PlopPluginOptions {
    * Project paths
    */
   path?: {
+    /**
+     * package.json path
+     */
+    package?: string;
     /**
      * Components (vue, react, etc)
      */
@@ -38,8 +44,12 @@ export interface PlopPluginOptions {
 
 export function plopPlugin(options: PlopPluginOptions) {
   return async (plop: NodePlopAPI) => {
-    const { vue = false, react = false, path = {}, styleSheet = 'css' } = options;
+    const { vue: vueDefault, react: reactDefault, path = {}, styleSheet = 'css' } = options;
     const { component = 'src/components', docs = 'docs', store = 'src/store' } = path;
+    const packagePath = path.package ?? Path.join(plop.getPlopfilePath(), 'package.json');
+    const packageData = await readPackageJSON(packagePath);
+    const vue = vueDefault ?? Boolean(packageData?.dependencies?.['vue']);
+    const react = reactDefault ?? Boolean(packageData?.dependencies?.['react']);
 
     plop.setWelcomeMessage(`[Captive] What do you want to generate?`);
 
