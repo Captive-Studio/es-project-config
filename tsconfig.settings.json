@@ -4,6 +4,7 @@
   "compilerOptions": {
     "declarationMap": false,
     "esModuleInterop": true,
+    "jsx": "react-jsx",
     "sourceMap": false,
     "verbatimModuleSyntax": false
   }
