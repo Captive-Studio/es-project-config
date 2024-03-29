@@ -38,7 +38,7 @@ export interface PlopPluginOptions {
 
 export function plopPlugin(options: PlopPluginOptions) {
   return async (plop: NodePlopAPI) => {
-    const { vue = true, react = false, path = {}, styleSheet = 'css' } = options;
+    const { vue = false, react = false, path = {}, styleSheet = 'css' } = options;
     const { component = 'src/components', docs = 'docs', store = 'src/store' } = path;
 
     plop.setWelcomeMessage(`[Captive] What do you want to generate?`);
