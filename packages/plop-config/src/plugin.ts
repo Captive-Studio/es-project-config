@@ -1,6 +1,6 @@
 import type { NodePlopAPI } from 'plop';
 import { vueComponentGenerator } from './generator/vue-component/index.js';
-import { storeModuleGenerator } from './generator/store-module/index.js';
+import { piniaModuleGenerator } from './generator/pinia-module/index.js';
 import { techDiveInGenerator } from './generator/tech-dive-in/index.js';
 import { reactComponentGenerator } from './generator/react-component/index.js';
 
@@ -54,7 +54,7 @@ export function plopPlugin(options: PlopPluginOptions) {
           styleSheet,
           componentPath: component,
         }),
-        storeModuleGenerator({
+        piniaModuleGenerator({
           storePath: store,
         }),
       ].forEach((generator) => plop.setGenerator(generator.name, generator.generator));

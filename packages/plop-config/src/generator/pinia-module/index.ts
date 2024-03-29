@@ -6,12 +6,12 @@ import * as Data from './template/data.template.js';
 import * as Index from './template/index.template.js';
 import { composeValidators, requireNotEmpty, requireCamelCase } from '../../validator/index.js';
 
-export interface StoreModuleGeneratorOptions {
+export interface PiniaModuleGeneratorOptions {
   storePath: string;
 }
 
-export const storeModuleGenerator = (options: StoreModuleGeneratorOptions) => ({
-  name: 'store-module',
+export const piniaModuleGenerator = (options: PiniaModuleGeneratorOptions) => ({
+  name: 'pinia-module',
   generator: {
     prompts: [
       {
