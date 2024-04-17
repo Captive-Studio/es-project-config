@@ -8,7 +8,7 @@
     "clsx": "2.1.0",
     "pinia": "2.1.7",
     "react": "18.2.0",
-    "vue": "3.4.21"
+    "vue": "3.4.22"
   },
   "devDependencies": {
     "@captive/plop-config": "workspace:*",
