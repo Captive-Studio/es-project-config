@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.0.0-alpha.20](https://github.com/Captive-Studio/es-project-config/compare/@captive/plop-config@1.0.0-alpha.19...@captive/plop-config@1.0.0-alpha.20) (2024-04-17)
+
+### 🐛 Bug Fixes
+
+- Fix typo for react component ([a15b455](https://github.com/Captive-Studio/es-project-config/commit/a15b455))
+
+**Note:** Version bump only for package @captive/plop-config
+
 # [1.0.0-alpha.19](https://github.com/Captive-Studio/es-project-config/compare/@captive/plop-config@1.0.0-alpha.18...@captive/plop-config@1.0.0-alpha.19) (2024-03-29)
 
 ### ✨ Features
