@@ -1,4 +1,11 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["github>Captive-Studio/renovate-config:library"]
+  "extends": ["github>Captive-Studio/renovate-config:library"],
+  "packageRules": [
+    {
+      "matchPackageNames": ["vue"],
+      "matchUpdateTypes": ["patch", "minor"],
+      "automerge": true
+    }
+  ]
 }
