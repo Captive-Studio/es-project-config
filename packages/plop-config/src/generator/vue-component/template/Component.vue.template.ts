@@ -2,7 +2,7 @@ import * as Variables from './variables.js';
 
 export const template = `
 <script lang="ts" setup>
-import { defineOptions } from 'vue';
+import { onMounted } from 'vue';
 import './{{ ${Variables.componentName} }}.{{ styleSheet }}';
 
 // Name and options
@@ -12,14 +12,20 @@ defineOptions({
   name: componentName,
 });
 
-// Component properties
+// Component props
 export interface {{ ${Variables.componentName} }}Props {
-  dark?: boolean;
 }
 
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 const props = withDefaults(defineProps<{{ ${Variables.componentName} }}Props>(), {
-  dark: false,
+  // Default values
+});
+
+// State (ref, computed, ...)
+
+// Lifecycle (onMounted, onIonViewWillEnter, ...)
+onMounted(() => {
+
 });
 
 </script>
