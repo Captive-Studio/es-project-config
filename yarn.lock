@@ -5869,7 +5869,7 @@ __metadata:
     clsx: "npm:2.1.0"
     pinia: "npm:2.1.7"
     plop: "npm:4.0.1"
-    react: "npm:18.2.0"
+    react: "npm:18.3.1"
     vite: "npm:5.2.10"
     vitest: "npm:1.5.2"
     vue: "npm:3.4.25"
@@ -10668,15 +10668,6 @@ __metadata:
   version: 18.2.0
   resolution: "react-is@npm:18.2.0"
   checksum: 10/200cd65bf2e0be7ba6055f647091b725a45dd2a6abef03bf2380ce701fd5edccee40b49b9d15edab7ac08a762bf83cb4081e31ec2673a5bfb549a36ba21570df
-  languageName: node
-  linkType: hard
-
-"react@npm:18.2.0":
-  version: 18.2.0
-  resolution: "react@npm:18.2.0"
-  dependencies:
-    loose-envify: "npm:^1.1.0"
-  checksum: 10/b9214a9bd79e99d08de55f8bef2b7fc8c39630be97c4e29d7be173d14a9a10670b5325e94485f74cd8bff4966ef3c78ee53c79a7b0b9b70cba20aa8973acc694
   languageName: node
   linkType: hard
 
