@@ -58,7 +58,7 @@
     "@sindresorhus/slugify": "2.2.1"
   },
   "devDependencies": {
-    "@types/node": "20.12.8",
+    "@types/node": "20.12.10",
     "plop": "4.0.1",
     "vite": "latest",
     "vitest": "latest"
