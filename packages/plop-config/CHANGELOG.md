@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.0.0-alpha.21](https://github.com/Captive-Studio/es-project-config/compare/@captive/plop-config@1.0.0-alpha.20...@captive/plop-config@1.0.0-alpha.21) (2024-05-23)
+
+### ✨ Features
+
+- Add onMounted ([9002328](https://github.com/Captive-Studio/es-project-config/commit/9002328))
+- Export Props in index.ts ([55c8cbe](https://github.com/Captive-Studio/es-project-config/commit/55c8cbe))
+
+### 🐛 Bug Fixes
+
+- Add className from props ([a295529](https://github.com/Captive-Studio/es-project-config/commit/a295529))
+
+**Note:** Version bump only for package @captive/plop-config
+
 # [1.0.0-alpha.20](https://github.com/Captive-Studio/es-project-config/compare/@captive/plop-config@1.0.0-alpha.19...@captive/plop-config@1.0.0-alpha.20) (2024-04-17)
 
 ### 🐛 Bug Fixes
