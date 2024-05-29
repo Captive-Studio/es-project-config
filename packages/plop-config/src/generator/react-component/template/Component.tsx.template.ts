@@ -13,8 +13,9 @@ export interface {{ ${Variables.componentName} }}Props extends React.ComponentPr
 }
 
 export function {{ ${Variables.componentName} }}(props: {{ ${Variables.componentName} }}Props) {
+  const { className, ...otherProps } = props;
   return (
-    <div className={classNames(componentName, props.className)}>
+    <div className={classNames(componentName, className)} {...otherProps}>
       <div className={classNames(\`$\{componentName}__Content\`)}>
         {props.example}
       </div>
