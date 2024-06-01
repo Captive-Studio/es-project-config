@@ -57,7 +57,7 @@
     "@w5s/prettier-config": "^2.0.0"
   },
   "devDependencies": {
-    "prettier": "3.2.5",
+    "prettier": "3.3.0",
     "vite": "latest",
     "vitest": "latest"
   },
