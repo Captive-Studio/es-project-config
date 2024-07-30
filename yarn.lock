@@ -151,7 +151,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@captive/eslint-config@workspace:packages/eslint-config"
   dependencies:
-    "@captive/prettier-config": "npm:^2.0.5"
+    "@captive/prettier-config": "npm:^2.0.6"
     "@types/react": "npm:18.3.3"
     "@w5s/dev": "npm:^2.0.0"
     "@w5s/eslint-config": "npm:2.0.21"
@@ -194,7 +194,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@captive/prettier-config@npm:^2.0.5, @captive/prettier-config@workspace:packages/prettier-config":
+"@captive/prettier-config@npm:^2.0.6, @captive/prettier-config@workspace:packages/prettier-config":
   version: 0.0.0-use.local
   resolution: "@captive/prettier-config@workspace:packages/prettier-config"
   dependencies:
@@ -238,10 +238,10 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@captive/stylelint-config@workspace:packages/stylelint-config"
   dependencies:
-    "@captive/prettier-config": "npm:^2.0.5"
+    "@captive/prettier-config": "npm:^2.0.6"
     postcss: "npm:^8.4.14"
     postcss-html: "npm:*"
-    stylelint: "npm:16.8.0"
+    stylelint: "npm:16.8.1"
     stylelint-config-prettier-scss: "npm:^1.0.0"
     stylelint-config-standard: "npm:^36.0.0"
     stylelint-config-standard-scss: "npm:^13.0.0"
@@ -12185,9 +12185,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"stylelint@npm:16.8.0":
-  version: 16.8.0
-  resolution: "stylelint@npm:16.8.0"
+"stylelint@npm:16.8.1":
+  version: 16.8.1
+  resolution: "stylelint@npm:16.8.1"
   dependencies:
     "@csstools/css-parser-algorithms": "npm:^2.7.1"
     "@csstools/css-tokenizer": "npm:^2.4.1"
@@ -12230,7 +12230,7 @@ __metadata:
     write-file-atomic: "npm:^5.0.1"
   bin:
     stylelint: bin/stylelint.mjs
-  checksum: 10/3367445214e91baf588aff2dc1afad9f115068fef5c07a114446631581044420818fdccc46ddec812ad9265ef431bbd8d491d3587a41637d8b5f7b995f1e7ffc
+  checksum: 10/834d10490866b8472047938790f68cdc5bd298057ef7bfcf3be2e56259a8d3d05cbb66eefa235d603652fee92126e74d737ad40012721556c54d707407cbf7f1
   languageName: node
   linkType: hard
 
