@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.0.0-alpha.23](https://github.com/Captive-Studio/es-project-config/compare/@captive/plop-config@1.0.0-alpha.22...@captive/plop-config@1.0.0-alpha.23) (2024-07-30)
+
+### ✨ Features
+
+- Add support for jest in react component generator ([feb8bf4](https://github.com/Captive-Studio/es-project-config/commit/feb8bf4))
+
+**Note:** Version bump only for package @captive/plop-config
+
 # [1.0.0-alpha.22](https://github.com/Captive-Studio/es-project-config/compare/@captive/plop-config@1.0.0-alpha.21...@captive/plop-config@1.0.0-alpha.22) (2024-05-29)
 
 ### ✨ Features
