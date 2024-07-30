@@ -6,9 +6,8 @@ export interface PackageJSON {
 }
 export async function readPackageJSON(pathString: string): Promise<PackageJSON | undefined> {
   try {
-    // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment, @typescript-eslint/no-unsafe-call
     const content = await readFile(pathString, { encoding: 'utf8' });
-    // eslint-disable-next-line @typescript-eslint/no-unsafe-return, @typescript-eslint/no-unsafe-argument
+    // eslint-disable-next-line @typescript-eslint/no-unsafe-return
     return JSON.parse(content);
   } catch {
     return undefined;

@@ -4,5 +4,6 @@ export default async function plopGenerator(/** @type {import('plop').NodePlopAP
   await plopPlugin({
     vue: true,
     react: true,
+    test: 'jest',
   })(plop);
 }

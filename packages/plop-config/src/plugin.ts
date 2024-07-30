@@ -1,3 +1,4 @@
+/* eslint-disable no-extra-boolean-cast */
 import type { NodePlopAPI } from 'plop';
 import Path from 'node:path';
 import { vueComponentGenerator } from './generator/vue-component/index.js';
@@ -40,16 +41,21 @@ export interface PlopPluginOptions {
    * Enable React generators
    */
   react?: boolean;
+  /**
+   * Test framework used
+   */
+  test?: 'jest' | 'vitest';
 }
 
 export function plopPlugin(options: PlopPluginOptions) {
   return async (plop: NodePlopAPI) => {
-    const { vue: vueDefault, react: reactDefault, path = {}, styleSheet = 'css' } = options;
+    const { vue: vueDefault, react: reactDefault, path = {}, styleSheet = 'css', test: testDefault } = options;
     const { component = 'src/components', docs = 'docs', store = 'src/store' } = path;
     const packagePath = path.package ?? Path.join(plop.getPlopfilePath(), 'package.json');
     const packageData = await readPackageJSON(packagePath);
     const vue = vueDefault ?? Boolean(packageData?.dependencies?.['vue']);
     const react = reactDefault ?? Boolean(packageData?.dependencies?.['react']);
+    const test = testDefault ?? (Boolean(packageData?.devDependencies?.['vitest']) ? 'vitest' : 'jest');
 
     plop.setWelcomeMessage(`[Captive] What do you want to generate?`);
 
@@ -74,6 +80,7 @@ export function plopPlugin(options: PlopPluginOptions) {
         reactComponentGenerator({
           styleSheet,
           componentPath: component,
+          test,
         }),
       ].forEach((generator) => plop.setGenerator(generator.name, generator.generator));
     }

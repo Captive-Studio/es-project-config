@@ -1,7 +1,7 @@
 import * as Variables from './variables.js';
 
 export const template = `
-import { describe, it, expect } from 'vitest';
+import { describe, it, expect } from '{{ importTest }}';
 import { {{ ${Variables.componentName} }} as Component } from './{{ ${Variables.componentName} }}.js';
 
 describe(Component.name, () => {
