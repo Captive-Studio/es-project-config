@@ -62,7 +62,7 @@
     "react": "18.3.1",
     "vite": "latest",
     "vitest": "latest",
-    "vue": "3.4.34"
+    "vue": "3.4.35"
   },
   "peerDependencies": {
     "eslint": "8.x",
