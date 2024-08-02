@@ -80,7 +80,7 @@
     "@captive/cspell-config": "workspace:*",
     "@captive/eslint-config": "workspace:*",
     "@captive/ts-config": "workspace:*",
-    "@types/node": "22.0.2",
+    "@types/node": "22.0.3",
     "concurrently": "8.2.2",
     "cspell": "8.13.1",
     "eslint": "8.57.0",
