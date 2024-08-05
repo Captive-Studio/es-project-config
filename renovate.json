@@ -6,6 +6,11 @@
       "matchPackageNames": ["vue"],
       "matchUpdateTypes": ["patch", "minor"],
       "automerge": true
+    },
+    {
+      "matchPackagePatterns": ["@w5s/"],
+      "matchUpdateTypes": ["patch", "minor"],
+      "automerge": true
     }
   ]
 }
