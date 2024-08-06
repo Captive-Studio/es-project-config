@@ -12,6 +12,10 @@
     "directory": "extension/ruby-extension-pack"
   },
   "publisher": "Captive",
+  "scripts": {
+    "vsce:package": "npx vsce package --yarn",
+    "vsce:publish": "npx vsce publish --yarn"
+  },
   "extensionPack": [
     "KoichiSasada.vscode-rdbg",
     "rubocop.vscode-rubocop",
