@@ -12,6 +12,10 @@
     "directory": "extension/developer-extension-pack"
   },
   "publisher": "Captive",
+  "scripts": {
+    "vsce:package": "npx vsce package --yarn",
+    "vsce:publish": "npx vsce publish --yarn"
+  },
   "extensionPack": [
     "benspaulding.procfile",
     "Captive.ruby-extension-pack",
