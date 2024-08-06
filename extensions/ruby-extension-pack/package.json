@@ -2,6 +2,7 @@
   "name": "ruby-extension-pack",
   "displayName": "Ruby Extension Pack",
   "version": "0.0.1",
+  "private": true,
   "description": "An extension for ruby development",
   "categories": [
     "Extension Packs"
