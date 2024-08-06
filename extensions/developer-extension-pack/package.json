@@ -1,0 +1,33 @@
+{
+  "name": "developer-extension-pack",
+  "displayName": "Captive Developer Extension Pack",
+  "version": "0.0.1",
+  "description": "An extension pack containing all recommended extensions to achieve optimal productivity",
+  "categories": [
+    "Extension Packs"
+  ],
+  "extensionPack": [
+    "benspaulding.procfile",
+    "DavidAnson.vscode-markdownlint",
+    "dbaeumer.vscode-eslint",
+    "eamodio.gitlens",
+    "EditorConfig.EditorConfig",
+    "jgclark.vscode-todo-highlight",
+    "jock.svg",
+    "LoranKloeze.ruby-rubocop-revived",
+    "ms-azuretools.vscode-docker",
+    "ms-vsliveshare.vsliveshare",
+    "redhat.vscode-yaml",
+    "seatonjiang.gitmoji-vscode",
+    "Shopify.ruby-lsp",
+    "sorbet.sorbet-vscode-extension",
+    "streetsidesoftware.code-spell-checker",
+    "stylelint.vscode-stylelint",
+    "VisualStudioExptTeam.vscodeintellicode",
+    "vitest.explorer",
+    "Vue.volar"
+  ],
+  "engines": {
+    "vscode": "^1.92.0"
+  }
+}

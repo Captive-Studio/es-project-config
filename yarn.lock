@@ -5230,6 +5230,12 @@ __metadata:
   languageName: node
   linkType: hard
 
+"developer-extension-pack@workspace:extensions/developer-extension-pack":
+  version: 0.0.0-use.local
+  resolution: "developer-extension-pack@workspace:extensions/developer-extension-pack"
+  languageName: unknown
+  linkType: soft
+
 "diff-sequences@npm:^29.6.3":
   version: 29.6.3
   resolution: "diff-sequences@npm:29.6.3"

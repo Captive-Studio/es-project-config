@@ -11,7 +11,8 @@
   "files": [],
   "workspaces": {
     "packages": [
-      "packages/*"
+      "packages/*",
+      "extensions/*"
     ],
     "nohoist": [
       "/eslint",
