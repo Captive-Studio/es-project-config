@@ -1,8 +1,8 @@
-_Generated Automatically at Tue, 30 Jul 2024 13:03:18 GMT_
+_Generated Automatically at Tue, 06 Aug 2024 07:58:20 GMT_
 
 ### Desktop
 
-- Android (126)
+- Android (127)
 - Chrome (125, 124, 123, 122, 121, 116, 109)
 - Edge (125, 124)
 - Firefox (126, 125, 115)
@@ -12,7 +12,7 @@ _Generated Automatically at Tue, 30 Jul 2024 13:03:18 GMT_
 
 ### Mobile
 
-- Chrome for Android (126)
+- Chrome for Android (127)
 - Firefox for Android (127)
 - QQ Browser (14.9)
 - UC Browser (15.5)
