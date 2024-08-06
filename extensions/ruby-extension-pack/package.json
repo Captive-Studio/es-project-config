@@ -6,6 +6,7 @@
   "categories": [
     "Extension Packs"
   ],
+  "publisher": "Captive",
   "extensionPack": [
     "KoichiSasada.vscode-rdbg",
     "rubocop.vscode-rubocop",
