@@ -6,6 +6,7 @@
   "categories": [
     "Extension Packs"
   ],
+  "publisher": "Captive",
   "extensionPack": [
     "benspaulding.procfile",
     "Captive.ruby-extension-pack",
