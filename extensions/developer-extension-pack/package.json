@@ -6,6 +6,11 @@
   "categories": [
     "Extension Packs"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Captive-Studio/es-project-config.git",
+    "directory": "extension/developer-extension-pack"
+  },
   "publisher": "Captive",
   "extensionPack": [
     "benspaulding.procfile",
