@@ -122,7 +122,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@captive/conventional-changelog@workspace:packages/conventional-changelog"
   dependencies:
-    "@w5s/conventional-changelog": "npm:2.0.18"
+    "@w5s/conventional-changelog": "npm:2.0.19"
     vite: "npm:latest"
     vitest: "npm:latest"
   languageName: unknown
@@ -3298,14 +3298,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@w5s/conventional-changelog@npm:2.0.18":
-  version: 2.0.18
-  resolution: "@w5s/conventional-changelog@npm:2.0.18"
+"@w5s/conventional-changelog@npm:2.0.19":
+  version: 2.0.19
+  resolution: "@w5s/conventional-changelog@npm:2.0.19"
   dependencies:
     "@commitlint/types": "npm:^18.0.0"
     emoji-regex: "npm:^10.2.1"
     gitmojis: "npm:^3.13.4"
-  checksum: 10/6a701084614303109f93c1adb8a3f269cbc637f2b0fcd423964dd418f4e86958131bf91eaa62e4fddb4eb910927a82ad22167082a0b8e676ce36abbf251e02bc
+  checksum: 10/b4560fcd4c0256e65c53fbe37ea2a9472a65458a879acc578de8d5642bb1211ac7997fc8e767c8375ae01d21570977b1ba94133079de2b679f04086a19dbe969
   languageName: node
   linkType: hard
 
