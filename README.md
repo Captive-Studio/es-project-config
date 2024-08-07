@@ -8,6 +8,7 @@
 * [@captive/conventional-changelog](packages/conventional-changelog) - Conventional changelog plugin for Captive projects
 * [@captive/cspell-config](packages/cspell-config) - CSpell configuration presets
 * [@captive/eslint-config](packages/eslint-config) - ESLint configuration presets
+* [example](packages/example) - Project sandbox for tests
 * [@captive/plop-config](packages/plop-config) - Plop generators
 * [@captive/prettier-config](packages/prettier-config) - Prettier shared configuration
 * [@captive/stylelint-config](packages/stylelint-config) - StyleLint configuration presets

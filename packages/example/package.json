@@ -1,6 +1,7 @@
 {
   "name": "example",
   "private": true,
+  "description": "Project sandbox for tests",
   "scripts": {
     "new": "npx plop"
   },
