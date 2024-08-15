@@ -62,7 +62,7 @@
     "stylelint-scss": "^6.0.0"
   },
   "devDependencies": {
-    "stylelint": "16.8.1",
+    "stylelint": "16.8.2",
     "vite": "latest",
     "vitest": "latest"
   },
