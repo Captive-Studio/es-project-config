@@ -1,6 +1,6 @@
 {
   "$schema": "https://turborepo.org/schema.json",
-  "globalEnv": ["CI", "CI_*", "DATABASE_URL", "NODE_ENV", "ASDF_*"],
+  "globalEnv": ["ASDF_*", "CI", "CI_*", "DATABASE_URL", "NODE_ENV"],
   "tasks": {
     "build": {
       "dependsOn": ["^build", "//#build:root"],
