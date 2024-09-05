@@ -13,13 +13,11 @@ export interface {{ ${Variables.componentName} }}Props extends React.ComponentPr
 }
 
 export function {{ ${Variables.componentName} }}(props: {{ ${Variables.componentName} }}Props) {
-  const { className, ...otherProps } = props;
+  const { className, children, ...otherProps } = props;
   return (
     <div className={classNames(componentName, className)} {...otherProps}>
-      <div className={classNames(\`$\{componentName}__Content\`)}>
-        {props.example}
-      </div>
-      {props.children}
+      <div className={classNames(\`$\{componentName}__Content\`)}></div>
+      {children}
     </div>
   );
 }
