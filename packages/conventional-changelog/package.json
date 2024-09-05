@@ -1,6 +1,6 @@
 {
   "name": "@captive/conventional-changelog",
-  "version": "2.0.9",
+  "version": "2.0.10",
   "description": "Conventional changelog plugin for Captive projects",
   "keywords": [
     "commitlint",

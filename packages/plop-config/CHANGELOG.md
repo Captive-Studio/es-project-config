@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.0.0-alpha.24](https://github.com/Captive-Studio/es-project-config/compare/@captive/plop-config@1.0.0-alpha.23...@captive/plop-config@1.0.0-alpha.24) (2024-09-05)
+
+### ✨ Features
+
+- Improve React component generator ([9e9947d](https://github.com/Captive-Studio/es-project-config/commit/9e9947d))
+
+**Note:** Version bump only for package @captive/plop-config
+
 # [1.0.0-alpha.23](https://github.com/Captive-Studio/es-project-config/compare/@captive/plop-config@1.0.0-alpha.22...@captive/plop-config@1.0.0-alpha.23) (2024-07-30)
 
 ### ✨ Features

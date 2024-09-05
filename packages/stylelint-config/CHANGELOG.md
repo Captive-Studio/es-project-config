@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.0.9](https://github.com/Captive-Studio/es-project-config/compare/@captive/stylelint-config@3.0.8...@captive/stylelint-config@3.0.9) (2024-09-05)
+
+**Note:** Version bump only for package @captive/stylelint-config
+
 ## [3.0.8](https://github.com/Captive-Studio/es-project-config/compare/@captive/stylelint-config@3.0.7...@captive/stylelint-config@3.0.8) (2024-07-30)
 
 **Note:** Version bump only for package @captive/stylelint-config
