@@ -1,5 +1,5 @@
-<!-- AUTO-GENERATED-CONTENT:START (PKG_JSON:template=# W5s CSpell configuration _(${name})_) -->
-# W5s CSpell configuration _(@captive/cspell-config)_
+<!-- AUTO-GENERATED-CONTENT:START (PKG_JSON:template=# Captive CSpell configuration _(${name})_) -->
+# Captive CSpell configuration _(@captive/cspell-config)_
 <!-- AUTO-GENERATED-CONTENT:END -->
 
 [![NPM Version][package-version-svg]][package-url]
