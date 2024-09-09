@@ -1,0 +1,90 @@
+{
+  "name": "@captive/tsup-config",
+  "version": "1.0.0-alpha.0",
+  "private": true,
+  "description": "TsUp shared configuration",
+  "keywords": [
+    "typescript",
+    "config",
+    "tsc",
+    "tsup"
+  ],
+  "homepage": "https://github.com/Captive-Studio/es-project-config/blob/main/packages/tsup-config#readme",
+  "bugs": {
+    "url": "https://github.com/Captive-Studio/es-project-config/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Captive-Studio/es-project-config.git",
+    "directory": "packages/tsup-config"
+  },
+  "license": "MIT",
+  "author": "Julien Polo <julien.polo@captive.fr>",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    },
+    "./dist/*": "./dist/*"
+  },
+  "files": [
+    "dist/",
+    "src/",
+    "index.js",
+    "index.d.ts",
+    "!*.d.ts.map",
+    "!**/*.spec.*",
+    "!**/__tests__/**"
+  ],
+  "tsup": {
+    "entry": [
+      "src/index.ts"
+    ],
+    "sourcemap": true,
+    "format": [
+      "esm"
+    ],
+    "dts": true,
+    "clean": true
+  },
+  "scripts": {
+    "build": "npx run-p \"build:*\"",
+    "build:tsc": "tsc -b tsconfig.build.json",
+    "clean": "npx run-p \"clean:*\"",
+    "clean:tsc": "rm -rf dist",
+    "docs": "node ../../markdown.mjs",
+    "format": "npx run-p \"format:*\"",
+    "format:src": "eslint . --fix --ext=mjs,cjs,js,jsx,ts,tsx,json,jsonc,json5,yml,yaml",
+    "lint": "npx run-p \"lint:*\"",
+    "lint:src": "eslint . --ext=mjs,cjs,js,jsx,ts,tsx,json,jsonc,json5,yml,yaml",
+    "postpack": "npx clean-package restore",
+    "prepack": "npx clean-package",
+    "prepare": "npx run-p \"prepare:*\"",
+    "prepare:empty": ":",
+    "prepublishOnly": "npm run clean;npm run build",
+    "spellcheck": "cspell --no-progress '**'",
+    "test": "npx run-p \"test:*\"",
+    "test:src": "vitest run"
+  },
+  "devDependencies": {
+    "tsup": "8.2.4",
+    "vite": "5.4.3",
+    "vitest": "2.0.5"
+  },
+  "peerDependencies": {
+    "tsup": "8.x"
+  },
+  "peerDependenciesMeta": {
+    "tsup": {
+      "optional": true
+    }
+  },
+  "clean-package": "../../clean-package.config.cjs",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

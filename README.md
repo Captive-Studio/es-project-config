@@ -13,6 +13,7 @@
 * [@captive/prettier-config](packages/prettier-config) - Prettier shared configuration
 * [@captive/stylelint-config](packages/stylelint-config) - StyleLint configuration presets
 * [@captive/ts-config](packages/ts-config) - Typescript compiler configuration presets
+* [@captive/tsup-config](packages/tsup-config) - TsUp shared configuration
 <!-- AUTO-GENERATED-CONTENT:END -->
 
 About Captive
