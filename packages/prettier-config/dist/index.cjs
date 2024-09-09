@@ -1,6 +1,6 @@
 'use strict';
 
-var defaultConfig = require('@w5s/prettier-config/dist/index.js');
+var defaultConfig = require('@w5s/prettier-config');
 
 function _interopDefault (e) { return e && e.__esModule ? e : { default: e }; }
 

@@ -46,21 +46,19 @@ module.exports = {
 
 ```json
 {
-  "default": {
-    "singleQuote": true,
-    "trailingComma": "es5",
-    "overrides": [
-      {
-        "files": [
-          "*.css",
-          "*.scss"
-        ],
-        "options": {
-          "trailingComma": "none"
-        }
+  "singleQuote": true,
+  "trailingComma": "es5",
+  "overrides": [
+    {
+      "files": [
+        "*.css",
+        "*.scss"
+      ],
+      "options": {
+        "trailingComma": "none"
       }
-    ]
-  }
+    }
+  ]
 }
 ```
 </details>

@@ -59,7 +59,7 @@
     "test:src": "vitest run"
   },
   "dependencies": {
-    "@w5s/prettier-config": "^2.0.0"
+    "@w5s/prettier-config": "^2.0.23"
   },
   "devDependencies": {
     "@captive/tsup-config": "workspace:*",

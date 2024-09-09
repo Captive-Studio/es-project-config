@@ -1,4 +1,4 @@
-import defaultConfig from '@w5s/prettier-config/dist/index.js';
+import defaultConfig from '@w5s/prettier-config';
 
 // src/index.ts
 var prettierConfig = {

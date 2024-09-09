@@ -1,5 +1,5 @@
 import type { Config } from 'prettier';
-import defaultConfig from '@w5s/prettier-config/dist/index.js';
+import defaultConfig from '@w5s/prettier-config';
 
 const prettierConfig: Config = {
   ...defaultConfig,
