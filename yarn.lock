@@ -122,7 +122,9 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@captive/conventional-changelog@workspace:packages/conventional-changelog"
   dependencies:
+    "@captive/tsup-config": "workspace:*"
     "@w5s/conventional-changelog": "npm:2.0.20"
+    tsup: "npm:8.2.4"
     vite: "npm:latest"
     vitest: "npm:latest"
   languageName: unknown
@@ -273,7 +275,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@captive/tsup-config@workspace:packages/tsup-config":
+"@captive/tsup-config@workspace:*, @captive/tsup-config@workspace:packages/tsup-config":
   version: 0.0.0-use.local
   resolution: "@captive/tsup-config@workspace:packages/tsup-config"
   dependencies:

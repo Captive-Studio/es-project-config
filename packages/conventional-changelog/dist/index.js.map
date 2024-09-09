@@ -1,0 +1,1 @@
+{"version":3,"sources":["../src/index.ts"],"names":[],"mappings":";;;AAEA,IAAM,MAA+B,GAAA;AAAA,EACnC,GAAG,aAAA;AAAA;AAEL,CAAA,CAAA;AAEA,IAAO,WAAQ,GAAA","file":"index.js","sourcesContent":["import defaultConfig from '@w5s/conventional-changelog';\n\nconst config: typeof defaultConfig = {\n  ...defaultConfig,\n  // Override here\n};\n\nexport default config;\n"]}
