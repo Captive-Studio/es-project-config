@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.0.8](https://github.com/Captive-Studio/es-project-config/compare/@captive/prettier-config@2.0.7...@captive/prettier-config@2.0.8) (2024-09-09)
+
+### 🐛 Bug Fixes
+
+- Fix index import bug ([964afba](https://github.com/Captive-Studio/es-project-config/commit/964afba))
+
+**Note:** Version bump only for package @captive/prettier-config
+
 ## [2.0.7](https://github.com/Captive-Studio/es-project-config/compare/@captive/prettier-config@2.0.6...@captive/prettier-config@2.0.7) (2024-09-09)
 
 **Note:** Version bump only for package @captive/prettier-config
