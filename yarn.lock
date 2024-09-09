@@ -136,7 +136,7 @@ __metadata:
     "@cspell/cspell-types": "npm:8.14.2"
     "@cspell/dict-bash": "npm:^4.1.2"
     "@cspell/dict-fr-fr": "npm:^2.2.0"
-    "@w5s/cspell-config": "npm:^2.2.2"
+    "@w5s/cspell-config": "npm:^2.3.10"
     vite: "npm:latest"
     vitest: "npm:latest"
   peerDependencies:
@@ -3592,9 +3592,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@w5s/cspell-config@npm:^2.2.2":
-  version: 2.2.4
-  resolution: "@w5s/cspell-config@npm:2.2.4"
+"@w5s/cspell-config@npm:^2.3.10":
+  version: 2.3.10
+  resolution: "@w5s/cspell-config@npm:2.3.10"
   dependencies:
     "@cspell/cspell-bundled-dicts": "npm:^8.0.0"
   peerDependencies:
@@ -3602,7 +3602,7 @@ __metadata:
   peerDependenciesMeta:
     cspell:
       optional: true
-  checksum: 10/f05a40cb07c433eaeb59c3a424d677e37d82b4b8d45b3228bb1e1dd75e8a73ab4e7bdce556a286ae6cefa25075c67e148180cab4aaed64d4b5fc6b2922d01ae8
+  checksum: 10/3b92842182b494ff830c7ba33be0bb8f0829af41de9302e5af04ece38a38071dba4fd85a0556b9cd76c350628b3fd988c1743a135b854b0fa5665a42bcf97ac3
   languageName: node
   linkType: hard
 
