@@ -1,1 +1,1 @@
-export const componentName = 'componentName' as const;
+export const componentName = 'componentName';

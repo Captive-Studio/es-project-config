@@ -1,3 +1,3 @@
-export const issueURL = 'issueURL' as const;
-export const issueId = 'issueId' as const;
-export const title = 'title' as const;
+export const issueURL = 'issueURL';
+export const issueId = 'issueId';
+export const title = 'title';
