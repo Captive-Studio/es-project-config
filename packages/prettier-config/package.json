@@ -18,16 +18,20 @@
   },
   "license": "MIT",
   "author": "Julien Polo <julien.polo@gmail.com>",
-  "type": "commonjs",
+  "type": "module",
   "exports": {
     ".": {
-      "types": "./index.d.ts",
-      "require": "./index.cjs"
+      "require": {
+        "types": "./dist/index.d.cts",
+        "default": "./dist/index.cjs"
+      },
+      "import": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.js"
+      }
     },
     "./dist/*": "./dist/*"
   },
-  "main": "./index.cjs",
-  "typings": "./index.d.ts",
   "files": [
     "dist/",
     "src/",
@@ -38,7 +42,7 @@
   ],
   "scripts": {
     "build": "npx run-p \"build:*\"",
-    "build:tsc": "tsc -b tsconfig.build.json",
+    "build:tsc": "npx tsup",
     "clean": "npx run-p \"clean:*\"",
     "clean:tsc": "rm -rf dist",
     "docs": "node scripts/build-docs.mjs && node ../../markdown.mjs ",
@@ -58,7 +62,9 @@
     "@w5s/prettier-config": "^2.0.0"
   },
   "devDependencies": {
+    "@captive/tsup-config": "workspace:*",
     "prettier": "3.3.3",
+    "tsup": "8.2.4",
     "vite": "latest",
     "vitest": "latest"
   },

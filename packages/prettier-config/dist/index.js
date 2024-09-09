@@ -1,10 +1,11 @@
-"use strict";
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
+import defaultConfig from '@w5s/prettier-config/dist/index.js';
+
+// src/index.ts
+var prettierConfig = {
+  ...defaultConfig
 };
-Object.defineProperty(exports, "__esModule", { value: true });
-const index_js_1 = __importDefault(require("@w5s/prettier-config/dist/index.js"));
-const prettierConfig = {
-    ...index_js_1.default,
-};
-exports.default = prettierConfig;
+var src_default = prettierConfig;
+
+export { src_default as default };
+//# sourceMappingURL=index.js.map
+//# sourceMappingURL=index.js.map

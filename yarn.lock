@@ -200,8 +200,10 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@captive/prettier-config@workspace:packages/prettier-config"
   dependencies:
+    "@captive/tsup-config": "workspace:*"
     "@w5s/prettier-config": "npm:^2.0.0"
     prettier: "npm:3.3.3"
+    tsup: "npm:8.2.4"
     vite: "npm:latest"
     vitest: "npm:latest"
   peerDependencies:
