@@ -153,7 +153,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@captive/eslint-config@workspace:packages/eslint-config"
   dependencies:
-    "@captive/prettier-config": "npm:^2.0.7"
+    "@captive/prettier-config": "npm:^2.0.8"
     "@types/react": "npm:18.3.5"
     "@w5s/dev": "npm:^2.0.0"
     "@w5s/eslint-config": "npm:2.0.29"
@@ -196,7 +196,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@captive/prettier-config@npm:^2.0.7, @captive/prettier-config@workspace:packages/prettier-config":
+"@captive/prettier-config@npm:^2.0.8, @captive/prettier-config@workspace:packages/prettier-config":
   version: 0.0.0-use.local
   resolution: "@captive/prettier-config@workspace:packages/prettier-config"
   dependencies:
@@ -234,7 +234,7 @@ __metadata:
     npm-run-all2: "npm:6.2.2"
     prettier: "npm:3.3.3"
     turbo: "npm:2.1.1"
-    typescript: "npm:5.5.4"
+    typescript: "npm:5.6.2"
   languageName: unknown
   linkType: soft
 
@@ -242,7 +242,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@captive/stylelint-config@workspace:packages/stylelint-config"
   dependencies:
-    "@captive/prettier-config": "npm:^2.0.7"
+    "@captive/prettier-config": "npm:^2.0.8"
     postcss: "npm:^8.4.14"
     postcss-html: "npm:*"
     stylelint: "npm:16.9.0"
@@ -268,7 +268,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@captive/ts-config@workspace:packages/ts-config"
   dependencies:
-    typescript: "npm:5.5.4"
+    typescript: "npm:5.6.2"
   peerDependencies:
     typescript: ">=5.x"
   peerDependenciesMeta:
@@ -13717,7 +13717,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:5.5.4, typescript@npm:>=3 < 6":
+"typescript@npm:5.6.2":
+  version: 5.6.2
+  resolution: "typescript@npm:5.6.2"
+  bin:
+    tsc: bin/tsc
+    tsserver: bin/tsserver
+  checksum: 10/f95365d4898f357823e93d334ecda9fcade54f009b397c7d05b7621cd9e865981033cf89ccde0f3e3a7b73b1fdbae18e92bc77db237b43e912f053fef0f9a53b
+  languageName: node
+  linkType: hard
+
+"typescript@npm:>=3 < 6":
   version: 5.5.4
   resolution: "typescript@npm:5.5.4"
   bin:
@@ -13727,7 +13737,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@npm%3A5.5.4#optional!builtin<compat/typescript>, typescript@patch:typescript@npm%3A>=3 < 6#optional!builtin<compat/typescript>":
+"typescript@patch:typescript@npm%3A5.6.2#optional!builtin<compat/typescript>":
+  version: 5.6.2
+  resolution: "typescript@patch:typescript@npm%3A5.6.2#optional!builtin<compat/typescript>::version=5.6.2&hash=8c6c40"
+  bin:
+    tsc: bin/tsc
+    tsserver: bin/tsserver
+  checksum: 10/8bfc7ca0d9feca4c3fcbd6c70741abfcd714197d6448e68225ae71e462447d904d3bfba49759a8fbe4956d87f054e2d346833c8349c222daa594a2626d4e1be8
+  languageName: node
+  linkType: hard
+
+"typescript@patch:typescript@npm%3A>=3 < 6#optional!builtin<compat/typescript>":
   version: 5.5.4
   resolution: "typescript@patch:typescript@npm%3A5.5.4#optional!builtin<compat/typescript>::version=5.5.4&hash=379a07"
   bin:
