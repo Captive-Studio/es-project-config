@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 1.0.0-alpha.1 (2024-09-09)
+
+### ✨ Features
+
+- Add tsup-config package ([74039bf](https://github.com/Captive-Studio/es-project-config/commit/74039bf))
+
+**Note:** Version bump only for package @captive/tsup-config
+
 ## <small>1.0.3 (2024-08-28)</small>
 
 - 👷 Fix prepare script ([d9bc44f](https://github.com/w5s/project-config/commit/d9bc44f))
