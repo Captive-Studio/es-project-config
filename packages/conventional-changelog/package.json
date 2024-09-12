@@ -59,7 +59,7 @@
     "test:src": "vitest run"
   },
   "dependencies": {
-    "@w5s/conventional-changelog": "2.0.24"
+    "@w5s/conventional-changelog": "2.0.25"
   },
   "devDependencies": {
     "@captive/tsup-config": "workspace:*",
