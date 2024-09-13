@@ -1,4 +1,10 @@
-import defaultConfig from '@w5s/commitlint-config';
+'use strict';
+
+var defaultConfig = require('@w5s/commitlint-config');
+
+function _interopDefault (e) { return e && e.__esModule ? e : { default: e }; }
+
+var defaultConfig__default = /*#__PURE__*/_interopDefault(defaultConfig);
 
 var __create = Object.create;
 var __defProp = Object.defineProperty;
@@ -128,9 +134,9 @@ var require_lib = __commonJS({
 // src/index.ts
 var import_types = __toESM(require_lib());
 var config = {
-  ...defaultConfig,
+  ...defaultConfig__default.default,
   rules: {
-    ...defaultConfig.rules,
+    ...defaultConfig__default.default.rules,
     "header-max-length": [import_types.RuleConfigSeverity.Error, "always", 100],
     "body-max-line-length": [import_types.RuleConfigSeverity.Disabled, "always", Number.POSITIVE_INFINITY],
     "footer-max-line-length": [import_types.RuleConfigSeverity.Disabled, "always", Number.POSITIVE_INFINITY]
@@ -138,6 +144,6 @@ var config = {
 };
 var src_default = config;
 
-export { src_default as default };
-//# sourceMappingURL=index.js.map
-//# sourceMappingURL=index.js.map
+module.exports = src_default;
+//# sourceMappingURL=index.cjs.map
+//# sourceMappingURL=index.cjs.map
