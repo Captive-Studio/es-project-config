@@ -143,7 +143,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@captive/eslint-config@workspace:packages/eslint-config"
   dependencies:
-    "@captive/prettier-config": "npm:^2.0.8"
+    "@captive/prettier-config": "npm:^2.0.9"
     "@types/react": "npm:18.3.5"
     "@w5s/dev": "npm:^2.0.0"
     "@w5s/eslint-config": "npm:2.0.30"
@@ -186,7 +186,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@captive/prettier-config@npm:^2.0.8, @captive/prettier-config@workspace:packages/prettier-config":
+"@captive/prettier-config@npm:^2.0.9, @captive/prettier-config@workspace:packages/prettier-config":
   version: 0.0.0-use.local
   resolution: "@captive/prettier-config@workspace:packages/prettier-config"
   dependencies:
@@ -232,7 +232,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@captive/stylelint-config@workspace:packages/stylelint-config"
   dependencies:
-    "@captive/prettier-config": "npm:^2.0.8"
+    "@captive/prettier-config": "npm:^2.0.9"
     postcss: "npm:^8.4.14"
     postcss-html: "npm:*"
     stylelint: "npm:16.9.0"
