@@ -81,7 +81,7 @@
     "@captive/cspell-config": "workspace:*",
     "@captive/eslint-config": "workspace:*",
     "@captive/ts-config": "workspace:*",
-    "@types/node": "22.5.4",
+    "@types/node": "22.5.5",
     "cspell": "8.14.2",
     "eslint": "8.57.0",
     "eslint-plugin-sort-keys-fix": "1.1.2",
