@@ -63,7 +63,7 @@
   },
   "devDependencies": {
     "@captive/tsup-config": "workspace:*",
-    "tsup": "8.2.4",
+    "tsup": "8.3.0",
     "vite": "latest",
     "vitest": "latest"
   },
