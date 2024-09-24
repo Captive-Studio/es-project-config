@@ -5,4 +5,5 @@ const prettierConfig: Config = {
   ...defaultConfig,
 };
 
+// eslint-disable-next-line import/no-default-export
 export default prettierConfig;

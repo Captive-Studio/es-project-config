@@ -5,4 +5,5 @@ const config: typeof defaultConfig = {
   // Override here
 };
 
+// eslint-disable-next-line import/no-default-export
 export default config;
