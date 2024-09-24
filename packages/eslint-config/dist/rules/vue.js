@@ -20,6 +20,7 @@ const config = dev_1.ESLintConfig.concat(hasTSConfig ? typescript_js_1.default :
         project: 'tsconfig.json',
     },
     rules: {
+        'import/no-default-export': 'off', // Export default is required by vue definition
         'vue/component-api-style': ['error', ['script-setup']], // Use script-setup as default syntax, can be overridden in project if needed
         'vue/no-deprecated-slot-attribute': 'off',
     },
