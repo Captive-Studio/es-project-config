@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.0.15](https://github.com/Captive-Studio/es-project-config/compare/@captive/conventional-changelog@2.0.14...@captive/conventional-changelog@2.0.15) (2024-10-02)
+
+**Note:** Version bump only for package @captive/conventional-changelog
+
 ## [2.0.14](https://github.com/Captive-Studio/es-project-config/compare/@captive/conventional-changelog@2.0.13...@captive/conventional-changelog@2.0.14) (2024-09-24)
 
 **Note:** Version bump only for package @captive/conventional-changelog

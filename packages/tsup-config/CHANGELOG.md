@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.0.0-alpha.4](https://github.com/Captive-Studio/es-project-config/compare/@captive/tsup-config@1.0.0-alpha.3...@captive/tsup-config@1.0.0-alpha.4) (2024-10-02)
+
+**Note:** Version bump only for package @captive/tsup-config
+
 # [1.0.0-alpha.3](https://github.com/Captive-Studio/es-project-config/compare/@captive/tsup-config@1.0.0-alpha.2...@captive/tsup-config@1.0.0-alpha.3) (2024-09-24)
 
 **Note:** Version bump only for package @captive/tsup-config
