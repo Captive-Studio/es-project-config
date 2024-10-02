@@ -6732,7 +6732,7 @@ __metadata:
   dependencies:
     "@captive/plop-config": "workspace:*"
     clsx: "npm:2.1.1"
-    pinia: "npm:2.2.2"
+    pinia: "npm:2.2.3"
     plop: "npm:4.0.1"
     react: "npm:18.3.1"
     vite: "npm:5.4.8"
@@ -11362,9 +11362,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"pinia@npm:2.2.2":
-  version: 2.2.2
-  resolution: "pinia@npm:2.2.2"
+"pinia@npm:2.2.3":
+  version: 2.2.3
+  resolution: "pinia@npm:2.2.3"
   dependencies:
     "@vue/devtools-api": "npm:^6.6.3"
     vue-demi: "npm:^0.14.10"
@@ -11377,7 +11377,7 @@ __metadata:
       optional: true
     typescript:
       optional: true
-  checksum: 10/3061ab7ddfdc507b92c9d755e27d43f8050ab36d6e8431e8ec260c9fd3ca95c3af59c6aa33016a3af568af10731dc97d1c796dd14b3bad66b4688b219a7b6e0f
+  checksum: 10/b016f9899a968901a1702ea9f283b294308064c7cef0f94e2259f8ab1c967c42cdb346aa590967611810caf830ea035f91f8c7b57c6e6f31f74d10b6eb87c11f
   languageName: node
   linkType: hard
 
