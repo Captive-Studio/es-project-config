@@ -198,7 +198,7 @@ __metadata:
   resolution: "@captive/prettier-config@workspace:packages/prettier-config"
   dependencies:
     "@captive/tsup-config": "workspace:*"
-    "@w5s/prettier-config": "npm:^2.0.23"
+    "@w5s/prettier-config": "npm:^2.2.1"
     prettier: "npm:3.3.3"
     tsup: "npm:8.3.0"
     vite: "npm:latest"
@@ -3731,18 +3731,6 @@ __metadata:
     typescript:
       optional: true
   checksum: 10/29b98fb9f25595eaaa7758012834effea8b7961d25db080f01e58b1ccd440d4829943615c555a7d4b57e11ee5dc0fe9e666fcc747ee2c44625a068744c9d7caf
-  languageName: node
-  linkType: hard
-
-"@w5s/prettier-config@npm:^2.0.23":
-  version: 2.0.23
-  resolution: "@w5s/prettier-config@npm:2.0.23"
-  peerDependencies:
-    prettier: 2.x || 3.x
-  peerDependenciesMeta:
-    prettier:
-      optional: true
-  checksum: 10/cc6dc66ee43d76087faa472da9d520a7daf56bd9654cd7493fce8d2a40dcd0c20f95e991bb675e5f14236ca5bcc0d11cac12cee1070c75c14950a64f413763e9
   languageName: node
   linkType: hard
 
