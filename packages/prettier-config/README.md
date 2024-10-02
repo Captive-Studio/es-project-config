@@ -47,7 +47,7 @@ module.exports = {
 ```json
 {
   "singleQuote": true,
-  "trailingComma": "es5",
+  "trailingComma": "all",
   "overrides": [
     {
       "files": [
