@@ -29,7 +29,7 @@ const config: eslint.Linter.Config = ESLintConfig.concat(
   tryResolve('vue') ? vueConfig : {},
   {
     root: true,
-  }
+  },
 );
 
 export = config;

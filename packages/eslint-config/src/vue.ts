@@ -9,7 +9,7 @@ const config: eslint.Linter.Config = {
         {
           extends: [require.resolve('./rules/vue.js')],
         },
-        prettierConfig
+        prettierConfig,
       ),
       files: ['*.vue'],
     },

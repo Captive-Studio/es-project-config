@@ -9,12 +9,12 @@ const config: eslint.Linter.Config = {
         {
           extends: [require.resolve('./rules/typescript.js')],
         },
-        prettierConfig
+        prettierConfig,
       ),
       files: [
         Project.extensionsToGlob(
           // ts only extensions
-          Project.sourceExtensions().filter((_) => _.includes('ts'))
+          Project.sourceExtensions().filter((_) => _.includes('ts')),
         ),
       ],
     },

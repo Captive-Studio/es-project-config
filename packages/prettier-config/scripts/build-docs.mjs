@@ -1,5 +1,5 @@
 import { writeFile, readFile, mkdir } from 'node:fs/promises';
-import * as path from 'node:path';
+import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const Config = {
@@ -41,7 +41,7 @@ async function buildPreview(sourceFile, displayName) {
     sourceFile,
     displayName == null
       ? `${packageName}/${sourceFile}`
-      : `${packageName}${displayName.length === 0 ? '' : `/${displayName}`}`
+      : `${packageName}${displayName.length === 0 ? '' : `/${displayName}`}`,
   );
 }
 

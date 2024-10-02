@@ -4,9 +4,9 @@ import type { Config } from 'stylelint';
 import prettierConfig from '@captive/prettier-config';
 
 const bemSelector = (selectors: Array<'any' | 'kebabCase' | 'pascalCase'>) => {
-  const kebabCase = '[\\da-z-]+';
-  const pascalCase = '[a-zA-Z][\\da-zA-Z]+';
-  const any = '[a-zA-Z][\\da-zA-Z-]+';
+  const kebabCase = String.raw`[\da-z-]+`;
+  const pascalCase = String.raw`[a-zA-Z][\da-zA-Z]+`;
+  const any = String.raw`[a-zA-Z][\da-zA-Z-]+`;
   const map = { any, kebabCase, pascalCase } as const;
 
   const word = selectors.map((selector) => map[selector]).join('|');

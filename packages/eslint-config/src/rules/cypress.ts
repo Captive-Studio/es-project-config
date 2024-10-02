@@ -21,7 +21,7 @@ const config: eslint.Linter.Config = ESLintConfig.concat(
       'promise/catch-or-return': 'off',
       'promise/prefer-await-to-then': 'off',
     },
-  }
+  },
 );
 
 export = config;
