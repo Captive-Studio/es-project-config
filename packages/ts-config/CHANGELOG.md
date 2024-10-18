@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.3.0](https://github.com/Captive-Studio/es-project-config/compare/@captive/ts-config@2.2.1...@captive/ts-config@2.3.0) (2024-10-18)
+
+### ✨ Features
+
+- Enable exactOptionalPropertyTypes ([652fd9a](https://github.com/Captive-Studio/es-project-config/commit/652fd9a))
+- Enable noUncheckedSideEffectImports ([adebf69](https://github.com/Captive-Studio/es-project-config/commit/adebf69))
+
+**Note:** Version bump only for package @captive/ts-config
+
 ## [2.2.1](https://github.com/Captive-Studio/es-project-config/compare/@captive/ts-config@2.2.0...@captive/ts-config@2.2.1) (2024-09-10)
 
 **Note:** Version bump only for package @captive/ts-config

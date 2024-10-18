@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.0.0-alpha.28](https://github.com/Captive-Studio/es-project-config/compare/@captive/plop-config@1.0.0-alpha.27...@captive/plop-config@1.0.0-alpha.28) (2024-10-18)
+
+**Note:** Version bump only for package @captive/plop-config
+
 # [1.0.0-alpha.27](https://github.com/Captive-Studio/es-project-config/compare/@captive/plop-config@1.0.0-alpha.26...@captive/plop-config@1.0.0-alpha.27) (2024-10-02)
 
 **Note:** Version bump only for package @captive/plop-config
