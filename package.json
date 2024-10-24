@@ -83,7 +83,7 @@
     "@captive/ts-config": "workspace:*",
     "@types/node": "22.7.9",
     "cspell": "8.15.4",
-    "eslint": "8.57.1",
+    "eslint": "9.13.0",
     "eslint-plugin-sort-keys-fix": "1.1.2",
     "lerna": "8.1.8",
     "markdown-magic": "2.6.1",
