@@ -1,10 +1,16 @@
 import commitlint from '@commitlint/lint';
 import { describe, it, expect } from 'vitest';
-import { gitmojiPlugin } from '@w5s/commitlint-config/dist/plugin.js';
 import config from './index.js';
 
+const gitmojiPlugin = config.plugins[0]!;
 const lint = async (input: string) =>
-  commitlint(input, config.rules, { ...config.parserPreset, plugins: { gitmoji: gitmojiPlugin } });
+  commitlint(input, config.rules, {
+    ...config.parserPreset,
+    plugins: {
+      // @ts-ignore FIXME: typing error that I cannot fix
+      gitmoji: gitmojiPlugin,
+    },
+  });
 
 describe('Commitlint Config', () => {
   const generateValidSubject = (length: number) =>
