@@ -56,11 +56,11 @@
     "find-up": "^5.0.0"
   },
   "devDependencies": {
-    "@types/react": "18.3.17",
+    "@types/react": "19.0.1",
     "eslint": "8.57.1",
     "eslint-find-rules": "4.2.0",
     "prettier": "3.4.2",
-    "react": "18.3.1",
+    "react": "19.0.0",
     "vite": "latest",
     "vitest": "latest",
     "vue": "3.5.13"
