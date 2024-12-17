@@ -26,5 +26,9 @@
   ],
   "engines": {
     "vscode": "^1.92.0"
+  },
+  "vsce": {
+    "dependencies": false,
+    "useYarn": false
   }
 }
