@@ -1,7 +1,7 @@
 {
   "name": "developer-extension-pack",
   "displayName": "Captive Developer Extension Pack",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "description": "An extension pack containing all recommended extensions to achieve optimal productivity",
   "categories": [
@@ -12,6 +12,7 @@
     "url": "git@github.com:Captive-Studio/es-project-config.git",
     "directory": "extension/developer-extension-pack"
   },
+  "license": "MIT",
   "publisher": "Captive",
   "scripts": {
     "vsce:package": "npx @vscode/vsce package",
