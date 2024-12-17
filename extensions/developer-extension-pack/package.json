@@ -14,8 +14,8 @@
   },
   "publisher": "Captive",
   "scripts": {
-    "vsce:package": "npx vsce package --yarn",
-    "vsce:publish": "npx vsce publish --yarn"
+    "vsce:package": "npx @vscode/vsce package",
+    "vsce:publish": "npx @vscode/vsce publish"
   },
   "extensionPack": [
     "benspaulding.procfile",
