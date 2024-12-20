@@ -4,7 +4,8 @@
   "tasks": {
     "build": {
       "dependsOn": ["^build", "//#build:root"],
-      "outputs": ["lib/**", "dist/**", ".next/**"]
+      "inputs": ["$TURBO_DEFAULT$", ".env*"],
+      "outputs": ["dist/**", ".next/**", "!.next/cache/**"]
     },
     "//#build:root": {},
     "test": {
@@ -43,5 +44,10 @@
     },
     "//#docs:root": {}
   },
-  "globalDependencies": ["tsconfig.settings.json"]
+  "globalDependencies": [
+    ".tool-versions",
+    "tsconfig.settings.json",
+    "**/.env.*local",
+    ".env"
+  ]
 }
