@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.0.11](https://github.com/Captive-Studio/es-project-config/compare/@captive/browserslist-config@2.0.9...@captive/browserslist-config@2.0.11) (2024-12-20)
+
+**Note:** Version bump only for package @captive/browserslist-config
+
 ## [2.0.10](https://github.com/Captive-Studio/es-project-config/compare/@captive/browserslist-config@2.0.9...@captive/browserslist-config@2.0.10) (2024-11-18)
 
 **Note:** Version bump only for package @captive/browserslist-config

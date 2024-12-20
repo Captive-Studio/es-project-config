@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.4.0](https://github.com/Captive-Studio/es-project-config/compare/@captive/ts-config@2.3.0...@captive/ts-config@2.4.0) (2024-12-20)
+
+### ✨ Features
+
+- Use target : ESNext ([ab31d5f](https://github.com/Captive-Studio/es-project-config/commit/ab31d5f))
+
+**Note:** Version bump only for package @captive/ts-config
+
 # [2.3.0](https://github.com/Captive-Studio/es-project-config/compare/@captive/ts-config@2.2.1...@captive/ts-config@2.3.0) (2024-10-18)
 
 ### ✨ Features
