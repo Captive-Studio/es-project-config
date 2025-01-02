@@ -81,7 +81,7 @@
     "@captive/cspell-config": "workspace:*",
     "@captive/eslint-config": "workspace:*",
     "@captive/ts-config": "workspace:*",
-    "@lerna-lite/publish": "3.10.1",
+    "@lerna-lite/publish": "3.11.0",
     "@types/node": "22.10.4",
     "cspell": "8.17.1",
     "eslint": "8.57.1",
