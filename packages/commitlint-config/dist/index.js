@@ -25,8 +25,8 @@ var config = {
     "footer-max-line-length": [RuleConfigSeverity.Disabled, "always", Number.POSITIVE_INFINITY]
   }
 };
-var src_default = config;
+var index_default = config;
 
-export { src_default as default };
+export { index_default as default };
 //# sourceMappingURL=index.js.map
 //# sourceMappingURL=index.js.map
