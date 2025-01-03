@@ -11,8 +11,8 @@ var config = {
   ...defaultConfig__default.default
   // Override here
 };
-var src_default = config;
+var index_default = config;
 
-module.exports = src_default;
+module.exports = index_default;
 //# sourceMappingURL=index.cjs.map
 //# sourceMappingURL=index.cjs.map

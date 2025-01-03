@@ -5,8 +5,8 @@ var config = {
   ...defaultConfig
   // Override here
 };
-var src_default = config;
+var index_default = config;
 
-export { src_default as default };
+export { index_default as default };
 //# sourceMappingURL=index.js.map
 //# sourceMappingURL=index.js.map

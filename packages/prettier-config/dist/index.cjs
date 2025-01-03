@@ -10,8 +10,8 @@ var defaultConfig__default = /*#__PURE__*/_interopDefault(defaultConfig);
 var prettierConfig = {
   ...defaultConfig__default.default
 };
-var src_default = prettierConfig;
+var index_default = prettierConfig;
 
-module.exports = src_default;
+module.exports = index_default;
 //# sourceMappingURL=index.cjs.map
 //# sourceMappingURL=index.cjs.map
