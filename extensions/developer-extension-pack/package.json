@@ -34,7 +34,6 @@
     "streetsidesoftware.code-spell-checker",
     "stylelint.vscode-stylelint",
     "VisualStudioExptTeam.vscodeintellicode",
-    "vitest.explorer",
     "Vue.volar"
   ],
   "engines": {
