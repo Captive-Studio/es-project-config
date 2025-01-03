@@ -15,7 +15,7 @@ Once installed, the included extensions will be available in your VS Code enviro
 
 ## Contributing
 
-Contributions are welcome! Please open an issue or submit a pull request on the [GitHub repository](https://github.com/your-repo/developer-extension-pack).
+Contributions are welcome! Please open an issue or submit a pull request on the [GitHub repository](https://github.com/Captive-Studio/es-project-config).
 
 ## License
 
