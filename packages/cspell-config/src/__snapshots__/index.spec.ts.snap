@@ -42,10 +42,6 @@ exports[`index > should match snapshot 1`] = `
       "path": "../dict/fr.txt",
     },
   ],
-  "enableFiletypes": [
-    "svelte",
-    "julia",
-  ],
   "flagWords": [],
   "id": "captive-default-js",
   "ignorePaths": [
