@@ -14,6 +14,8 @@
 * [@captive/stylelint-config](packages/stylelint-config) - StyleLint configuration presets
 * [@captive/ts-config](packages/ts-config) - Typescript compiler configuration presets
 * [@captive/tsup-config](packages/tsup-config) - TsUp shared configuration
+* [captive-developer-extension-pack](extensions/developer-extension-pack) - An extension pack containing all recommended extensions to achieve optimal productivity
+* [captive-ruby-extension-pack](extensions/ruby-extension-pack) - An extension for ruby development
 <!-- AUTO-GENERATED-CONTENT:END -->
 
 About Captive
