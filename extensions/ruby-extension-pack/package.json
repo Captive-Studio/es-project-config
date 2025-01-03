@@ -10,7 +10,7 @@
   "repository": {
     "type": "git",
     "url": "git@github.com:Captive-Studio/es-project-config.git",
-    "directory": "extension/ruby-extension-pack"
+    "directory": "extensions/ruby-extension-pack"
   },
   "license": "MIT",
   "publisher": "Captive",
