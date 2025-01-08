@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.1.14](https://github.com/Captive-Studio/es-project-config/compare/@captive/commitlint-config@2.1.13...@captive/commitlint-config@2.1.14) (2025-01-08)
+
+**Note:** Version bump only for package @captive/commitlint-config
+
 ## [2.1.13](https://github.com/Captive-Studio/es-project-config/compare/@captive/commitlint-config@2.1.11...@captive/commitlint-config@2.1.13) (2024-12-20)
 
 **Note:** Version bump only for package @captive/commitlint-config
