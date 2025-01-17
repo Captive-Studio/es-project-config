@@ -15,6 +15,6 @@
     "@captive/plop-config": "workspace:*",
     "plop": "4.0.1",
     "vite": "6.0.7",
-    "vitest": "3.0.1"
+    "vitest": "3.0.2"
   }
 }
