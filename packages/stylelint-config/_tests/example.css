@@ -3,11 +3,11 @@
   align-items: center;
   height: 25px;
   margin-bottom: 2rem;
-  color: --color-text-dark;
+  color: var(--color-text-dark);
 }
 
 .list-item--active {
-  color: --color-primary;
+  color: var(--color-primary);
 }
 
 .list-item:last-child {
@@ -19,7 +19,7 @@
 }
 
 .list-item__icon::before {
-  color: --color-icon;
+  color: var(--color-icon);
   font-size: 24px;
   line-height: 24px;
 }
@@ -37,10 +37,10 @@
 }
 
 .list-item__link:hover {
-  color: --color-primary;
+  color: var(--color-primary);
 }
 
 .list-item__link:hover .list-item__graphic--icon,
 .list-item__link:hover .list-item__graphic--icon::before {
-  color: --color-primary;
+  color: var(--color-primary);
 }
