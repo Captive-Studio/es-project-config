@@ -13,27 +13,92 @@
 
 <!-- AUTO-GENERATED-CONTENT:START (PKG_JSON:template=```console\nnpm install --save-dev ${name}\n```) -->
 ```console
-npm install --save-dev @captive/stylelint-config
+npm install --save-dev @captive/stylelint-config stylelint
 ```
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-## Usage
+Update your `package.json` :
 
-### Default CSS/SCSS project
-
-For most kind of project, just edit `stylelintrc.json` and add default configuration
-
-```json
+```jsonc
 {
-  "extends": [
-    "@captive/stylelint-config"
-  ]
+  ...
+  "scripts": {
+    ...
+    "lint:style": "stylelint \"app/**/*.{css,scss}\"",
+    "format:style": "stylelint \"app/**/*.{css,scss}\" --fix"
+  },
+  "stylelint": {
+    "extends": [
+      "@captive/stylelint-config"
+    ]
+  }
 }
 ```
+
+## Usage
+
+To check your style :
+
+```bash
+npm run lint:style
+```
+
+To autocorrect your style :
+
+```bash
+npm run format:style
+```
+
 
 **Features :**
 
 - `CSS` and `SCSS` validation
+
+## Common Errors
+
+<details>
+  <summary>
+    <strong>😩 My project has too many errors</strong>
+  </summary>
+  
+## Explanation
+
+the configuration is very strict, it is normal to have many errors
+
+## Solution
+
+### Solution 1 : Auto-correct all errors
+
+```shell
+npm run format:style
+```
+
+### Solution 2 : Ignore errors and progressively fix them
+
+create `.stylelint_todo.cjs` for all non passing rules. It is advised to fix them later, rule by rule : 
+
+```js
+module.exports = {
+  rules: {}
+}
+```
+
+update your `package.json` :
+
+```diff
+{
+  ...
+  "stylelint": {
+    "extends": [
+      "@captive/stylelint-config",
++     "./.stylelint_todo.cjs"
+    ]
+  }
+}
+```
+
+</details>
+
 
 ## License
 <!-- AUTO-GENERATED-CONTENT:START (PKG_JSON:template=[${license}][license-url] © ${author}) -->
