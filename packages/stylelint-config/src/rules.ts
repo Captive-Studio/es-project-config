@@ -41,9 +41,19 @@ const stylelintConfig: Config = {
   reportNeedlessDisables: true,
   rules: {
     ...sasscRailsCompatibility,
+    /**
+     * Many false positive https://github.com/stylelint/stylelint/issues/3516
+     */
     'no-descending-specificity': null,
-    // Many false positive https://github.com/stylelint/stylelint/issues/3516
     'prettier/prettier': [true, prettierConfig],
+
+    /**
+     * We want to give developers the freedom to write comments as they see fit.
+     * Example of a comment with an empty comment:
+     * // Overriding any non-variable SASS must be done after the fact. // For example, to change the default status-tag color: //
+     * // .status_tag { background: #6090DB; }
+     */
+    'scss/comment-no-empty': null,
     'selector-class-pattern': [
       bemSelector(['kebabCase', 'pascalCase']),
       {
