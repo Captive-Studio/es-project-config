@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.1.0](https://github.com/Captive-Studio/es-project-config/compare/@captive/stylelint-config@3.0.19...@captive/stylelint-config@3.1.0) (2025-02-06)
+
+### ✨ Features
+
+- Disable scss/comment-no-empty ([395a97d](https://github.com/Captive-Studio/es-project-config/commit/395a97d)) , closes [#6090](https://github.com/Captive-Studio/es-project-config/issues/6090)
+
+**Note:** Version bump only for package @captive/stylelint-config
+
 ## [3.0.19](https://github.com/Captive-Studio/es-project-config/compare/@captive/stylelint-config@3.0.18...@captive/stylelint-config@3.0.19) (2025-01-27)
 
 **Note:** Version bump only for package @captive/stylelint-config

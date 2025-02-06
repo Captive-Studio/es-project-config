@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.0.17](https://github.com/Captive-Studio/es-project-config/compare/@captive/prettier-config@2.0.16...@captive/prettier-config@2.0.17) (2025-02-06)
+
+**Note:** Version bump only for package @captive/prettier-config
+
 ## [2.0.16](https://github.com/Captive-Studio/es-project-config/compare/@captive/prettier-config@2.0.15...@captive/prettier-config@2.0.16) (2025-01-27)
 
 **Note:** Version bump only for package @captive/prettier-config
