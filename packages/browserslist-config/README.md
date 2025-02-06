@@ -36,11 +36,11 @@ In the `package.json` for your project
 ## Supported Browsers
 <!-- AUTO-GENERATED-CONTENT:START (FILE:src=./BROWSER_LIST.md) -->
 <!-- The below content is automatically added from ./BROWSER_LIST.md -->
-_Generated Automatically at Tue, 28 Jan 2025 15:05:34 GMT_
+_Generated Automatically at Thu, 06 Feb 2025 09:51:34 GMT_
 
 ### Desktop
 
-- Android (131)
+- Android (132)
 - Chrome (131, 130, 129, 127, 126, 125, 109)
 - Edge (131)
 - Firefox (133, 115)
@@ -50,7 +50,7 @@ _Generated Automatically at Tue, 28 Jan 2025 15:05:34 GMT_
 
 ### Mobile
 
-- Chrome for Android (131)
+- Chrome for Android (132)
 - Firefox for Android (132)
 - QQ Browser (14.9)
 - UC Browser (15.5)
