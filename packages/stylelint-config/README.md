@@ -35,6 +35,25 @@ Update your `package.json` :
 }
 ```
 
+add `stylelintignore` file : 
+
+```
+/public
+/node_modules
+/tmp
+/log
+/vendor
+
+/www
+**/*.bundle.scss
+**/generateur/**/*.scss
+**/vendor/**/*.scss
+**/root/**/*.scss
+
+/app/assets/builds
+**/*.min.css
+```
+
 ## Usage
 
 To check your style :

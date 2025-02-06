@@ -1,7 +1,14 @@
 {
   "version": "0.2",
   "language": "en,fr",
-  "words": ["firefox", "jira", "sassc", "sindresorhus"],
+  "words": [
+    "firefox",
+    "jira",
+    "sassc",
+    "sindresorhus",
+    "stylelintignore",
+    "generateur"
+  ],
   "ignoreWords": [],
   "flagWords": [],
   "ignorePaths": [
