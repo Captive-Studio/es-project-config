@@ -3436,9 +3436,9 @@ __metadata:
   linkType: hard
 
 "caniuse-lite@npm:^1.0.30001688":
-  version: 1.0.30001698
-  resolution: "caniuse-lite@npm:1.0.30001698"
-  checksum: 10/108d09b4c1a930fdcc391b6ea61476f3c80cfc83182e8336f727ea748209f1381b4ae0b9fdf9d73bdd56dbab2e3a87ff211a687bd80b6a216589126ac666ae1c
+  version: 1.0.30001699
+  resolution: "caniuse-lite@npm:1.0.30001699"
+  checksum: 10/325bf4d4ea8ab377046b6d5a43685359d5426adbb62aa1bea2c851cb5673547ef22b4a2b0e172e5a87ac74a7042e6ad23b87b78fdd04543c152d4e799397d7ba
   languageName: node
   linkType: hard
 
@@ -11404,9 +11404,9 @@ __metadata:
   linkType: hard
 
 "type-fest@npm:^4.2.0, type-fest@npm:^4.23.0, type-fest@npm:^4.6.0, type-fest@npm:^4.7.1":
-  version: 4.33.0
-  resolution: "type-fest@npm:4.33.0"
-  checksum: 10/0d179e66fa765bd0a25a785b12dc797f90f2f92bdb8c9c8a789f3fd8e5a4492444e7ef83551b3b8463aeab24fd6195761e26b03174722de636b4b75aa5726fb7
+  version: 4.34.0
+  resolution: "type-fest@npm:4.34.0"
+  checksum: 10/b5e7ca6b547fb312859383bbfc644e3cd6bc1388e3653a2acdb1361c3b088414c6173e5fd4720db72c4d7dd7eb376fd234e804a0c42b09281b853cdba3f2a659
   languageName: node
   linkType: hard
 
