@@ -149,7 +149,7 @@ __metadata:
   resolution: "@captive/plop-config@workspace:packages/plop-config"
   dependencies:
     "@sindresorhus/slugify": "npm:2.2.1"
-    "@types/node": "npm:22.13.1"
+    "@types/node": "npm:22.13.2"
     plop: "npm:4.0.1"
     vite: "npm:latest"
     vitest: "npm:latest"
@@ -189,7 +189,7 @@ __metadata:
     "@captive/eslint-config": "workspace:*"
     "@captive/ts-config": "workspace:*"
     "@lerna-lite/publish": "npm:3.12.0"
-    "@types/node": "npm:22.13.1"
+    "@types/node": "npm:22.13.2"
     cspell: "npm:8.17.3"
     eslint: "npm:8.57.1"
     eslint-plugin-sort-keys-fix: "npm:1.1.2"
@@ -2345,12 +2345,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:22.13.1":
+"@types/node@npm:*":
   version: 22.13.1
   resolution: "@types/node@npm:22.13.1"
   dependencies:
     undici-types: "npm:~6.20.0"
   checksum: 10/d8ba7068b0445643c0fa6e4917cdb7a90e8756a9daff8c8a332689cd5b2eaa01e4cd07de42e3cd7e6a6f465eeda803d5a1363d00b5ab3f6cea7950350a159497
+  languageName: node
+  linkType: hard
+
+"@types/node@npm:22.13.2":
+  version: 22.13.2
+  resolution: "@types/node@npm:22.13.2"
+  dependencies:
+    undici-types: "npm:~6.20.0"
+  checksum: 10/1d033a01a3dbcd0e305f46b0e61b8d697e5675392e6ca5a14b1f44240da14bb4949dd2731aff528a4cd5f160883d44df17e64b7f741aab4d735201dd6321182d
   languageName: node
   linkType: hard
 
