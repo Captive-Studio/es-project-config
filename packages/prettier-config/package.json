@@ -63,7 +63,7 @@
   },
   "devDependencies": {
     "@captive/tsup-config": "workspace:*",
-    "prettier": "3.5.1",
+    "prettier": "3.5.2",
     "tsup": "8.3.6",
     "vite": "latest",
     "vitest": "latest"
