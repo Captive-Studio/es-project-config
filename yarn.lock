@@ -188,7 +188,7 @@ __metadata:
     "@captive/cspell-config": "workspace:*"
     "@captive/eslint-config": "workspace:*"
     "@captive/ts-config": "workspace:*"
-    "@lerna-lite/publish": "npm:3.12.1"
+    "@lerna-lite/publish": "npm:3.12.2"
     "@types/node": "npm:22.13.5"
     cspell: "npm:8.17.5"
     eslint: "npm:8.57.1"
@@ -1660,14 +1660,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@lerna-lite/publish@npm:3.12.1":
-  version: 3.12.1
-  resolution: "@lerna-lite/publish@npm:3.12.1"
+"@lerna-lite/publish@npm:3.12.2":
+  version: 3.12.2
+  resolution: "@lerna-lite/publish@npm:3.12.2"
   dependencies:
     "@lerna-lite/cli": "npm:3.12.1"
     "@lerna-lite/core": "npm:3.12.1"
     "@lerna-lite/npmlog": "npm:3.12.1"
-    "@lerna-lite/version": "npm:3.12.1"
+    "@lerna-lite/version": "npm:3.12.2"
     "@npmcli/arborist": "npm:^7.5.4"
     "@npmcli/package-json": "npm:^5.2.1"
     byte-size: "npm:^9.0.1"
@@ -1687,15 +1687,15 @@ __metadata:
     ssri: "npm:^11.0.0"
     tar: "npm:^6.2.1"
     temp-dir: "npm:^3.0.0"
-    tinyglobby: "npm:^0.2.11"
+    tinyglobby: "npm:^0.2.12"
     tinyrainbow: "npm:^2.0.0"
-  checksum: 10/5caf883c2e13c081377b0c71459edaae93a1df68094c9561c7d74dd45bc3503b880dfc012ce6449dbf609e9c6f080bdbaf0989096761069f48fdcaa86d1c0d5e
+  checksum: 10/71c5a16c5902d71965d6c3fa85dd7191d19c49b732602242610096f070947a4e3eb1663d186c11aafa4c68bca28c6e9a2eebbc60bf1744bf4d859b61aece362f
   languageName: node
   linkType: hard
 
-"@lerna-lite/version@npm:3.12.1":
-  version: 3.12.1
-  resolution: "@lerna-lite/version@npm:3.12.1"
+"@lerna-lite/version@npm:3.12.2":
+  version: 3.12.2
+  resolution: "@lerna-lite/version@npm:3.12.2"
   dependencies:
     "@lerna-lite/cli": "npm:3.12.1"
     "@lerna-lite/core": "npm:3.12.1"
@@ -1728,9 +1728,9 @@ __metadata:
     slash: "npm:^5.1.0"
     temp-dir: "npm:^3.0.0"
     tinyrainbow: "npm:^2.0.0"
-    uuid: "npm:^11.0.5"
+    uuid: "npm:^11.1.0"
     write-json-file: "npm:^6.0.0"
-  checksum: 10/aef4335aa90fa9a8d2d5c767d5a0401a301e09940fd9b481435128c11a2d661dbe84f84cd8e38a1ef092665eb0dda8d36af342c18de5304b47fc6c22d6b7f139
+  checksum: 10/8ea4fe16db413c3667a102583cbcf5b20fb0b6ee93b4fc2df2224135c5c4964c90730954816cedfc7dd0f052f06c8cc8d524d24ff25710cfef93c3258636789c
   languageName: node
   linkType: hard
 
@@ -12037,7 +12037,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"uuid@npm:^11.0.5":
+"uuid@npm:^11.1.0":
   version: 11.1.0
   resolution: "uuid@npm:11.1.0"
   bin:
