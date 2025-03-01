@@ -88,7 +88,7 @@ __metadata:
   resolution: "@captive/conventional-changelog@workspace:packages/conventional-changelog"
   dependencies:
     "@captive/tsup-config": "workspace:*"
-    "@w5s/conventional-changelog": "npm:2.2.1"
+    "@w5s/conventional-changelog": "npm:2.2.2"
     tsup: "npm:8.4.0"
     vite: "npm:latest"
     vitest: "npm:latest"
@@ -2737,18 +2737,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@w5s/conventional-changelog@npm:2.2.1":
-  version: 2.2.1
-  resolution: "@w5s/conventional-changelog@npm:2.2.1"
-  dependencies:
-    "@commitlint/types": "npm:^19.0.0"
-    emoji-regex: "npm:^10.2.1"
-    gitmojis: "npm:^3.13.4"
-  checksum: 10/58b2c1e97a6b49de2445fd4be89be7c9d6a7a2b4a643d944d326b5540175e42e23eb9287f9380221dae34f8918b69ed935144d8a62d0d78e72856492cc494217
-  languageName: node
-  linkType: hard
-
-"@w5s/conventional-changelog@npm:^2.2.2":
+"@w5s/conventional-changelog@npm:2.2.2, @w5s/conventional-changelog@npm:^2.2.2":
   version: 2.2.2
   resolution: "@w5s/conventional-changelog@npm:2.2.2"
   dependencies:
