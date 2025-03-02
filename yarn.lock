@@ -1379,7 +1379,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@keyv/serialize@npm:^1.0.2":
+"@keyv/serialize@npm:^1.0.3":
   version: 1.0.3
   resolution: "@keyv/serialize@npm:1.0.3"
   dependencies:
@@ -7382,11 +7382,11 @@ __metadata:
   linkType: hard
 
 "keyv@npm:^5.2.3":
-  version: 5.2.3
-  resolution: "keyv@npm:5.2.3"
+  version: 5.3.0
+  resolution: "keyv@npm:5.3.0"
   dependencies:
-    "@keyv/serialize": "npm:^1.0.2"
-  checksum: 10/47b4e9deb33e6a80e5ea79f3022ed3a14bc9fe553b7527ffff0a70b10c7a6c1a5d7e49b9bcfdbd8e8b9fb4632d68baa19d09e82628bcf853103e750e56d49a9e
+    "@keyv/serialize": "npm:^1.0.3"
+  checksum: 10/a2cb5f0dae94dd4aeff3e5dddcd4d4b1fd5fe56cb7efcfd2fa00ab4c28bcc1ff229286b2a145bef1124392ab4df498b52515236b95c8aa8676f4bdcdca66b3a1
   languageName: node
   linkType: hard
 
