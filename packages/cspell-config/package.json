@@ -58,8 +58,8 @@
     "@w5s/cspell-config": "^2.3.10"
   },
   "devDependencies": {
-    "@cspell/cspell-tools": "8.17.5",
-    "@cspell/cspell-types": "8.17.5",
+    "@cspell/cspell-tools": "8.18.0",
+    "@cspell/cspell-types": "8.18.0",
     "vite": "latest",
     "vitest": "latest"
   },
