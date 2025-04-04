@@ -50,7 +50,7 @@
   "dependencies": {
     "@captive/prettier-config": "^2.0.17",
     "@w5s/dev": "^2.0.0",
-    "@w5s/eslint-config": "2.4.2",
+    "@w5s/eslint-config": "2.4.3",
     "eslint-plugin-cypress": "^3.0.0",
     "eslint-plugin-vue": "^9.9.0",
     "find-up": "^5.0.0"
