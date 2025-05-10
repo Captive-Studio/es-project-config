@@ -119,7 +119,7 @@ __metadata:
   resolution: "@captive/eslint-config@workspace:packages/eslint-config"
   dependencies:
     "@captive/prettier-config": "npm:^2.0.17"
-    "@types/react": "npm:19.0.14"
+    "@types/react": "npm:19.1.3"
     "@w5s/dev": "npm:^2.0.0"
     "@w5s/eslint-config": "npm:2.4.3"
     eslint: "npm:8.57.1"
@@ -2422,12 +2422,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:19.0.14":
-  version: 19.0.14
-  resolution: "@types/react@npm:19.0.14"
+"@types/react@npm:19.1.3":
+  version: 19.1.3
+  resolution: "@types/react@npm:19.1.3"
   dependencies:
     csstype: "npm:^3.0.2"
-  checksum: 10/caf4572aae4f7efd049138bc4917f465a8e00abb362fcf6e6f82c9ed88fc42555109f0a3be7a738ed5efbdd51b0f0a4256f7d5141545f29fb7dc31b8e872aa4b
+  checksum: 10/f2ccb0b5eb7f4f1c83bbc351aadce9c7c72177d03ce70881655d7773112670e60eff9872f572b58d2ad71e1524577ad00d1d4e3566aa00456458fdd2662e8284
   languageName: node
   linkType: hard
 
@@ -5419,7 +5419,7 @@ __metadata:
     clsx: "npm:2.1.1"
     pinia: "npm:2.3.1"
     plop: "npm:4.0.1"
-    react: "npm:19.0.0"
+    react: "npm:19.1.0"
     vite: "npm:6.3.5"
     vitest: "npm:3.1.3"
     vue: "npm:3.5.13"
@@ -9605,13 +9605,6 @@ __metadata:
   version: 1.2.3
   resolution: "queue-microtask@npm:1.2.3"
   checksum: 10/72900df0616e473e824202113c3df6abae59150dfb73ed13273503127235320e9c8ca4aaaaccfd58cf417c6ca92a6e68ee9a5c3182886ae949a768639b388a7b
-  languageName: node
-  linkType: hard
-
-"react@npm:19.0.0":
-  version: 19.0.0
-  resolution: "react@npm:19.0.0"
-  checksum: 10/2490969c503f644703c88990d20e4011fa6119ddeca451e9de48f6d7ab058d670d2852a5fcd3aa3cd90a923ab2815d532637bd4a814add402ae5c0d4f129ee71
   languageName: node
   linkType: hard
 
