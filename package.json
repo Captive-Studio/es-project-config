@@ -93,7 +93,7 @@
     "markdown-magic-subpackage-list": "1.1.2",
     "npm-run-all2": "8.0.4",
     "prettier": "3.6.2",
-    "turbo": "2.5.4",
+    "turbo": "2.5.5",
     "typescript": "5.8.3"
   },
   "packageManager": "yarn@4.9.2",
