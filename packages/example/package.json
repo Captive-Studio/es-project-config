@@ -13,7 +13,7 @@
   },
   "devDependencies": {
     "@captive/plop-config": "workspace:*",
-    "plop": "4.0.3",
+    "plop": "4.0.4",
     "vite": "6.3.6",
     "vitest": "3.2.4"
   }
