@@ -119,7 +119,7 @@ __metadata:
   resolution: "@captive/eslint-config@workspace:packages/eslint-config"
   dependencies:
     "@captive/prettier-config": "npm:^2.0.17"
-    "@types/react": "npm:19.2.1"
+    "@types/react": "npm:19.2.2"
     "@w5s/dev": "npm:^2.0.0"
     "@w5s/eslint-config": "npm:2.4.5"
     eslint: "npm:8.57.1"
@@ -2467,12 +2467,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:19.2.1":
-  version: 19.2.1
-  resolution: "@types/react@npm:19.2.1"
+"@types/react@npm:19.2.2":
+  version: 19.2.2
+  resolution: "@types/react@npm:19.2.2"
   dependencies:
     csstype: "npm:^3.0.2"
-  checksum: 10/0654b07e6469afd2c442702f3d74e37def457a52c5b68d67f6eafcd882981780e67456072bc3b6dc0b87b00aff6e7d694450a8b162bc940fae78b96995beeddc
+  checksum: 10/d6adf8fd4bb23a7e04da5700d96b15dc0f59653727a9c6e940c151d7232fa1dbbab98417d5ac830dcfb6cba3f206efbd4cd83647e6f9a688d7363a90e607f6bf
   languageName: node
   linkType: hard
 
