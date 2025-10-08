@@ -148,7 +148,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@captive/plop-config@workspace:packages/plop-config"
   dependencies:
-    "@sindresorhus/slugify": "npm:2.2.1"
+    "@sindresorhus/slugify": "npm:3.0.0"
     "@types/node": "npm:22.13.17"
     plop: "npm:4.0.4"
     vite: "npm:latest"
@@ -2199,22 +2199,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sindresorhus/slugify@npm:2.2.1":
-  version: 2.2.1
-  resolution: "@sindresorhus/slugify@npm:2.2.1"
+"@sindresorhus/slugify@npm:3.0.0":
+  version: 3.0.0
+  resolution: "@sindresorhus/slugify@npm:3.0.0"
   dependencies:
-    "@sindresorhus/transliterate": "npm:^1.0.0"
+    "@sindresorhus/transliterate": "npm:^2.0.0"
     escape-string-regexp: "npm:^5.0.0"
-  checksum: 10/717f04cf71261ebac1284b982bd090cd4a29c277c146a42f861622dfd092504c65b20375ee41c6be3db30c483731bdf0377f3cdad9e8e9dc3f69560049aa203c
+  checksum: 10/79692eee938f6e3e15279a9ca1f1330fc4f53611b2daeb13046140f9f38fec74dab8500f0b5c4c41b06ef68705f7cbf29a8492c4da72dcfda349a94eb697f1f4
   languageName: node
   linkType: hard
 
-"@sindresorhus/transliterate@npm:^1.0.0":
-  version: 1.6.0
-  resolution: "@sindresorhus/transliterate@npm:1.6.0"
-  dependencies:
-    escape-string-regexp: "npm:^5.0.0"
-  checksum: 10/fbb5bbcaf986068dc5aec87ef18380f46a8beaf0c5a7a5adf6cee26ceacde564b21381b1068d0beae86e489c2ef368ca15042a86a196762f59feca25db66abb3
+"@sindresorhus/transliterate@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "@sindresorhus/transliterate@npm:2.0.0"
+  checksum: 10/fe203ac8730414e88f20f33e38ae54a6402fa73330dab007b45b1f08ac4cd3887618fb8b82bcae1c457e4b12b1291ca63809ebb5a1d674a75af6617337660cde
   languageName: node
   linkType: hard
 
