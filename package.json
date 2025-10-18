@@ -86,7 +86,7 @@
     "@lerna-lite/publish": "3.12.3",
     "@types/node": "22.13.17",
     "cspell": "8.19.4",
-    "eslint": "8.57.1",
+    "eslint": "9.38.0",
     "eslint-plugin-sort-keys-fix": "1.1.2",
     "markdown-magic": "2.6.1",
     "markdown-magic-package-json": "2.0.2",
