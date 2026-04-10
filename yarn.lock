@@ -247,7 +247,7 @@ __metadata:
   resolution: "@captive/tsup-config@workspace:packages/tsup-config"
   dependencies:
     tsup: "npm:8.5.0"
-    vite: "npm:6.3.6"
+    vite: "npm:6.4.2"
     vitest: "npm:3.2.4"
   peerDependencies:
     tsup: 8.x
@@ -5558,7 +5558,7 @@ __metadata:
     pinia: "npm:2.3.1"
     plop: "npm:4.0.4"
     react: "npm:19.2.0"
-    vite: "npm:6.3.6"
+    vite: "npm:6.4.2"
     vitest: "npm:3.2.4"
     vue: "npm:3.5.22"
   languageName: unknown
@@ -11779,9 +11779,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite@npm:6.3.6":
-  version: 6.3.6
-  resolution: "vite@npm:6.3.6"
+"vite@npm:6.4.2":
+  version: 6.4.2
+  resolution: "vite@npm:6.4.2"
   dependencies:
     esbuild: "npm:^0.25.0"
     fdir: "npm:^6.4.4"
@@ -11830,7 +11830,7 @@ __metadata:
       optional: true
   bin:
     vite: bin/vite.js
-  checksum: 10/8b8b6fe12318ca457396bf2053df7056cf4810f1d4a43b36b6afe59860e32b749c0685a290fe8a973b0d3da179ceec4c30cebbd3c91d0c47fbcf6436b17bdeef
+  checksum: 10/d6622843fb367065c2459c8d972d1f0d302844bdb329602c4bfb3c149607744f74fbfcbb3d170a4f58fa494012ad74a88e3a63df236845840d50475b89786796
   languageName: node
   linkType: hard
 
